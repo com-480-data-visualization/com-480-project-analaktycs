@@ -6,7 +6,7 @@
 | Alexandre Hutter| 251978 |
 | Kamil Seghrouchni| 273938|
 
-| | |
+
 
 [Milestone 1](#milestone-1-friday-3rd-april-5pm) • [Milestone 2](#milestone-2-friday-1st-may-5pm) • [Milestone 3](#milestone-3-thursday-28th-may-5pm)
 
