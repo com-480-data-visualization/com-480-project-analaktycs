@@ -1,0 +1,722 @@
+pokedex_number,name,type1,type2,hp,defense,attack,sp_defense,sp_attack,speed,base_total,capture_rate,base_happiness,experience_growth,height_m,weight_kg,percentage_male,is_legendary,generation,classfication,Color,Body_Style,hasMegaEvolution,Egg_Group_1,Egg_Group_2,base_egg_steps,against_bug,against_dark,against_dragon,against_electric,against_fairy,against_fight,against_fire,against_flying,against_ghost,against_grass,against_ground,against_ice,against_normal,against_poison,against_psychic,against_rock,against_steel,against_water
+1,Bulbasaur,grass,poison,45,49,49,65,65,45,318,45,70,1059860,0.7,6.9,88.1,0,1,Seed Pokémon,Green,quadruped,0,Monster,Grass,5120,1,1,1,0.5,0.5,0.5,2,2,1,0.25,1,2,1,1,2,1,1,0.5
+2,Ivysaur,grass,poison,60,63,62,80,80,60,405,45,70,1059860,1,13,88.1,0,1,Seed Pokémon,Green,quadruped,0,Monster,Grass,5120,1,1,1,0.5,0.5,0.5,2,2,1,0.25,1,2,1,1,2,1,1,0.5
+3,Venusaur,grass,poison,80,123,100,120,122,80,625,45,70,1059860,2,100,88.1,0,1,Seed Pokémon,Green,quadruped,1,Monster,Grass,5120,1,1,1,0.5,0.5,0.5,2,2,1,0.25,1,2,1,1,2,1,1,0.5
+4,Charmander,fire,,39,43,52,50,60,65,309,45,70,1059860,0.6,8.5,88.1,0,1,Lizard Pokémon,Red,bipedal_tailed,0,Monster,Dragon,5120,0.5,1,1,1,0.5,1,0.5,1,1,0.5,2,0.5,1,1,1,2,0.5,2
+5,Charmeleon,fire,,58,58,64,65,80,80,405,45,70,1059860,1.1,19,88.1,0,1,Flame Pokémon,Red,bipedal_tailed,0,Monster,Dragon,5120,0.5,1,1,1,0.5,1,0.5,1,1,0.5,2,0.5,1,1,1,2,0.5,2
+6,Charizard,fire,flying,78,78,104,115,159,100,634,45,70,1059860,1.7,90.5,88.1,0,1,Flame Pokémon,Red,bipedal_tailed,1,Monster,Dragon,5120,0.25,1,1,2,0.5,0.5,0.5,1,1,0.25,0,1,1,1,1,4,0.5,2
+7,Squirtle,water,,44,65,48,64,50,43,314,45,70,1059860,0.5,9,88.1,0,1,Tiny Turtle Pokémon,Blue,bipedal_tailed,0,Monster,Water_1,5120,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+8,Wartortle,water,,59,80,63,80,65,58,405,45,70,1059860,1,22.5,88.1,0,1,Turtle Pokémon,Blue,bipedal_tailed,0,Monster,Water_1,5120,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+9,Blastoise,water,,79,120,103,115,135,78,630,45,70,1059860,1.6,85.5,88.1,0,1,Shellfish Pokémon,Blue,bipedal_tailed,1,Monster,Water_1,5120,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+10,Caterpie,bug,,45,35,30,20,20,45,195,255,70,1000000,0.3,2.9,50,0,1,Worm Pokémon,Green,insectoid,0,Bug,,3840,1,1,1,1,1,0.5,2,2,1,0.5,0.5,1,1,1,1,2,1,1
+11,Metapod,bug,,50,55,20,25,25,30,205,120,70,1000000,0.7,9.9,50,0,1,Cocoon Pokémon,Green,serpentine_body,0,Bug,,3840,1,1,1,1,1,0.5,2,2,1,0.5,0.5,1,1,1,1,2,1,1
+12,Butterfree,bug,flying,60,50,45,80,90,70,395,45,70,1000000,1.1,32,50,0,1,Butterfly Pokémon,White,four_wings,0,Bug,,3840,0.5,1,1,2,1,0.25,2,2,1,0.25,0,2,1,1,1,4,1,1
+13,Weedle,bug,poison,40,30,35,20,20,50,195,255,70,1000000,0.3,3.2,50,0,1,Hairy Pokémon,Brown,serpentine_body,0,Bug,,3840,0.5,1,1,1,0.5,0.25,2,2,1,0.25,1,1,1,0.5,2,2,1,1
+14,Kakuna,bug,poison,45,50,25,25,25,35,205,120,70,1000000,0.6,10,50,0,1,Cocoon Pokémon,Yellow,serpentine_body,0,Bug,,3840,0.5,1,1,1,0.5,0.25,2,2,1,0.25,1,1,1,0.5,2,2,1,1
+15,Beedrill,bug,poison,65,40,150,80,15,145,495,45,70,1000000,1,29.5,50,0,1,Poison Bee Pokémon,Yellow,four_wings,1,Bug,,3840,0.5,1,1,1,0.5,0.25,2,2,1,0.25,1,1,1,0.5,2,2,1,1
+16,Pidgey,normal,flying,40,40,45,35,35,56,251,255,70,1059860,0.3,1.8,50,0,1,Tiny Bird Pokémon,Brown,two_wings,0,Flying,,3840,0.5,1,1,2,1,1,1,1,0,0.5,0,2,1,1,1,2,1,1
+17,Pidgeotto,normal,flying,63,55,60,50,50,71,349,120,70,1059860,1.1,30,50,0,1,Bird Pokémon,Brown,two_wings,0,Flying,,3840,0.5,1,1,2,1,1,1,1,0,0.5,0,2,1,1,1,2,1,1
+18,Pidgeot,normal,flying,83,80,80,80,135,121,579,45,70,1059860,1.5,39.5,50,0,1,Bird Pokémon,Brown,two_wings,1,Flying,,3840,0.5,1,1,2,1,1,1,1,0,0.5,0,2,1,1,1,2,1,1
+19,Rattata,normal,dark,30,35,56,35,25,72,253,255,70,1000000,,,50,0,1,Mouse Pokémon,Purple,quadruped,0,Field,,3840,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+20,Raticate,normal,dark,75,70,71,80,40,77,413,127,70,1000000,,,50,0,1,Mouse Pokémon,Brown,quadruped,0,Field,,3840,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+21,Spearow,normal,flying,40,30,60,31,31,70,262,255,70,1000000,0.3,2,50,0,1,Tiny Bird Pokémon,Brown,two_wings,0,Flying,,3840,0.5,1,1,2,1,1,1,1,0,0.5,0,2,1,1,1,2,1,1
+22,Fearow,normal,flying,65,65,90,61,61,100,442,90,70,1000000,1.2,38,50,0,1,Beak Pokémon,Brown,two_wings,0,Flying,,3840,0.5,1,1,2,1,1,1,1,0,0.5,0,2,1,1,1,2,1,1
+23,Ekans,poison,,35,44,60,54,40,55,288,255,70,1000000,2,6.9,50,0,1,Snake Pokémon,Purple,serpentine_body,0,Field,Dragon,5120,0.5,1,1,1,0.5,0.5,1,1,1,0.5,2,1,1,0.5,2,1,1,1
+24,Arbok,poison,,60,69,95,79,65,80,448,90,70,1000000,3.5,65,50,0,1,Cobra Pokémon,Purple,serpentine_body,0,Field,Dragon,5120,0.5,1,1,1,0.5,0.5,1,1,1,0.5,2,1,1,0.5,2,1,1,1
+25,Pikachu,electric,,35,40,55,50,50,90,320,190,70,1000000,0.4,6,50,0,1,Mouse Pokémon,Yellow,quadruped,0,Field,Fairy,2560,1,1,1,0.5,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1
+26,Raichu,electric,electric,60,50,85,85,95,110,485,75,70,1000000,,,50,0,1,Mouse Pokémon,Yellow,bipedal_tailed,0,Field,Fairy,2560,1,1,1,0.5,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1
+27,Sandshrew,ground,ice,50,90,75,35,10,40,300,255,70,1000000,,,50,0,1,Mouse Pokémon,Yellow,bipedal_tailed,0,Field,,5120,1,1,1,0,1,1,1,1,1,2,1,2,1,0.5,1,0.5,1,2
+28,Sandslash,ground,ice,75,120,100,65,25,65,450,90,70,1000000,,,50,0,1,Mouse Pokémon,Yellow,bipedal_tailed,0,Field,,5120,1,1,1,0,1,1,1,1,1,2,1,2,1,0.5,1,0.5,1,2
+29,Nidoran♀,poison,,55,52,47,40,40,41,275,235,70,1059860,0.4,7,0,0,1,Poison Pin Pokémon,Blue,quadruped,0,Monster,Field,5120,0.5,1,1,1,0.5,0.5,1,1,1,0.5,2,1,1,0.5,2,1,1,1
+30,Nidorina,poison,,70,67,62,55,55,56,365,120,70,1059860,0.8,20,0,0,1,Poison Pin Pokémon,Blue,quadruped,0,Undiscovered,,5120,0.5,1,1,1,0.5,0.5,1,1,1,0.5,2,1,1,0.5,2,1,1,1
+31,Nidoqueen,poison,ground,90,87,92,85,75,76,505,45,70,1059860,1.3,60,0,0,1,Drill Pokémon,Blue,bipedal_tailed,0,Undiscovered,,5120,0.5,1,1,0,0.5,0.5,1,1,1,1,2,2,1,0.25,2,0.5,1,2
+32,Nidoran♂,poison,,46,40,57,40,40,50,273,235,70,1059860,0.5,9,100,0,1,Poison Pin Pokémon,Purple,quadruped,0,Monster,Field,5120,0.5,1,1,1,0.5,0.5,1,1,1,0.5,2,1,1,0.5,2,1,1,1
+33,Nidorino,poison,,61,57,72,55,55,65,365,120,70,1059860,0.9,19.5,100,0,1,Poison Pin Pokémon,Purple,quadruped,0,Monster,Field,5120,0.5,1,1,1,0.5,0.5,1,1,1,0.5,2,1,1,0.5,2,1,1,1
+34,Nidoking,poison,ground,81,77,102,75,85,85,505,45,70,1059860,1.4,62,100,0,1,Drill Pokémon,Purple,bipedal_tailed,0,Monster,Field,5120,0.5,1,1,0,0.5,0.5,1,1,1,1,2,2,1,0.25,2,0.5,1,2
+35,Clefairy,fairy,,70,48,45,65,60,35,323,150,140,800000,0.6,7.5,24.6,0,1,Fairy Pokémon,Pink,bipedal_tailed,0,Fairy,,2560,0.5,0.5,0,1,1,0.5,1,1,1,1,1,1,1,2,1,1,2,1
+36,Clefable,fairy,,95,73,70,90,95,60,483,25,140,800000,1.3,40,24.6,0,1,Fairy Pokémon,Pink,bipedal_tailed,0,Fairy,,2560,0.5,0.5,0,1,1,0.5,1,1,1,1,1,1,1,2,1,1,2,1
+37,Vulpix,fire,ice,38,40,41,65,50,65,299,190,70,1000000,,,24.6,0,1,Fox Pokémon,Brown,quadruped,0,Field,,5120,0.5,1,1,1,0.5,1,0.5,1,1,0.5,2,0.5,1,1,1,2,0.5,2
+38,Ninetales,fire,ice,73,75,67,100,81,109,505,75,70,1000000,,,24.6,0,1,Fox Pokémon,Yellow,quadruped,0,Field,,5120,0.5,1,1,1,0.5,1,0.5,1,1,0.5,2,0.5,1,1,1,2,0.5,2
+39,Jigglypuff,normal,fairy,115,20,45,25,45,20,270,170,70,800000,0.5,5.5,24.6,0,1,Balloon Pokémon,Pink,bipedal_tailless,0,Fairy,,2560,0.5,0.5,0,1,1,1,1,1,0,1,1,1,1,2,1,1,2,1
+40,Wigglytuff,normal,fairy,140,45,70,50,85,45,435,50,70,800000,1,12,24.6,0,1,Balloon Pokémon,Pink,bipedal_tailless,0,Fairy,,2560,0.5,0.5,0,1,1,1,1,1,0,1,1,1,1,2,1,1,2,1
+41,Zubat,poison,flying,40,35,45,40,30,55,245,255,70,1000000,0.8,7.5,50,0,1,Bat Pokémon,Purple,two_wings,0,Flying,,3840,0.25,1,1,2,0.5,0.25,1,1,1,0.25,0,2,1,0.5,2,2,1,1
+42,Golbat,poison,flying,75,70,80,75,65,90,455,90,70,1000000,1.6,55,50,0,1,Bat Pokémon,Purple,two_wings,0,Flying,,3840,0.25,1,1,2,0.5,0.25,1,1,1,0.25,0,2,1,0.5,2,2,1,1
+43,Oddish,grass,poison,45,55,50,65,75,30,320,255,70,1059860,0.5,5.4,50,0,1,Weed Pokémon,Blue,head_legs,0,Grass,,5120,1,1,1,0.5,0.5,0.5,2,2,1,0.25,1,2,1,1,2,1,1,0.5
+44,Gloom,grass,poison,60,70,65,75,85,40,395,120,70,1059860,0.8,8.6,50,0,1,Weed Pokémon,Blue,bipedal_tailless,0,Grass,,5120,1,1,1,0.5,0.5,0.5,2,2,1,0.25,1,2,1,1,2,1,1,0.5
+45,Vileplume,grass,poison,75,85,80,90,110,50,490,45,70,1059860,1.2,18.6,50,0,1,Flower Pokémon,Red,bipedal_tailless,0,Grass,,5120,1,1,1,0.5,0.5,0.5,2,2,1,0.25,1,2,1,1,2,1,1,0.5
+46,Paras,bug,grass,35,55,70,55,45,25,285,190,70,1000000,0.3,5.4,50,0,1,Mushroom Pokémon,Red,insectoid,0,Bug,Grass,5120,2,1,1,0.5,1,0.5,4,4,1,0.25,0.25,2,1,2,1,2,1,0.5
+47,Parasect,bug,grass,60,80,95,80,60,30,405,75,70,1000000,1,29.5,50,0,1,Mushroom Pokémon,Red,insectoid,0,Bug,Grass,5120,2,1,1,0.5,1,0.5,4,4,1,0.25,0.25,2,1,2,1,2,1,0.5
+48,Venonat,bug,poison,60,50,55,55,40,45,305,190,70,1000000,1,30,50,0,1,Insect Pokémon,Purple,bipedal_tailless,0,Bug,,5120,0.5,1,1,1,0.5,0.25,2,2,1,0.25,1,1,1,0.5,2,2,1,1
+49,Venomoth,bug,poison,70,60,65,75,90,90,450,75,70,1000000,1.5,12.5,50,0,1,Poison Moth Pokémon,Purple,four_wings,0,Bug,,5120,0.5,1,1,1,0.5,0.25,2,2,1,0.25,1,1,1,0.5,2,2,1,1
+50,Diglett,ground,ground,10,30,55,45,35,90,265,255,70,1000000,,,50,0,1,Mole Pokémon,Brown,head_base,0,Field,,5120,1,1,1,0,1,1,1,1,1,2,1,2,1,0.5,1,0.5,1,2
+51,Dugtrio,ground,ground,35,60,100,70,50,110,425,50,70,1000000,,,50,0,1,Mole Pokémon,Brown,multiple_bodies,0,Field,,5120,1,1,1,0,1,1,1,1,1,2,1,2,1,0.5,1,0.5,1,2
+52,Meowth,normal,dark,40,35,35,40,50,90,290,255,70,1000000,,,50,0,1,Scratch Cat Pokémon,Yellow,quadruped,0,Field,,5120,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+53,Persian,normal,dark,65,60,60,65,75,115,440,90,70,1000000,,,50,0,1,Classy Cat Pokémon,Yellow,quadruped,0,Field,,5120,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+54,Psyduck,water,,50,48,52,50,65,55,320,190,70,1000000,0.8,19.6,50,0,1,Duck Pokémon,Yellow,bipedal_tailed,0,Water_1,Field,5120,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+55,Golduck,water,,80,78,82,80,95,85,500,75,70,1000000,1.7,76.6,50,0,1,Duck Pokémon,Blue,bipedal_tailed,0,Water_1,Field,5120,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+56,Mankey,fighting,,40,35,80,45,35,70,305,190,70,1000000,0.5,28,50,0,1,Pig Monkey Pokémon,Brown,bipedal_tailed,0,Field,,5120,0.5,0.5,1,1,2,1,1,2,1,1,1,1,1,1,2,0.5,1,1
+57,Primeape,fighting,,65,60,105,70,60,95,455,75,70,1000000,1,32,50,0,1,Pig Monkey Pokémon,Brown,bipedal_tailed,0,Field,,5120,0.5,0.5,1,1,2,1,1,2,1,1,1,1,1,1,2,0.5,1,1
+58,Growlithe,fire,,55,45,70,50,70,60,350,190,70,1250000,0.7,19,75.4,0,1,Puppy Pokémon,Brown,quadruped,0,Field,,5120,0.5,1,1,1,0.5,1,0.5,1,1,0.5,2,0.5,1,1,1,2,0.5,2
+59,Arcanine,fire,,90,80,110,80,100,95,555,75,70,1250000,1.9,155,75.4,0,1,Legendary Pokémon,Brown,quadruped,0,Field,,5120,0.5,1,1,1,0.5,1,0.5,1,1,0.5,2,0.5,1,1,1,2,0.5,2
+60,Poliwag,water,,40,40,50,40,40,90,300,255,70,1059860,0.6,12.4,50,0,1,Tadpole Pokémon,Blue,head_legs,0,Water_1,,5120,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+61,Poliwhirl,water,,65,65,65,50,50,90,385,120,70,1059860,1,20,50,0,1,Tadpole Pokémon,Blue,bipedal_tailless,0,Water_1,,5120,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+62,Poliwrath,water,fighting,90,95,95,90,70,70,510,45,70,1059860,1.3,54,50,0,1,Tadpole Pokémon,Blue,bipedal_tailless,0,Water_1,,5120,0.5,0.5,1,2,2,1,0.5,2,1,2,1,0.5,1,1,2,0.5,0.5,0.5
+63,Abra,psychic,,25,15,20,55,105,90,310,200,70,1059860,0.9,19.5,75.4,0,1,Psi Pokémon,Brown,bipedal_tailed,0,Human-Like,,5120,2,2,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1,1,1
+64,Kadabra,psychic,,40,30,35,70,120,105,400,100,70,1059860,1.3,56.5,75.4,0,1,Psi Pokémon,Brown,bipedal_tailed,0,Human-Like,,5120,2,2,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1,1,1
+65,Alakazam,psychic,,55,65,50,105,175,150,600,50,70,1059860,1.5,48,75.4,0,1,Psi Pokémon,Brown,bipedal_tailless,1,Human-Like,,5120,2,2,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1,1,1
+66,Machop,fighting,,70,50,80,35,35,35,305,180,70,1059860,0.8,19.5,75.4,0,1,Superpower Pokémon,Grey,bipedal_tailed,0,Human-Like,,5120,0.5,0.5,1,1,2,1,1,2,1,1,1,1,1,1,2,0.5,1,1
+67,Machoke,fighting,,80,70,100,60,50,45,405,90,70,1059860,1.5,70.5,75.4,0,1,Superpower Pokémon,Grey,bipedal_tailless,0,Human-Like,,5120,0.5,0.5,1,1,2,1,1,2,1,1,1,1,1,1,2,0.5,1,1
+68,Machamp,fighting,,90,80,130,85,65,55,505,45,70,1059860,1.6,130,75.4,0,1,Superpower Pokémon,Grey,bipedal_tailless,0,Human-Like,,5120,0.5,0.5,1,1,2,1,1,2,1,1,1,1,1,1,2,0.5,1,1
+69,Bellsprout,grass,poison,50,35,75,30,70,40,300,255,70,1059860,0.7,4,50,0,1,Flower Pokémon,Green,bipedal_tailless,0,Grass,,5120,1,1,1,0.5,0.5,0.5,2,2,1,0.25,1,2,1,1,2,1,1,0.5
+70,Weepinbell,grass,poison,65,50,90,45,85,55,390,120,70,1059860,1,6.4,50,0,1,Flycatcher Pokémon,Green,head_base,0,Grass,,5120,1,1,1,0.5,0.5,0.5,2,2,1,0.25,1,2,1,1,2,1,1,0.5
+71,Victreebel,grass,poison,80,65,105,70,100,70,490,45,70,1059860,1.7,15.5,50,0,1,Flycatcher Pokémon,Green,head_base,0,Grass,,5120,1,1,1,0.5,0.5,0.5,2,2,1,0.25,1,2,1,1,2,1,1,0.5
+72,Tentacool,water,poison,40,35,40,100,50,70,335,190,70,1250000,0.9,45.5,50,0,1,Jellyfish Pokémon,Blue,several_limbs,0,Water_3,,5120,0.5,1,1,2,0.5,0.5,0.5,1,1,1,2,0.5,1,0.5,2,1,0.5,0.5
+73,Tentacruel,water,poison,80,65,70,120,80,100,515,60,70,1250000,1.6,55,50,0,1,Jellyfish Pokémon,Blue,several_limbs,0,Water_3,,5120,0.5,1,1,2,0.5,0.5,0.5,1,1,1,2,0.5,1,0.5,2,1,0.5,0.5
+74,Geodude,rock,ground,40,100,80,30,30,20,300,255,70,1059860,,,50,0,1,Rock Pokémon,Brown,head_arms,0,Mineral,,3840,1,1,1,0,1,2,0.5,0.5,1,4,2,2,0.5,0.25,1,0.5,2,4
+75,Graveler,rock,ground,55,115,95,45,45,35,390,120,70,1059860,,,50,0,1,Rock Pokémon,Brown,bipedal_tailless,0,Mineral,,3840,1,1,1,0,1,2,0.5,0.5,1,4,2,2,0.5,0.25,1,0.5,2,4
+76,Golem,rock,ground,80,130,120,65,55,45,495,45,70,1059860,,,50,0,1,Megaton Pokémon,Brown,bipedal_tailless,0,Mineral,,3840,1,1,1,0,1,2,0.5,0.5,1,4,2,2,0.5,0.25,1,0.5,2,4
+77,Ponyta,fire,,50,55,85,65,65,90,410,190,70,1000000,1,30,50,0,1,Fire Horse Pokémon,Yellow,quadruped,0,Field,,5120,0.5,1,1,1,0.5,1,0.5,1,1,0.5,2,0.5,1,1,1,2,0.5,2
+78,Rapidash,fire,,65,70,100,80,80,105,500,60,70,1000000,1.7,95,50,0,1,Fire Horse Pokémon,Yellow,quadruped,0,Field,,5120,0.5,1,1,1,0.5,1,0.5,1,1,0.5,2,0.5,1,1,1,2,0.5,2
+79,Slowpoke,water,psychic,90,65,65,40,40,15,315,190,70,1000000,1.2,36,50,0,1,Dopey Pokémon,Pink,quadruped,0,Monster,Water_1,5120,2,2,1,2,1,0.5,0.5,1,2,2,1,0.5,1,1,0.5,1,0.5,0.5
+80,Slowbro,water,psychic,95,180,75,80,130,30,590,75,70,1000000,1.6,78.5,50,0,1,Hermit Crab Pokémon,Pink,bipedal_tailed,1,Monster,Water_1,5120,2,2,1,2,1,0.5,0.5,1,2,2,1,0.5,1,1,0.5,1,0.5,0.5
+81,Magnemite,electric,steel,25,70,35,55,95,45,325,190,70,1000000,0.3,6,,0,1,Magnet Pokémon,Grey,head_arms,0,Mineral,,5120,0.5,1,0.5,0.5,0.5,2,2,0.25,1,0.5,4,0.5,0.5,0,0.5,0.5,0.25,1
+82,Magneton,electric,steel,50,95,60,70,120,70,465,60,70,1000000,1,60,,0,1,Magnet Pokémon,Grey,multiple_bodies,0,Mineral,,5120,0.5,1,0.5,0.5,0.5,2,2,0.25,1,0.5,4,0.5,0.5,0,0.5,0.5,0.25,1
+83,Farfetch'd,normal,flying,52,55,90,62,58,60,377,45,70,1000000,0.8,15,50,0,1,Wild Duck Pokémon,Brown,two_wings,0,Flying,Field,5120,0.5,1,1,2,1,1,1,1,0,0.5,0,2,1,1,1,2,1,1
+84,Doduo,normal,flying,35,45,85,35,35,75,310,190,70,1000000,1.4,39.2,50,0,1,Twin Bird Pokémon,Brown,head_legs,0,Flying,,5120,0.5,1,1,2,1,1,1,1,0,0.5,0,2,1,1,1,2,1,1
+85,Dodrio,normal,flying,60,70,110,60,60,110,470,45,70,1000000,1.8,85.2,50,0,1,Triple Bird Pokémon,Brown,head_legs,0,Flying,,5120,0.5,1,1,2,1,1,1,1,0,0.5,0,2,1,1,1,2,1,1
+86,Seel,water,,65,55,45,70,45,45,325,190,70,1000000,1.1,90,50,0,1,Sea Lion Pokémon,White,with_fins,0,Water_1,Field,5120,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+87,Dewgong,water,ice,90,80,70,95,70,70,475,75,70,1000000,1.7,120,50,0,1,Sea Lion Pokémon,White,with_fins,0,Water_1,Field,5120,1,1,1,2,1,2,1,1,1,2,1,0.25,1,1,1,2,1,0.5
+88,Grimer,poison,poison,80,50,80,50,40,25,325,190,70,1000000,,,50,0,1,Sludge Pokémon,Purple,head_arms,0,Amorphous,,5120,0.5,1,1,1,0.5,0.5,1,1,1,0.5,2,1,1,0.5,2,1,1,1
+89,Muk,poison,poison,105,75,105,100,65,50,500,75,70,1000000,,,50,0,1,Sludge Pokémon,Purple,head_arms,0,Amorphous,,5120,0.5,1,1,1,0.5,0.5,1,1,1,0.5,2,1,1,0.5,2,1,1,1
+90,Shellder,water,,30,100,65,25,45,40,305,190,70,1250000,0.3,4,50,0,1,Bivalve Pokémon,Purple,head_only,0,Water_3,,5120,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+91,Cloyster,water,ice,50,180,95,45,85,70,525,60,70,1250000,1.5,132.5,50,0,1,Bivalve Pokémon,Purple,head_only,0,Water_3,,5120,1,1,1,2,1,2,1,1,1,2,1,0.25,1,1,1,2,1,0.5
+92,Gastly,ghost,poison,30,30,35,35,100,80,310,190,70,1059860,1.3,0.1,50,0,1,Gas Pokémon,Purple,head_only,0,Amorphous,,5120,0.25,2,1,1,0.5,0,1,1,2,0.5,2,1,0,0.25,2,1,1,1
+93,Haunter,ghost,poison,45,45,50,55,115,95,405,90,70,1059860,1.6,0.1,50,0,1,Gas Pokémon,Purple,head_arms,0,Amorphous,,5120,0.25,2,1,1,0.5,0,1,1,2,0.5,2,1,0,0.25,2,1,1,1
+94,Gengar,ghost,poison,60,80,65,95,170,130,600,45,70,1059860,1.5,40.5,50,0,1,Shadow Pokémon,Purple,bipedal_tailed,1,Amorphous,,5120,0.25,2,1,1,0.5,0,1,1,2,0.5,2,1,0,0.25,2,1,1,1
+95,Onix,rock,ground,35,160,45,45,30,70,385,45,70,1000000,8.8,210,50,0,1,Rock Snake Pokémon,Grey,serpentine_body,0,Mineral,,6400,1,1,1,0,1,2,0.5,0.5,1,4,2,2,0.5,0.25,1,0.5,2,4
+96,Drowzee,psychic,,60,45,48,90,43,42,328,190,70,1000000,1,32.4,50,0,1,Hypnosis Pokémon,Yellow,bipedal_tailless,0,Human-Like,,5120,2,2,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1,1,1
+97,Hypno,psychic,,85,70,73,115,73,67,483,75,70,1000000,1.6,75.6,50,0,1,Hypnosis Pokémon,Yellow,bipedal_tailless,0,Human-Like,,5120,2,2,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1,1,1
+98,Krabby,water,,30,90,105,25,25,50,325,225,70,1000000,0.4,6.5,50,0,1,River Crab Pokémon,Red,insectoid,0,Water_3,,5120,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+99,Kingler,water,,55,115,130,50,50,75,475,60,70,1000000,1.3,60,50,0,1,Pincer Pokémon,Red,insectoid,0,Water_3,,5120,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+100,Voltorb,electric,,40,50,30,55,55,100,330,190,70,1000000,0.5,10.4,,0,1,Ball Pokémon,Red,head_only,0,Mineral,,5120,1,1,1,0.5,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1
+101,Electrode,electric,,60,70,50,80,80,150,490,60,70,1000000,1.2,66.6,,0,1,Ball Pokémon,Red,head_only,0,Mineral,,5120,1,1,1,0.5,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1
+102,Exeggcute,grass,psychic,60,80,40,45,60,40,325,90,70,1250000,0.4,2.5,50,0,1,Egg Pokémon,Pink,multiple_bodies,0,Grass,,5120,4,2,1,0.5,1,0.5,2,2,2,0.5,0.5,2,1,2,0.5,1,1,0.5
+103,Exeggutor,grass,psychic,95,85,105,75,125,45,530,45,70,1250000,,,50,0,1,Coconut Pokémon,Yellow,head_legs,0,Grass,,5120,4,2,1,0.5,1,0.5,2,2,2,0.5,0.5,2,1,2,0.5,1,1,0.5
+104,Cubone,ground,,50,95,50,50,40,35,320,190,70,1000000,0.4,6.5,50,0,1,Lonely Pokémon,Brown,bipedal_tailed,0,Monster,,5120,1,1,1,0,1,1,1,1,1,2,1,2,1,0.5,1,0.5,1,2
+105,Marowak,ground,fire,60,110,80,80,50,45,425,75,70,1000000,,,50,0,1,Bone Keeper Pokémon,Brown,bipedal_tailed,0,Monster,,5120,1,1,1,0,1,1,1,1,1,2,1,2,1,0.5,1,0.5,1,2
+106,Hitmonlee,fighting,,50,53,120,110,35,87,455,45,70,1000000,1.5,49.8,100,0,1,Kicking Pokémon,Brown,bipedal_tailless,0,Human-Like,,6400,0.5,0.5,1,1,2,1,1,2,1,1,1,1,1,1,2,0.5,1,1
+107,Hitmonchan,fighting,,50,79,105,110,35,76,455,45,70,1000000,1.4,50.2,100,0,1,Punching Pokémon,Brown,bipedal_tailless,0,Human-Like,,6400,0.5,0.5,1,1,2,1,1,2,1,1,1,1,1,1,2,0.5,1,1
+108,Lickitung,normal,,90,75,55,75,60,30,385,45,70,1000000,1.2,65.5,50,0,1,Licking Pokémon,Pink,bipedal_tailed,0,Monster,,5120,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+109,Koffing,poison,,40,95,65,45,60,35,340,190,70,1000000,0.6,1,50,0,1,Poison Gas Pokémon,Purple,head_only,0,Amorphous,,5120,0.5,1,1,1,0.5,0.5,1,1,1,0.5,2,1,1,0.5,2,1,1,1
+110,Weezing,poison,,65,120,90,70,85,60,490,60,70,1000000,1.2,9.5,50,0,1,Poison Gas Pokémon,Purple,multiple_bodies,0,Amorphous,,5120,0.5,1,1,1,0.5,0.5,1,1,1,0.5,2,1,1,0.5,2,1,1,1
+111,Rhyhorn,ground,rock,80,95,85,30,30,25,345,120,70,1250000,1,115,50,0,1,Spikes Pokémon,Grey,quadruped,0,Monster,Field,5120,1,1,1,0,1,2,0.5,0.5,1,4,2,2,0.5,0.25,1,0.5,2,4
+112,Rhydon,ground,rock,105,120,130,45,45,40,485,60,70,1250000,1.9,120,50,0,1,Drill Pokémon,Grey,bipedal_tailed,0,Monster,Field,5120,1,1,1,0,1,2,0.5,0.5,1,4,2,2,0.5,0.25,1,0.5,2,4
+113,Chansey,normal,,250,5,5,105,35,50,450,30,140,800000,1.1,34.6,0,0,1,Egg Pokémon,Pink,bipedal_tailed,0,Fairy,,10240,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+114,Tangela,grass,,65,115,55,40,100,60,435,45,70,1000000,1,35,50,0,1,Vine Pokémon,Blue,head_legs,0,Grass,,5120,2,1,1,0.5,1,1,2,2,1,0.5,0.5,2,1,2,1,1,1,0.5
+115,Kangaskhan,normal,,105,100,125,100,60,100,590,45,70,1000000,2.2,80,0,0,1,Parent Pokémon,Brown,bipedal_tailed,1,Monster,,5120,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+116,Horsea,water,,30,70,40,25,70,60,295,225,70,1000000,0.4,8,50,0,1,Dragon Pokémon,Blue,head_base,0,Water_1,Dragon,5120,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+117,Seadra,water,,55,95,65,45,95,85,440,75,70,1000000,1.2,25,50,0,1,Dragon Pokémon,Blue,head_base,0,Water_1,Dragon,5120,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+118,Goldeen,water,,45,60,67,50,35,63,320,225,70,1000000,0.6,15,50,0,1,Goldfish Pokémon,Red,with_fins,0,Water_2,,5120,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+119,Seaking,water,,80,65,92,80,65,68,450,60,70,1000000,1.3,39,50,0,1,Goldfish Pokémon,Red,with_fins,0,Water_2,,5120,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+120,Staryu,water,,30,55,45,55,70,85,340,225,70,1250000,0.8,34.5,,0,1,Starshape Pokémon,Brown,head_base,0,Water_3,,5120,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+121,Starmie,water,psychic,60,85,75,85,100,115,520,60,70,1250000,1.1,80,,0,1,Mysterious Pokémon,Purple,head_base,0,Water_3,,5120,2,2,1,2,1,0.5,0.5,1,2,2,1,0.5,1,1,0.5,1,0.5,0.5
+122,Mr. Mime,psychic,fairy,40,65,45,120,100,90,460,45,70,1000000,1.3,54.5,50,0,1,Barrier Pokémon,Pink,bipedal_tailless,0,Human-Like,,6400,1,1,0,1,1,0.25,1,1,2,1,1,1,1,2,0.5,1,2,1
+123,Scyther,bug,flying,70,80,110,80,55,105,500,45,70,1000000,1.5,56,50,0,1,Mantis Pokémon,Green,four_wings,0,Bug,,6400,0.5,1,1,2,1,0.25,2,2,1,0.25,0,2,1,1,1,4,1,1
+124,Jynx,ice,psychic,65,35,50,95,115,95,455,45,70,1000000,1.4,40.6,0,0,1,Humanshape Pokémon,Red,bipedal_tailless,0,Human-Like,,6400,2,2,1,1,1,1,2,1,2,1,1,0.5,1,1,0.5,2,2,1
+125,Electabuzz,electric,,65,57,83,85,95,105,490,45,70,1000000,1.1,30,75.4,0,1,Electric Pokémon,Yellow,bipedal_tailed,0,Human-Like,,6400,1,1,1,0.5,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1
+126,Magmar,fire,,65,57,95,85,100,93,495,45,70,1000000,1.3,44.5,75.4,0,1,Spitfire Pokémon,Red,bipedal_tailed,0,Human-Like,,6400,0.5,1,1,1,0.5,1,0.5,1,1,0.5,2,0.5,1,1,1,2,0.5,2
+127,Pinsir,bug,,65,120,155,90,65,105,600,45,70,1250000,1.5,55,50,0,1,Stagbeetle Pokémon,Brown,bipedal_tailless,1,Bug,,6400,1,1,1,1,1,0.5,2,2,1,0.5,0.5,1,1,1,1,2,1,1
+128,Tauros,normal,,75,95,100,70,40,110,490,45,70,1250000,1.4,88.4,100,0,1,Wild Bull Pokémon,Brown,quadruped,0,Field,,5120,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+129,Magikarp,water,,20,55,10,20,15,80,200,255,70,1250000,0.9,10,50,0,1,Fish Pokémon,Red,with_fins,0,Water_2,Dragon,1280,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+130,Gyarados,water,flying,95,109,155,130,70,81,640,45,70,1250000,6.5,235,50,0,1,Atrocious Pokémon,Blue,serpentine_body,1,Water_2,Dragon,1280,0.5,1,1,4,1,0.5,0.5,1,1,1,0,1,1,1,1,2,0.5,0.5
+131,Lapras,water,ice,130,80,85,95,85,60,535,45,70,1250000,2.5,220,50,0,1,Transport Pokémon,Blue,with_fins,0,Monster,Water_1,10240,1,1,1,2,1,2,1,1,1,2,1,0.25,1,1,1,2,1,0.5
+132,Ditto,normal,,48,48,48,48,48,48,288,35,70,1000000,0.3,4,,0,1,Transform Pokémon,Purple,head_only,0,Ditto,,5120,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+133,Eevee,normal,,55,50,55,65,45,55,325,45,70,1000000,0.3,6.5,88.1,0,1,Evolution Pokémon,Brown,quadruped,0,Field,,8960,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+134,Vaporeon,water,,130,60,65,95,110,65,525,45,70,1000000,1,29,88.1,0,1,Bubble Jet Pokémon,Blue,quadruped,0,Field,,8960,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+135,Jolteon,electric,,65,60,65,95,110,130,525,45,70,1000000,0.8,24.5,88.1,0,1,Lightning Pokémon,Yellow,quadruped,0,Field,,8960,1,1,1,0.5,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1
+136,Flareon,fire,,65,60,130,110,95,65,525,45,70,1000000,0.9,25,88.1,0,1,Flame Pokémon,Red,quadruped,0,Field,,8960,0.5,1,1,1,0.5,1,0.5,1,1,0.5,2,0.5,1,1,1,2,0.5,2
+137,Porygon,normal,,65,70,60,75,85,40,395,45,70,1000000,0.8,36.5,,0,1,Virtual Pokémon,Pink,head_legs,0,Mineral,,5120,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+138,Omanyte,rock,water,35,100,40,55,90,35,355,45,70,1000000,0.4,7.5,88.1,0,1,Spiral Pokémon,Blue,several_limbs,0,Water_1,Water_3,7680,1,1,1,2,1,2,0.25,0.5,1,4,2,0.5,0.5,0.5,1,1,1,1
+139,Omastar,rock,water,70,125,60,70,115,55,495,45,70,1000000,1,35,88.1,0,1,Spiral Pokémon,Blue,several_limbs,0,Water_1,Water_3,7680,1,1,1,2,1,2,0.25,0.5,1,4,2,0.5,0.5,0.5,1,1,1,1
+140,Kabuto,rock,water,30,90,80,45,55,55,355,45,70,1000000,0.5,11.5,88.1,0,1,Shellfish Pokémon,Brown,insectoid,0,Water_1,Water_3,7680,1,1,1,2,1,2,0.25,0.5,1,4,2,0.5,0.5,0.5,1,1,1,1
+141,Kabutops,rock,water,60,105,115,70,65,80,495,45,70,1000000,1.3,40.5,88.1,0,1,Shellfish Pokémon,Brown,bipedal_tailed,0,Water_1,Water_3,7680,1,1,1,2,1,2,0.25,0.5,1,4,2,0.5,0.5,0.5,1,1,1,1
+142,Aerodactyl,rock,flying,80,85,135,95,70,150,615,45,70,1250000,1.8,59,88.1,0,1,Fossil Pokémon,Purple,two_wings,1,Flying,,8960,0.5,1,1,2,1,1,0.5,0.5,1,1,0,2,0.5,0.5,1,2,2,2
+143,Snorlax,normal,,160,65,110,110,65,30,540,25,70,1250000,2.1,460,88.1,0,1,Sleeping Pokémon,Black,bipedal_tailless,0,Monster,,10240,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+144,Articuno,ice,flying,90,100,85,125,95,85,580,3,35,1250000,1.7,55.4,,1,1,Freeze Pokémon,Blue,two_wings,0,Undiscovered,,20480,0.5,1,1,2,1,1,2,1,1,0.5,0,1,1,1,1,4,2,1
+145,Zapdos,electric,flying,90,85,90,90,125,100,580,3,35,1250000,1.6,52.6,,1,1,Electric Pokémon,Yellow,two_wings,0,Undiscovered,,20480,0.5,1,1,1,1,0.5,1,0.5,1,0.5,0,2,1,1,1,2,0.5,1
+146,Moltres,fire,flying,90,90,100,85,125,90,580,3,35,1250000,2,60,,1,1,Flame Pokémon,Yellow,two_wings,0,Undiscovered,,20480,0.25,1,1,2,0.5,0.5,0.5,1,1,0.25,0,1,1,1,1,4,0.5,2
+147,Dratini,dragon,,41,45,64,50,50,50,300,45,35,1250000,1.8,3.3,50,0,1,Dragon Pokémon,Blue,serpentine_body,0,Water_1,Dragon,10240,1,1,2,0.5,2,1,0.5,1,1,0.5,1,2,1,1,1,1,1,0.5
+148,Dragonair,dragon,,61,65,84,70,70,70,420,45,35,1250000,4,16.5,50,0,1,Dragon Pokémon,Blue,serpentine_body,0,Water_1,Dragon,10240,1,1,2,0.5,2,1,0.5,1,1,0.5,1,2,1,1,1,1,1,0.5
+149,Dragonite,dragon,flying,91,95,134,100,100,80,600,45,35,1250000,2.2,210,50,0,1,Dragon Pokémon,Brown,bipedal_tailed,0,Water_1,Dragon,10240,0.5,1,2,1,2,0.5,0.5,1,1,0.25,0,4,1,1,1,2,1,0.5
+150,Mewtwo,psychic,,106,70,150,120,194,140,780,3,0,1250000,2,122,,1,1,Genetic Pokémon,Purple,bipedal_tailed,1,Undiscovered,,30720,2,2,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1,1,1
+151,Mew,psychic,,100,100,100,100,100,100,600,45,100,1059860,0.4,4,,1,1,New Species Pokémon,Pink,bipedal_tailed,0,Undiscovered,,30720,2,2,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1,1,1
+152,Chikorita,grass,,45,65,49,65,49,45,318,45,70,1059860,0.9,6.4,88.1,0,2,Leaf Pokémon,Green,quadruped,0,Monster,Grass,5120,2,1,1,0.5,1,1,2,2,1,0.5,0.5,2,1,2,1,1,1,0.5
+153,Bayleef,grass,,60,80,62,80,63,60,405,45,70,1059860,1.2,15.8,88.1,0,2,Leaf Pokémon,Green,quadruped,0,Monster,Grass,5120,2,1,1,0.5,1,1,2,2,1,0.5,0.5,2,1,2,1,1,1,0.5
+154,Meganium,grass,,80,100,82,100,83,80,525,45,70,1059860,1.8,100.5,88.1,0,2,Herb Pokémon,Green,quadruped,0,Monster,Grass,5120,2,1,1,0.5,1,1,2,2,1,0.5,0.5,2,1,2,1,1,1,0.5
+155,Cyndaquil,fire,,39,43,52,50,60,65,309,45,70,1059860,0.5,7.9,88.1,0,2,Fire Mouse Pokémon,Yellow,bipedal_tailless,0,Field,,5120,0.5,1,1,1,0.5,1,0.5,1,1,0.5,2,0.5,1,1,1,2,0.5,2
+156,Quilava,fire,,58,58,64,65,80,80,405,45,70,1059860,0.9,19,88.1,0,2,Volcano Pokémon,Yellow,quadruped,0,Field,,5120,0.5,1,1,1,0.5,1,0.5,1,1,0.5,2,0.5,1,1,1,2,0.5,2
+157,Typhlosion,fire,,78,78,84,85,109,100,534,45,70,1059860,1.7,79.5,88.1,0,2,Volcano Pokémon,Yellow,quadruped,0,Field,,5120,0.5,1,1,1,0.5,1,0.5,1,1,0.5,2,0.5,1,1,1,2,0.5,2
+158,Totodile,water,,50,64,65,48,44,43,314,45,70,1059860,0.6,9.5,88.1,0,2,Big Jaw Pokémon,Blue,bipedal_tailed,0,Monster,Water_1,5120,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+159,Croconaw,water,,65,80,80,63,59,58,405,45,70,1059860,1.1,25,88.1,0,2,Big Jaw Pokémon,Blue,bipedal_tailed,0,Monster,Water_1,5120,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+160,Feraligatr,water,,85,100,105,83,79,78,530,45,70,1059860,2.3,88.8,88.1,0,2,Big Jaw Pokémon,Blue,bipedal_tailed,0,Monster,Water_1,5120,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+161,Sentret,normal,,35,34,46,45,35,20,215,255,70,1000000,0.8,6,50,0,2,Scout Pokémon,Brown,quadruped,0,Field,,3840,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+162,Furret,normal,,85,64,76,55,45,90,415,90,70,1000000,1.8,32.5,50,0,2,Long Body Pokémon,Brown,quadruped,0,Field,,3840,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+163,Hoothoot,normal,flying,60,30,30,56,36,50,262,255,70,1000000,0.7,21.2,50,0,2,Owl Pokémon,Brown,two_wings,0,Flying,,3840,0.5,1,1,2,1,1,1,1,0,0.5,0,2,1,1,1,2,1,1
+164,Noctowl,normal,flying,100,50,50,96,86,70,452,90,70,1000000,1.6,40.8,50,0,2,Owl Pokémon,Brown,two_wings,0,Flying,,3840,0.5,1,1,2,1,1,1,1,0,0.5,0,2,1,1,1,2,1,1
+165,Ledyba,bug,flying,40,30,20,80,40,55,265,255,70,800000,1,10.8,50,0,2,Five Star Pokémon,Red,two_wings,0,Bug,,3840,0.5,1,1,2,1,0.25,2,2,1,0.25,0,2,1,1,1,4,1,1
+166,Ledian,bug,flying,55,50,35,110,55,85,390,90,70,800000,1.4,35.6,50,0,2,Five Star Pokémon,Red,two_wings,0,Bug,,3840,0.5,1,1,2,1,0.25,2,2,1,0.25,0,2,1,1,1,4,1,1
+167,Spinarak,bug,poison,40,40,60,40,40,30,250,255,70,800000,0.5,8.5,50,0,2,String Spit Pokémon,Green,insectoid,0,Bug,,3840,0.5,1,1,1,0.5,0.25,2,2,1,0.25,1,1,1,0.5,2,2,1,1
+168,Ariados,bug,poison,70,70,90,70,60,40,400,90,70,800000,1.1,33.5,50,0,2,Long Leg Pokémon,Red,insectoid,0,Bug,,3840,0.5,1,1,1,0.5,0.25,2,2,1,0.25,1,1,1,0.5,2,2,1,1
+169,Crobat,poison,flying,85,80,90,80,70,130,535,90,70,1000000,1.8,75,50,0,2,Bat Pokémon,Purple,four_wings,0,Flying,,3840,0.25,1,1,2,0.5,0.25,1,1,1,0.25,0,2,1,0.5,2,2,1,1
+170,Chinchou,water,electric,75,38,38,56,56,67,330,190,70,1250000,0.5,12,50,0,2,Angler Pokémon,Blue,with_fins,0,Water_2,,5120,1,1,1,1,1,1,0.5,0.5,1,2,2,0.5,1,1,1,1,0.25,0.5
+171,Lanturn,water,electric,125,58,58,76,76,67,460,75,70,1250000,1.2,22.5,50,0,2,Light Pokémon,Blue,with_fins,0,Water_2,,5120,1,1,1,1,1,1,0.5,0.5,1,2,2,0.5,1,1,1,1,0.25,0.5
+172,Pichu,electric,,20,15,40,35,35,60,205,190,70,1000000,0.3,2,50,0,2,Tiny Mouse Pokémon,Yellow,quadruped,0,Undiscovered,,2560,1,1,1,0.5,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1
+173,Cleffa,fairy,,50,28,25,55,45,15,218,150,140,800000,0.3,3,24.6,0,2,Star Shape Pokémon,Pink,bipedal_tailed,0,Undiscovered,,2560,0.5,0.5,0,1,1,0.5,1,1,1,1,1,1,1,2,1,1,2,1
+174,Igglybuff,normal,fairy,90,15,30,20,40,15,210,170,70,800000,0.3,1,24.6,0,2,Balloon Pokémon,Pink,bipedal_tailless,0,Undiscovered,,2560,0.5,0.5,0,1,1,1,1,1,0,1,1,1,1,2,1,1,2,1
+175,Togepi,fairy,,35,65,20,65,40,20,245,190,70,800000,0.3,1.5,88.1,0,2,Spike Ball Pokémon,White,bipedal_tailless,0,Undiscovered,,2560,0.5,0.5,0,1,1,0.5,1,1,1,1,1,1,1,2,1,1,2,1
+176,Togetic,fairy,flying,55,85,40,105,80,40,405,75,70,800000,0.6,3.2,88.1,0,2,Happiness Pokémon,White,bipedal_tailless,0,Flying,Fairy,2560,0.25,0.5,0,2,1,0.25,1,1,1,0.5,0,2,1,2,1,2,2,1
+177,Natu,psychic,flying,40,45,50,45,70,70,320,190,70,1000000,0.2,2,50,0,2,Little Bird Pokémon,Green,two_wings,0,Flying,,5120,1,2,1,2,1,0.25,1,1,2,0.5,0,2,1,1,0.5,2,1,1
+178,Xatu,psychic,flying,65,70,75,70,95,95,470,75,70,1000000,1.5,15,50,0,2,Mystic Pokémon,Green,two_wings,0,Flying,,5120,1,2,1,2,1,0.25,1,1,2,0.5,0,2,1,1,0.5,2,1,1
+179,Mareep,electric,,55,40,40,45,65,35,280,235,70,1059860,0.6,7.8,50,0,2,Wool Pokémon,White,quadruped,0,Monster,Field,5120,1,1,1,0.5,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1
+180,Flaaffy,electric,,70,55,55,60,80,45,365,120,70,1059860,0.8,13.3,50,0,2,Wool Pokémon,Pink,bipedal_tailed,0,Monster,Field,5120,1,1,1,0.5,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1
+181,Ampharos,electric,,90,105,95,110,165,45,610,45,70,1059860,1.4,61.5,50,0,2,Light Pokémon,Yellow,bipedal_tailed,1,Monster,Field,5120,1,1,1,0.5,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1
+182,Bellossom,grass,,75,95,80,100,90,50,490,45,70,1059860,0.4,5.8,50,0,2,Flower Pokémon,Green,bipedal_tailless,0,Grass,,5120,2,1,1,0.5,1,1,2,2,1,0.5,0.5,2,1,2,1,1,1,0.5
+183,Marill,water,fairy,70,50,20,50,20,40,250,190,70,800000,0.4,8.5,50,0,2,Aquamouse Pokémon,Blue,bipedal_tailed,0,Water_1,Fairy,2560,0.5,0.5,0,2,1,0.5,0.5,1,1,2,1,0.5,1,2,1,1,1,0.5
+184,Azumarill,water,fairy,100,80,50,80,60,50,420,75,70,800000,0.8,28.5,50,0,2,Aquarabbit Pokémon,Blue,bipedal_tailed,0,Water_1,Fairy,2560,0.5,0.5,0,2,1,0.5,0.5,1,1,2,1,0.5,1,2,1,1,1,0.5
+185,Sudowoodo,rock,,70,115,100,65,30,30,410,65,70,1000000,1.2,38,50,0,2,Imitation Pokémon,Brown,bipedal_tailless,0,Mineral,,5120,1,1,1,1,1,2,0.5,0.5,1,2,2,1,0.5,0.5,1,1,2,2
+186,Politoed,water,,90,75,75,100,90,70,500,45,70,1059860,1.1,33.9,50,0,2,Frog Pokémon,Green,bipedal_tailed,0,Water_1,,5120,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+187,Hoppip,grass,flying,35,40,35,55,35,50,250,255,70,1059860,0.4,0.5,50,0,2,Cottonweed Pokémon,Pink,bipedal_tailed,0,Fairy,Grass,5120,1,1,1,1,1,0.5,2,2,1,0.25,0,4,1,2,1,2,1,0.5
+188,Skiploom,grass,flying,55,50,45,65,45,80,340,120,70,1059860,0.6,1,50,0,2,Cottonweed Pokémon,Green,bipedal_tailed,0,Fairy,Grass,5120,1,1,1,1,1,0.5,2,2,1,0.25,0,4,1,2,1,2,1,0.5
+189,Jumpluff,grass,flying,75,70,55,95,55,110,460,45,70,1059860,0.8,3,50,0,2,Cottonweed Pokémon,Blue,bipedal_tailed,0,Fairy,Grass,5120,1,1,1,1,1,0.5,2,2,1,0.25,0,4,1,2,1,2,1,0.5
+190,Aipom,normal,,55,55,70,55,40,85,360,45,70,800000,0.8,11.5,50,0,2,Long Tail Pokémon,Purple,bipedal_tailed,0,Field,,5120,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+191,Sunkern,grass,,30,30,30,30,30,30,180,235,70,1059860,0.3,1.8,50,0,2,Seed Pokémon,Yellow,head_only,0,Grass,,5120,2,1,1,0.5,1,1,2,2,1,0.5,0.5,2,1,2,1,1,1,0.5
+192,Sunflora,grass,,75,55,75,85,105,30,425,120,70,1059860,0.8,8.5,50,0,2,Sun Pokémon,Yellow,bipedal_tailless,0,Grass,,5120,2,1,1,0.5,1,1,2,2,1,0.5,0.5,2,1,2,1,1,1,0.5
+193,Yanma,bug,flying,65,45,65,45,75,95,390,75,70,1000000,1.2,38,50,0,2,Clear Wing Pokémon,Red,four_wings,0,Bug,,5120,0.5,1,1,2,1,0.25,2,2,1,0.25,0,2,1,1,1,4,1,1
+194,Wooper,water,ground,55,45,45,25,25,15,210,255,70,1000000,0.4,8.5,50,0,2,Water Fish Pokémon,Blue,head_legs,0,Water_1,Field,5120,1,1,1,0,1,1,0.5,1,1,4,1,1,1,0.5,1,0.5,0.5,1
+195,Quagsire,water,ground,95,85,85,65,65,35,430,90,70,1000000,1.4,75,50,0,2,Water Fish Pokémon,Blue,bipedal_tailed,0,Water_1,Field,5120,1,1,1,0,1,1,0.5,1,1,4,1,1,1,0.5,1,0.5,0.5,1
+196,Espeon,psychic,,65,60,65,95,130,110,525,45,70,1000000,0.9,26.5,88.1,0,2,Sun Pokémon,Purple,quadruped,0,Field,,8960,2,2,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1,1,1
+197,Umbreon,dark,,95,110,65,130,60,65,525,45,35,1000000,1,27,88.1,0,2,Moonlight Pokémon,Black,quadruped,0,Field,,8960,2,0.5,1,1,2,2,1,1,0.5,1,1,1,1,1,0,1,1,1
+198,Murkrow,dark,flying,60,42,85,42,85,91,405,30,35,1059860,0.5,2.1,50,0,2,Darkness Pokémon,Black,two_wings,0,Flying,,5120,1,0.5,1,2,2,1,1,1,0.5,0.5,0,2,1,1,0,2,1,1
+199,Slowking,water,psychic,95,80,75,110,100,30,490,70,70,1000000,2,79.5,50,0,2,Royal Pokémon,Pink,bipedal_tailed,0,Monster,Water_1,5120,2,2,1,2,1,0.5,0.5,1,2,2,1,0.5,1,1,0.5,1,0.5,0.5
+200,Misdreavus,ghost,,60,60,60,85,85,85,435,45,35,800000,0.7,1,50,0,2,Screech Pokémon,Purple,head_only,0,Amorphous,,6400,0.5,2,1,1,1,0,1,1,2,1,1,1,0,0.5,1,1,1,1
+201,Unown,psychic,,48,48,72,48,72,48,336,225,70,1000000,0.5,5,,0,2,Symbol Pokémon,Black,head_only,0,Undiscovered,,10240,2,2,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1,1,1
+202,Wobbuffet,psychic,,190,58,33,58,33,33,405,45,70,1000000,1.3,28.5,50,0,2,Patient Pokémon,Blue,head_base,0,Amorphous,,5120,2,2,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1,1,1
+203,Girafarig,normal,psychic,70,65,80,65,90,85,455,60,70,1000000,1.5,41.5,50,0,2,Long Neck Pokémon,Yellow,quadruped,0,Field,,5120,2,2,1,1,1,1,1,1,0,1,1,1,1,1,0.5,1,1,1
+204,Pineco,bug,,50,90,65,35,35,15,290,190,70,1000000,0.6,7.2,50,0,2,Bagworm Pokémon,Grey,head_only,0,Bug,,5120,1,1,1,1,1,0.5,2,2,1,0.5,0.5,1,1,1,1,2,1,1
+205,Forretress,bug,steel,75,140,90,60,60,40,465,75,70,1000000,1.2,125.8,50,0,2,Bagworm Pokémon,Purple,head_only,0,Bug,,5120,0.5,1,0.5,1,0.5,1,4,1,1,0.25,1,0.5,0.5,0,0.5,1,0.5,1
+206,Dunsparce,normal,,100,70,70,65,65,45,415,190,70,1000000,1.5,14,50,0,2,Land Snake Pokémon,Yellow,serpentine_body,0,Field,,5120,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+207,Gligar,ground,flying,65,105,75,65,35,85,430,60,70,1059860,1.1,64.8,50,0,2,Flyscorpion Pokémon,Purple,two_wings,0,Bug,,5120,0.5,1,1,0,1,0.5,1,1,1,1,0,4,1,0.5,1,1,1,2
+208,Steelix,steel,ground,75,230,125,95,55,30,610,25,70,1000000,9.2,400,50,0,2,Iron Snake Pokémon,Grey,serpentine_body,1,Mineral,,6400,0.5,1,0.5,0,0.5,2,2,0.5,1,1,2,1,0.5,0,0.5,0.25,0.5,2
+209,Snubbull,fairy,,60,50,80,40,40,30,300,190,70,800000,0.6,7.8,24.6,0,2,Fairy Pokémon,Pink,bipedal_tailless,0,Field,Fairy,5120,0.5,0.5,0,1,1,0.5,1,1,1,1,1,1,1,2,1,1,2,1
+210,Granbull,fairy,,90,75,120,60,60,45,450,75,70,800000,1.4,48.7,24.6,0,2,Fairy Pokémon,Purple,bipedal_tailed,0,Field,Fairy,5120,0.5,0.5,0,1,1,0.5,1,1,1,1,1,1,1,2,1,1,2,1
+211,Qwilfish,water,poison,65,85,95,55,55,85,440,45,70,1000000,0.5,3.9,50,0,2,Balloon Pokémon,Grey,with_fins,0,Water_2,,5120,0.5,1,1,2,0.5,0.5,0.5,1,1,1,2,0.5,1,0.5,2,1,0.5,0.5
+212,Scizor,bug,steel,70,140,150,100,65,75,600,25,70,1000000,1.8,118,50,0,2,Pincer Pokémon,Red,four_wings,1,Bug,,6400,0.5,1,0.5,1,0.5,1,4,1,1,0.25,1,0.5,0.5,0,0.5,1,0.5,1
+213,Shuckle,bug,rock,20,230,10,230,10,5,505,190,70,1059860,0.6,20.5,50,0,2,Mold Pokémon,Yellow,insectoid,0,Bug,,5120,1,1,1,1,1,1,1,1,1,1,1,1,0.5,0.5,1,2,2,2
+214,Heracross,bug,fighting,80,115,185,105,40,75,600,45,70,1250000,1.5,54,50,0,2,Singlehorn Pokémon,Blue,bipedal_tailless,1,Bug,,6400,0.5,0.5,1,1,2,0.5,2,4,1,0.5,0.5,1,1,1,2,1,1,1
+215,Sneasel,dark,ice,55,55,95,75,35,115,430,60,35,1059860,0.9,28,50,0,2,Sharp Claw Pokémon,Black,bipedal_tailed,0,Field,,5120,2,0.5,1,1,2,4,2,1,0.5,1,1,0.5,1,1,0,2,2,1
+216,Teddiursa,normal,,60,50,80,50,50,40,330,120,70,1000000,0.6,8.8,50,0,2,Little Bear Pokémon,Brown,bipedal_tailed,0,Field,,5120,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+217,Ursaring,normal,,90,75,130,75,75,55,500,60,70,1000000,1.8,125.8,50,0,2,Hibernator Pokémon,Brown,bipedal_tailed,0,Field,,5120,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+218,Slugma,fire,,40,40,40,40,70,20,250,190,70,1000000,0.7,35,50,0,2,Lava Pokémon,Red,serpentine_body,0,Amorphous,,5120,0.5,1,1,1,0.5,1,0.5,1,1,0.5,2,0.5,1,1,1,2,0.5,2
+219,Magcargo,fire,rock,60,120,50,80,90,30,430,75,70,1000000,0.8,55,50,0,2,Lava Pokémon,Red,serpentine_body,0,Amorphous,,5120,0.5,1,1,1,0.5,2,0.25,0.5,1,1,4,0.5,0.5,0.5,1,2,1,4
+220,Swinub,ice,ground,50,40,50,30,30,50,250,225,70,1250000,0.4,6.5,50,0,2,Pig Pokémon,Brown,quadruped,0,Field,,5120,1,1,1,0,1,2,2,1,1,2,1,1,1,0.5,1,1,2,2
+221,Piloswine,ice,ground,100,80,100,60,60,50,450,75,70,1250000,1.1,55.8,50,0,2,Swine Pokémon,Brown,quadruped,0,Field,,5120,1,1,1,0,1,2,2,1,1,2,1,1,1,0.5,1,1,2,2
+222,Corsola,water,rock,65,95,55,95,65,35,410,60,70,800000,0.6,5,24.6,0,2,Coral Pokémon,Pink,insectoid,0,Water_1,Water_3,5120,1,1,1,2,1,2,0.25,0.5,1,4,2,0.5,0.5,0.5,1,1,1,1
+223,Remoraid,water,,35,35,65,35,65,65,300,190,70,1000000,0.6,12,50,0,2,Jet Pokémon,Grey,with_fins,0,Water_1,Water_2,5120,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+224,Octillery,water,,75,75,105,75,105,45,480,75,70,1000000,0.9,28.5,50,0,2,Jet Pokémon,Red,several_limbs,0,Water_1,Water_2,5120,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+225,Delibird,ice,flying,45,45,55,45,65,75,330,45,70,800000,0.9,16,50,0,2,Delivery Pokémon,Red,two_wings,0,Water_1,Field,5120,0.5,1,1,2,1,1,2,1,1,0.5,0,1,1,1,1,4,2,1
+226,Mantine,water,flying,85,70,40,140,80,70,485,25,70,1250000,2.1,220,50,0,2,Kite Pokémon,Purple,two_wings,0,Water_1,,6400,0.5,1,1,4,1,0.5,0.5,1,1,1,0,1,1,1,1,2,0.5,0.5
+227,Skarmory,steel,flying,65,140,80,70,40,70,465,25,70,1250000,1.7,50.5,50,0,2,Armor Bird Pokémon,Grey,two_wings,0,Flying,,6400,0.25,1,0.5,2,0.5,1,2,0.5,1,0.25,0,1,0.5,0,0.5,1,0.5,1
+228,Houndour,dark,fire,45,30,60,50,80,65,330,120,35,1250000,0.6,10.8,50,0,2,Dark Pokémon,Black,quadruped,0,Field,,5120,1,0.5,1,1,1,2,0.5,1,0.5,0.5,2,0.5,1,1,0,2,0.5,2
+229,Houndoom,dark,fire,75,90,90,90,140,115,600,45,35,1250000,1.4,35,50,0,2,Dark Pokémon,Black,quadruped,1,Field,,5120,1,0.5,1,1,1,2,0.5,1,0.5,0.5,2,0.5,1,1,0,2,0.5,2
+230,Kingdra,water,dragon,75,95,95,95,95,85,540,45,70,1000000,1.8,152,50,0,2,Dragon Pokémon,Blue,head_base,0,Water_1,Dragon,5120,1,1,2,1,2,1,0.25,1,1,1,1,1,1,1,1,1,0.5,0.25
+231,Phanpy,ground,,90,60,60,40,40,40,330,120,70,1000000,0.5,33.5,50,0,2,Long Nose Pokémon,Blue,quadruped,0,Field,,5120,1,1,1,0,1,1,1,1,1,2,1,2,1,0.5,1,0.5,1,2
+232,Donphan,ground,,90,120,120,60,60,50,500,60,70,1000000,1.1,120,50,0,2,Armor Pokémon,Grey,quadruped,0,Field,,5120,1,1,1,0,1,1,1,1,1,2,1,2,1,0.5,1,0.5,1,2
+233,Porygon2,normal,,85,90,80,95,105,60,515,45,70,1000000,0.6,32.5,,0,2,Virtual Pokémon,Red,head_legs,0,Mineral,,5120,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+234,Stantler,normal,,73,62,95,65,85,85,465,45,70,1250000,1.4,71.2,50,0,2,Big Horn Pokémon,Brown,quadruped,0,Field,,5120,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+235,Smeargle,normal,,55,35,20,45,20,75,250,45,70,800000,1.2,58,50,0,2,Painter Pokémon,White,bipedal_tailed,0,Field,,5120,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+236,Tyrogue,fighting,,35,35,35,35,35,35,210,75,70,1000000,0.7,21,100,0,2,Scuffle Pokémon,Purple,bipedal_tailless,0,Undiscovered,,6400,0.5,0.5,1,1,2,1,1,2,1,1,1,1,1,1,2,0.5,1,1
+237,Hitmontop,fighting,,50,95,95,110,35,70,455,45,70,1000000,1.4,48,100,0,2,Handstand Pokémon,Brown,bipedal_tailed,0,Human-Like,,6400,0.5,0.5,1,1,2,1,1,2,1,1,1,1,1,1,2,0.5,1,1
+238,Smoochum,ice,psychic,45,15,30,65,85,65,305,45,70,1000000,0.4,6,0,0,2,Kiss Pokémon,Pink,bipedal_tailless,0,Undiscovered,,6400,2,2,1,1,1,1,2,1,2,1,1,0.5,1,1,0.5,2,2,1
+239,Elekid,electric,,45,37,63,55,65,95,360,45,70,1000000,0.6,23.5,75.4,0,2,Electric Pokémon,Yellow,bipedal_tailless,0,Undiscovered,,6400,1,1,1,0.5,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1
+240,Magby,fire,,45,37,75,55,70,83,365,45,70,1000000,0.7,21.4,75.4,0,2,Live Coal Pokémon,Red,bipedal_tailed,0,Undiscovered,,6400,0.5,1,1,1,0.5,1,0.5,1,1,0.5,2,0.5,1,1,1,2,0.5,2
+241,Miltank,normal,,95,105,80,70,40,100,490,45,70,1250000,1.2,75.5,0,0,2,Milk Cow Pokémon,Pink,bipedal_tailed,0,Field,,5120,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+242,Blissey,normal,,255,10,10,135,75,55,540,30,140,800000,1.5,46.8,0,0,2,Happiness Pokémon,Pink,bipedal_tailless,0,Fairy,,10240,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+243,Raikou,electric,,90,75,85,100,115,115,580,3,35,1250000,1.9,178,,1,2,Thunder Pokémon,Yellow,quadruped,0,Undiscovered,,20480,1,1,1,0.5,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1
+244,Entei,fire,,115,85,115,75,90,100,580,3,35,1250000,2.1,198,,1,2,Volcano Pokémon,Brown,quadruped,0,Undiscovered,,20480,0.5,1,1,1,0.5,1,0.5,1,1,0.5,2,0.5,1,1,1,2,0.5,2
+245,Suicune,water,,100,115,75,115,90,85,580,3,35,1250000,2,187,,1,2,Aurora Pokémon,Blue,quadruped,0,Undiscovered,,20480,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+246,Larvitar,rock,ground,50,50,64,50,45,41,300,45,35,1250000,0.6,72,50,0,2,Rock Skin Pokémon,Green,bipedal_tailed,0,Monster,,10240,1,1,1,0,1,2,0.5,0.5,1,4,2,2,0.5,0.25,1,0.5,2,4
+247,Pupitar,rock,ground,70,70,84,70,65,51,410,45,35,1250000,1.2,152,50,0,2,Hard Shell Pokémon,Grey,serpentine_body,0,Monster,,10240,1,1,1,0,1,2,0.5,0.5,1,4,2,2,0.5,0.25,1,0.5,2,4
+248,Tyranitar,rock,dark,100,150,164,120,95,71,700,45,35,1250000,2,202,50,0,2,Armor Pokémon,Green,bipedal_tailed,1,Monster,,10240,2,0.5,1,1,2,4,0.5,0.5,0.5,2,2,1,0.5,0.5,0,1,2,2
+249,Lugia,psychic,flying,106,130,90,154,90,110,680,3,0,1250000,5.2,216,,1,2,Diving Pokémon,White,two_wings,0,Undiscovered,,30720,1,2,1,2,1,0.25,1,1,2,0.5,0,2,1,1,0.5,2,1,1
+250,Ho-Oh,fire,flying,106,90,130,154,110,90,680,3,0,1250000,3.8,199,,1,2,Rainbow Pokémon,Red,two_wings,0,Undiscovered,,30720,0.25,1,1,2,0.5,0.5,0.5,1,1,0.25,0,1,1,1,1,4,0.5,2
+251,Celebi,psychic,grass,100,100,100,100,100,100,600,45,100,1059860,0.6,5,,1,2,Time Travel Pokémon,Green,bipedal_tailless,0,Undiscovered,,30720,4,2,1,0.5,1,0.5,2,2,2,0.5,0.5,2,1,2,0.5,1,1,0.5
+252,Treecko,grass,,40,35,45,55,65,70,310,45,70,1059860,0.5,5,88.1,0,3,Wood Gecko Pokémon,Green,bipedal_tailed,0,Monster,Dragon,5120,2,1,1,0.5,1,1,2,2,1,0.5,0.5,2,1,2,1,1,1,0.5
+253,Grovyle,grass,,50,45,65,65,85,95,405,45,70,1059860,0.9,21.6,88.1,0,3,Wood Gecko Pokémon,Green,bipedal_tailed,0,Monster,Dragon,5120,2,1,1,0.5,1,1,2,2,1,0.5,0.5,2,1,2,1,1,1,0.5
+254,Sceptile,grass,,70,75,110,85,145,145,630,45,70,1059860,1.7,52.2,88.1,0,3,Forest Pokémon,Green,bipedal_tailed,1,Monster,Dragon,5120,2,1,1,0.5,1,1,2,2,1,0.5,0.5,2,1,2,1,1,1,0.5
+255,Torchic,fire,,45,40,60,50,70,45,310,45,70,1059860,0.4,2.5,88.1,0,3,Chick Pokémon,Red,head_legs,0,Field,,5120,0.5,1,1,1,0.5,1,0.5,1,1,0.5,2,0.5,1,1,1,2,0.5,2
+256,Combusken,fire,fighting,60,60,85,60,85,55,405,45,70,1059860,0.9,19.5,88.1,0,3,Young Fowl Pokémon,Red,bipedal_tailed,0,Field,,5120,0.25,0.5,1,1,1,1,0.5,2,1,0.5,2,0.5,1,1,2,1,0.5,2
+257,Blaziken,fire,fighting,80,80,160,80,130,100,630,45,70,1059860,1.9,52,88.1,0,3,Blaze Pokémon,Red,bipedal_tailed,1,Field,,5120,0.25,0.5,1,1,1,1,0.5,2,1,0.5,2,0.5,1,1,2,1,0.5,2
+258,Mudkip,water,,50,50,70,50,50,40,310,45,70,1059860,0.4,7.6,88.1,0,3,Mud Fish Pokémon,Blue,quadruped,0,Monster,Water_1,5120,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+259,Marshtomp,water,ground,70,70,85,70,60,50,405,45,70,1059860,0.7,28,88.1,0,3,Mud Fish Pokémon,Blue,bipedal_tailed,0,Monster,Water_1,5120,1,1,1,0,1,1,0.5,1,1,4,1,1,1,0.5,1,0.5,0.5,1
+260,Swampert,water,ground,100,110,150,110,95,70,635,45,70,1059860,1.5,81.9,88.1,0,3,Mud Fish Pokémon,Blue,bipedal_tailed,1,Monster,Water_1,5120,1,1,1,0,1,1,0.5,1,1,4,1,1,1,0.5,1,0.5,0.5,1
+261,Poochyena,dark,,35,35,55,30,30,35,220,255,70,1000000,0.5,13.6,50,0,3,Bite Pokémon,Grey,quadruped,0,Field,,3840,2,0.5,1,1,2,2,1,1,0.5,1,1,1,1,1,0,1,1,1
+262,Mightyena,dark,,70,70,90,60,60,70,420,127,70,1000000,1,37,50,0,3,Bite Pokémon,Grey,quadruped,0,Field,,3840,2,0.5,1,1,2,2,1,1,0.5,1,1,1,1,1,0,1,1,1
+263,Zigzagoon,normal,,38,41,30,41,30,60,240,255,70,1000000,0.4,17.5,50,0,3,Tiny Racoon Pokémon,Brown,quadruped,0,Field,,3840,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+264,Linoone,normal,,78,61,70,61,50,100,420,90,70,1000000,0.5,32.5,50,0,3,Rush Pokémon,White,quadruped,0,Field,,3840,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+265,Wurmple,bug,,45,35,45,30,20,20,195,255,70,1000000,0.3,3.6,50,0,3,Worm Pokémon,Red,serpentine_body,0,Bug,,3840,1,1,1,1,1,0.5,2,2,1,0.5,0.5,1,1,1,1,2,1,1
+266,Silcoon,bug,,50,55,35,25,25,15,205,120,70,1000000,0.6,10,50,0,3,Cocoon Pokémon,White,head_only,0,Bug,,3840,1,1,1,1,1,0.5,2,2,1,0.5,0.5,1,1,1,1,2,1,1
+267,Beautifly,bug,flying,60,50,70,50,100,65,395,45,70,1000000,1,28.4,50,0,3,Butterfly Pokémon,Yellow,four_wings,0,Bug,,3840,0.5,1,1,2,1,0.25,2,2,1,0.25,0,2,1,1,1,4,1,1
+268,Cascoon,bug,,50,55,35,25,25,15,205,120,70,1000000,0.7,11.5,50,0,3,Cocoon Pokémon,Purple,head_only,0,Bug,,3840,1,1,1,1,1,0.5,2,2,1,0.5,0.5,1,1,1,1,2,1,1
+269,Dustox,bug,poison,60,70,50,90,50,65,385,45,70,1000000,1.2,31.6,50,0,3,Poison Moth Pokémon,Green,four_wings,0,Bug,,3840,0.5,1,1,1,0.5,0.25,2,2,1,0.25,1,1,1,0.5,2,2,1,1
+270,Lotad,water,grass,40,30,30,50,40,30,220,255,70,1059860,0.5,2.6,50,0,3,Water Weed Pokémon,Green,insectoid,0,Water_1,Grass,3840,2,1,1,1,1,1,1,2,1,1,0.5,1,1,2,1,1,0.5,0.25
+271,Lombre,water,grass,60,50,50,70,60,50,340,120,70,1059860,1.2,32.5,50,0,3,Jolly Pokémon,Green,bipedal_tailless,0,Water_1,Grass,3840,2,1,1,1,1,1,1,2,1,1,0.5,1,1,2,1,1,0.5,0.25
+272,Ludicolo,water,grass,80,70,70,100,90,70,480,45,70,1059860,1.5,55,50,0,3,Carefree Pokémon,Green,bipedal_tailless,0,Water_1,Grass,3840,2,1,1,1,1,1,1,2,1,1,0.5,1,1,2,1,1,0.5,0.25
+273,Seedot,grass,,40,50,40,30,30,30,220,255,70,1059860,0.5,4,50,0,3,Acorn Pokémon,Brown,head_legs,0,Field,Grass,3840,2,1,1,0.5,1,1,2,2,1,0.5,0.5,2,1,2,1,1,1,0.5
+274,Nuzleaf,grass,dark,70,40,70,40,60,60,340,120,70,1059860,1,28,50,0,3,Wily Pokémon,Brown,bipedal_tailless,0,Field,Grass,3840,4,0.5,1,0.5,2,2,2,2,0.5,0.5,0.5,2,1,2,0,1,1,0.5
+275,Shiftry,grass,dark,90,60,100,60,90,80,480,45,70,1059860,1.3,59.6,50,0,3,Wickid Pokémon,Brown,bipedal_tailless,0,Field,Grass,3840,4,0.5,1,0.5,2,2,2,2,0.5,0.5,0.5,2,1,2,0,1,1,0.5
+276,Taillow,normal,flying,40,30,55,30,30,85,270,200,70,1059860,0.3,2.3,50,0,3,TinySwallow Pokémon,Blue,two_wings,0,Flying,,3840,0.5,1,1,2,1,1,1,1,0,0.5,0,2,1,1,1,2,1,1
+277,Swellow,normal,flying,60,60,85,50,75,125,455,45,70,1059860,0.7,19.8,50,0,3,Swallow Pokémon,Blue,two_wings,0,Flying,,3840,0.5,1,1,2,1,1,1,1,0,0.5,0,2,1,1,1,2,1,1
+278,Wingull,water,flying,40,30,30,30,55,85,270,190,70,1000000,0.6,9.5,50,0,3,Seagull Pokémon,White,two_wings,0,Water_1,Flying,5120,0.5,1,1,4,1,0.5,0.5,1,1,1,0,1,1,1,1,2,0.5,0.5
+279,Pelipper,water,flying,60,100,50,70,95,65,440,45,70,1000000,1.2,28,50,0,3,Water Bird Pokémon,Yellow,two_wings,0,Water_1,Flying,5120,0.5,1,1,4,1,0.5,0.5,1,1,1,0,1,1,1,1,2,0.5,0.5
+280,Ralts,psychic,fairy,28,25,25,35,45,40,198,235,35,1250000,0.4,6.6,50,0,3,Feeling Pokémon,White,bipedal_tailless,0,Amorphous,,5120,1,1,0,1,1,0.25,1,1,2,1,1,1,1,2,0.5,1,2,1
+281,Kirlia,psychic,fairy,38,35,35,55,65,50,278,120,35,1250000,0.8,20.2,50,0,3,Emotion Pokémon,White,bipedal_tailless,0,Amorphous,,5120,1,1,0,1,1,0.25,1,1,2,1,1,1,1,2,0.5,1,2,1
+282,Gardevoir,psychic,fairy,68,65,85,135,165,100,618,45,35,1250000,1.6,48.4,50,0,3,Embrace Pokémon,White,bipedal_tailless,1,Amorphous,,5120,1,1,0,1,1,0.25,1,1,2,1,1,1,1,2,0.5,1,2,1
+283,Surskit,bug,water,40,32,30,52,50,65,269,200,70,1000000,0.5,1.7,50,0,3,Pond Skater Pokémon,Blue,insectoid,0,Water_1,Bug,3840,1,1,1,2,1,0.5,1,2,1,1,0.5,0.5,1,1,1,2,0.5,0.5
+284,Masquerain,bug,flying,70,62,60,82,100,80,454,75,70,1000000,0.8,3.6,50,0,3,Eyeball Pokémon,Blue,four_wings,0,Water_1,Bug,3840,0.5,1,1,2,1,0.25,2,2,1,0.25,0,2,1,1,1,4,1,1
+285,Shroomish,grass,,60,60,40,60,40,35,295,255,70,1640000,0.4,4.5,50,0,3,Mushroom Pokémon,Brown,head_legs,0,Fairy,Grass,3840,2,1,1,0.5,1,1,2,2,1,0.5,0.5,2,1,2,1,1,1,0.5
+286,Breloom,grass,fighting,60,80,130,60,60,70,460,90,70,1640000,1.2,39.2,50,0,3,Mushroom Pokémon,Green,bipedal_tailed,0,Fairy,Grass,3840,1,0.5,1,0.5,2,1,2,4,1,0.5,0.5,2,1,2,2,0.5,1,0.5
+287,Slakoth,normal,,60,60,60,35,35,30,280,255,70,1250000,0.8,24,50,0,3,Slacker Pokémon,Brown,quadruped,0,Field,,3840,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+288,Vigoroth,normal,,80,80,80,55,55,90,440,120,70,1250000,1.4,46.5,50,0,3,Wild Monkey Pokémon,White,bipedal_tailed,0,Field,,3840,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+289,Slaking,normal,,150,100,160,65,95,100,670,45,70,1250000,2,130.5,50,0,3,Lazy Pokémon,Brown,bipedal_tailless,0,Field,,3840,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+290,Nincada,bug,ground,31,90,45,30,30,40,266,255,70,600000,0.5,5.5,50,0,3,Trainee Pokémon,Grey,insectoid,0,Bug,,3840,1,1,1,0,1,0.5,2,2,1,1,0.5,2,1,0.5,1,1,1,2
+291,Ninjask,bug,flying,61,45,90,50,50,160,456,120,70,600000,0.8,12,50,0,3,Ninja Pokémon,Yellow,four_wings,0,Bug,,3840,0.5,1,1,2,1,0.25,2,2,1,0.25,0,2,1,1,1,4,1,1
+292,Shedinja,bug,ghost,1,45,90,30,30,40,236,45,70,600000,0.8,1.2,,0,3,Shed Pokémon,Brown,head_base,0,Mineral,,3840,0.5,2,1,1,1,0,2,2,2,0.5,0.5,1,0,0.5,1,2,1,1
+293,Whismur,normal,,64,23,51,23,51,28,240,190,70,1059860,0.6,16.3,50,0,3,Whisper Pokémon,Pink,bipedal_tailed,0,Monster,Field,5120,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+294,Loudred,normal,,84,43,71,43,71,48,360,120,70,1059860,1,40.5,50,0,3,Big Voice Pokémon,Blue,bipedal_tailed,0,Monster,Field,5120,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+295,Exploud,normal,,104,63,91,73,91,68,490,45,70,1059860,1.5,84,50,0,3,Loud Noise Pokémon,Blue,bipedal_tailed,0,Monster,Field,5120,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+296,Makuhita,fighting,,72,30,60,30,20,25,237,180,70,1640000,1,86.4,75.4,0,3,Guts Pokémon,Yellow,bipedal_tailless,0,Human-Like,,5120,0.5,0.5,1,1,2,1,1,2,1,1,1,1,1,1,2,0.5,1,1
+297,Hariyama,fighting,,144,60,120,60,40,50,474,200,70,1640000,2.3,253.8,75.4,0,3,Arm Thrust Pokémon,Brown,bipedal_tailless,0,Human-Like,,5120,0.5,0.5,1,1,2,1,1,2,1,1,1,1,1,1,2,0.5,1,1
+298,Azurill,normal,fairy,50,40,20,40,20,20,190,150,70,800000,0.2,2,24.6,0,3,Polka Dot Pokémon,Blue,head_legs,0,Undiscovered,,2560,0.5,0.5,0,1,1,1,1,1,0,1,1,1,1,2,1,1,2,1
+299,Nosepass,rock,,30,135,45,90,45,30,375,255,70,1000000,1,97,50,0,3,Compass Pokémon,Grey,bipedal_tailless,0,Mineral,,5120,1,1,1,1,1,2,0.5,0.5,1,2,2,1,0.5,0.5,1,1,2,2
+300,Skitty,normal,,50,45,45,35,35,50,260,255,70,800000,0.6,11,24.6,0,3,Kitten Pokémon,Pink,quadruped,0,Field,Fairy,3840,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+301,Delcatty,normal,,70,65,65,55,55,90,400,60,70,800000,1.1,32.6,24.6,0,3,Prim Pokémon,Purple,quadruped,0,Field,Fairy,3840,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+302,Sableye,dark,ghost,50,125,85,115,85,20,480,45,35,1059860,0.5,11,50,0,3,Darkness Pokémon,Purple,bipedal_tailless,1,Human-Like,,6400,1,1,1,1,2,0,1,1,1,1,1,1,0,0.5,0,1,1,1
+303,Mawile,steel,fairy,50,125,105,95,55,50,480,45,70,800000,0.6,11.5,50,0,3,Deceiver Pokémon,Black,bipedal_tailless,1,Field,Fairy,5120,0.25,0.5,0,1,0.5,1,2,0.5,1,0.5,2,0.5,0.5,0,0.5,0.5,1,1
+304,Aron,steel,rock,50,100,70,40,40,30,330,180,35,1250000,0.4,60,50,0,3,Iron Armor Pokémon,Grey,quadruped,0,Monster,,8960,0.5,1,0.5,1,0.5,4,1,0.25,1,1,4,0.5,0.25,0,0.5,0.5,1,2
+305,Lairon,steel,rock,60,140,90,50,50,40,430,90,35,1250000,0.9,120,50,0,3,Iron Armor Pokémon,Grey,quadruped,0,Monster,,8960,0.5,1,0.5,1,0.5,4,1,0.25,1,1,4,0.5,0.25,0,0.5,0.5,1,2
+306,Aggron,steel,rock,70,230,140,80,60,50,630,45,35,1250000,2.1,360,50,0,3,Iron Armor Pokémon,Grey,bipedal_tailed,1,Monster,,8960,0.5,1,0.5,1,0.5,4,1,0.25,1,1,4,0.5,0.25,0,0.5,0.5,1,2
+307,Meditite,fighting,psychic,30,55,40,55,40,60,280,180,70,1000000,0.6,11.2,50,0,3,Meditate Pokémon,Blue,bipedal_tailless,0,Human-Like,,5120,1,1,1,1,2,0.5,1,2,2,1,1,1,1,1,1,0.5,1,1
+308,Medicham,fighting,psychic,60,85,100,85,80,100,510,90,70,1000000,1.3,31.5,50,0,3,Meditate Pokémon,Red,bipedal_tailless,1,Human-Like,,5120,1,1,1,1,2,0.5,1,2,2,1,1,1,1,1,1,0.5,1,1
+309,Electrike,electric,,40,40,45,40,65,65,295,120,70,1250000,0.6,15.2,50,0,3,Lightning Pokémon,Green,quadruped,0,Field,,5120,1,1,1,0.5,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1
+310,Manectric,electric,,70,80,75,80,135,135,575,45,70,1250000,1.5,40.2,50,0,3,Discharge Pokémon,Yellow,quadruped,1,Field,,5120,1,1,1,0.5,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1
+311,Plusle,electric,,60,40,50,75,85,95,405,200,70,1000000,0.4,4.2,50,0,3,Cheering Pokémon,Yellow,bipedal_tailed,0,Fairy,,5120,1,1,1,0.5,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1
+312,Minun,electric,,60,50,40,85,75,95,405,200,70,1000000,0.4,4.2,50,0,3,Cheering Pokémon,Yellow,bipedal_tailed,0,Fairy,,5120,1,1,1,0.5,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1
+313,Volbeat,bug,,65,75,73,85,47,85,430,150,70,600000,0.7,17.7,100,0,3,Firefly Pokémon,Grey,bipedal_tailed,0,Bug,Human-Like,3840,1,1,1,1,1,0.5,2,2,1,0.5,0.5,1,1,1,1,2,1,1
+314,Illumise,bug,,65,75,47,85,73,85,430,150,70,1640000,0.6,17.7,0,0,3,Firefly Pokémon,Purple,bipedal_tailless,0,Bug,Human-Like,3840,1,1,1,1,1,0.5,2,2,1,0.5,0.5,1,1,1,1,2,1,1
+315,Roselia,grass,poison,50,45,60,80,100,65,400,150,70,1059860,0.3,2,50,0,3,Thorn Pokémon,Green,bipedal_tailless,0,Fairy,Grass,5120,1,1,1,0.5,0.5,0.5,2,2,1,0.25,1,2,1,1,2,1,1,0.5
+316,Gulpin,poison,,70,53,43,53,43,40,302,225,70,1640000,0.4,10.3,50,0,3,Stomach Pokémon,Green,head_arms,0,Amorphous,,5120,0.5,1,1,1,0.5,0.5,1,1,1,0.5,2,1,1,0.5,2,1,1,1
+317,Swalot,poison,,100,83,73,83,73,55,467,75,70,1640000,1.7,80,50,0,3,Poison Bag Pokémon,Purple,head_arms,0,Amorphous,,5120,0.5,1,1,1,0.5,0.5,1,1,1,0.5,2,1,1,0.5,2,1,1,1
+318,Carvanha,water,dark,45,20,90,20,65,65,305,225,35,1250000,0.8,20.8,50,0,3,Savage Pokémon,Red,with_fins,0,Water_2,,5120,2,0.5,1,2,2,2,0.5,1,0.5,2,1,0.5,1,1,0,1,0.5,0.5
+319,Sharpedo,water,dark,70,70,140,65,110,105,560,60,35,1250000,1.8,88.8,50,0,3,Brutal Pokémon,Blue,with_fins,1,Water_2,,5120,2,0.5,1,2,2,2,0.5,1,0.5,2,1,0.5,1,1,0,1,0.5,0.5
+320,Wailmer,water,,130,35,70,35,70,60,400,125,70,1640000,2,130,50,0,3,Ball Whale Pokémon,Blue,with_fins,0,Field,Water_2,10240,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+321,Wailord,water,,170,45,90,45,90,60,500,60,70,1640000,14.5,398,50,0,3,Float Whale Pokémon,Blue,with_fins,0,Field,Water_2,10240,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+322,Numel,fire,ground,60,40,60,45,65,35,305,255,70,1000000,0.7,24,50,0,3,Numb Pokémon,Yellow,quadruped,0,Field,,5120,0.5,1,1,0,0.5,1,0.5,1,1,1,2,1,1,0.5,1,1,0.5,4
+323,Camerupt,fire,ground,70,100,120,105,145,20,560,150,70,1000000,1.9,220,50,0,3,Eruption Pokémon,Red,quadruped,1,Field,,5120,0.5,1,1,0,0.5,1,0.5,1,1,1,2,1,1,0.5,1,1,0.5,4
+324,Torkoal,fire,,70,140,85,70,85,20,470,90,70,1000000,0.5,80.4,50,0,3,Coal Pokémon,Brown,quadruped,0,Field,,5120,0.5,1,1,1,0.5,1,0.5,1,1,0.5,2,0.5,1,1,1,2,0.5,2
+325,Spoink,psychic,,60,35,25,80,70,60,330,255,70,800000,0.7,30.6,50,0,3,Bounce Pokémon,Black,head_arms,0,Field,,5120,2,2,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1,1,1
+326,Grumpig,psychic,,80,65,45,110,90,80,470,60,70,800000,0.9,71.5,50,0,3,Manipulate Pokémon,Purple,bipedal_tailed,0,Field,,5120,2,2,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1,1,1
+327,Spinda,normal,,60,60,60,60,60,60,360,255,70,800000,1.1,5,50,0,3,Spot Panda Pokémon,Brown,bipedal_tailed,0,Field,Human-Like,3840,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+328,Trapinch,ground,,45,45,100,45,45,10,290,255,70,1059860,0.7,15,50,0,3,Ant Pit Pokémon,Brown,insectoid,0,Bug,,5120,1,1,1,0,1,1,1,1,1,2,1,2,1,0.5,1,0.5,1,2
+329,Vibrava,ground,dragon,50,50,70,50,50,70,340,120,70,1059860,1.1,15.3,50,0,3,Vibration Pokémon,Green,four_wings,0,Bug,,5120,1,1,2,0,2,1,0.5,1,1,1,1,4,1,0.5,1,0.5,1,1
+330,Flygon,ground,dragon,80,80,100,80,80,100,520,45,70,1059860,2,82,50,0,3,Mystic Pokémon,Green,two_wings,0,Bug,,5120,1,1,2,0,2,1,0.5,1,1,1,1,4,1,0.5,1,0.5,1,1
+331,Cacnea,grass,,50,40,85,40,85,35,335,190,35,1059860,0.4,51.3,50,0,3,Cactus Pokémon,Green,bipedal_tailless,0,Grass,Human-Like,5120,2,1,1,0.5,1,1,2,2,1,0.5,0.5,2,1,2,1,1,1,0.5
+332,Cacturne,grass,dark,70,60,115,60,115,55,475,60,35,1059860,1.3,77.4,50,0,3,Scarecrow Pokémon,Green,bipedal_tailless,0,Grass,Human-Like,5120,4,0.5,1,0.5,2,2,2,2,0.5,0.5,0.5,2,1,2,0,1,1,0.5
+333,Swablu,normal,flying,45,60,40,75,40,50,310,255,70,600000,0.4,1.2,50,0,3,Cotton Bird Pokémon,Blue,two_wings,0,Flying,Dragon,5120,0.5,1,1,2,1,1,1,1,0,0.5,0,2,1,1,1,2,1,1
+334,Altaria,dragon,flying,75,110,110,105,110,80,590,45,70,600000,1.1,20.6,50,0,3,Humming Pokémon,Blue,two_wings,1,Flying,Dragon,5120,0.5,1,2,1,2,0.5,0.5,1,1,0.25,0,4,1,1,1,2,1,0.5
+335,Zangoose,normal,,73,60,115,60,60,90,458,90,70,600000,1.3,40.3,50,0,3,Cat Ferret Pokémon,White,bipedal_tailed,0,Field,,5120,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+336,Seviper,poison,,73,60,100,60,100,65,458,90,70,1640000,2.7,52.5,50,0,3,Fang Snake Pokémon,Black,serpentine_body,0,Field,Dragon,5120,0.5,1,1,1,0.5,0.5,1,1,1,0.5,2,1,1,0.5,2,1,1,1
+337,Lunatone,rock,psychic,90,65,55,85,95,70,460,45,70,800000,1,168,,0,3,Meteorite Pokémon,Yellow,head_only,0,Mineral,,6400,2,2,1,1,1,1,0.5,0.5,2,2,2,1,0.5,0.5,0.5,1,2,2
+338,Solrock,rock,psychic,90,85,95,65,55,70,460,45,70,800000,1.2,154,,0,3,Meteorite Pokémon,Red,head_only,0,Mineral,,6400,2,2,1,1,1,1,0.5,0.5,2,2,2,1,0.5,0.5,0.5,1,2,2
+339,Barboach,water,ground,50,43,48,41,46,60,288,190,70,1000000,0.4,1.9,50,0,3,Whiskers Pokémon,Grey,with_fins,0,Water_2,,5120,1,1,1,0,1,1,0.5,1,1,4,1,1,1,0.5,1,0.5,0.5,1
+340,Whiscash,water,ground,110,73,78,71,76,60,468,75,70,1000000,0.9,23.6,50,0,3,Whiskers Pokémon,Blue,with_fins,0,Water_2,,5120,1,1,1,0,1,1,0.5,1,1,4,1,1,1,0.5,1,0.5,0.5,1
+341,Corphish,water,,43,65,80,35,50,35,308,205,70,1640000,0.6,11.5,50,0,3,Ruffian Pokémon,Red,insectoid,0,Water_1,Water_3,3840,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+342,Crawdaunt,water,dark,63,85,120,55,90,55,468,155,70,1640000,1.1,32.8,50,0,3,Rogue Pokémon,Red,insectoid,0,Water_1,Water_3,3840,2,0.5,1,2,2,2,0.5,1,0.5,2,1,0.5,1,1,0,1,0.5,0.5
+343,Baltoy,ground,psychic,40,55,40,70,40,55,300,255,70,1000000,0.5,21.5,,0,3,Clay Doll Pokémon,Brown,head_arms,0,Mineral,,5120,2,2,1,0,1,0.5,1,1,2,2,1,2,1,0.5,0.5,0.5,1,2
+344,Claydol,ground,psychic,60,105,70,120,70,75,500,90,70,1000000,1.5,108,,0,3,Clay Doll Pokémon,Black,head_arms,0,Mineral,,5120,2,2,1,0,1,0.5,1,1,2,2,1,2,1,0.5,0.5,0.5,1,2
+345,Lileep,rock,grass,66,77,41,87,61,23,355,45,70,600000,1,23.8,88.1,0,3,Sea Lily Pokémon,Purple,head_base,0,Water_3,,7680,2,1,1,0.5,1,2,1,1,1,1,1,2,0.5,1,1,1,2,1
+346,Cradily,rock,grass,86,97,81,107,81,43,495,45,70,600000,1.5,60.4,88.1,0,3,Barnacle Pokémon,Green,head_base,0,Water_3,,7680,2,1,1,0.5,1,2,1,1,1,1,1,2,0.5,1,1,1,2,1
+347,Anorith,rock,bug,45,50,95,50,40,75,355,45,70,600000,0.7,12.5,88.1,0,3,Old Shrimp Pokémon,Grey,insectoid,0,Water_3,,7680,1,1,1,1,1,1,1,1,1,1,1,1,0.5,0.5,1,2,2,2
+348,Armaldo,rock,bug,75,100,125,80,70,45,495,45,70,600000,1.5,68.2,88.1,0,3,Plate Pokémon,Grey,bipedal_tailed,0,Water_3,,7680,1,1,1,1,1,1,1,1,1,1,1,1,0.5,0.5,1,2,2,2
+349,Feebas,water,,20,20,15,55,10,80,200,255,70,600000,0.6,7.4,50,0,3,Fish Pokémon,Brown,with_fins,0,Water_1,Dragon,5120,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+350,Milotic,water,,95,79,60,125,100,81,540,60,70,600000,6.2,162,50,0,3,Tender Pokémon,Pink,serpentine_body,0,Water_1,Dragon,5120,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+351,Castform,normal,,70,70,70,70,70,70,420,45,70,1000000,0.3,0.8,50,0,3,Weather Pokémon,White,head_only,0,Fairy,Amorphous,6400,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+352,Kecleon,normal,,60,70,90,120,60,40,440,200,70,1059860,1,22,50,0,3,Color Swap Pokémon,Green,bipedal_tailed,0,Field,,5120,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+353,Shuppet,ghost,,44,35,75,33,63,45,295,225,35,800000,0.6,2.3,50,0,3,Puppet Pokémon,Black,head_only,0,Amorphous,,6400,0.5,2,1,1,1,0,1,1,2,1,1,1,0,0.5,1,1,1,1
+354,Banette,ghost,,64,75,165,83,93,75,555,45,35,800000,1.1,12.5,50,0,3,Marionette Pokémon,Black,bipedal_tailed,1,Amorphous,,6400,0.5,2,1,1,1,0,1,1,2,1,1,1,0,0.5,1,1,1,1
+355,Duskull,ghost,,20,90,40,90,30,25,295,190,35,800000,0.8,15,50,0,3,Requiem Pokémon,Black,head_arms,0,Amorphous,,6400,0.5,2,1,1,1,0,1,1,2,1,1,1,0,0.5,1,1,1,1
+356,Dusclops,ghost,,40,130,70,130,60,25,455,90,35,800000,1.6,30.6,50,0,3,Beckon Pokémon,Black,bipedal_tailless,0,Amorphous,,6400,0.5,2,1,1,1,0,1,1,2,1,1,1,0,0.5,1,1,1,1
+357,Tropius,grass,flying,99,83,68,87,72,51,460,200,70,1250000,2,100,50,0,3,Fruit Pokémon,Green,quadruped,0,Monster,Grass,6400,1,1,1,1,1,0.5,2,2,1,0.25,0,4,1,2,1,2,1,0.5
+358,Chimecho,psychic,,75,80,50,90,95,65,455,45,70,800000,0.6,1,50,0,3,Wind Chime Pokémon,Blue,head_arms,0,Amorphous,,6400,2,2,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1,1,1
+359,Absol,dark,,65,60,150,60,115,115,565,30,35,1059860,1.2,47,50,0,3,Disaster Pokémon,White,quadruped,1,Field,,6400,2,0.5,1,1,2,2,1,1,0.5,1,1,1,1,1,0,1,1,1
+360,Wynaut,psychic,,95,48,23,48,23,23,260,125,70,1000000,0.6,14,50,0,3,Bright Pokémon,Blue,bipedal_tailed,0,Undiscovered,,5120,2,2,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1,1,1
+361,Snorunt,ice,,50,50,50,50,50,50,300,190,70,1000000,0.7,16.8,50,0,3,Snow Hat Pokémon,Grey,bipedal_tailless,0,Fairy,Mineral,5120,1,1,1,1,1,2,2,1,1,1,1,0.5,1,1,1,2,2,1
+362,Glalie,ice,,80,80,120,80,120,100,580,75,70,1000000,1.5,256.5,50,0,3,Face Pokémon,Grey,head_only,1,Fairy,Mineral,5120,1,1,1,1,1,2,2,1,1,1,1,0.5,1,1,1,2,2,1
+363,Spheal,ice,water,70,50,40,50,55,25,290,255,70,1059860,0.8,39.5,50,0,3,Clap Pokémon,Blue,with_fins,0,Water_1,Field,5120,1,1,1,2,1,2,1,1,1,2,1,0.25,1,1,1,2,1,0.5
+364,Sealeo,ice,water,90,70,60,70,75,45,410,120,70,1059860,1.1,87.6,50,0,3,Ball Roll Pokémon,Blue,with_fins,0,Water_1,Field,5120,1,1,1,2,1,2,1,1,1,2,1,0.25,1,1,1,2,1,0.5
+365,Walrein,ice,water,110,90,80,90,95,65,530,45,70,1059860,1.4,150.6,50,0,3,Ice Break Pokémon,Blue,quadruped,0,Water_1,Field,5120,1,1,1,2,1,2,1,1,1,2,1,0.25,1,1,1,2,1,0.5
+366,Clamperl,water,,35,85,64,55,74,32,345,255,70,600000,0.4,52.5,50,0,3,Bivalve Pokémon,Blue,head_only,0,Water_1,,5120,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+367,Huntail,water,,55,105,104,75,94,52,485,60,70,600000,1.7,27,50,0,3,Deep Sea Pokémon,Blue,serpentine_body,0,Water_1,,5120,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+368,Gorebyss,water,,55,105,84,75,114,52,485,60,70,600000,1.8,22.6,50,0,3,South Sea Pokémon,Pink,serpentine_body,0,Water_1,,5120,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+369,Relicanth,water,rock,100,130,90,65,45,55,485,25,70,1250000,1,23.4,88.1,0,3,Longevity Pokémon,Grey,with_fins,0,Water_1,Water_2,10240,1,1,1,2,1,2,0.25,0.5,1,4,2,0.5,0.5,0.5,1,1,1,1
+370,Luvdisc,water,,43,55,30,65,40,97,330,225,70,800000,0.6,8.7,24.6,0,3,Rendezvous Pokémon,Pink,with_fins,0,Water_2,,5120,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+371,Bagon,dragon,,45,60,75,30,40,50,300,45,35,1250000,0.6,42.1,50,0,3,Rock Head Pokémon,Blue,bipedal_tailless,0,Dragon,,10240,1,1,2,0.5,2,1,0.5,1,1,0.5,1,2,1,1,1,1,1,0.5
+372,Shelgon,dragon,,65,100,95,50,60,50,420,45,35,1250000,1.1,110.5,50,0,3,Endurance Pokémon,White,quadruped,0,Dragon,,10240,1,1,2,0.5,2,1,0.5,1,1,0.5,1,2,1,1,1,1,1,0.5
+373,Salamence,dragon,flying,95,130,145,90,120,120,700,45,35,1250000,1.5,102.6,50,0,3,Dragon Pokémon,Blue,quadruped,1,Dragon,,10240,0.5,1,2,1,2,0.5,0.5,1,1,0.25,0,4,1,1,1,2,1,0.5
+374,Beldum,steel,psychic,40,80,55,60,35,30,300,3,35,1250000,0.6,95.2,,0,3,Iron Ball Pokémon,Blue,head_base,0,Mineral,,10240,1,2,0.5,1,0.5,1,2,0.5,2,0.5,2,0.5,0.5,0,0.25,0.5,0.5,1
+375,Metang,steel,psychic,60,100,75,80,55,50,420,3,35,1250000,1.2,202.5,,0,3,Iron Claw Pokémon,Blue,head_arms,0,Mineral,,10240,1,2,0.5,1,0.5,1,2,0.5,2,0.5,2,0.5,0.5,0,0.25,0.5,0.5,1
+376,Metagross,steel,psychic,80,150,145,110,105,110,700,3,35,1250000,1.6,550,,0,3,Iron Leg Pokémon,Blue,multiple_bodies,1,Mineral,,10240,1,2,0.5,1,0.5,1,2,0.5,2,0.5,2,0.5,0.5,0,0.25,0.5,0.5,1
+377,Regirock,rock,,80,200,100,100,50,50,580,3,35,1250000,1.7,230,,1,3,Rock Peak Pokémon,Brown,bipedal_tailless,0,Undiscovered,,20480,1,1,1,1,1,2,0.5,0.5,1,2,2,1,0.5,0.5,1,1,2,2
+378,Regice,ice,,80,100,50,200,100,50,580,3,35,1250000,1.8,175,,1,3,Iceberg Pokémon,Blue,bipedal_tailless,0,Undiscovered,,20480,1,1,1,1,1,2,2,1,1,1,1,0.5,1,1,1,2,2,1
+379,Registeel,steel,,80,150,75,150,75,50,580,3,35,1250000,1.9,205,,1,3,Iron Pokémon,Grey,bipedal_tailless,0,Undiscovered,,20480,0.5,1,0.5,1,0.5,2,2,0.5,1,0.5,2,0.5,0.5,0,0.5,0.5,0.5,1
+380,Latias,dragon,psychic,80,120,100,150,140,110,700,3,90,1250000,1.4,40,0,1,3,Eon Pokémon,Red,two_wings,1,Undiscovered,,30720,2,2,2,0.5,2,0.5,0.5,1,2,0.5,1,2,1,1,0.5,1,1,0.5
+381,Latios,dragon,psychic,80,100,130,120,160,110,700,3,90,1250000,2,60,100,1,3,Eon Pokémon,Blue,two_wings,1,Undiscovered,,30720,2,2,2,0.5,2,0.5,0.5,1,2,0.5,1,2,1,1,0.5,1,1,0.5
+382,Kyogre,water,,100,90,150,160,180,90,770,3,0,1250000,4.5,352,,1,3,Sea Basin Pokémon,Blue,with_fins,0,Undiscovered,,30720,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+383,Groudon,ground,,100,160,180,90,150,90,770,3,0,1250000,3.5,950,,1,3,Continent Pokémon,Red,bipedal_tailed,0,Undiscovered,,30720,1,1,1,0,1,1,1,1,1,2,1,2,1,0.5,1,0.5,1,2
+384,Rayquaza,dragon,flying,105,100,180,100,180,115,780,45,0,1250000,7,206.5,,1,3,Sky High Pokémon,Green,serpentine_body,1,Undiscovered,,30720,0.5,1,2,1,2,0.5,0.5,1,1,0.25,0,4,1,1,1,2,1,0.5
+385,Jirachi,steel,psychic,100,100,100,100,100,100,600,3,100,1250000,0.3,1.1,,1,3,Wish Pokémon,Yellow,bipedal_tailless,0,Undiscovered,,30720,1,2,0.5,1,0.5,1,2,0.5,2,0.5,2,0.5,0.5,0,0.25,0.5,0.5,1
+386,Deoxys,psychic,,50,90,95,90,95,180,600,3,0,1250000,1.7,60.8,,1,3,DNA Pokémon,Red,bipedal_tailless,0,Undiscovered,,30720,2,2,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1,1,1
+387,Turtwig,grass,,55,64,68,55,45,31,318,45,70,1059860,0.4,10.2,88.1,0,4,Tiny Leaf Pokémon,Green,quadruped,0,Monster,Grass,5120,2,1,1,0.5,1,1,2,2,1,0.5,0.5,2,1,2,1,1,1,0.5
+388,Grotle,grass,,75,85,89,65,55,36,405,45,70,1059860,1.1,97,88.1,0,4,Grove Pokémon,Green,quadruped,0,Monster,Grass,5120,2,1,1,0.5,1,1,2,2,1,0.5,0.5,2,1,2,1,1,1,0.5
+389,Torterra,grass,ground,95,105,109,85,75,56,525,45,70,1059860,2.2,310,88.1,0,4,Continent Pokémon,Green,quadruped,0,Monster,Grass,5120,2,1,1,0,1,1,2,2,1,1,0.5,4,1,1,1,0.5,1,1
+390,Chimchar,fire,,44,44,58,44,58,61,309,45,70,1059860,0.5,6.2,88.1,0,4,Chimp Pokémon,Brown,bipedal_tailed,0,Field,Human-Like,5120,0.5,1,1,1,0.5,1,0.5,1,1,0.5,2,0.5,1,1,1,2,0.5,2
+391,Monferno,fire,fighting,64,52,78,52,78,81,405,45,70,1059860,0.9,22,88.1,0,4,Playful Pokémon,Brown,bipedal_tailed,0,Field,Human-Like,5120,0.25,0.5,1,1,1,1,0.5,2,1,0.5,2,0.5,1,1,2,1,0.5,2
+392,Infernape,fire,fighting,76,71,104,71,104,108,534,45,70,1059860,1.2,55,88.1,0,4,Flame Pokémon,Brown,bipedal_tailed,0,Field,Human-Like,5120,0.25,0.5,1,1,1,1,0.5,2,1,0.5,2,0.5,1,1,2,1,0.5,2
+393,Piplup,water,,53,53,51,56,61,40,314,45,70,1059860,0.4,5.2,88.1,0,4,Penguin Pokémon,Blue,bipedal_tailless,0,Water_1,Field,5120,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+394,Prinplup,water,,64,68,66,76,81,50,405,45,70,1059860,0.8,23,88.1,0,4,Penguin Pokémon,Blue,bipedal_tailed,0,Water_1,Field,5120,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+395,Empoleon,water,steel,84,88,86,101,111,60,530,45,70,1059860,1.7,84.5,88.1,0,4,Emperor Pokémon,Blue,bipedal_tailed,0,Water_1,Field,5120,0.5,1,0.5,2,0.5,2,1,0.5,1,1,2,0.25,0.5,0,0.5,0.5,0.25,0.5
+396,Starly,normal,flying,40,30,55,30,30,60,245,255,70,1059860,0.3,2,50,0,4,Starling Pokémon,Brown,two_wings,0,Flying,,3840,0.5,1,1,2,1,1,1,1,0,0.5,0,2,1,1,1,2,1,1
+397,Staravia,normal,flying,55,50,75,40,40,80,340,120,70,1059860,0.6,15.5,50,0,4,Starling Pokémon,Brown,two_wings,0,Flying,,3840,0.5,1,1,2,1,1,1,1,0,0.5,0,2,1,1,1,2,1,1
+398,Staraptor,normal,flying,85,70,120,60,50,100,485,45,70,1059860,1.2,24.9,50,0,4,Predator Pokémon,Brown,two_wings,0,Flying,,3840,0.5,1,1,2,1,1,1,1,0,0.5,0,2,1,1,1,2,1,1
+399,Bidoof,normal,,59,40,45,40,35,31,250,255,70,1000000,0.5,20,50,0,4,Plump Mouse Pokémon,Brown,quadruped,0,Water_1,Field,3840,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+400,Bibarel,normal,water,79,60,85,60,55,71,410,127,70,1000000,1,31.5,50,0,4,Beaver Pokémon,Brown,bipedal_tailed,0,Water_1,Field,3840,1,1,1,2,1,2,0.5,1,0,2,1,0.5,1,1,1,1,0.5,0.5
+401,Kricketot,bug,,37,41,25,41,25,25,194,255,70,1059860,0.3,2.2,50,0,4,Cricket Pokémon,Red,bipedal_tailless,0,Bug,,3840,1,1,1,1,1,0.5,2,2,1,0.5,0.5,1,1,1,1,2,1,1
+402,Kricketune,bug,,77,51,85,51,55,65,384,45,70,1059860,1,25.5,50,0,4,Cricket Pokémon,Red,four_wings,0,Bug,,3840,1,1,1,1,1,0.5,2,2,1,0.5,0.5,1,1,1,1,2,1,1
+403,Shinx,electric,,45,34,65,34,40,45,263,235,70,1059860,0.5,9.5,50,0,4,Flash Pokémon,Blue,quadruped,0,Field,,5120,1,1,1,0.5,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1
+404,Luxio,electric,,60,49,85,49,60,60,363,120,100,1059860,0.9,30.5,50,0,4,Spark Pokémon,Blue,quadruped,0,Field,,5120,1,1,1,0.5,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1
+405,Luxray,electric,,80,79,120,79,95,70,523,45,70,1059860,1.4,42,50,0,4,Gleam Eyes Pokémon,Blue,quadruped,0,Field,,5120,1,1,1,0.5,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1
+406,Budew,grass,poison,40,35,30,70,50,55,280,255,70,1059860,0.2,1.2,50,0,4,Bud Pokémon,Green,bipedal_tailless,0,Undiscovered,,5120,1,1,1,0.5,0.5,0.5,2,2,1,0.25,1,2,1,1,2,1,1,0.5
+407,Roserade,grass,poison,60,65,70,105,125,90,515,75,70,1059860,0.9,14.5,50,0,4,Bouquet Pokémon,Green,bipedal_tailless,0,Fairy,Grass,5120,1,1,1,0.5,0.5,0.5,2,2,1,0.25,1,2,1,1,2,1,1,0.5
+408,Cranidos,rock,,67,40,125,30,30,58,350,45,70,600000,0.9,31.5,88.1,0,4,Head Butt Pokémon,Blue,bipedal_tailed,0,Monster,,7680,1,1,1,1,1,2,0.5,0.5,1,2,2,1,0.5,0.5,1,1,2,2
+409,Rampardos,rock,,97,60,165,50,65,58,495,45,70,600000,1.6,102.5,88.1,0,4,Head Butt Pokémon,Blue,bipedal_tailed,0,Monster,,7680,1,1,1,1,1,2,0.5,0.5,1,2,2,1,0.5,0.5,1,1,2,2
+410,Shieldon,rock,steel,30,118,42,88,42,30,350,45,70,600000,0.5,57,88.1,0,4,Shield Pokémon,Grey,quadruped,0,Monster,,7680,0.5,1,0.5,1,0.5,4,1,0.25,1,1,4,0.5,0.25,0,0.5,0.5,1,2
+411,Bastiodon,rock,steel,60,168,52,138,47,30,495,45,70,600000,1.3,149.5,88.1,0,4,Shield Pokémon,Grey,quadruped,0,Monster,,7680,0.5,1,0.5,1,0.5,4,1,0.25,1,1,4,0.5,0.25,0,0.5,0.5,1,2
+412,Burmy,bug,,40,45,29,45,29,36,224,120,70,1000000,0.2,3.4,50,0,4,Bagworm Pokémon,Grey,head_base,0,Bug,,3840,1,1,1,1,1,0.5,2,2,1,0.5,0.5,1,1,1,1,2,1,1
+413,Wormadam,bug,grass,60,95,69,95,69,36,424,45,70,1000000,0.5,6.5,0,0,4,Bagworm Pokémon,Grey,head_base,0,Bug,,3840,2,1,1,0.5,1,0.5,4,4,1,0.25,0.25,2,1,2,1,2,1,0.5
+414,Mothim,bug,flying,70,50,94,50,94,66,424,45,70,1000000,0.9,23.3,100,0,4,Moth Pokémon,Yellow,four_wings,0,Bug,,3840,0.5,1,1,2,1,0.25,2,2,1,0.25,0,2,1,1,1,4,1,1
+415,Combee,bug,flying,30,42,30,42,30,70,244,120,70,1059860,0.3,5.5,88.1,0,4,Tiny Bee Pokémon,Yellow,multiple_bodies,0,Bug,,3840,0.5,1,1,2,1,0.25,2,2,1,0.25,0,2,1,1,1,4,1,1
+416,Vespiquen,bug,flying,70,102,80,102,80,40,474,45,70,1059860,1.2,38.5,0,0,4,Beehive Pokémon,Yellow,four_wings,0,Bug,,3840,0.5,1,1,2,1,0.25,2,2,1,0.25,0,2,1,1,1,4,1,1
+417,Pachirisu,electric,,60,70,45,90,45,95,405,200,100,1000000,0.4,3.9,50,0,4,EleSquirrel Pokémon,White,quadruped,0,Field,Fairy,2560,1,1,1,0.5,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1
+418,Buizel,water,,55,35,65,30,60,85,330,190,70,1000000,0.7,29.5,50,0,4,Sea Weasel Pokémon,Brown,quadruped,0,Water_1,Field,5120,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+419,Floatzel,water,,85,55,105,50,85,115,495,75,70,1000000,1.1,33.5,50,0,4,Sea Weasel Pokémon,Brown,quadruped,0,Water_1,Field,5120,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+420,Cherubi,grass,,45,45,35,53,62,35,275,190,70,1000000,0.4,3.3,50,0,4,Cherry Pokémon,Pink,multiple_bodies,0,Fairy,Grass,5120,2,1,1,0.5,1,1,2,2,1,0.5,0.5,2,1,2,1,1,1,0.5
+421,Cherrim,grass,,70,70,60,78,87,85,450,75,70,1000000,0.5,9.3,50,0,4,Blossom Pokémon,Pink,head_legs,0,Fairy,Grass,5120,2,1,1,0.5,1,1,2,2,1,0.5,0.5,2,1,2,1,1,1,0.5
+422,Shellos,water,,76,48,48,62,57,34,325,190,70,1000000,0.3,6.3,50,0,4,Sea Slug Pokémon,Purple,serpentine_body,0,Water_1,Amorphous,5120,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+423,Gastrodon,water,ground,111,68,83,82,92,39,475,75,70,1000000,0.9,29.9,50,0,4,Sea Slug Pokémon,Purple,serpentine_body,0,Water_1,Amorphous,5120,1,1,1,0,1,1,0.5,1,1,4,1,1,1,0.5,1,0.5,0.5,1
+424,Ambipom,normal,,75,66,100,66,60,115,482,45,100,800000,1.2,20.3,50,0,4,Long Tail Pokémon,Purple,bipedal_tailed,0,Field,,5120,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+425,Drifloon,ghost,flying,90,34,50,44,60,70,348,125,70,1640000,0.4,1.2,50,0,4,Balloon Pokémon,Purple,head_arms,0,Amorphous,,7680,0.25,2,1,2,1,0,1,1,2,0.5,0,2,0,0.5,1,2,1,1
+426,Drifblim,ghost,flying,150,44,80,54,90,80,498,60,70,1640000,1.2,15,50,0,4,Blimp Pokémon,Purple,head_arms,0,Amorphous,,7680,0.25,2,1,2,1,0,1,1,2,0.5,0,2,0,0.5,1,2,1,1
+427,Buneary,normal,,55,44,66,56,44,85,350,190,0,1000000,0.4,5.5,50,0,4,Rabbit Pokémon,Brown,bipedal_tailed,0,Field,Human-Like,5120,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+428,Lopunny,normal,,65,94,136,96,54,135,580,60,140,1000000,1.2,33.3,50,0,4,Rabbit Pokémon,Brown,bipedal_tailed,1,Field,Human-Like,5120,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+429,Mismagius,ghost,,60,60,60,105,105,105,495,45,35,800000,0.9,4.4,50,0,4,Magical Pokémon,Purple,head_only,0,Amorphous,,6400,0.5,2,1,1,1,0,1,1,2,1,1,1,0,0.5,1,1,1,1
+430,Honchkrow,dark,flying,100,52,125,52,105,71,505,30,35,1059860,0.9,27.3,50,0,4,Big Boss Pokémon,Black,two_wings,0,Flying,,5120,1,0.5,1,2,2,1,1,1,0.5,0.5,0,2,1,1,0,2,1,1
+431,Glameow,normal,,49,42,55,37,42,85,310,190,70,800000,0.5,3.9,24.6,0,4,Catty Pokémon,Grey,quadruped,0,Field,,5120,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+432,Purugly,normal,,71,64,82,59,64,112,452,75,70,800000,1,43.8,24.6,0,4,Tiger Cat Pokémon,Grey,quadruped,0,Field,,5120,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+433,Chingling,psychic,,45,50,30,50,65,45,285,120,70,800000,0.2,0.6,50,0,4,Bell Pokémon,Yellow,bipedal_tailless,0,Undiscovered,,6400,2,2,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1,1,1
+434,Stunky,poison,dark,63,47,63,41,41,74,329,225,70,1000000,0.4,19.2,50,0,4,Skunk Pokémon,Purple,quadruped,0,Field,,5120,1,0.5,1,1,1,1,1,1,0.5,0.5,2,1,1,0.5,0,1,1,1
+435,Skuntank,poison,dark,103,67,93,61,71,84,479,60,70,1000000,1,38,50,0,4,Skunk Pokémon,Purple,quadruped,0,Field,,5120,1,0.5,1,1,1,1,1,1,0.5,0.5,2,1,1,0.5,0,1,1,1
+436,Bronzor,steel,psychic,57,86,24,86,24,23,300,255,70,1000000,0.5,60.5,,0,4,Bronze Pokémon,Green,head_only,0,Mineral,,5120,1,2,0.5,1,0.5,1,2,0.5,2,0.5,2,0.5,0.5,0,0.25,0.5,0.5,1
+437,Bronzong,steel,psychic,67,116,89,116,79,33,500,90,70,1000000,1.3,187,,0,4,Bronze Bell Pokémon,Green,head_arms,0,Mineral,,5120,1,2,0.5,1,0.5,1,2,0.5,2,0.5,2,0.5,0.5,0,0.25,0.5,0.5,1
+438,Bonsly,rock,,50,95,80,45,10,10,290,255,70,1000000,0.5,15,50,0,4,Bonsai Pokémon,Brown,head_legs,0,Undiscovered,,5120,1,1,1,1,1,2,0.5,0.5,1,2,2,1,0.5,0.5,1,1,2,2
+439,Mime Jr.,psychic,fairy,20,45,25,90,70,60,310,145,70,1000000,0.6,13,50,0,4,Mime Pokémon,Pink,bipedal_tailless,0,Undiscovered,,6400,1,1,0,1,1,0.25,1,1,2,1,1,1,1,2,0.5,1,2,1
+440,Happiny,normal,,100,5,5,65,15,30,220,130,140,800000,0.6,24.4,0,0,4,Playhouse Pokémon,Pink,bipedal_tailless,0,Undiscovered,,10240,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+441,Chatot,normal,flying,76,45,65,42,92,91,411,30,35,1059860,0.5,1.9,50,0,4,Music Note Pokémon,Black,two_wings,0,Flying,,5120,0.5,1,1,2,1,1,1,1,0,0.5,0,2,1,1,1,2,1,1
+442,Spiritomb,ghost,dark,50,108,92,108,92,35,485,100,70,1000000,1,108,50,0,4,Forbidden Pokémon,Purple,head_base,0,Amorphous,,7680,1,1,1,1,2,0,1,1,1,1,1,1,0,0.5,0,1,1,1
+443,Gible,dragon,ground,58,45,70,45,40,42,300,45,70,1250000,0.7,20.5,50,0,4,Land Shark Pokémon,Blue,bipedal_tailed,0,Monster,Dragon,10240,1,1,2,0,2,1,0.5,1,1,1,1,4,1,0.5,1,0.5,1,1
+444,Gabite,dragon,ground,68,65,90,55,50,82,410,45,70,1250000,1.4,56,50,0,4,Cave Pokémon,Blue,bipedal_tailed,0,Monster,Dragon,10240,1,1,2,0,2,1,0.5,1,1,1,1,4,1,0.5,1,0.5,1,1
+445,Garchomp,dragon,ground,108,115,170,95,120,92,700,45,70,1250000,1.9,95,50,0,4,Mach Pokémon,Blue,bipedal_tailed,1,Monster,Dragon,10240,1,1,2,0,2,1,0.5,1,1,1,1,4,1,0.5,1,0.5,1,1
+446,Munchlax,normal,,135,40,85,85,40,5,390,50,70,1250000,0.6,105,88.1,0,4,Big Eater Pokémon,Black,bipedal_tailless,0,Undiscovered,,10240,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+447,Riolu,fighting,,40,40,70,40,35,60,285,75,70,1059860,0.7,20.2,88.1,0,4,Emanation Pokémon,Blue,bipedal_tailed,0,Undiscovered,,6400,0.5,0.5,1,1,2,1,1,2,1,1,1,1,1,1,2,0.5,1,1
+448,Lucario,fighting,steel,70,88,145,70,140,112,625,45,70,1059860,1.2,54,88.1,0,4,Aura Pokémon,Blue,bipedal_tailed,1,Field,Human-Like,6400,0.25,0.5,0.5,1,1,2,2,1,1,0.5,2,0.5,0.5,0,1,0.25,0.5,1
+449,Hippopotas,ground,,68,78,72,42,38,32,330,140,70,1250000,0.8,49.5,50,0,4,Hippo Pokémon,Brown,quadruped,0,Field,,7680,1,1,1,0,1,1,1,1,1,2,1,2,1,0.5,1,0.5,1,2
+450,Hippowdon,ground,,108,118,112,72,68,47,525,60,70,1250000,2,300,50,0,4,Heavyweight Pokémon,Brown,quadruped,0,Field,,7680,1,1,1,0,1,1,1,1,1,2,1,2,1,0.5,1,0.5,1,2
+451,Skorupi,poison,bug,40,90,50,55,30,65,330,120,70,1250000,0.8,12,50,0,4,Scorpion Pokémon,Purple,insectoid,0,Bug,Water_3,5120,0.5,1,1,1,0.5,0.25,2,2,1,0.25,1,1,1,0.5,2,2,1,1
+452,Drapion,poison,dark,70,110,90,75,60,95,500,45,70,1250000,1.3,61.5,50,0,4,Ogre Scorp Pokémon,Purple,insectoid,0,Bug,Water_3,5120,1,0.5,1,1,1,1,1,1,0.5,0.5,2,1,1,0.5,0,1,1,1
+453,Croagunk,poison,fighting,48,40,61,40,61,50,300,140,100,1000000,0.7,23,50,0,4,Toxic Mouth Pokémon,Blue,bipedal_tailless,0,Human-Like,,2560,0.25,0.5,1,1,1,0.5,1,2,1,0.5,2,1,1,0.5,4,0.5,1,1
+454,Toxicroak,poison,fighting,83,65,106,65,86,85,490,75,70,1000000,1.3,44.4,50,0,4,Toxic Mouth Pokémon,Blue,bipedal_tailless,0,Human-Like,,5120,0.25,0.5,1,1,1,0.5,1,2,1,0.5,2,1,1,0.5,4,0.5,1,1
+455,Carnivine,grass,,74,72,100,72,90,46,454,200,70,1250000,1.4,27,50,0,4,Bug Catcher Pokémon,Green,several_limbs,0,Grass,,6400,2,1,1,0.5,1,1,2,2,1,0.5,0.5,2,1,2,1,1,1,0.5
+456,Finneon,water,,49,56,49,61,49,66,330,190,70,600000,0.4,7,50,0,4,Wing Fish Pokémon,Blue,with_fins,0,Water_2,,5120,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+457,Lumineon,water,,69,76,69,86,69,91,460,75,70,600000,1.2,24,50,0,4,Neon Pokémon,Blue,with_fins,0,Water_2,,5120,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+458,Mantyke,water,flying,45,50,20,120,60,50,345,25,70,1250000,1,65,50,0,4,Kite Pokémon,Blue,two_wings,0,Undiscovered,,6400,0.5,1,1,4,1,0.5,0.5,1,1,1,0,1,1,1,1,2,0.5,0.5
+459,Snover,grass,ice,60,50,62,60,62,40,334,120,70,1250000,1,50.5,50,0,4,Frosted Tree Pokémon,White,bipedal_tailed,0,Monster,Grass,5120,2,1,1,0.5,1,2,4,2,1,0.5,0.5,1,1,2,1,2,2,0.5
+460,Abomasnow,grass,ice,90,105,132,105,132,30,594,60,70,1250000,2.2,135.5,50,0,4,Frosted Tree Pokémon,White,bipedal_tailed,1,Monster,Grass,5120,2,1,1,0.5,1,2,4,2,1,0.5,0.5,1,1,2,1,2,2,0.5
+461,Weavile,dark,ice,70,65,120,85,45,125,510,45,35,1059860,1.1,34,50,0,4,Sharp Claw Pokémon,Black,bipedal_tailed,0,Field,,5120,2,0.5,1,1,2,4,2,1,0.5,1,1,0.5,1,1,0,2,2,1
+462,Magnezone,electric,steel,70,115,70,90,130,60,535,30,70,1000000,1.2,180,,0,4,Magnet Area Pokémon,Grey,head_arms,0,Mineral,,5120,0.5,1,0.5,0.5,0.5,2,2,0.25,1,0.5,4,0.5,0.5,0,0.5,0.5,0.25,1
+463,Lickilicky,normal,,110,95,85,95,80,50,515,30,70,1000000,1.7,140,50,0,4,Licking Pokémon,Pink,bipedal_tailless,0,Monster,,5120,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+464,Rhyperior,ground,rock,115,130,140,55,55,40,535,30,70,1250000,2.4,282.8,50,0,4,Drill Pokémon,Grey,bipedal_tailed,0,Monster,Field,5120,1,1,1,0,1,2,0.5,0.5,1,4,2,2,0.5,0.25,1,0.5,2,4
+465,Tangrowth,grass,,100,125,100,50,110,50,535,30,70,1000000,2,128.6,50,0,4,Vine Pokémon,Blue,bipedal_tailless,0,Grass,,5120,2,1,1,0.5,1,1,2,2,1,0.5,0.5,2,1,2,1,1,1,0.5
+466,Electivire,electric,,75,67,123,85,95,95,540,30,70,1000000,1.8,138.6,75.4,0,4,Thunderbolt Pokémon,Yellow,bipedal_tailed,0,Human-Like,,6400,1,1,1,0.5,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1
+467,Magmortar,fire,,75,67,95,95,125,83,540,30,70,1000000,1.6,68,75.4,0,4,Blast Pokémon,Red,bipedal_tailed,0,Human-Like,,6400,0.5,1,1,1,0.5,1,0.5,1,1,0.5,2,0.5,1,1,1,2,0.5,2
+468,Togekiss,fairy,flying,85,95,50,115,120,80,545,30,70,800000,1.5,38,88.1,0,4,Jubilee Pokémon,White,two_wings,0,Flying,Fairy,2560,0.25,0.5,0,2,1,0.25,1,1,1,0.5,0,2,1,2,1,2,2,1
+469,Yanmega,bug,flying,86,86,76,56,116,95,515,30,70,1000000,1.9,51.5,50,0,4,Ogre Darner Pokémon,Green,four_wings,0,Bug,,5120,0.5,1,1,2,1,0.25,2,2,1,0.25,0,2,1,1,1,4,1,1
+470,Leafeon,grass,,65,130,110,65,60,95,525,45,35,1000000,1,25.5,88.1,0,4,Verdant Pokémon,Green,quadruped,0,Field,,8960,2,1,1,0.5,1,1,2,2,1,0.5,0.5,2,1,2,1,1,1,0.5
+471,Glaceon,ice,,65,110,60,95,130,65,525,45,35,1000000,0.8,25.9,88.1,0,4,Fresh Snow Pokémon,Blue,quadruped,0,Field,,8960,1,1,1,1,1,2,2,1,1,1,1,0.5,1,1,1,2,2,1
+472,Gliscor,ground,flying,75,125,95,75,45,95,510,30,70,1059860,2,42.5,50,0,4,Fang Scorp Pokémon,Purple,two_wings,0,Bug,,5120,0.5,1,1,0,1,0.5,1,1,1,1,0,4,1,0.5,1,1,1,2
+473,Mamoswine,ice,ground,110,80,130,60,70,80,530,50,70,1250000,2.5,291,50,0,4,Twin Tusk Pokémon,Brown,quadruped,0,Field,,5120,1,1,1,0,1,2,2,1,1,2,1,1,1,0.5,1,1,2,2
+474,Porygon-Z,normal,,85,70,80,75,135,90,535,30,70,1000000,0.9,34,,0,4,Virtual Pokémon,Red,head_arms,0,Mineral,,5120,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+475,Gallade,psychic,fighting,68,95,165,115,65,110,618,45,35,1250000,1.6,52,100,0,4,Blade Pokémon,White,bipedal_tailless,1,Amorphous,,5120,1,1,1,1,2,0.5,1,2,2,1,1,1,1,1,1,0.5,1,1
+476,Probopass,rock,steel,60,145,55,150,75,40,525,60,70,1000000,1.4,340,50,0,4,Compass Pokémon,Grey,multiple_bodies,0,Mineral,,5120,0.5,1,0.5,1,0.5,4,1,0.25,1,1,4,0.5,0.25,0,0.5,0.5,1,2
+477,Dusknoir,ghost,,45,135,100,135,65,45,525,45,35,800000,2.2,106.6,50,0,4,Gripper Pokémon,Black,head_arms,0,Amorphous,,6400,0.5,2,1,1,1,0,1,1,2,1,1,1,0,0.5,1,1,1,1
+478,Froslass,ice,ghost,70,70,80,70,80,110,480,75,70,1000000,1.3,26.6,0,0,4,Snow Land Pokémon,White,head_arms,0,Fairy,Mineral,5120,0.5,2,1,1,1,0,2,1,2,1,1,0.5,0,0.5,1,2,2,1
+479,Rotom,electric,ghost,50,107,65,107,105,86,520,45,70,1000000,0.3,0.3,,0,4,Plasma Pokémon,Red,head_only,0,Amorphous,,5120,0.5,2,1,0.5,1,0,1,0.5,2,1,2,1,0,0.5,1,1,0.5,1
+480,Uxie,psychic,,75,130,75,130,75,95,580,3,140,1250000,0.3,0.3,,1,4,Knowledge Pokémon,Yellow,bipedal_tailed,0,Undiscovered,,20480,2,2,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1,1,1
+481,Mesprit,psychic,,80,105,105,105,105,80,580,3,140,1250000,0.3,0.3,,1,4,Emotion Pokémon,Pink,bipedal_tailed,0,Undiscovered,,20480,2,2,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1,1,1
+482,Azelf,psychic,,75,70,125,70,125,115,580,3,140,1250000,0.3,0.3,,1,4,Willpower Pokémon,Blue,bipedal_tailed,0,Undiscovered,,20480,2,2,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1,1,1
+483,Dialga,steel,dragon,100,120,120,100,150,90,680,3,0,1250000,5.4,683,,1,4,Temporal Pokémon,White,quadruped,0,Undiscovered,,30720,0.5,1,1,0.5,1,2,1,0.5,1,0.25,2,1,0.5,0,0.5,0.5,0.5,0.5
+484,Palkia,water,dragon,90,100,120,120,150,100,680,3,0,1250000,4.2,336,,1,4,Spatial Pokémon,Purple,bipedal_tailed,0,Undiscovered,,30720,1,1,2,1,2,1,0.25,1,1,1,1,1,1,1,1,1,0.5,0.25
+485,Heatran,fire,steel,91,106,90,106,130,77,600,3,100,1250000,1.7,430,50,1,4,Lava Dome Pokémon,Brown,quadruped,0,Undiscovered,,2560,0.25,1,0.5,1,0.25,2,1,0.5,1,0.25,4,0.25,0.5,0,0.5,1,0.25,2
+486,Regigigas,normal,,110,110,160,110,80,100,670,3,0,1250000,3.7,420,,1,4,Colossal Pokémon,White,bipedal_tailless,0,Undiscovered,,30720,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+487,Giratina,ghost,dragon,150,100,120,100,120,90,680,3,0,1250000,4.5,750,,1,4,Renegade Pokémon,Black,serpentine_body,0,Undiscovered,,30720,0.5,2,2,0.5,2,0,0.5,1,2,0.5,1,2,0,0.5,1,1,1,0.5
+488,Cresselia,psychic,,120,120,70,130,75,85,600,3,100,1250000,1.5,85.6,0,1,4,Lunar Pokémon,Yellow,serpentine_body,0,Undiscovered,,30720,2,2,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1,1,1
+489,Phione,water,,80,80,80,80,80,80,480,30,70,1250000,0.4,3.1,,0,4,Sea Drifter Pokémon,Blue,head_arms,0,Water_1,Fairy,10240,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+490,Manaphy,water,,100,100,100,100,100,100,600,3,70,1250000,0.3,1.4,,1,4,Seafaring Pokémon,Blue,bipedal_tailless,0,Water_1,Fairy,2560,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+491,Darkrai,dark,,70,90,90,90,135,125,600,3,0,1250000,1.5,50.5,,1,4,Pitch-Black Pokémon,Black,bipedal_tailless,0,Undiscovered,,30720,2,0.5,1,1,2,2,1,1,0.5,1,1,1,1,1,0,1,1,1
+492,Shaymin,grass,grass,100,75,103,75,120,127,600,45,100,1059860,0.2,2.1,,1,4,Gratitude Pokémon,Green,quadruped,0,Undiscovered,,30720,2,1,1,0.5,1,1,2,2,1,0.5,0.5,2,1,2,1,1,1,0.5
+493,Arceus,normal,,120,120,120,120,120,120,720,3,0,1250000,3.2,320,,1,4,Alpha Pokémon,Grey,quadruped,0,Undiscovered,,30720,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+494,Victini,psychic,fire,100,100,100,100,100,100,600,3,100,1250000,0.4,4,,1,5,Victory Pokémon,Yellow,bipedal_tailless,0,Undiscovered,,30720,1,2,1,1,0.5,0.5,0.5,1,2,0.5,2,0.5,1,1,0.5,2,0.5,2
+495,Snivy,grass,,45,55,45,55,45,63,308,45,70,1059860,0.6,8.1,88.1,0,5,Grass Snake Pokémon,Green,bipedal_tailed,0,Field,Grass,5120,2,1,1,0.5,1,1,2,2,1,0.5,0.5,2,1,2,1,1,1,0.5
+496,Servine,grass,,60,75,60,75,60,83,413,45,70,1059860,0.8,16,88.1,0,5,Grass Snake Pokémon,Green,bipedal_tailed,0,Field,Grass,5120,2,1,1,0.5,1,1,2,2,1,0.5,0.5,2,1,2,1,1,1,0.5
+497,Serperior,grass,,75,95,75,95,75,113,528,45,70,1059860,3.3,63,88.1,0,5,Regal Pokémon,Green,serpentine_body,0,Field,Grass,5120,2,1,1,0.5,1,1,2,2,1,0.5,0.5,2,1,2,1,1,1,0.5
+498,Tepig,fire,,65,45,63,45,45,45,308,45,70,1059860,0.5,9.9,88.1,0,5,Fire Pig Pokémon,Red,quadruped,0,Field,,5120,0.5,1,1,1,0.5,1,0.5,1,1,0.5,2,0.5,1,1,1,2,0.5,2
+499,Pignite,fire,fighting,90,55,93,55,70,55,418,45,70,1059860,1,55.5,88.1,0,5,Fire Pig Pokémon,Red,bipedal_tailed,0,Field,,5120,0.25,0.5,1,1,1,1,0.5,2,1,0.5,2,0.5,1,1,2,1,0.5,2
+500,Emboar,fire,fighting,110,65,123,65,100,65,528,45,70,1059860,1.6,150,88.1,0,5,Mega Fire Pig Pokémon,Red,bipedal_tailed,0,Field,,5120,0.25,0.5,1,1,1,1,0.5,2,1,0.5,2,0.5,1,1,2,1,0.5,2
+501,Oshawott,water,,55,45,55,45,63,45,308,45,70,1059860,0.5,5.9,88.1,0,5,Sea Otter Pokémon,Blue,bipedal_tailed,0,Field,,5120,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+502,Dewott,water,,75,60,75,60,83,60,413,45,70,1059860,0.8,24.5,88.1,0,5,Discipline Pokémon,Blue,bipedal_tailed,0,Field,,5120,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+503,Samurott,water,,95,85,100,70,108,70,528,45,70,1059860,1.5,94.6,88.1,0,5,Formidable Pokémon,Blue,quadruped,0,Field,,5120,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+504,Patrat,normal,,45,39,55,39,35,42,255,255,70,1000000,0.5,11.6,50,0,5,Scout Pokémon,Brown,quadruped,0,Field,,3840,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+505,Watchog,normal,,60,69,85,69,60,77,420,255,70,1000000,1.1,27,50,0,5,Lookout Pokémon,Brown,bipedal_tailed,0,Field,,5120,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+506,Lillipup,normal,,45,45,60,45,25,55,275,255,70,1059860,0.4,4.1,50,0,5,Puppy Pokémon,Brown,quadruped,0,Field,,3840,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+507,Herdier,normal,,65,65,80,65,35,60,370,120,70,1059860,0.9,14.7,50,0,5,Loyal Dog Pokémon,Grey,quadruped,0,Field,,3840,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+508,Stoutland,normal,,85,90,110,90,45,80,500,45,70,1059860,1.2,61,50,0,5,Big-Hearted Pokémon,Grey,quadruped,0,Field,,3840,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+509,Purrloin,dark,,41,37,50,37,50,66,281,255,70,1000000,0.4,10.1,50,0,5,Devious Pokémon,Purple,quadruped,0,Field,,5120,2,0.5,1,1,2,2,1,1,0.5,1,1,1,1,1,0,1,1,1
+510,Liepard,dark,,64,50,88,50,88,106,446,90,70,1000000,1.1,37.5,50,0,5,Cruel Pokémon,Purple,quadruped,0,Field,,5120,2,0.5,1,1,2,2,1,1,0.5,1,1,1,1,1,0,1,1,1
+511,Pansage,grass,,50,48,53,48,53,64,316,190,70,1000000,0.6,10.5,88.1,0,5,Grass Monkey Pokémon,Green,bipedal_tailed,0,Field,,5120,2,1,1,0.5,1,1,2,2,1,0.5,0.5,2,1,2,1,1,1,0.5
+512,Simisage,grass,,75,63,98,63,98,101,498,75,70,1000000,1.1,30.5,88.1,0,5,Thorn Monkey Pokémon,Green,bipedal_tailed,0,Field,,5120,2,1,1,0.5,1,1,2,2,1,0.5,0.5,2,1,2,1,1,1,0.5
+513,Pansear,fire,,50,48,53,48,53,64,316,190,70,1000000,0.6,11,88.1,0,5,High Temp Pokémon,Red,bipedal_tailed,0,Field,,5120,0.5,1,1,1,0.5,1,0.5,1,1,0.5,2,0.5,1,1,1,2,0.5,2
+514,Simisear,fire,,75,63,98,63,98,101,498,75,70,1000000,1,28,88.1,0,5,Ember Pokémon,Red,bipedal_tailed,0,Field,,5120,0.5,1,1,1,0.5,1,0.5,1,1,0.5,2,0.5,1,1,1,2,0.5,2
+515,Panpour,water,,50,48,53,48,53,64,316,190,70,1000000,0.6,13.5,88.1,0,5,Spray Pokémon,Blue,bipedal_tailed,0,Field,,5120,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+516,Simipour,water,,75,63,98,63,98,101,498,75,70,1000000,1,29,88.1,0,5,Geyser Pokémon,Blue,bipedal_tailed,0,Field,,5120,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+517,Munna,psychic,,76,45,25,55,67,24,292,190,70,800000,0.6,23.3,50,0,5,Dream Eater Pokémon,Pink,quadruped,0,Field,,2560,2,2,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1,1,1
+518,Musharna,psychic,,116,85,55,95,107,29,487,75,70,800000,1.1,60.5,50,0,5,Drowsing Pokémon,Pink,bipedal_tailless,0,Field,,2560,2,2,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1,1,1
+519,Pidove,normal,flying,50,50,55,30,36,43,264,255,70,1059860,0.3,2.1,50,0,5,Tiny Pigeon Pokémon,Grey,two_wings,0,Flying,,3840,0.5,1,1,2,1,1,1,1,0,0.5,0,2,1,1,1,2,1,1
+520,Tranquill,normal,flying,62,62,77,42,50,65,358,120,70,1059860,0.6,15,50,0,5,Wild Pigeon Pokémon,Grey,two_wings,0,Flying,,3840,0.5,1,1,2,1,1,1,1,0,0.5,0,2,1,1,1,2,1,1
+521,Unfezant,normal,flying,80,80,115,55,65,93,488,45,70,1059860,1.2,29,50,0,5,Proud Pokémon,Grey,two_wings,0,Flying,,3840,0.5,1,1,2,1,1,1,1,0,0.5,0,2,1,1,1,2,1,1
+522,Blitzle,electric,,45,32,60,32,50,76,295,190,70,1000000,0.8,29.8,50,0,5,Electrified Pokémon,Black,quadruped,0,Field,,5120,1,1,1,0.5,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1
+523,Zebstrika,electric,,75,63,100,63,80,116,497,75,70,1000000,1.6,79.5,50,0,5,Thunderbolt Pokémon,Black,quadruped,0,Field,,5120,1,1,1,0.5,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1
+524,Roggenrola,rock,,55,85,75,25,25,15,280,255,70,1059860,0.4,18,50,0,5,Mantle Pokémon,Blue,head_legs,0,Mineral,,3840,1,1,1,1,1,2,0.5,0.5,1,2,2,1,0.5,0.5,1,1,2,2
+525,Boldore,rock,,70,105,105,40,50,20,390,120,70,1059860,0.9,102,50,0,5,Ore Pokémon,Blue,several_limbs,0,Mineral,,3840,1,1,1,1,1,2,0.5,0.5,1,2,2,1,0.5,0.5,1,1,2,2
+526,Gigalith,rock,,85,130,135,80,60,25,515,45,70,1059860,1.7,260,50,0,5,Compressed Pokémon,Blue,several_limbs,0,Mineral,,3840,1,1,1,1,1,2,0.5,0.5,1,2,2,1,0.5,0.5,1,1,2,2
+527,Woobat,psychic,flying,65,43,45,43,55,72,323,190,70,1000000,0.4,2.1,50,0,5,Bat Pokémon,Blue,two_wings,0,Field,Flying,3840,1,2,1,2,1,0.25,1,1,2,0.5,0,2,1,1,0.5,2,1,1
+528,Swoobat,psychic,flying,67,55,57,55,77,114,425,45,70,1000000,0.9,10.5,50,0,5,Courting Pokémon,Blue,two_wings,0,Field,Flying,3840,1,2,1,2,1,0.25,1,1,2,0.5,0,2,1,1,0.5,2,1,1
+529,Drilbur,ground,,60,40,85,45,30,68,328,120,70,1000000,0.3,8.5,50,0,5,Mole Pokémon,Grey,bipedal_tailed,0,Field,,5120,1,1,1,0,1,1,1,1,1,2,1,2,1,0.5,1,0.5,1,2
+530,Excadrill,ground,steel,110,60,135,65,50,88,508,60,70,1000000,0.7,40.4,50,0,5,Subterrene Pokémon,Grey,bipedal_tailless,0,Field,,5120,0.5,1,0.5,0,0.5,2,2,0.5,1,1,2,1,0.5,0,0.5,0.25,0.5,2
+531,Audino,normal,,103,126,60,126,80,50,545,255,70,800000,1.1,31,50,0,5,Hearing Pokémon,Pink,bipedal_tailed,1,Fairy,,5120,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+532,Timburr,fighting,,75,55,80,35,25,35,305,180,70,1059860,0.6,12.5,75.4,0,5,Muscular Pokémon,Grey,bipedal_tailless,0,Human-Like,,5120,0.5,0.5,1,1,2,1,1,2,1,1,1,1,1,1,2,0.5,1,1
+533,Gurdurr,fighting,,85,85,105,50,40,40,405,90,70,1059860,1.2,40,75.4,0,5,Muscular Pokémon,Grey,bipedal_tailless,0,Human-Like,,5120,0.5,0.5,1,1,2,1,1,2,1,1,1,1,1,1,2,0.5,1,1
+534,Conkeldurr,fighting,,105,95,140,65,55,45,505,45,70,1059860,1.4,87,75.4,0,5,Muscular Pokémon,Grey,bipedal_tailless,0,Human-Like,,5120,0.5,0.5,1,1,2,1,1,2,1,1,1,1,1,1,2,0.5,1,1
+535,Tympole,water,,50,40,50,40,50,64,294,255,70,1059860,0.5,4.5,50,0,5,Tadpole Pokémon,Blue,with_fins,0,Water_1,,5120,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+536,Palpitoad,water,ground,75,55,65,55,65,69,384,120,70,1059860,0.8,17,50,0,5,Vibration Pokémon,Blue,bipedal_tailed,0,Water_1,,5120,1,1,1,0,1,1,0.5,1,1,4,1,1,1,0.5,1,0.5,0.5,1
+537,Seismitoad,water,ground,105,75,95,75,85,74,509,45,70,1059860,1.5,62,50,0,5,Vibration Pokémon,Blue,bipedal_tailless,0,Water_1,,5120,1,1,1,0,1,1,0.5,1,1,4,1,1,1,0.5,1,0.5,0.5,1
+538,Throh,fighting,,120,85,100,85,30,45,465,45,70,1000000,1.3,55.5,100,0,5,Judo Pokémon,Red,bipedal_tailless,0,Human-Like,,5120,0.5,0.5,1,1,2,1,1,2,1,1,1,1,1,1,2,0.5,1,1
+539,Sawk,fighting,,75,75,125,75,30,85,465,45,70,1000000,1.4,51,100,0,5,Karate Pokémon,Blue,bipedal_tailless,0,Human-Like,,5120,0.5,0.5,1,1,2,1,1,2,1,1,1,1,1,1,2,0.5,1,1
+540,Sewaddle,bug,grass,45,70,53,60,40,42,310,255,70,1059860,0.3,2.5,50,0,5,Sewing Pokémon,Yellow,insectoid,0,Bug,,3840,2,1,1,0.5,1,0.5,4,4,1,0.25,0.25,2,1,2,1,2,1,0.5
+541,Swadloon,bug,grass,55,90,63,80,50,42,380,120,70,1059860,0.5,7.3,50,0,5,Leaf-Wrapped Pokémon,Green,head_arms,0,Bug,,3840,2,1,1,0.5,1,0.5,4,4,1,0.25,0.25,2,1,2,1,2,1,0.5
+542,Leavanny,bug,grass,75,80,103,80,70,92,500,45,70,1059860,1.2,20.5,50,0,5,Nurturing Pokémon,Yellow,bipedal_tailless,0,Bug,,3840,2,1,1,0.5,1,0.5,4,4,1,0.25,0.25,2,1,2,1,2,1,0.5
+543,Venipede,bug,poison,30,59,45,39,30,57,260,255,70,1059860,0.4,5.3,50,0,5,Centipede Pokémon,Red,insectoid,0,Bug,,3840,0.5,1,1,1,0.5,0.25,2,2,1,0.25,1,1,1,0.5,2,2,1,1
+544,Whirlipede,bug,poison,40,99,55,79,40,47,360,120,70,1059860,1.2,58.5,50,0,5,Curlipede Pokémon,Grey,head_only,0,Bug,,3840,0.5,1,1,1,0.5,0.25,2,2,1,0.25,1,1,1,0.5,2,2,1,1
+545,Scolipede,bug,poison,60,89,100,69,55,112,485,45,70,1059860,2.5,200.5,50,0,5,Megapede Pokémon,Red,insectoid,0,Bug,,5120,0.5,1,1,1,0.5,0.25,2,2,1,0.25,1,1,1,0.5,2,2,1,1
+546,Cottonee,grass,fairy,40,60,27,50,37,66,280,190,70,1000000,0.3,0.6,50,0,5,Cotton Puff Pokémon,Green,head_only,0,Grass,Fairy,5120,1,0.5,0,0.5,1,0.5,2,2,1,0.5,0.5,2,1,4,1,1,2,0.5
+547,Whimsicott,grass,fairy,60,85,67,75,77,116,480,75,70,1000000,0.7,6.6,50,0,5,Windveiled Pokémon,Green,bipedal_tailless,0,Grass,Fairy,5120,1,0.5,0,0.5,1,0.5,2,2,1,0.5,0.5,2,1,4,1,1,2,0.5
+548,Petilil,grass,,45,50,35,50,70,30,280,190,70,1000000,0.5,6.6,0,0,5,Bulb Pokémon,Green,head_base,0,Grass,,5120,2,1,1,0.5,1,1,2,2,1,0.5,0.5,2,1,2,1,1,1,0.5
+549,Lilligant,grass,,70,75,60,75,110,90,480,75,70,1000000,1.1,16.3,0,0,5,Flowering Pokémon,Green,head_base,0,Grass,,5120,2,1,1,0.5,1,1,2,2,1,0.5,0.5,2,1,2,1,1,1,0.5
+550,Basculin,water,,70,65,92,55,80,98,460,25,70,1000000,1,18,50,0,5,Hostile Pokémon,Green,with_fins,0,Water_2,,10240,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+551,Sandile,ground,dark,50,35,72,35,35,65,292,180,70,1059860,0.7,15.2,50,0,5,Desert Croc Pokémon,Brown,quadruped,0,Field,,5120,2,0.5,1,0,2,2,1,1,0.5,2,1,2,1,0.5,0,0.5,1,2
+552,Krokorok,ground,dark,60,45,82,45,45,74,351,90,70,1059860,1,33.4,50,0,5,Desert Croc Pokémon,Brown,quadruped,0,Field,,5120,2,0.5,1,0,2,2,1,1,0.5,2,1,2,1,0.5,0,0.5,1,2
+553,Krookodile,ground,dark,95,80,117,70,65,92,519,45,70,1059860,1.5,96.3,50,0,5,Intimidation Pokémon,Red,bipedal_tailed,0,Field,,5120,2,0.5,1,0,2,2,1,1,0.5,2,1,2,1,0.5,0,0.5,1,2
+554,Darumaka,fire,,70,45,90,45,15,50,315,120,70,1059860,0.6,37.5,50,0,5,Zen Charm Pokémon,Red,bipedal_tailless,0,Field,,5120,0.5,1,1,1,0.5,1,0.5,1,1,0.5,2,0.5,1,1,1,2,0.5,2
+555,Darmanitan,fire,fire,105,105,30,105,140,55,540,60,70,1059860,1.3,92.9,50,0,5,Blazing Pokémon,Red,quadruped,0,Field,,5120,0.5,1,1,1,0.5,1,0.5,1,1,0.5,2,0.5,1,1,1,2,0.5,2
+556,Maractus,grass,,75,67,86,67,106,60,461,255,70,1000000,1,28,50,0,5,Cactus Pokémon,Green,head_base,0,Grass,,5120,2,1,1,0.5,1,1,2,2,1,0.5,0.5,2,1,2,1,1,1,0.5
+557,Dwebble,bug,rock,50,85,65,35,35,55,325,190,70,1000000,0.3,14.5,50,0,5,Rock Inn Pokémon,Red,insectoid,0,Bug,Mineral,5120,1,1,1,1,1,1,1,1,1,1,1,1,0.5,0.5,1,2,2,2
+558,Crustle,bug,rock,70,125,105,75,65,45,485,75,70,1000000,1.4,200,50,0,5,Stone Home Pokémon,Red,insectoid,0,Bug,Mineral,5120,1,1,1,1,1,1,1,1,1,1,1,1,0.5,0.5,1,2,2,2
+559,Scraggy,dark,fighting,50,70,75,70,35,48,348,180,35,1000000,0.6,11.8,50,0,5,Shedding Pokémon,Yellow,bipedal_tailed,0,Field,Dragon,3840,1,0.25,1,1,4,2,1,2,0.5,1,1,1,1,1,0,0.5,1,1
+560,Scrafty,dark,fighting,65,115,90,115,45,58,488,90,70,1000000,1.1,30,50,0,5,Hoodlum Pokémon,Red,bipedal_tailed,0,Field,Dragon,3840,1,0.25,1,1,4,2,1,2,0.5,1,1,1,1,1,0,0.5,1,1
+561,Sigilyph,psychic,flying,72,80,58,80,103,97,490,45,70,1000000,1.4,14,50,0,5,Avianoid Pokémon,Black,two_wings,0,Flying,,5120,1,2,1,2,1,0.25,1,1,2,0.5,0,2,1,1,0.5,2,1,1
+562,Yamask,ghost,,38,85,30,65,55,30,303,190,70,1000000,0.5,1.5,50,0,5,Spirit Pokémon,Black,head_arms,0,Mineral,Amorphous,6400,0.5,2,1,1,1,0,1,1,2,1,1,1,0,0.5,1,1,1,1
+563,Cofagrigus,ghost,,58,145,50,105,95,30,483,90,70,1000000,1.7,76.5,50,0,5,Coffin Pokémon,Yellow,head_base,0,Mineral,Amorphous,6400,0.5,2,1,1,1,0,1,1,2,1,1,1,0,0.5,1,1,1,1
+564,Tirtouga,water,rock,54,103,78,45,53,22,355,45,70,1000000,0.7,16.5,88.1,0,5,Prototurtle Pokémon,Blue,quadruped,0,Water_1,Water_3,7680,1,1,1,2,1,2,0.25,0.5,1,4,2,0.5,0.5,0.5,1,1,1,1
+565,Carracosta,water,rock,74,133,108,65,83,32,495,45,70,1000000,1.2,81,88.1,0,5,Prototurtle Pokémon,Blue,bipedal_tailed,0,Water_1,Water_3,7680,1,1,1,2,1,2,0.25,0.5,1,4,2,0.5,0.5,0.5,1,1,1,1
+566,Archen,rock,flying,55,45,112,45,74,70,401,45,70,1000000,0.5,9.5,88.1,0,5,First Bird Pokémon,Yellow,two_wings,0,Flying,Water_3,7680,0.5,1,1,2,1,1,0.5,0.5,1,1,0,2,0.5,0.5,1,2,2,2
+567,Archeops,rock,flying,75,65,140,65,112,110,567,45,70,1000000,1.4,32,88.1,0,5,First Bird Pokémon,Yellow,two_wings,0,Flying,Water_3,7680,0.5,1,1,2,1,1,0.5,0.5,1,1,0,2,0.5,0.5,1,2,2,2
+568,Trubbish,poison,,50,62,50,62,40,65,329,190,70,1000000,0.6,31,50,0,5,Trash Bag Pokémon,Green,bipedal_tailless,0,Mineral,,5120,0.5,1,1,1,0.5,0.5,1,1,1,0.5,2,1,1,0.5,2,1,1,1
+569,Garbodor,poison,,80,82,95,82,60,75,474,60,70,1000000,1.9,107.3,50,0,5,Trash Heap Pokémon,Green,bipedal_tailless,0,Mineral,,5120,0.5,1,1,1,0.5,0.5,1,1,1,0.5,2,1,1,0.5,2,1,1,1
+570,Zorua,dark,,40,40,65,40,80,65,330,75,70,1059860,0.7,12.5,88.1,0,5,Tricky Fox Pokémon,Grey,quadruped,0,Field,,6400,2,0.5,1,1,2,2,1,1,0.5,1,1,1,1,1,0,1,1,1
+571,Zoroark,dark,,60,60,105,60,120,105,510,45,70,1059860,1.6,81.1,88.1,0,5,Illusion Fox Pokémon,Grey,bipedal_tailed,0,Field,,5120,2,0.5,1,1,2,2,1,1,0.5,1,1,1,1,1,0,1,1,1
+572,Minccino,normal,,55,40,50,40,40,75,300,255,70,800000,0.4,5.8,24.6,0,5,Chinchilla Pokémon,Grey,quadruped,0,Field,,3840,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+573,Cinccino,normal,,75,60,95,60,65,115,470,60,70,800000,0.5,7.5,24.6,0,5,Scarf Pokémon,Grey,quadruped,0,Field,,3840,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+574,Gothita,psychic,,45,50,30,65,55,45,290,200,70,1059860,0.4,5.8,24.6,0,5,Fixation Pokémon,Purple,bipedal_tailless,0,Human-Like,,5120,2,2,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1,1,1
+575,Gothorita,psychic,,60,70,45,85,75,55,390,100,70,1059860,0.7,18,24.6,0,5,Manipulate Pokémon,Purple,bipedal_tailless,0,Human-Like,,5120,2,2,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1,1,1
+576,Gothitelle,psychic,,70,95,55,110,95,65,490,50,70,1059860,1.5,44,24.6,0,5,Astral Body Pokémon,Purple,bipedal_tailless,0,Human-Like,,5120,2,2,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1,1,1
+577,Solosis,psychic,,45,40,30,50,105,20,290,200,70,1059860,0.3,1,50,0,5,Cell Pokémon,Green,head_only,0,Amorphous,,5120,2,2,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1,1,1
+578,Duosion,psychic,,65,50,40,60,125,30,370,100,70,1059860,0.6,8,50,0,5,Mitosis Pokémon,Green,head_only,0,Amorphous,,5120,2,2,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1,1,1
+579,Reuniclus,psychic,,110,75,65,85,125,30,490,50,70,1059860,1,20.1,50,0,5,Multiplying Pokémon,Green,head_arms,0,Amorphous,,5120,2,2,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1,1,1
+580,Ducklett,water,flying,62,50,44,50,44,55,305,190,70,1000000,0.5,5.5,50,0,5,Water Bird Pokémon,Blue,two_wings,0,Water_1,Flying,5120,0.5,1,1,4,1,0.5,0.5,1,1,1,0,1,1,1,1,2,0.5,0.5
+581,Swanna,water,flying,75,63,87,63,87,98,473,45,70,1000000,1.3,24.2,50,0,5,White Bird Pokémon,White,two_wings,0,Water_1,Flying,5120,0.5,1,1,4,1,0.5,0.5,1,1,1,0,1,1,1,1,2,0.5,0.5
+582,Vanillite,ice,,36,50,50,60,65,44,305,255,70,1250000,0.4,5.7,50,0,5,Fresh Snow Pokémon,White,head_base,0,Mineral,,5120,1,1,1,1,1,2,2,1,1,1,1,0.5,1,1,1,2,2,1
+583,Vanillish,ice,,51,65,65,75,80,59,395,120,70,1250000,1.1,41,50,0,5,Icy Snow Pokémon,White,head_base,0,Mineral,,5120,1,1,1,1,1,2,2,1,1,1,1,0.5,1,1,1,2,2,1
+584,Vanilluxe,ice,,71,85,95,95,110,79,535,45,70,1250000,1.3,57.5,50,0,5,Snowstorm Pokémon,White,multiple_bodies,0,Mineral,,5120,1,1,1,1,1,2,2,1,1,1,1,0.5,1,1,1,2,2,1
+585,Deerling,normal,grass,60,50,60,50,40,75,335,190,70,1000000,0.6,19.5,50,0,5,Season Pokémon,Yellow,quadruped,0,Field,,5120,2,1,1,0.5,1,2,2,2,0,0.5,0.5,2,1,2,1,1,1,0.5
+586,Sawsbuck,normal,grass,80,70,100,70,60,95,475,75,70,1000000,1.9,92.5,50,0,5,Season Pokémon,Brown,quadruped,0,Field,,5120,2,1,1,0.5,1,2,2,2,0,0.5,0.5,2,1,2,1,1,1,0.5
+587,Emolga,electric,flying,55,60,75,60,75,103,428,200,70,1000000,0.4,5,50,0,5,Sky Squirrel Pokémon,White,quadruped,0,Field,,5120,0.5,1,1,1,1,0.5,1,0.5,1,0.5,0,2,1,1,1,2,0.5,1
+588,Karrablast,bug,,50,45,75,45,40,60,315,200,70,1000000,0.5,5.9,50,0,5,Clamping Pokémon,Blue,bipedal_tailless,0,Bug,,3840,1,1,1,1,1,0.5,2,2,1,0.5,0.5,1,1,1,1,2,1,1
+589,Escavalier,bug,steel,70,105,135,105,60,20,495,75,70,1000000,1,33,50,0,5,Cavalry Pokémon,Grey,head_arms,0,Bug,,3840,0.5,1,0.5,1,0.5,1,4,1,1,0.25,1,0.5,0.5,0,0.5,1,0.5,1
+590,Foongus,grass,poison,69,45,55,55,55,15,294,190,70,1000000,0.2,1,50,0,5,Mushroom Pokémon,White,head_arms,0,Grass,,5120,1,1,1,0.5,0.5,0.5,2,2,1,0.25,1,2,1,1,2,1,1,0.5
+591,Amoonguss,grass,poison,114,70,85,80,85,30,464,75,70,1000000,0.6,10.5,50,0,5,Mushroom Pokémon,Grey,head_arms,0,Grass,,5120,1,1,1,0.5,0.5,0.5,2,2,1,0.25,1,2,1,1,2,1,1,0.5
+592,Frillish,water,ghost,55,50,40,85,65,40,335,190,70,1000000,1.2,33,50,0,5,Floating Pokémon,White,several_limbs,0,Amorphous,,5120,0.5,2,1,2,1,0,0.5,1,2,2,1,0.5,0,0.5,1,1,0.5,0.5
+593,Jellicent,water,ghost,100,70,60,105,85,60,480,60,70,1000000,2.2,135,50,0,5,Floating Pokémon,White,several_limbs,0,Amorphous,,5120,0.5,2,1,2,1,0,0.5,1,2,2,1,0.5,0,0.5,1,1,0.5,0.5
+594,Alomomola,water,,165,80,75,45,40,65,470,75,70,800000,1.2,31.6,50,0,5,Caring Pokémon,Pink,with_fins,0,Water_1,Water_2,10240,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+595,Joltik,bug,electric,50,50,47,50,57,65,319,190,70,1000000,0.1,0.6,50,0,5,Attaching Pokémon,Yellow,insectoid,0,Bug,,5120,1,1,1,0.5,1,0.5,2,1,1,0.5,1,1,1,1,1,2,0.5,1
+596,Galvantula,bug,electric,70,60,77,60,97,108,472,75,70,1000000,0.8,14.3,50,0,5,EleSpider Pokémon,Yellow,insectoid,0,Bug,,5120,1,1,1,0.5,1,0.5,2,1,1,0.5,1,1,1,1,1,2,0.5,1
+597,Ferroseed,grass,steel,44,91,50,86,24,10,305,255,70,1000000,0.6,18.8,50,0,5,Thorn Seed Pokémon,Grey,head_only,0,Grass,Mineral,5120,1,1,0.5,0.5,0.5,2,4,1,1,0.25,1,1,0.5,0,0.5,0.5,0.5,0.5
+598,Ferrothorn,grass,steel,74,131,94,116,54,20,489,90,70,1000000,1,110,50,0,5,Thorn Pod Pokémon,Grey,several_limbs,0,Grass,Mineral,5120,1,1,0.5,0.5,0.5,2,4,1,1,0.25,1,1,0.5,0,0.5,0.5,0.5,0.5
+599,Klink,steel,,40,70,55,60,45,30,300,130,70,1059860,0.3,21,,0,5,Gear Pokémon,Grey,multiple_bodies,0,Mineral,,5120,0.5,1,0.5,1,0.5,2,2,0.5,1,0.5,2,0.5,0.5,0,0.5,0.5,0.5,1
+600,Klang,steel,,60,95,80,85,70,50,440,60,70,1059860,0.6,51,,0,5,Gear Pokémon,Grey,multiple_bodies,0,Mineral,,5120,0.5,1,0.5,1,0.5,2,2,0.5,1,0.5,2,0.5,0.5,0,0.5,0.5,0.5,1
+601,Klinklang,steel,,60,115,100,85,70,90,520,30,70,1059860,0.6,81,,0,5,Gear Pokémon,Grey,multiple_bodies,0,Mineral,,5120,0.5,1,0.5,1,0.5,2,2,0.5,1,0.5,2,0.5,0.5,0,0.5,0.5,0.5,1
+602,Tynamo,electric,,35,40,55,40,45,60,275,190,70,1250000,0.2,0.3,50,0,5,EleFish Pokémon,White,with_fins,0,Amorphous,,5120,1,1,1,0.5,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1
+603,Eelektrik,electric,,65,70,85,70,75,40,405,60,70,1250000,1.2,22,50,0,5,EleFish Pokémon,Blue,with_fins,0,Amorphous,,5120,1,1,1,0.5,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1
+604,Eelektross,electric,,85,80,115,80,105,50,515,30,70,1250000,2.1,80.5,50,0,5,EleFish Pokémon,Blue,with_fins,0,Amorphous,,5120,1,1,1,0.5,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1
+605,Elgyem,psychic,,55,55,55,55,85,30,335,255,70,1000000,0.5,9,50,0,5,Cerebral Pokémon,Grey,bipedal_tailed,0,Human-Like,,5120,2,2,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1,1,1
+606,Beheeyem,psychic,,75,75,75,95,125,40,485,90,70,1000000,1,34.5,50,0,5,Cerebral Pokémon,Brown,bipedal_tailless,0,Human-Like,,5120,2,2,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1,1,1
+607,Litwick,ghost,fire,50,55,30,55,65,20,275,190,70,1059860,0.3,3.1,50,0,5,Candle Pokémon,White,head_base,0,Amorphous,,5120,0.25,2,1,1,0.5,0,0.5,1,2,0.5,2,0.5,0,0.5,1,2,0.5,2
+608,Lampent,ghost,fire,60,60,40,60,95,55,370,90,70,1059860,0.6,13,50,0,5,Lamp Pokémon,Black,head_arms,0,Amorphous,,5120,0.25,2,1,1,0.5,0,0.5,1,2,0.5,2,0.5,0,0.5,1,2,0.5,2
+609,Chandelure,ghost,fire,60,90,55,90,145,80,520,45,70,1059860,1,34.3,50,0,5,Luring Pokémon,Black,head_arms,0,Amorphous,,5120,0.25,2,1,1,0.5,0,0.5,1,2,0.5,2,0.5,0,0.5,1,2,0.5,2
+610,Axew,dragon,,46,60,87,40,30,57,320,75,35,1250000,0.6,18,50,0,5,Tusk Pokémon,Green,bipedal_tailed,0,Monster,Dragon,10240,1,1,2,0.5,2,1,0.5,1,1,0.5,1,2,1,1,1,1,1,0.5
+611,Fraxure,dragon,,66,70,117,50,40,67,410,60,35,1250000,1,36,50,0,5,Axe Jaw Pokémon,Green,bipedal_tailed,0,Monster,Dragon,10240,1,1,2,0.5,2,1,0.5,1,1,0.5,1,2,1,1,1,1,1,0.5
+612,Haxorus,dragon,,76,90,147,70,60,97,540,45,35,1250000,1.8,105.5,50,0,5,Axe Jaw Pokémon,Yellow,bipedal_tailed,0,Monster,Dragon,10240,1,1,2,0.5,2,1,0.5,1,1,0.5,1,2,1,1,1,1,1,0.5
+613,Cubchoo,ice,,55,40,70,40,60,40,305,120,70,1000000,0.5,8.5,50,0,5,Chill Pokémon,Blue,bipedal_tailed,0,Field,,5120,1,1,1,1,1,2,2,1,1,1,1,0.5,1,1,1,2,2,1
+614,Beartic,ice,,95,80,130,80,70,50,505,60,70,1000000,2.6,260,50,0,5,Freezing Pokémon,White,quadruped,0,Field,,5120,1,1,1,1,1,2,2,1,1,1,1,0.5,1,1,1,2,2,1
+615,Cryogonal,ice,,80,50,50,135,95,105,515,25,70,1000000,1.1,148,,0,5,Crystallizing Pokémon,Blue,head_only,0,Mineral,,6400,1,1,1,1,1,2,2,1,1,1,1,0.5,1,1,1,2,2,1
+616,Shelmet,bug,,50,85,40,65,40,25,305,200,70,1000000,0.4,7.7,50,0,5,Snail Pokémon,Red,head_only,0,Bug,,3840,1,1,1,1,1,0.5,2,2,1,0.5,0.5,1,1,1,1,2,1,1
+617,Accelgor,bug,,80,40,70,60,100,145,495,75,70,1000000,0.8,25.3,50,0,5,Shell Out Pokémon,Red,head_arms,0,Bug,,3840,1,1,1,1,1,0.5,2,2,1,0.5,0.5,1,1,1,1,2,1,1
+618,Stunfisk,ground,electric,109,84,66,99,81,32,471,75,70,1000000,0.7,11,50,0,5,Trap Pokémon,Brown,with_fins,0,Water_1,Amorphous,5120,1,1,1,0,1,1,1,0.5,1,2,2,2,1,0.5,1,0.5,0.5,2
+619,Mienfoo,fighting,,45,50,85,50,55,65,350,180,70,1059860,0.9,20,50,0,5,Martial Arts Pokémon,Yellow,bipedal_tailed,0,Field,Human-Like,6400,0.5,0.5,1,1,2,1,1,2,1,1,1,1,1,1,2,0.5,1,1
+620,Mienshao,fighting,,65,60,125,60,95,105,510,45,70,1059860,1.4,35.5,50,0,5,Martial Arts Pokémon,Purple,bipedal_tailed,0,Field,Human-Like,6400,0.5,0.5,1,1,2,1,1,2,1,1,1,1,1,1,2,0.5,1,1
+621,Druddigon,dragon,,77,90,120,90,60,48,485,45,70,1000000,1.6,139,50,0,5,Cave Pokémon,Red,bipedal_tailed,0,Dragon,Monster,7680,1,1,2,0.5,2,1,0.5,1,1,0.5,1,2,1,1,1,1,1,0.5
+622,Golett,ground,ghost,59,50,74,50,35,35,303,190,70,1000000,1,92,,0,5,Automaton Pokémon,Green,bipedal_tailless,0,Mineral,,6400,0.5,2,1,0,1,0,1,1,2,2,1,2,0,0.25,1,0.5,1,2
+623,Golurk,ground,ghost,89,80,124,80,55,55,483,90,70,1000000,2.8,330,,0,5,Automaton Pokémon,Green,bipedal_tailless,0,Mineral,,6400,0.5,2,1,0,1,0,1,1,2,2,1,2,0,0.25,1,0.5,1,2
+624,Pawniard,dark,steel,45,70,85,40,40,60,340,120,35,1000000,0.5,10.2,50,0,5,Sharp Blade Pokémon,Red,bipedal_tailless,0,Human-Like,,5120,1,0.5,0.5,1,1,4,2,0.5,0.5,0.5,2,0.5,0.5,0,0,0.5,0.5,1
+625,Bisharp,dark,steel,65,100,125,70,60,70,490,45,35,1000000,1.6,70,50,0,5,Sword Blade Pokémon,Red,bipedal_tailless,0,Human-Like,,5120,1,0.5,0.5,1,1,4,2,0.5,0.5,0.5,2,0.5,0.5,0,0,0.5,0.5,1
+626,Bouffalant,normal,,95,95,110,95,40,55,490,45,70,1000000,1.6,94.6,50,0,5,Bash Buffalo Pokémon,Brown,quadruped,0,Field,,5120,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+627,Rufflet,normal,flying,70,50,83,50,37,60,350,190,70,1250000,0.5,10.5,100,0,5,Eaglet Pokémon,White,two_wings,0,Flying,,5120,0.5,1,1,2,1,1,1,1,0,0.5,0,2,1,1,1,2,1,1
+628,Braviary,normal,flying,100,75,123,75,57,80,510,60,70,1250000,1.5,41,100,0,5,Valiant Pokémon,Red,two_wings,0,Flying,,5120,0.5,1,1,2,1,1,1,1,0,0.5,0,2,1,1,1,2,1,1
+629,Vullaby,dark,flying,70,75,55,65,45,60,370,190,35,1250000,0.5,9,0,0,5,Diapered Pokémon,Brown,two_wings,0,Flying,,5120,1,0.5,1,2,2,1,1,1,0.5,0.5,0,2,1,1,0,2,1,1
+630,Mandibuzz,dark,flying,110,105,65,95,55,80,510,60,35,1250000,1.2,39.5,0,0,5,Bone Vulture Pokémon,Brown,two_wings,0,Flying,,5120,1,0.5,1,2,2,1,1,1,0.5,0.5,0,2,1,1,0,2,1,1
+631,Heatmor,fire,,85,66,97,66,105,65,484,90,70,1000000,1.4,58,50,0,5,Anteater Pokémon,Red,bipedal_tailed,0,Field,,5120,0.5,1,1,1,0.5,1,0.5,1,1,0.5,2,0.5,1,1,1,2,0.5,2
+632,Durant,bug,steel,58,112,109,48,48,109,484,90,70,1000000,0.3,33,50,0,5,Iron Ant Pokémon,Grey,insectoid,0,Bug,,5120,0.5,1,0.5,1,0.5,1,4,1,1,0.25,1,0.5,0.5,0,0.5,1,0.5,1
+633,Deino,dark,dragon,52,50,65,50,45,38,300,45,35,1250000,0.8,17.3,50,0,5,Irate Pokémon,Blue,quadruped,0,Dragon,,10240,2,0.5,2,0.5,4,2,0.5,1,0.5,0.5,1,2,1,1,0,1,1,0.5
+634,Zweilous,dark,dragon,72,70,85,70,65,58,420,45,35,1250000,1.4,50,50,0,5,Hostile Pokémon,Blue,quadruped,0,Dragon,,10240,2,0.5,2,0.5,4,2,0.5,1,0.5,0.5,1,2,1,1,0,1,1,0.5
+635,Hydreigon,dark,dragon,92,90,105,90,125,98,600,45,35,1250000,1.8,160,50,0,5,Brutal Pokémon,Blue,bipedal_tailed,0,Dragon,,10240,2,0.5,2,0.5,4,2,0.5,1,0.5,0.5,1,2,1,1,0,1,1,0.5
+636,Larvesta,bug,fire,55,55,85,55,50,60,360,45,70,1250000,1.1,28.8,50,0,5,Torch Pokémon,White,insectoid,0,Bug,,10240,0.5,1,1,1,0.5,0.5,1,2,1,0.25,1,0.5,1,1,1,4,0.5,2
+637,Volcarona,bug,fire,85,65,60,105,135,100,550,15,70,1250000,1.6,46,50,0,5,Sun Pokémon,White,four_wings,0,Bug,,10240,0.5,1,1,1,0.5,0.5,1,2,1,0.25,1,0.5,1,1,1,4,0.5,2
+638,Cobalion,steel,fighting,91,129,90,72,90,108,580,3,35,1250000,2.1,250,,1,5,Iron Will Pokémon,Blue,quadruped,0,Undiscovered,,20480,0.25,0.5,0.5,1,1,2,2,1,1,0.5,2,0.5,0.5,0,1,0.25,0.5,1
+639,Terrakion,rock,fighting,91,90,129,90,72,108,580,3,35,1250000,1.9,260,,1,5,Cavern Pokémon,Grey,quadruped,0,Undiscovered,,20480,0.5,0.5,1,1,2,2,0.5,1,1,2,2,1,0.5,0.5,2,0.5,2,2
+640,Virizion,grass,fighting,91,72,90,129,90,108,580,3,35,1250000,2,200,,1,5,Grassland Pokémon,Green,quadruped,0,Undiscovered,,20480,1,0.5,1,0.5,2,1,2,4,1,0.5,0.5,2,1,2,2,0.5,1,0.5
+641,Tornadus,flying,,79,80,100,90,110,121,580,3,90,1250000,1.5,63,100,1,5,Cyclone Pokémon,Green,head_arms,0,Undiscovered,,30720,0.5,1,1,2,1,0.5,1,1,1,0.5,0,2,1,1,1,2,1,1
+642,Thundurus,electric,flying,79,70,105,80,145,101,580,3,90,1250000,1.5,61,100,1,5,Bolt Strike Pokémon,Blue,head_arms,0,Undiscovered,,30720,0.5,1,1,1,1,0.5,1,0.5,1,0.5,0,2,1,1,1,2,0.5,1
+643,Reshiram,dragon,fire,100,100,120,120,150,90,680,3,0,1250000,3.2,330,,1,5,Vast White Pokémon,White,two_wings,0,Undiscovered,,30720,0.5,1,2,0.5,1,1,0.25,1,1,0.25,2,1,1,1,1,2,0.5,1
+644,Zekrom,dragon,electric,100,120,150,100,120,90,680,3,0,1250000,2.9,345,,1,5,Deep Black Pokémon,Black,bipedal_tailed,0,Undiscovered,,30720,1,1,2,0.25,2,1,0.5,0.5,1,0.5,2,2,1,1,1,1,0.5,0.5
+645,Landorus,ground,flying,89,90,145,80,105,91,600,3,90,1250000,1.5,68,100,1,5,Abundance Pokémon,Brown,head_arms,0,Undiscovered,,30720,0.5,1,1,0,1,0.5,1,1,1,1,0,4,1,0.5,1,1,1,2
+646,Kyurem,dragon,ice,125,90,120,100,170,95,700,3,0,1250000,3,325,,1,5,Boundary Pokémon,Grey,bipedal_tailed,0,Undiscovered,,30720,1,1,2,0.5,2,2,1,1,1,0.5,1,1,1,1,1,2,2,0.5
+647,Keldeo,water,fighting,91,90,72,90,129,108,580,3,35,1250000,1.4,48.5,,1,5,Colt Pokémon,Yellow,quadruped,0,Undiscovered,,20480,0.5,0.5,1,2,2,1,0.5,2,1,2,1,0.5,1,1,2,0.5,0.5,0.5
+648,Meloetta,normal,psychic,100,90,128,77,77,128,600,3,100,1250000,0.6,6.5,,1,5,Melody Pokémon,White,bipedal_tailless,0,Undiscovered,,30720,2,2,1,1,1,1,1,1,0,1,1,1,1,1,0.5,1,1,1
+649,Genesect,bug,steel,71,95,120,95,120,99,600,3,0,1250000,1.5,82.5,,1,5,Paleozoic Pokémon,Purple,bipedal_tailless,0,Undiscovered,,30720,0.5,1,0.5,1,0.5,1,4,1,1,0.25,1,0.5,0.5,0,0.5,1,0.5,1
+650,Chespin,grass,,56,65,61,45,48,38,313,45,70,1059860,0.4,9,88.1,0,6,Spiky Nut Pokémon,Green,bipedal_tailed,0,Field,,5120,2,1,1,0.5,1,1,2,2,1,0.5,0.5,2,1,2,1,1,1,0.5
+651,Quilladin,grass,,61,95,78,58,56,57,405,45,70,1059860,0.7,29,88.1,0,6,Spiny Armor Pokémon,Green,bipedal_tailed,0,Field,,5120,2,1,1,0.5,1,1,2,2,1,0.5,0.5,2,1,2,1,1,1,0.5
+652,Chesnaught,grass,fighting,88,122,107,75,74,64,530,45,70,1059860,1.6,90,88.1,0,6,Spiny Armor Pokémon,Green,bipedal_tailed,0,Field,,5120,1,0.5,1,0.5,2,1,2,4,1,0.5,0.5,2,1,2,2,0.5,1,0.5
+653,Fennekin,fire,,40,40,45,60,62,60,307,45,70,1059860,0.4,9.4,88.1,0,6,Fox Pokémon,Red,quadruped,0,Field,,5120,0.5,1,1,1,0.5,1,0.5,1,1,0.5,2,0.5,1,1,1,2,0.5,2
+654,Braixen,fire,,59,58,59,70,90,73,409,45,70,1059860,1,14.5,88.1,0,6,Fox Pokémon,Red,bipedal_tailed,0,Field,,5120,0.5,1,1,1,0.5,1,0.5,1,1,0.5,2,0.5,1,1,1,2,0.5,2
+655,Delphox,fire,psychic,75,72,69,100,114,104,534,45,70,1059860,1.5,39,88.1,0,6,Fox Pokémon,Red,bipedal_tailed,0,Field,,5120,1,2,1,1,0.5,0.5,0.5,1,2,0.5,2,0.5,1,1,0.5,2,0.5,2
+656,Froakie,water,,41,40,56,44,62,71,314,45,70,1059860,0.3,7,88.1,0,6,Bubble Frog Pokémon,Blue,quadruped,0,Water_1,,5120,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+657,Frogadier,water,,54,52,63,56,83,97,405,45,70,1059860,0.6,10.9,88.1,0,6,Bubble Frog Pokémon,Blue,bipedal_tailless,0,Water_1,,5120,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+658,Greninja,water,dark,72,67,145,71,153,132,640,45,70,1059860,1.5,40,88.1,0,6,Ninja Pokémon,Blue,bipedal_tailless,0,Water_1,,5120,2,0.5,1,2,2,2,0.5,1,0.5,2,1,0.5,1,1,0,1,0.5,0.5
+659,Bunnelby,normal,,38,38,36,36,32,57,237,255,70,1000000,0.4,5,50,0,6,Digging Pokémon,Brown,bipedal_tailed,0,Field,,3840,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+660,Diggersby,normal,ground,85,77,56,77,50,78,423,127,70,1000000,1,42.4,50,0,6,Digging Pokémon,Brown,bipedal_tailed,0,Field,,3840,1,1,1,0,1,2,1,1,0,2,1,2,1,0.5,1,0.5,1,2
+661,Fletchling,normal,flying,45,43,50,38,40,62,278,255,70,1059860,0.3,1.7,50,0,6,Tiny Robin Pokémon,Red,two_wings,0,Flying,,3840,0.5,1,1,2,1,1,1,1,0,0.5,0,2,1,1,1,2,1,1
+662,Fletchinder,fire,flying,62,55,73,52,56,84,382,120,70,1059860,0.7,16,50,0,6,Ember Pokémon,Red,two_wings,0,Flying,,3840,0.25,1,1,2,0.5,0.5,0.5,1,1,0.25,0,1,1,1,1,4,0.5,2
+663,Talonflame,fire,flying,78,71,81,69,74,126,499,45,70,1059860,1.2,24.5,50,0,6,Scorching Pokémon,Red,two_wings,0,Flying,,3840,0.25,1,1,2,0.5,0.5,0.5,1,1,0.25,0,1,1,1,1,4,0.5,2
+664,Scatterbug,bug,,38,40,35,25,27,35,200,255,70,1000000,0.3,2.5,50,0,6,Scatterdust Pokémon,Black,insectoid,0,Bug,,3840,1,1,1,1,1,0.5,2,2,1,0.5,0.5,1,1,1,1,2,1,1
+665,Spewpa,bug,,45,60,22,30,27,29,213,120,70,1000000,0.3,8.4,50,0,6,Scatterdust Pokémon,Black,head_base,0,Bug,,3840,1,1,1,1,1,0.5,2,2,1,0.5,0.5,1,1,1,1,2,1,1
+666,Vivillon,bug,flying,80,50,52,50,90,89,411,45,70,1000000,1.2,17,50,0,6,Scale Pokémon,Black,four_wings,0,Bug,,3840,0.5,1,1,2,1,0.25,2,2,1,0.25,0,2,1,1,1,4,1,1
+667,Litleo,fire,normal,62,58,50,54,73,72,369,220,70,1059860,0.6,13.5,11.2,0,6,Lion Cub Pokémon,Brown,quadruped,0,Field,,5120,0.5,1,1,1,0.5,2,0.5,1,0,0.5,2,0.5,1,1,1,2,0.5,2
+668,Pyroar,fire,normal,86,72,68,66,109,106,507,65,70,1059860,1.5,81.5,11.2,0,6,Royal Pokémon,Brown,quadruped,0,Field,,5120,0.5,1,1,1,0.5,2,0.5,1,0,0.5,2,0.5,1,1,1,2,0.5,2
+669,Flabébé,fairy,,44,39,38,79,61,42,303,225,70,1000000,0.1,0.1,0,0,6,Single Bloom Pokémon,White,head_arms,0,Fairy,,5120,0.5,0.5,0,1,1,0.5,1,1,1,1,1,1,1,2,1,1,2,1
+670,Floette,fairy,,74,67,65,128,125,92,551,120,70,1000000,0.2,0.9,0,0,6,Fairy Pokémon,White,head_arms,0,Fairy,,5120,0.5,0.5,0,1,1,0.5,1,1,1,1,1,1,1,2,1,1,2,1
+671,Florges,fairy,,78,68,65,154,112,75,552,45,70,1000000,1.1,10,0,0,6,Garden Pokémon,White,head_arms,0,Fairy,,5120,0.5,0.5,0,1,1,0.5,1,1,1,1,1,1,1,2,1,1,2,1
+672,Skiddo,grass,,66,48,65,57,62,52,350,200,70,1000000,0.9,31,50,0,6,Mount Pokémon,Brown,quadruped,0,Field,,5120,2,1,1,0.5,1,1,2,2,1,0.5,0.5,2,1,2,1,1,1,0.5
+673,Gogoat,grass,,123,62,100,81,97,68,531,45,70,1000000,1.7,91,50,0,6,Mount Pokémon,Brown,quadruped,0,Field,,5120,2,1,1,0.5,1,1,2,2,1,0.5,0.5,2,1,2,1,1,1,0.5
+674,Pancham,fighting,,67,62,82,48,46,43,348,220,70,1000000,0.6,8,50,0,6,Playful Pokémon,White,bipedal_tailed,0,Field,Human-Like,6400,0.5,0.5,1,1,2,1,1,2,1,1,1,1,1,1,2,0.5,1,1
+675,Pangoro,fighting,dark,95,78,124,71,69,58,495,65,70,1000000,2.1,136,50,0,6,Daunting Pokémon,White,bipedal_tailless,0,Field,Human-Like,6400,1,0.25,1,1,4,2,1,2,0.5,1,1,1,1,1,0,0.5,1,1
+676,Furfrou,normal,,75,60,80,90,65,102,472,160,70,1000000,1.2,28,50,0,6,Poodle Pokémon,White,quadruped,0,Field,,5120,1,1,1,1,1,2,1,1,0,1,1,1,1,1,1,1,1,1
+677,Espurr,psychic,,62,54,48,60,63,68,355,190,70,1000000,0.3,3.5,50,0,6,Restraint Pokémon,Grey,bipedal_tailed,0,Field,,5120,2,2,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1,1,1
+678,Meowstic,psychic,,74,76,48,81,83,104,466,75,70,1000000,0.6,8.5,50,0,6,Constraint Pokémon,White,bipedal_tailed,0,Field,,5120,2,2,1,1,1,0.5,1,1,2,1,1,1,1,1,0.5,1,1,1
+679,Honedge,steel,ghost,45,100,80,37,35,28,325,180,70,1000000,0.8,2,50,0,6,Sword Pokémon,Brown,head_base,0,Mineral,,5120,0.25,2,0.5,1,0.5,0,2,0.5,2,0.5,2,0.5,0,0,0.5,0.5,0.5,1
+680,Doublade,steel,ghost,59,150,110,49,45,35,448,90,70,1000000,0.8,4.5,50,0,6,Sword Pokémon,Brown,multiple_bodies,0,Mineral,,5120,0.25,2,0.5,1,0.5,0,2,0.5,2,0.5,2,0.5,0,0,0.5,0.5,0.5,1
+681,Aegislash,steel,ghost,60,50,150,50,150,60,520,45,70,1000000,1.7,53,50,0,6,Royal Sword Pokémon,Brown,head_base,0,Mineral,,5120,0.25,2,0.5,1,0.5,0,2,0.5,2,0.5,2,0.5,0,0,0.5,0.5,0.5,1
+682,Spritzee,fairy,,78,60,52,65,63,23,341,200,70,1000000,0.2,0.5,50,0,6,Perfume Pokémon,Pink,head_arms,0,Fairy,,5120,0.5,0.5,0,1,1,0.5,1,1,1,1,1,1,1,2,1,1,2,1
+683,Aromatisse,fairy,,101,72,72,89,99,29,462,140,70,1000000,0.8,15.5,50,0,6,Fragrance Pokémon,Pink,bipedal_tailless,0,Fairy,,5120,0.5,0.5,0,1,1,0.5,1,1,1,1,1,1,1,2,1,1,2,1
+684,Swirlix,fairy,,62,66,48,57,59,49,341,200,70,1000000,0.4,3.5,50,0,6,Cotton Candy Pokémon,White,head_legs,0,Fairy,,5120,0.5,0.5,0,1,1,0.5,1,1,1,1,1,1,1,2,1,1,2,1
+685,Slurpuff,fairy,,82,86,80,75,85,72,480,140,70,1000000,0.8,5,50,0,6,Meringue Pokémon,White,bipedal_tailless,0,Fairy,,5120,0.5,0.5,0,1,1,0.5,1,1,1,1,1,1,1,2,1,1,2,1
+686,Inkay,dark,psychic,53,53,54,46,37,45,288,190,70,1000000,0.4,3.5,50,0,6,Revolving Pokémon,Blue,several_limbs,0,Water_1,Water_2,5120,4,1,1,1,2,1,1,1,1,1,1,1,1,1,0,1,1,1
+687,Malamar,dark,psychic,86,88,92,75,68,73,482,80,70,1000000,1.5,47,50,0,6,Overturning Pokémon,Blue,head_base,0,Water_1,Water_2,5120,4,1,1,1,2,1,1,1,1,1,1,1,1,1,0,1,1,1
+688,Binacle,rock,water,42,67,52,56,39,50,306,120,70,1000000,0.5,31,50,0,6,Two-Handed Pokémon,Brown,multiple_bodies,0,Water_3,,5120,1,1,1,2,1,2,0.25,0.5,1,4,2,0.5,0.5,0.5,1,1,1,1
+689,Barbaracle,rock,water,72,115,105,86,54,68,500,45,70,1000000,1.3,96,50,0,6,Collective Pokémon,Brown,multiple_bodies,0,Water_3,,5120,1,1,1,2,1,2,0.25,0.5,1,4,2,0.5,0.5,0.5,1,1,1,1
+690,Skrelp,poison,water,50,60,60,60,60,30,320,225,70,1000000,0.5,7.3,50,0,6,Mock Kelp Pokémon,Brown,head_base,0,Water_1,Dragon,5120,0.5,1,1,2,0.5,0.5,0.5,1,1,1,2,0.5,1,0.5,2,1,0.5,0.5
+691,Dragalge,poison,dragon,65,90,75,123,97,44,494,55,70,1000000,1.8,81.5,50,0,6,Mock Kelp Pokémon,Brown,head_base,0,Water_1,Dragon,5120,0.5,1,2,0.5,1,0.5,0.5,1,1,0.25,2,2,1,0.5,2,1,1,0.5
+692,Clauncher,water,,50,62,53,63,58,44,330,225,70,1250000,0.5,8.3,50,0,6,Water Gun Pokémon,Blue,insectoid,0,Water_1,Water_3,3840,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+693,Clawitzer,water,,71,88,73,89,120,59,500,55,70,1250000,1.3,35.3,50,0,6,Howitzer Pokémon,Blue,serpentine_body,0,Water_1,Water_3,3840,1,1,1,2,1,1,0.5,1,1,2,1,0.5,1,1,1,1,0.5,0.5
+694,Helioptile,electric,normal,44,33,38,43,61,70,289,190,70,1000000,0.5,6,50,0,6,Generator Pokémon,Yellow,bipedal_tailed,0,Monster,Dragon,5120,1,1,1,0.5,1,2,1,0.5,0,1,2,1,1,1,1,1,0.5,1
+695,Heliolisk,electric,normal,62,52,55,94,109,109,481,75,70,1000000,1,21,50,0,6,Generator Pokémon,Yellow,bipedal_tailed,0,Monster,Dragon,5120,1,1,1,0.5,1,2,1,0.5,0,1,2,1,1,1,1,1,0.5,1
+696,Tyrunt,rock,dragon,58,77,89,45,45,48,362,45,70,1000000,0.8,26,88.1,0,6,Royal Heir Pokémon,Brown,bipedal_tailed,0,Monster,Dragon,7680,1,1,2,0.5,2,2,0.25,0.5,1,1,2,2,0.5,0.5,1,1,2,1
+697,Tyrantrum,rock,dragon,82,119,121,59,69,71,521,45,70,1000000,2.5,270,88.1,0,6,Despot Pokémon,Red,bipedal_tailed,0,Monster,Dragon,7680,1,1,2,0.5,2,2,0.25,0.5,1,1,2,2,0.5,0.5,1,1,2,1
+698,Amaura,rock,ice,77,50,59,63,67,46,362,45,70,1000000,1.3,25.2,88.1,0,6,Tundra Pokémon,Blue,quadruped,0,Monster,,7680,1,1,1,1,1,4,1,0.5,1,2,2,0.5,0.5,0.5,1,2,4,2
+699,Aurorus,rock,ice,123,72,77,92,99,58,521,45,70,1000000,2.7,225,88.1,0,6,Tundra Pokémon,Blue,quadruped,0,Monster,,7680,1,1,1,1,1,4,1,0.5,1,2,2,0.5,0.5,0.5,1,2,4,2
+700,Sylveon,fairy,,95,65,65,130,110,60,525,45,70,1000000,1,23.5,88.1,0,6,Intertwining Pokémon,Pink,quadruped,0,Field,,8960,0.5,0.5,0,1,1,0.5,1,1,1,1,1,1,1,2,1,1,2,1
+701,Hawlucha,fighting,flying,78,75,92,63,74,118,500,100,70,1000000,0.8,21.5,50,0,6,Wrestling Pokémon,Green,bipedal_tailless,0,Human-Like,,5120,0.25,0.5,1,2,2,0.5,1,2,1,0.5,0,2,1,1,2,1,1,1
+702,Dedenne,electric,fairy,67,57,58,67,81,101,431,180,70,1000000,0.2,2.2,50,0,6,Antenna Pokémon,Yellow,bipedal_tailed,0,Field,Fairy,5120,0.5,0.5,0,0.5,1,0.5,1,0.5,1,1,2,1,1,2,1,1,1,1
+703,Carbink,rock,fairy,50,150,50,150,50,50,500,60,70,1250000,0.3,5.7,,0,6,Jewel Pokémon,Grey,head_only,0,Fairy,Mineral,6400,0.5,0.5,0,1,1,1,0.5,0.5,1,2,2,1,0.5,1,1,1,4,2
+704,Goomy,dragon,,45,35,50,75,55,40,300,45,35,1250000,0.3,2.8,50,0,6,Soft Tissue Pokémon,Purple,serpentine_body,0,Dragon,,10240,1,1,2,0.5,2,1,0.5,1,1,0.5,1,2,1,1,1,1,1,0.5
+705,Sliggoo,dragon,,68,53,75,113,83,60,452,45,35,1250000,0.8,17.5,50,0,6,Soft Tissue Pokémon,Purple,serpentine_body,0,Dragon,,10240,1,1,2,0.5,2,1,0.5,1,1,0.5,1,2,1,1,1,1,1,0.5
+706,Goodra,dragon,,90,70,100,150,110,80,600,45,35,1250000,2,150.5,50,0,6,Dragon Pokémon,Purple,bipedal_tailed,0,Dragon,,10240,1,1,2,0.5,2,1,0.5,1,1,0.5,1,2,1,1,1,1,1,0.5
+707,Klefki,steel,fairy,57,91,80,87,80,75,470,75,70,800000,0.2,3,50,0,6,Key Ring Pokémon,Grey,head_only,0,Mineral,,5120,0.25,0.5,0,1,0.5,1,2,0.5,1,0.5,2,0.5,0.5,0,0.5,0.5,1,1
+708,Phantump,ghost,grass,43,48,70,60,50,38,309,120,70,1000000,0.4,7,50,0,6,Stump Pokémon,Brown,head_arms,0,Grass,Amorphous,5120,1,2,1,0.5,1,0,2,2,2,0.5,0.5,2,0,1,1,1,1,0.5
+709,Trevenant,ghost,grass,85,76,110,82,65,56,474,60,70,1000000,1.5,71,50,0,6,Elder Tree Pokémon,Brown,several_limbs,0,Grass,Amorphous,5120,1,2,1,0.5,1,0,2,2,2,0.5,0.5,2,0,1,1,1,1,0.5
+710,Pumpkaboo,ghost,grass,59,70,66,55,44,41,335,120,70,1000000,0.8,15,50,0,6,Pumpkin Pokémon,Brown,head_only,0,Amorphous,,5120,1,2,1,0.5,1,0,2,2,2,0.5,0.5,2,0,1,1,1,1,0.5
+711,Gourgeist,ghost,grass,85,122,100,75,58,54,494,60,70,1000000,1.7,39,50,0,6,Pumpkin Pokémon,Brown,head_base,0,Amorphous,,5120,1,2,1,0.5,1,0,2,2,2,0.5,0.5,2,0,1,1,1,1,0.5
+712,Bergmite,ice,,55,85,69,35,32,28,304,190,70,1000000,1,99.5,50,0,6,Ice Chunk Pokémon,Blue,quadruped,0,Monster,,5120,1,1,1,1,1,2,2,1,1,1,1,0.5,1,1,1,2,2,1
+713,Avalugg,ice,,95,184,117,46,44,28,514,55,70,1000000,2,505,50,0,6,Iceberg Pokémon,Blue,quadruped,0,Monster,,5120,1,1,1,1,1,2,2,1,1,1,1,0.5,1,1,1,2,2,1
+714,Noibat,flying,dragon,40,35,30,40,45,55,245,190,70,1000000,0.5,8,50,0,6,Sound Wave Pokémon,Purple,two_wings,0,Flying,,5120,0.5,1,2,1,2,0.5,0.5,1,1,0.25,0,4,1,1,1,2,1,0.5
+715,Noivern,flying,dragon,85,80,70,80,97,123,535,45,70,1000000,1.5,85,50,0,6,Sound Wave Pokémon,Purple,two_wings,0,Flying,,5120,0.5,1,2,1,2,0.5,0.5,1,1,0.25,0,4,1,1,1,2,1,0.5
+716,Xerneas,fairy,,126,95,131,98,131,99,680,45,0,1250000,3,215,,1,6,Life Pokémon,Blue,quadruped,0,Undiscovered,,30720,0.5,0.5,0,1,1,0.5,1,1,1,1,1,1,1,2,1,1,2,1
+717,Yveltal,dark,flying,126,95,131,98,131,99,680,45,0,1250000,5.8,203,,1,6,Destruction Pokémon,Red,two_wings,0,Undiscovered,,30720,1,0.5,1,2,2,1,1,1,0.5,0.5,0,2,1,1,0,2,1,1
+718,Zygarde,dragon,ground,216,121,100,95,91,85,708,3,0,1250000,5,284.6,,1,6,Order Pokémon,Green,serpentine_body,0,Undiscovered,,30720,1,1,2,0,2,1,0.5,1,1,1,1,4,1,0.5,1,0.5,1,1
+719,Diancie,rock,fairy,50,110,160,110,160,110,700,3,70,1250000,0.7,8.8,,1,6,Jewel Pokémon,Pink,head_arms,1,Undiscovered,,6400,0.5,0.5,0,1,1,1,0.5,0.5,1,2,2,1,0.5,1,1,1,4,2
+720,Hoopa,psychic,ghost,80,60,160,130,170,80,680,3,100,1250000,,,,1,6,Mischief Pokémon (Confined)Djinn Pokémonn (Unbound),Purple,head_only,0,Undiscovered,,30720,1,4,1,1,1,0,1,1,4,1,1,1,0,0.5,0.5,1,1,1
+721,Volcanion,fire,water,80,120,110,90,130,70,600,3,100,1250000,1.7,195,,1,6,Steam Pokémon,Brown,quadruped,0,Undiscovered,,30720,0.5,1,1,2,0.5,1,0.25,1,1,1,2,0.25,1,1,1,2,0.25,1
