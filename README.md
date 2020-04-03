@@ -28,10 +28,10 @@ A lot of different datasets were available and it was easy to put them together 
 
 From other datasets, it was possible to get their ranking from strongest to weakest in battle and their ranking from most loved to least liked among the fanbase. 
 
-main dataset : https://www.kaggle.com/rounakbanik/pokemon
-complementary dataset : https://www.kaggle.com/alopez247/pokemon/data
-combat dataset : https://www.kaggle.com/jonathanbouchet/pokemon-battles/data
-popularity dataset : https://pastebin.com/LvhaTx7w
+* main dataset : https://www.kaggle.com/rounakbanik/pokemon
+* complementary dataset : https://www.kaggle.com/alopez247/pokemon/data
+* combat dataset : https://www.kaggle.com/jonathanbouchet/pokemon-battles/data
+* popularity dataset : https://pastebin.com/LvhaTx7w
 
 ### Problematic
 
