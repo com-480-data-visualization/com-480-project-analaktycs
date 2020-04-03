@@ -14,6 +14,8 @@
 
 ### Dataset
 
+A lot of different datasets were available and it was easy to put them together thank's to the fact that pokémons all have an id that always stays the same. The dataset is composed of 800 samples and 53 features but not all the features a complete because not all datasets went up to the last generation of the game.
+
 ### Problematic
 
 The aim of this project is to visulize pokemon's dynamics across generations for the user to better make up his own pokemon. This project also means at providing insights on the intricate links between the different pokemon features in order to gauge their  importance and impact on the pokemon overall statistics and behaviour in combat. Finally, this project will display a visulization of the choice that were made  regarding the important features throughout the generations to better understand how this game evolved with his users. 
