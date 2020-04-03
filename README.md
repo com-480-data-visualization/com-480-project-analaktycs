@@ -14,7 +14,24 @@
 
 ### Dataset
 
-A lot of different datasets were available and it was easy to put them together thank's to the fact that pokémons all have an id that always stays the same. The dataset is composed of 800 samples and 53 features but not all the features a complete because not all datasets went up to the last generation of the game.
+A lot of different datasets were available and it was easy to put them together thank's to the fact that pokémons all have an id that always stays the same. The main dataset is composed of 800 samples and 53 features but not all the features a complete because not all datasets went up to the last generation of the game. For each sample (pokemon) there is:
+* An Id
+* A name
+* One or two types
+* The 6 base characteristics of the pokemon (Hp, Attack, Defense, etc...)
+* Measurements like height and weight
+* Weaknesses
+* Boolean classifier that says if it is legendary or has a mega evolution 
+* Appearance features (color, body type, classification)
+* Eggs information (type, steps before hatching)
+* Base happiness
+
+From other datasets, it was possible to get their ranking from strongest to weakest in battle and their ranking from most loved to least liked among the fanbase. 
+
+main dataset : https://www.kaggle.com/rounakbanik/pokemon
+complementary dataset : https://www.kaggle.com/alopez247/pokemon/data
+combat dataset : https://www.kaggle.com/jonathanbouchet/pokemon-battles/data
+popularity dataset : https://pastebin.com/LvhaTx7w
 
 ### Problematic
 
@@ -62,6 +79,8 @@ Concerning the string variables, a investigation of the most present abilities, 
 Then the second group of features were processed. Our findings from this group include:
 
 * The distributions of the continuous variables, i.e. hp, (sp_) attack, (sp_) defense, and speed are all right-skewed, meaning the medians are lower than the means. There are correlations between defense & attack, and sp_defense & sp_attack & defense & hp. The correlation (0.4) between sp_attack and sp_defense stand out with the highest value in legendary pokemon. They also have a higher correlation between sp_attack and attack. Non-legendary pokemon have a higher correlation between sp_attack and sp_defense. Generation 4 pokemon have the best median stats compared to all first 6 generations and contain the highest number and percentage of legendary pokemon. Steel-type pokemon have the least amount of damage-intake during combat. Legendary pokemon are likelier to take less damage than non-legendary. 
+
+The third group of features contained the feature that can be concidered miscellaneous like the egg type, body type or color. Most of those features were categorical nominal variables and quite evenly distributed over the population. This group also focused on investigating the popularity among the, the power ranking and what makes a pokemon powerfull and the answer seems to be mostly linked to the pokemon type. Concerning the popularity, the key factor if the pokemon generation. Fans seem to prefer pokemons from older generations. Moreover, some types are more liked than others.
 
 ### Related Work 
 
