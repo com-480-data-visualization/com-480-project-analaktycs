@@ -49,7 +49,16 @@ We present here a summary of our findings from our exploratory data analysis. Pl
 
 For the ease of collaborative work, we have separated our dataset into three logical groups. 
 
-Put first group attributes and findings here
+
+First, the numerical set of data was processed, displaying distributions for both all generations toguether and seperate. As preliminary observation one can mention the skewness of both height and weight variables. Most pokemons have small values for those two varibales ___Figure 1___ . Plotting the height over generations ___Figure 2___  showed that it is uniform over generations. We could also see that generation 1 and 2 had larger amount of smaller and lighter pokemons.As for experience growth, a pattern difference is clearly observed across generations.
+Boxplotting the various continuous variables showed that weights and heights for generations 3, 4 and 5 more were spread out as the interquartile distances are bigger compared to the other generations.Plotting the median across the generations ___Figure 8___   also helped visualizing the differences and shifts frome one generation to another.
+Concerning the string variables, a investigation of the most present abilities, types and classifications was conducted and respectively shown in table 1, 4 and 7. Distributions were then ploted for the abilities ___Figure 9___ and types ___Figure 11___. This revelead a relatively skewed distribution. However, the rate of the skewness is quit slow. A generation wise invesigation was also conducted for the distribution of abilities and types shown respectively in ___Figure 10___ and ___Figure 12___. ___Figure 10___  showed the diversity among the top abilities for the various generations. This analysis also aimed at displaying the relationship between types and abilities table 2, abilities and classifications table 5 and classification and types table 8. 
+Finally a further analysis aimed at displaying the rate of occurences of pairs of values for the above mentioned pairs of variables in table 3, 6 and 9.
+
+
+
+
+
 
 The second group of explored attributes are:
 *	hp: The Base Health Points of the Pokemon
