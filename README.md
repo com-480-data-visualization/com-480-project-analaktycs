@@ -30,7 +30,7 @@ The aim of this project is to visulize pokemon's dynamics across generations for
   * Directed graph with edges going from winners to losers. 
   * Ability to select specific generation.
   * Ability to rearrange winners and losers with respect to features such as their types, if they are legendary or not and others to be defined.
-  * Ability to hover over the pokemons to see display pokemon card containing both brief textual description and spider chart of his main features. 
+  * Ability to hover over the pokemons to  display pokemon card containing both brief textual description and spider chart of his main features. 
 
 * __Figure 3__ : Features relationships : 
    * Aims at showing how chosing a specfic value for a feature will impact on another statistic. 
