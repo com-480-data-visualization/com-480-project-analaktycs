@@ -16,6 +16,33 @@
 
 ### Problematic
 
+The aim of this project is to visulize pokemon's dynamics across generations for the user to better make up his own pokemon. This project also means at providing insights on the intricate links between the different pokemon features in order to gauge their  importance and impact on the pokemon overall statistics and behaviour in combat. Finally, this project will display a visulization of the choice that were made  regarding the important features throughout the generations to better understand how this game evolved with his users. 
+
+* __Figure 1__ : Graphical representation of pokemon statistics across generations:
+   
+  * By default, displayed features would be the ones juged as signficantly different across generations.
+  * Dynamical graphic where user could also specify the feature he is interested in.
+  * Visualise feature distribution.
+  * Ability to evolve through generations.
+  * Provides insights on the designers choices over the generations.
+* __Figure 2__ : Circular representation of feature importance and diversity in context of combat :
+  * Dynamical representation of all pokemons in a circular manner. 
+  * Directed graph with edges going from winners to losers. 
+  * Ability to select specific generation.
+  * Ability to rearrange winners and losers with respect to features such as their types, if they are legendary or not and others to be defined.
+  * Ability to hover over the pokemons to see display pokemon card containing both brief textual description and spider chart of his main features. 
+
+* __Figure 3__ : Features relationships : 
+   * Aims at showing how chosing a specfic value for a feature will impact on another statistic. 
+   * Dynamical bipartite graphic.
+   * By default, displayed features would be the ones juged having significant relationship across generations.
+   * User could chose the two features he is interested in. 
+   * Dynamical vue over the generations.
+* __Figure 4__: Pokemon cooking :
+   * Based on previous information, recommender system will be built to help user better chose feaures and values.
+   * Linking esthtic feature such as body shape and color with their outcome on other statistics.
+   * Outputs the optimal pokemon choice based on a given subset of features.
+
 ### Exploratory Data Analysis
 
 We present here a summary of our findings from our exploratory data analysis. Please refer to Milestone1.ipynb for complete findings and plots.
