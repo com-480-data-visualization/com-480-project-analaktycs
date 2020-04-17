@@ -1,0 +1,19 @@
+rect {
+    fill: #a0522d;
+}
+text {
+    fill: #f5f5dc
+}
+.dropdown .option {
+    display:none;
+}
+.dropdown rect{
+    stroke-width:0.5;
+    stroke: rgb(139, 0, 10)
+}
+.dropdown:hover .option {
+    display:unset;
+}
+.dropdown {
+    cursor:pointer;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<script src="https://d3js.org/d3.v5.min.js"></script>
+<script src="spiderchart.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<link rel="stylesheet" href="spiderchart.css">
+
+<head>
+    <meta charset="UTF-8">
+    <title>spider chart</title>
+</head>
+<body>
+
+<script>
+
+    let csv_file="bro_data.csv"
+    let screen_part = 100
+    create_svg(screen_part, screen_part, "spider", "chocolate")
+
+    add_chart("spider", screen_part/2, "beige", csv_file, 0)
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,7 @@
+name,attack,defense,speed,sp_attack,sp_defense,hp
+pikachu,12,25,2,15,5,18
+charizard,2,8,25,30,5,10
+weedle,30,10,12,15,5,15
+Metapod,1,5,6,0,30,15
+eevee,10,10,10,10,10,10
+magikarp,30,30,30,30,30,30
