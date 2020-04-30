@@ -180,14 +180,42 @@
 
 
     </div>
-     
+    <script>
+        let d3_kamil = d3
+        window.d3=null
+    </script>
+    <script src="https://d3js.org/d3.v5.js"></script>
+    <script>
+        let d3_ludo = d3
+    </script>
+    <div id = "circle_chart_div">
+        <script src="../circle_chart/circle_chart.js"></script>
+        <link rel="stylesheet" href="../circle_chart/circle_chart.css">
+        <script src="https://d3js.org/d3.v5.js"></script>
+        <script>
 
+            let csv_file="../circle_chart/data_for_circle_chart.csv"
+            let screen_part = 100
+
+            create_svg(screen_part, 1.5*screen_part, "beige")
+            add_chart("main_svg", screen_part/2, "beige", csv_file, 0, "Type", d3_ludo)
+
+
+
+        </script>
+    </div>
+    <script>
+        window.d3=null
+        window.d3=d3_kamil
+    </script>
     <script src="https://d3js.org/d3.v4.min.js"></script>
 
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
   </body>
 
 </html>

@@ -1,17 +1,18 @@
 function create_svg(w, h, color){
+    console.log(d3.version)
     let width_ = window.innerWidth*w/100
     let height_ = window.innerHeight*h/100
-    let canvas = d3.select("body")
+    let canvas = d3.select("#circle_chart_div")
         .append("svg")
         .attr("width", width_)
         .attr("height", height_)
-        .attr("id", "main_svg")
+        .attr("id", "main_svg_circle")
         .style("background-color", color)
 
 }
 
 
-function add_chart(svg_name, size, color, csv_file, gen, feature){
+function add_chart(svg_name, size, color, csv_file, gen, feature, d3_version){
     let posx=  window.innerWidth*size/100
     let posy=  1.4*(window.innerHeight*size/100)
     let diameter = 6*size
@@ -25,12 +26,11 @@ function add_chart(svg_name, size, color, csv_file, gen, feature){
                 name: k.name
             }
         });
-        color=get_color(d[0], feature)
         let nb_angles = names.length
         create_pokeball(diameter, posx, posy)
-        add_select_gen(posx, posy, gen, feature)
-        add_select_feature(posx, posy, gen, feature)
-        add_names_and_dots(names , nb_angles,diameter, posx, posy, pkm, feature)
+        add_select_gen(posx, posy, gen, feature, d3_version)
+        add_select_feature(posx, posy, gen, feature, d3_version)
+        add_names_and_dots(names , nb_angles,diameter, posx, posy, pkm, feature, d3_version)
 
     })
 
@@ -41,7 +41,7 @@ function create_pokeball(size, posx, posy){
     let arc = d3.arc()
 
 
-    let base_circle = d3.select("svg")
+    let base_circle = d3.select("#main_svg_circle")
     const opa=0.5
 
     base_circle.append("path")
@@ -90,8 +90,9 @@ function create_pokeball(size, posx, posy){
 }
 
 
-function add_names_and_dots(names, nb_angles, size, posx, posy, pkm, feature){
-    let base_circle = d3.select("svg")
+function add_names_and_dots(names, nb_angles, size, posx, posy, pkm, feature, d3_version){
+    d3 = d3_version
+    let base_circle = d3.select("#main_svg_circle")
     for(let i = 0; i<nb_angles; i++){
         let nom = names[i].name
         let pokemon= pkm[i]
@@ -101,12 +102,10 @@ function add_names_and_dots(names, nb_angles, size, posx, posy, pkm, feature){
             .attr("class", "labels_radar")
             .style("fill", "maroon")
         txt.attr("alignment-baseline", "middle")
-        let width = txt.node().getComputedTextLength()
         let a = i*2*Math.PI/nb_angles
         let transx = posx+(size+5)*Math.cos(a)
         let transy = posy+(size+5)*Math.sin(a)
         let radius= 3*size/nb_angles
-        let color ="white"
 
         get_color(pokemon, feature).then(function(color){
             let id = pokemon.pokedex_number
@@ -228,7 +227,7 @@ function move_color_circle(id, pkm_list, radius, rad, posx, posy){
 }
 
 function get_color(pkm, feature){
-    let color = d3.csv("dot_colors.csv").then(function(d){
+    let color = d3.csv("../circle_chart/dot_colors.csv").then(function(d){
         feat=pkm[feature]
         let index = d.findIndex((k)=>{ return k.feature === feat})
         return d[index].color
@@ -270,14 +269,15 @@ function get_feat(data, feature){
     return [features, ordered_pkm]
 }
 
-function add_select_gen(posx, posy, gen, feature){
+function add_select_gen(posx, posy, gen, feature, d3_version){
+    d3 = d3_version
     let selection=["generation 1", "generation 2", "generation 3", "generation 4", "generation 5", "generation 6", "generation 7"]
     var l=4;
     for(i=0;i<selection.length;i++){if(l<selection[i].length)l=selection[i].length};
     var width = 400, height = 3000;
     l=l*10;
-    let main_svg = d3.select("#main_svg")
-    svg=main_svg.append("svg")
+    let main_svg = d3.select("#main_svg_circle")
+    let svg=main_svg.append("svg")
         .attr("width", width)
         .attr("height", height)
         .append("g")
@@ -312,7 +312,7 @@ function add_select_gen(posx, posy, gen, feature){
                 break;
             }
         }
-        update_chart(index, feature)
+        update_chart(index, feature, d3_version)
 
     });
     options.append("rect")
@@ -330,7 +330,8 @@ function add_select_gen(posx, posy, gen, feature){
 
 }
 
-function add_select_feature(posx, posy, gen, feature){
+function add_select_feature(posx, posy, gen, feature, d3_version){
+    d3 = d3_version
     let selection=["Type", "Legendary", "Body-Style", "Color"]
 
     if(gen==6){
@@ -340,7 +341,7 @@ function add_select_feature(posx, posy, gen, feature){
     let l = "legendary".length
     var width = 4000, height = 3000;
     l=l*10;
-    let main_svg = d3.select("#main_svg")
+    let main_svg = d3.select("#main_svg_circle")
     svg=main_svg.append("svg")
         .attr("width", width)
         .attr("height", height)
@@ -375,7 +376,7 @@ function add_select_feature(posx, posy, gen, feature){
                 break;
             }
         }
-        update_chart(gen, ft)
+        update_chart(gen, ft, d3_version)
 
     });
     options.append("rect")
@@ -393,15 +394,17 @@ function add_select_feature(posx, posy, gen, feature){
 
 }
 
-function update_chart(index, feature){
+function update_chart(index, feature, d3_version){
     d3.selectAll("#base_circle").remove()
     d3.select("#data_radar").remove()
     d3.selectAll(".labels_radar").remove()
     d3.select("#radar_base").remove()
     d3.selectAll(".color_circle").remove()
-    let csv_file="data_for_circle_chart.csv"
+    d3.select("#main_svg_circle").remove()
+    let csv_file="../circle_chart/data_for_circle_chart.csv"
     let screen_part = 100
-    add_chart("main_svg", screen_part/2, "beige", csv_file, index, feature)
+    create_svg(screen_part, 1.5*screen_part, "beige")
+    add_chart("main_svg_circle", screen_part/2, "beige", csv_file, index, feature, d3_version)
 }
 
 function create_ID_card(posx, posy, size, angle, pkm){
@@ -434,7 +437,7 @@ function create_ID_card(posx, posy, size, angle, pkm){
         col= "#003f5c"
     }
 
-    let id_card = d3.select("#main_svg")
+    let id_card = d3.select("#main_svg_circle")
     id_card.append("line")
         .attr("x1", posx)
         .attr("x2", px)
@@ -501,7 +504,7 @@ function create_radar(data, nb_angles, size, posx, posy, nb_sep, col){
     let max_stat= Math.max(...stat)
     let outer_circle = 50*nb_sep
 
-    let base_circle = d3.select("svg")
+    let base_circle = d3.select("#main_svg_circle")
     let angles=[]
     let position = []
     for(let k =nb_sep; k>0; k--){
@@ -545,7 +548,7 @@ function add_data_radar(data, nb_angles, size, posx, posy, nb_sep, col){
 
     let max_stat= Math.max(...stat)
     let outer_circle = 50*nb_sep
-    let base_circle = d3.select("svg")
+    let base_circle = d3.select("#main_svg_circle")
     let angles=[]
     let position = []
 
