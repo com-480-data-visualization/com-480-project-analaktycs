@@ -11038,7 +11038,7 @@ legend {
 }
 
 .axis .title {
-  font-size: 10px;
+  font-size: 15px;
   transform: rotate(-21deg) translate(-5px,-6px);
   fill: #222;
 }

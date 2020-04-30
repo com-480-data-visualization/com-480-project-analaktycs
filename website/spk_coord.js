@@ -176,7 +176,7 @@ function spk() {
 var dimensions = [
   {
     key: "generation",
-    description: "Generations ",
+    description: "Generations",
     type: types["String"],
     axis: d3.axisLeft()
       .tickFormat(function(d,i) {
@@ -375,7 +375,7 @@ d3.csv(file_name, function(error, data) {
     .append("text")
       .attr("class", "title")
       .attr("text-anchor", "start")
-      .text(function(d) { return "description" in d ? d.generation : d.key; });
+      .text(function(d) { return "description" in d ? d.description : d.key; });
 
   // Add and store a brush for each axis.
   axes.append("g")
