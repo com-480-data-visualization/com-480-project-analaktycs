@@ -1,0 +1,51 @@
+source,target,count,value
+Swift Swim,water,13,50.0
+Sand Veil,ground,13,72.22222222222221
+Chlorophyll,grass,12,50.0
+Rock Head,ground,9,45.0
+Chlorophyll,poison,9,37.5
+Poison Touch,poison,8,100.0
+Sand Force,ground,8,100.0
+Static,electric,7,58.333333333333336
+Flash Fire,fire,7,50.0
+Damp,water,7,38.88888888888889
+Shell Armor,water,7,50.0
+Rock Head,rock,7,35.0
+Sturdy,ground,7,38.88888888888889
+Gluttony,poison,7,43.75
+Sturdy,rock,7,38.88888888888889
+Poison Point,poison,6,42.857142857142854
+Keen Eye,flying,6,42.857142857142854
+Rivalry,poison,6,50.0
+Keen Eye,normal,6,42.857142857142854
+Water Absorb,water,5,50.0
+Weak Armor,rock,5,50.0
+Lightningrod,ground,5,27.77777777777778
+Stench,poison,5,83.33333333333334
+Inner Focus,psychic,5,22.727272727272727
+Tangled Feet,normal,5,50.0
+Tangled Feet,flying,5,50.0
+Run Away,normal,5,22.727272727272727
+Rain Dish,water,5,50.0
+Snow Cloak,ice,5,50.0
+Weak Armor,water,4,40.0
+Pressure,flying,4,40.0
+Hydration,water,4,50.0
+Technician,dark,4,33.33333333333333
+Synchronize,psychic,4,50.0
+Power of Alchemy,poison,4,100.0
+Inner Focus,flying,4,18.181818181818183
+Swift Swim,rock,4,15.384615384615385
+Arena Trap,ground,4,100.0
+Hustle,dark,4,25.0
+Tangling Hair,ground,4,100.0
+Levitate,poison,4,50.0
+Hustle,poison,4,25.0
+Flame Body,fire,4,50.0
+Hustle,normal,4,25.0
+Sticky Hold,poison,4,100.0
+Technician,normal,4,33.33333333333333
+Cute Charm,fairy,4,50.0
+Overgrow,poison,3,50.0
+Steadfast,fighting,3,37.5
+Blaze,fire,3,50.0

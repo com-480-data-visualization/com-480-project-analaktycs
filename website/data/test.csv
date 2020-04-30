@@ -1,0 +1,308 @@
+source,target,value
+Swift Swim,water,50.0
+Sand Veil,ground,72.22222222222221
+Chlorophyll,grass,50.0
+Rock Head,ground,45.0
+Chlorophyll,poison,37.5
+Poison Touch,poison,100.0
+Sand Force,ground,100.0
+Static,electric,58.333333333333336
+Flash Fire,fire,50.0
+Damp,water,38.88888888888889
+Shell Armor,water,50.0
+Rock Head,rock,35.0
+Sturdy,ground,38.88888888888889
+Gluttony,poison,43.75
+Sturdy,rock,38.88888888888889
+Poison Point,poison,42.857142857142854
+Keen Eye,flying,42.857142857142854
+Rivalry,poison,50.0
+Keen Eye,normal,42.857142857142854
+Water Absorb,water,50.0
+Weak Armor,rock,50.0
+Lightningrod,ground,27.77777777777778
+Stench,poison,83.33333333333334
+Inner Focus,psychic,22.727272727272727
+Tangled Feet,normal,50.0
+Tangled Feet,flying,50.0
+Run Away,normal,22.727272727272727
+Rain Dish,water,50.0
+Snow Cloak,ice,50.0
+Weak Armor,water,40.0
+Pressure,flying,40.0
+Hydration,water,50.0
+Technician,dark,33.33333333333333
+Synchronize,psychic,50.0
+Power of Alchemy,poison,100.0
+Inner Focus,flying,18.181818181818183
+Swift Swim,rock,15.384615384615385
+Arena Trap,ground,100.0
+Hustle,dark,25.0
+Tangling Hair,ground,100.0
+Levitate,poison,50.0
+Hustle,poison,25.0
+Flame Body,fire,50.0
+Hustle,normal,25.0
+Sticky Hold,poison,100.0
+Technician,normal,33.33333333333333
+Cute Charm,fairy,50.0
+Overgrow,poison,50.0
+Steadfast,fighting,37.5
+Blaze,fire,50.0
+bug,Mouse Pokémon,50.0
+poison,Psi Pokémon,66.66666666666666
+psychic,Big Jaw Pokémon,66.66666666666666
+electric,Poison Moth Pokémon,100.0
+water,Electric Pokémon,66.66666666666666
+rock,Dragon Pokémon,33.33333333333333
+normal,Bat Pokémon,66.66666666666666
+poison,Mouse Pokémon,33.33333333333333
+grass,Seed Pokémon,50.0
+ground,Ball Pokémon,100.0
+poison,Flame Pokémon,50.0
+water,Light Pokémon,100.0
+dragon,Loud Noise Pokémon,100.0
+bug,Poison Pin Pokémon,25.0
+bug,Rock Snake Pokémon,100.0
+bug,Snake Pokémon,100.0
+bug,Tiny Bird Pokémon,50.0
+bug,Wood Gecko Pokémon,50.0
+dark,Balloon Pokémon,25.0
+dark,Fox Pokémon,50.0
+dark,Kicking Pokémon,100.0
+dark,Lonely Pokémon,100.0
+dragon,Arm Thrust Pokémon,100.0
+electric,Royal Pokémon,100.0
+dragon,Whisper Pokémon,100.0
+electric,Diving Pokémon,100.0
+electric,Lazy Pokémon,100.0
+electric,Mole Pokémon,50.0
+electric,Owl Pokémon,50.0
+bug,Gas Pokémon,50.0
+electric,Scout Pokémon,100.0
+electric,Scratch Cat Pokémon,100.0
+electric,Symbol Pokémon,100.0
+fairy,Fire Horse Pokémon,50.0
+flying,Butterfly Pokémon,50.0
+bug,Hypnosis Pokémon,50.0
+flying,Angler Pokémon,100.0
+fairy,Flower Pokémon,33.33333333333333
+fire,Jolly Pokémon,100.0
+fighting,Humanshape Pokémon,100.0
+fighting,Lightning Pokémon,100.0
+fighting,Mold Pokémon,100.0
+fighting,Spikes Pokémon,100.0
+fighting,Transport Pokémon,100.0
+fire,Cocoon Pokémon,25.0
+fire,Dragon Pokémon,16.666666666666664
+fire,Fairy Pokémon,25.0
+fire,Fire Mouse Pokémon,100.0
+fire,Jellyfish Pokémon,50.0
+fire,Leaf Pokémon,50.0
+poison,bipedal_tailed,28.57142857142857
+water,bipedal_tailed,28.125
+poison,bipedal_tailless,20.0
+poison,two_wings,17.142857142857142
+normal,quadruped,27.27272727272727
+water,quadruped,15.625
+water,bipedal_tailless,15.625
+normal,head_legs,22.727272727272727
+flying,bipedal_tailed,26.31578947368421
+fire,bipedal_tailless,30.76923076923077
+psychic,bipedal_tailed,28.57142857142857
+fire,bipedal_tailed,30.76923076923077
+normal,bipedal_tailed,18.181818181818183
+bug,quadruped,33.33333333333333
+water,two_wings,12.5
+ground,bipedal_tailed,18.75
+psychic,bipedal_tailless,21.428571428571427
+water,four_wings,9.375
+poison,quadruped,8.571428571428571
+poison,insectoid,8.571428571428571
+rock,bipedal_tailed,27.27272727272727
+grass,bipedal_tailed,21.428571428571427
+ground,quadruped,18.75
+grass,quadruped,21.428571428571427
+ground,bipedal_tailless,18.75
+normal,two_wings,13.636363636363635
+ice,bipedal_tailless,33.33333333333333
+fighting,quadruped,37.5
+electric,quadruped,20.0
+bug,serpentine_body,16.666666666666664
+dark,bipedal_tailless,50.0
+dragon,bipedal_tailed,66.66666666666666
+electric,four_wings,20.0
+water,with_fins,6.25
+electric,two_wings,20.0
+fighting,with_fins,25.0
+fairy,quadruped,40.0
+flying,head_legs,10.526315789473683
+flying,insectoid,10.526315789473683
+flying,four_wings,10.526315789473683
+bug,bipedal_tailed,16.666666666666664
+rock,insectoid,18.181818181818183
+ground,head_only,12.5
+rock,bipedal_tailless,18.181818181818183
+grass,head_legs,14.285714285714285
+grass,head_only,14.285714285714285
+rock,two_wings,18.181818181818183
+flying,two_wings,10.526315789473683
+ghost,bipedal_tailed,66.66666666666666
+poison,head_arms,5.714285714285714
+ice,bipedal_tailed,22.22222222222222
+psychic,quadruped,14.285714285714285
+psychic,head_only,14.285714285714285
+ice,quadruped,22.22222222222222
+ground,multiple_bodies,6.25
+ground,with_fins,6.25
+ground,two_wings,6.25
+ground,serpentine_body,6.25
+fire,quadruped,7.6923076923076925
+grass,several_limbs,7.142857142857142
+grass,two_wings,7.142857142857142
+ground,insectoid,6.25
+fire,serpentine_body,7.6923076923076925
+fire,several_limbs,7.6923076923076925
+bug,bipedal_tailless,8.333333333333332
+grass,with_fins,7.142857142857142
+fire,four_wings,7.6923076923076925
+fire,head_base,7.6923076923076925
+fighting,bipedal_tailless,12.5
+ice,head_arms,11.11111111111111
+flying,head_base,5.263157894736842
+ice,serpentine_body,11.11111111111111
+fighting,insectoid,12.5
+normal,bipedal_tailless,4.545454545454546
+normal,four_wings,4.545454545454546
+normal,insectoid,4.545454545454546
+fighting,bipedal_tailed,12.5
+normal,serpentine_body,4.545454545454546
+flying,serpentine_body,5.263157894736842
+fairy,head_base,20.0
+fairy,bipedal_tailless,20.0
+fairy,bipedal_tailed,20.0
+poison,head_only,2.857142857142857
+electric,multiple_bodies,10.0
+grass,head_arms,7.142857142857142
+rock,serpentine_body,9.090909090909092
+flying,bipedal_tailless,5.263157894736842
+poison,several_limbs,2.857142857142857
+poison,with_fins,2.857142857142857
+electric,head_only,10.0
+bipedal_tailed,Blue,22.151898734177212
+quadruped,Brown,24.444444444444443
+bipedal_tailed,Brown,14.556962025316455
+quadruped,Blue,17.037037037037038
+bipedal_tailed,Red,12.658227848101266
+bipedal_tailed,Green,11.39240506329114
+bipedal_tailless,Blue,15.59633027522936
+quadruped,Grey,12.592592592592592
+bipedal_tailless,Green,14.678899082568808
+quadruped,Yellow,11.851851851851853
+bipedal_tailed,Yellow,10.126582278481013
+with_fins,Blue,48.38709677419355
+bipedal_tailed,Pink,8.860759493670885
+quadruped,Green,10.37037037037037
+bipedal_tailless,Brown,11.926605504587156
+two_wings,Brown,20.634920634920633
+bipedal_tailless,Pink,11.009174311926607
+insectoid,Red,36.666666666666664
+bipedal_tailed,Grey,6.962025316455696
+head_only,Purple,29.411764705882355
+two_wings,Blue,15.873015873015872
+bipedal_tailless,Yellow,9.174311926605505
+bipedal_tailless,White,9.174311926605505
+two_wings,Red,15.873015873015872
+bipedal_tailed,Purple,6.329113924050633
+quadruped,White,6.666666666666667
+bipedal_tailless,Red,8.256880733944955
+bipedal_tailless,Grey,8.256880733944955
+quadruped,Purple,6.666666666666667
+bipedal_tailless,Purple,7.339449541284404
+two_wings,Purple,12.698412698412698
+head_base,Brown,26.666666666666668
+several_limbs,Blue,53.84615384615385
+bipedal_tailed,White,4.430379746835443
+head_arms,Black,17.94871794871795
+head_base,Blue,20.0
+head_legs,Blue,35.294117647058826
+serpentine_body,Purple,20.689655172413794
+head_base,Green,20.0
+head_only,Grey,17.647058823529413
+head_arms,Purple,15.384615384615385
+two_wings,White,9.523809523809524
+head_only,Red,14.705882352941178
+serpentine_body,Blue,17.24137931034483
+head_legs,Brown,29.411764705882355
+head_arms,White,12.82051282051282
+quadruped,Black,3.7037037037037033
+bipedal_tailless,Black,4.587155963302752
+head_arms,Green,12.82051282051282
+two_wings,Yellow,7.936507936507936
+quadruped,Red,3.7037037037037033
+four_wings,Yellow,27.77777777777778
+multiple_bodies,Grey,33.33333333333333
+four_wings,Green,22.22222222222222
+head_arms,Blue,10.256410256410255
+head_arms,Grey,10.256410256410255
+with_fins,Grey,12.903225806451612
+with_fins,Red,12.903225806451612
+multiple_bodies,Brown,26.666666666666668
+head_arms,Brown,10.256410256410255
+two_wings,Black,6.349206349206349
+two_wings,Grey,6.349206349206349
+head_only,Green,11.76470588235294
+bipedal_tailed,Black,2.5316455696202533
+insectoid,Yellow,13.333333333333334
+quadruped,Pink,2.9629629629629632
+serpentine_body,Green,13.793103448275861
+insectoid,Grey,10.0
+head_base,Purple,10.0
+four_wings,Red,16.666666666666664
+head_base,White,10.0
+insectoid,Green,10.0
+with_fins,White,9.67741935483871
+two_wings,Green,4.761904761904762
+serpentine_body,Yellow,10.344827586206897
+serpentine_body,Red,10.344827586206897
+serpentine_body,Grey,10.344827586206897
+with_fins,Pink,6.451612903225806
+head_only,Yellow,5.88235294117647
+head_only,White,5.88235294117647
+insectoid,Blue,6.666666666666667
+insectoid,Brown,6.666666666666667
+insectoid,Purple,6.666666666666667
+serpentine_body,Black,6.896551724137931
+head_only,Blue,5.88235294117647
+serpentine_body,Pink,6.896551724137931
+head_legs,Red,11.76470588235294
+with_fins,Brown,6.451612903225806
+head_arms,Red,5.128205128205128
+four_wings,Purple,11.11111111111111
+several_limbs,White,15.384615384615385
+head_base,Grey,6.666666666666667
+head_legs,Pink,11.76470588235294
+multiple_bodies,Pink,13.333333333333334
+head_only,Black,5.88235294117647
+head_arms,Pink,5.128205128205128
+four_wings,White,11.11111111111111
+insectoid,Pink,3.3333333333333335
+several_limbs,Red,7.6923076923076925
+several_limbs,Brown,7.6923076923076925
+head_base,Yellow,3.3333333333333335
+head_only,Brown,2.941176470588235
+serpentine_body,Brown,3.4482758620689653
+multiple_bodies,Purple,6.666666666666667
+head_base,Black,3.3333333333333335
+head_legs,White,5.88235294117647
+with_fins,Green,3.225806451612903
+head_legs,Yellow,5.88235294117647
+insectoid,White,3.3333333333333335
+multiple_bodies,Blue,6.666666666666667
+multiple_bodies,Yellow,6.666666666666667
+four_wings,Blue,5.555555555555555
+multiple_bodies,White,6.666666666666667
+four_wings,Black,5.555555555555555
+several_limbs,Grey,7.6923076923076925
+several_limbs,Green,7.6923076923076925
+insectoid,Black,3.3333333333333335
