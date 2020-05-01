@@ -155,7 +155,11 @@ Overall we have been inspired by the Mark Channel lecture of week 6. More specif
 
 ### Figure 3:
 
-The purpose of this part is to be able to investigate the feature relationship among pokemons. Initially only a bipartite graph showing the how a specific value for a feature would impact the other was intended. For that matter, the __Figure 3.1__ depicts the following feature relationships : 
+The purpose of this part is to be able to investigate the feature relationship among pokemons. Initially only a bipartite graph showing the how a specific value for a feature would impact the other was intended. However, other vizualisations were considered inteeresting as well. Hence the following figures were realised and will all be eventually displayed in a slide show manner (possibility).
+
+#### Figure 3.1 : 
+
+The __Figure 3.1__ depicts the following feature relationships : 
 * Ability vs Types 
 * Types vs Body shape
 * Body shape vs Color 
@@ -177,6 +181,7 @@ In that way, the figure is made interactive and user can investigate each featur
 This figure will be maid generation specific through a dropdown menu allowing the user to choose the one he is interested in. More comparisons will also be displayed as well as a default mode showing a subset of comparisons chosen as significant. 
 
 
+#### Figure 3.2 : 
 Regarding continuous feature investigation across all generations, a bipartite coordinate plot was used as shown in __figure 3.2__. Each Scale represents a specific feature and several lines join the various features values : 
 
 ![](sketches/fig3.2.png)
@@ -191,6 +196,7 @@ This plot allows a specific investigation of the pokemon “pattern” as the us
 This figure will display the name of the pokemons following the mentioned pattern. A similar figure will be maid for the type specific attack and defense abilities in combat. A toggle will allow the user to move between the two figures. 
 
 
+#### Figire 3.3 : 
 
 Finally, it appeared insightful in to display the relationship between a set of features all together. As depicted in __figure 3.3__, a parallel representation of the features selected for the figure 3.1 has been implemented. It shows specific pokemon pattern for a given ability, type, body shape and color through a line liking the respective values together. It is possible to hover over a given line to emphasize on it. Feature values are also displayed at each step of the graph. 
 
