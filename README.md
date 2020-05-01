@@ -212,7 +212,7 @@ Finally, it appeared insightful to display the relationship between a set of fea
 
 In the future, this figure will display the name of the pokemon as well as pattern information when hovering on a given line. Moreover, the user will be able to select a specific generation to investigate. Other features could also be integrated in this figure. 
 
-#### Tools to be used and inspirations from lectures: 
+### Tools to be used and inspirations from lectures: 
 
 If we only keep the popularity votes for figure 1.1, we will need to use the button functionality of d3.js to change input data in barplot, where we will put four buttons representing four of our variables, i.e. type, generation, body style, and color. Reference: https://www.d3-graph-gallery.com/graph/barplot_button_data_csv.html 
 
