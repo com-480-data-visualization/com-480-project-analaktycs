@@ -183,7 +183,7 @@ Regarding continuous feature investigation across all generations, a bipartite c
 
 This plot allows a specific investigation of the pokemon “pattern” as the user can select one or multiple generations and investigate the pokemons having a given pattern. A pattern here refers to a specific set of selected values for the displayed features. For instance the first generation of pokemon, having betwen 40-80 heart power, a speed ranging between a 100  and 180 and a capture rate between 80 and a hundred : 
 
-![](sketches/fig3.2.v.png)
+![](sketches/figure3.2.v.png)
 
 
 ### Future Implementations  :
