@@ -160,6 +160,8 @@ In a second time, we will use combat data to know which pokemon, a selected poke
 
 To make the transitions smooth, the course on interactions, which was already used many times up to this point, will be very useful because it also talks about animations.  
 
+The width of the figure will be fixed.
+
 ### Figure 3:
 
 The purpose of this part is to be able to investigate the feature relationship among pokemons. Initially only a bipartite graph showing the how a specific value for a feature would impact the other was intended. However, other vizualisations were considered inteeresting as well. Hence the following figures were realised and will all be eventually displayed in a slide show manner (possibility).
