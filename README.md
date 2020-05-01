@@ -121,7 +121,7 @@ The initial version of our website is accessible on analaktycs.github.io.
 
 #### Sketch:
 
-![](sketches/fig1.2.png)
+![](sketches/fig1.1.png)
 
 #### What will be added:
 An overview of the most interesting (stacked) bar plots in the dataset will be shown. The user will be able to hover over the stacks of bars on the plot to view the respective Pokemon names within that category. We may decide to only keep the popularity vote plots since they are easier to understand for the majority of users. 
