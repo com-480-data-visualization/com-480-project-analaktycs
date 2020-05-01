@@ -128,11 +128,11 @@ An overview of the most interesting (stacked) bar plots in the dataset will be s
 
 #### Description of what has been done:
 A sketch of the final product has been drawn to have a concrete understanding of our work for this figure. This figure is optional as we are still trying to figure out if it is interactive enough for a data visualization course and a better way to adapt it.
-Tools to be used and inspirations from lectures: 
+
+#### Tools to be used and inspirations from lectures: 
 If we only keep the popularity votes, we will need to use the button functionality of d3.js to change input data in barplot, where we will put four buttons representing four of our variables, i.e. type, generation, body style, and color. Reference: https://www.d3-graph-gallery.com/graph/barplot_button_data_csv.html 
 
 We will need to utilize the information from Tabular Data lecture of week 11 that explains stacked bar charts.
-
 
 ### Figure 1.2:
 
@@ -152,7 +152,6 @@ A skeleton of the scatterplot has been added with the dropdown links along with 
 d3.js bubble plot will be the main skeleton of the plot. We will then incorporate select group functionality of d3.js to account for the selected variables by the user. Colored bubble will be used to account for the categorical variable the user selects. Add tooltip will be used to allow the user to hover over a single bubble to display its stats. Reference: https://www.d3-graph-gallery.com/graph/bubble_tooltip.html 
 
 Overall we have been inspired by the Mark Channel lecture of week 6. More specifically, we have been inspired by the “Combining marks and channels” topic, where it explains that you can utilize position, hue, and size to show your continuous variables and color to show your categorical variable. It is thus a very useful way to display four variables in a 2-D graph. We will also need the Tabular Data lecture of Week 11 for the bubble plot. 
-
 
 
 ## Milestone 3 (Thursday 28th May, 5pm)
