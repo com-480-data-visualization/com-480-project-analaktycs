@@ -194,7 +194,7 @@ This figure will display the name of the pokemons following the mentioned patter
 
 Finally, it appeared insightful in to display the relationship between a set of features all together. As depicted in __figure 3.3__, a parallel representation of the features selected for the figure 3.1 has been implemented. It shows specific pokemon pattern for a given ability, type, body shape and color through a line liking the respective values together. It is possible to hover over a given line to emphasize on it. Feature values are also displayed at each step of the graph. 
 
-![](sketches/fig3.3png)
+![](sketches/fig3.3.png)
 
 
 ### Future Implementations  :
