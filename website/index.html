@@ -11,8 +11,7 @@
 
    <script src="https://unpkg.com/react@16.9.0/umd/react.production.min.js"></script>
     <script src="https://unpkg.com/react-dom@16.9.0/umd/react-dom.production.min.js"></script>
-    <script src="https://d3js.org/d3.v3.min.js"></script>
-                  <script src="lib/sankey.js"></script>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
 
 
 
@@ -20,13 +19,17 @@
     <!-- Bootstrap CSS -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    
-    <link href="src/style.css" rel="stylesheet" />
 
-  
+    <link href="src/style.css" rel="stylesheet" />
+    <link href="lib/d3.parsets.css" rel="stylesheet" />
+
+
+
   </head>
 
+
   <body>
+
 <script src="https://bl.ocks.org/syntagmatic/raw/3341641/render-queue.js"></script>
 
 
@@ -112,7 +115,7 @@
       </div>
 
 
-      <div id = "Figure3"> 
+      <div id = "Figure3">
                 <h1>Figure 3 : Feature Relationship </h1>
           <h3>
               <small class="text-muted">Aims at showing how chosing a specfic value for a feature will impact on another statistic.
@@ -122,79 +125,105 @@
             Dynamical vue over the generations.</small>
          </h3>
 
-          <h3>Figure 3.1 : Bipartite display of feature relation ships, in proportion and frequency</h3>   
+          <h3>Figure 3.1 : Bipartite display of feature relationships, in proportion and frequency</h3>
+          
+
+
+
+
+            <script src="https://d3js.org/d3.v3.js"></script>
+    <script>
+        let kam = d3
+         console.log(kam,'kam')
+    </script>
           <div class="btn-group btn-group-toggle" data-toggle="buttons">
                     <label class="btn btn-primary">
-                      <input type="checkbox" checked="" autocomplete="off"  value ="AbilitiesvsTypes" onclick="AbilitiesvsTypes()"/> Abilities vs Types 
+
+                      <input type="checkbox" checked="" autocomplete="off"  value ="AbilitiesvsTypes" onclick="AbilitiesvsTypes(kam)"/> Abilities vs Types
                     </label>
                     <label class="btn btn-primary active">
-                      <input type="checkbox" autocomplete="off" onclick="TypesvsBody()"/> Types vs Body
+                      <input type="checkbox" autocomplete="off" onclick="TypesvsBody(kam)"/> Types vs Body
                     </label>
                     <label class="btn btn-primary active">
-                      <input type="checkbox" autocomplete="off" onclick="ColorvsBody()"/> Body vs Color
+                      <input type="checkbox" autocomplete="off" onclick="ColorvsBody(kam)"/> Body vs Color
                     </label>
-                     
+
                      </div>
-                     <div id = "bipartite2">    
-  
-                        <script src="http://vizjs.org/viz.v1.1.0.min.js"></script> 
+
+
+                     <div id = "bipartite2">
+
+                                    <script src="https://d3js.org/d3.v3.js"></script>
+                                    <script > console.log(d3.version)</script>
+
+                        <script src="http://vizjs.org/viz.v1.1.0.min.js"></script>
+
                           <script src="src/testViz2.js" ></script> </div>
 
 
-    <h3>Figure 3.3 : Bipartite display of feature relation ships, in flow manner </h3>   
 
-          <div id = "sankey">
+        <h3>Figure 3.3 : Coordinate display of categorical features relationships</h3>
 
+      <div>
+        
 
-
-               <script class="box" src="src/sankeyTest.js"></script>
-  
-                </div>
-
+                                
+   <div  id="chartArea">
 
 
-           </div>
+                            <script src="https://d3js.org/d3.v4.js"></script>
 
-  <h3>Figure 3.3 : Coordinate display of categorical features relation ships</h3>   
-               
 
-            <div class="btn-group btn-group-toggle" data-toggle="buttons">
-                    <label class="btn btn-primary">
-                      <input type="checkbox" checked="" autocomplete="off"  value ="overall" onclick="overall()"/> Abilities vs Types 
-                    </label>
-                    <label class="btn btn-primary active">
-                      <input type="checkbox" autocomplete="off" onclick="spk()"/> Types vs Body
-                    </label>
-
-                     
-                     </div>
-                      <div  id="chartArea">
-
-                     <script src="https://d3js.org/d3.v4.js"></script>
               <script class = 'box' src = "src/spk_coord.js" > </script></div>
- 
-
-      </div>
 
 
 
+
+
+
+
+               <h3>Figure 3.3 : Bipartite display of feature relation ships, in flow manner </h3>   
+
+          <div id = "vis">
+
+                                    <script src="https://d3js.org/d3.v4.js"></script>
+
+
+               <script  src = "lib/d3.parsets.js" > </script>
+
+
+              <script src = "src/para.js"> 
+              </script>
 
     </div>
+
+
+
+
+
+
+
+  
+          </div>
+
+  
     <script>
         let d3_kamil = d3
-        window.d3=null
+        console.log(d3_kamil.version,'wesh')
+        console.log(window.version,'window')
+
     </script>
     <script src="https://d3js.org/d3.v5.js"></script>
     <script>
         let d3_ludo = d3
     </script>
     <div id = "circle_chart_div">
-        <script src="../circle_chart/circle_chart.js"></script>
-        <link rel="stylesheet" href="../circle_chart/circle_chart.css">
+        <script src="circle_chart/circle_chart.js"></script>
+        <link rel="stylesheet" href="circle_chart/circle_chart.css">
         <script src="https://d3js.org/d3.v5.js"></script>
         <script>
 
-            let csv_file="../circle_chart/data_for_circle_chart.csv"
+            let csv_file="circle_chart/data_for_circle_chart.csv"
             let screen_part = 100
 
             create_svg(screen_part, 1.5*screen_part, "beige")
@@ -204,11 +233,22 @@
 
         </script>
     </div>
+
     <script>
-        window.d3=null
-        window.d3=d3_kamil
+
+        console.log(d3,'window')
     </script>
-    <script src="https://d3js.org/d3.v4.min.js"></script>
+
+          </div>
+
+          </div>
+
+
+
+
+
+
+
 
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
@@ -217,5 +257,6 @@
 
 
   </body>
+
 
 </html>

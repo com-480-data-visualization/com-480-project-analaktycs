@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<script src="https://d3js.org/d3.v5.js"></script>
+<script src="circle_chart.js"></script>
+<link rel="stylesheet" href="circle_chart.css">
+
+<head>
+    <meta charset="UTF-8">
+    <title>circle chart</title>
+</head>
+<body>
+
+<script>
+    console.log(d3.version)
+    let csv_file="data_for_circle_chart.csv"
+    let screen_part = 100
+    create_svg(screen_part, 1.5*screen_part, "beige")
+    add_chart("main_svg_circle", screen_part/2, "beige", csv_file, 0, "Type")
+
+
+
+
+</script>
+
+</body>
+</html>

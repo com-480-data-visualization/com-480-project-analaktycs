@@ -1,9 +1,12 @@
 
+
 var svg3 = d3.select("#bipartite2").append("svg").attr("width", 1100).attr("height", 800);
 
+AbilitiesvsTypes(d3)
 
-AbilitiesvsTypes()
-function AbilitiesvsTypes() {
+function AbilitiesvsTypes(d3) {
+	console.log('aaaa',d3.version)
+
 
 	svg3.selectAll("*").remove();
 
@@ -20,13 +23,13 @@ var g =[svg3.append("g").attr("transform","translate(150,100)")
 			const file_name1 = "data/test7.csv"
 
 
-	construct_graph(file_name1,g,"Abilities","Types")
+	construct_graph(file_name1,g,"Abilities","Types",d3)
 
 }
 
 
 
-function TypesvsBody(){
+function TypesvsBody(d3){
 
 	svg3.selectAll("*").remove();
 svg3.append("text").attr("x",250).attr("y",70)
@@ -40,12 +43,12 @@ var g =[svg3.append("g").attr("transform","translate(150,100)")
 
 			const file_name2 = "data/type_vs_shape.csv"
 
-	construct_graph(file_name2,g,"Types","Body Shape")
+	construct_graph(file_name2,g,"Types","Body Shape",d3)
 
 }
 
 
-function ColorvsBody(){
+function ColorvsBody(d3){
 
 	svg3.selectAll("*").remove();
 svg3.append("text").attr("x",250).attr("y",70)
@@ -59,7 +62,7 @@ var g =[svg3.append("g").attr("transform","translate(150,100)")
 
 			const file_name3 = "data/bodyvscolor.csv"
 
-	construct_graph(file_name3,g,"BodyShape","Color")
+	construct_graph(file_name3,g,"BodyShape","Color",d3)
 
 }
 
@@ -67,8 +70,7 @@ var g =[svg3.append("g").attr("transform","translate(150,100)")
 
 
 
-
-function construct_graph(file_name,g,var1,var2){
+function construct_graph(file_name,g,var1,var2,d3){
 
 
 
@@ -227,4 +229,5 @@ function construct_graph(file_name,g,var1,var2){
 
    ;
 
+   
    // ** Update data section (Called from the onclick)
