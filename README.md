@@ -162,7 +162,13 @@ The user chooses the wich relationship tho display by clicking on the according 
 
 For instance if the user hovers over one value for instance brow color, he will see the distribution of such color among the body shape present : 
 
+![](sketches/fig3.1.png)
+
+
 In that way, the figure is made interactive and user can investigate each feature value distribution across the other selected feature. 
+
+![](sketches/fig3.1.2.png)
+
 
 
 ### Future Implementations : 
