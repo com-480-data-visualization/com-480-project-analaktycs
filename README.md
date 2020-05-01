@@ -119,39 +119,21 @@ The initial version of our website is accessible on [analaktycs.github.io](https
 
 ### Figure 1.1 (extra):
 
-#### Sketch:
-
 ![](sketches/fig1.1.png)
 
-#### What will be added:
 An overview of the most interesting (stacked) bar plots in the dataset will be shown. The user will be able to hover over the stacks of bars on the plot to view the respective Pokemon names within that category. We may decide to only keep the popularity vote plots since they are easier to understand for the majority of users. 
 
-#### Description of what has been done:
-A sketch of the final product has been drawn to have a concrete understanding of our work for this figure. This figure is optional as we are still trying to figure out if it is interactive enough for a data visualization course and a better way to adapt it.
-
-#### Tools to be used and inspirations from lectures: 
-If we only keep the popularity votes, we will need to use the button functionality of d3.js to change input data in barplot, where we will put four buttons representing four of our variables, i.e. type, generation, body style, and color. Reference: https://www.d3-graph-gallery.com/graph/barplot_button_data_csv.html 
-
-We will need to utilize the information from Tabular Data lecture of week 11 that explains stacked bar charts.
+So far, a sketch of the final product has been drawn to have a concrete understanding of our work for this figure. This figure is optional as we are still trying to figure out if it is interactive enough for a data visualization course and a better way to adapt it.
 
 ### Figure 1.2:
 
-#### Sketch: 
-
 ![](sketches/fig1.2.png)
 
-#### What will be added:
 We will create an interactive bubble plot where the user will be able to select the variables that they desire to view in the plot by choosing from their respective dropdown lists. These variables will create 6 plots that each represent Pokemon from the first 6 generations. The user will be able to switch between plots using a slider in the bottom. When the user hovers over each data point, they will be able to view the pokedex number, a picture, and the values of the variables they selected from the dropdown lists.
 
 Extra ideas: Toggle to switch from viewing each generation individually to viewing all generations together. A button to randomize all the variables if the user wants to do some fun exploration.
 
-#### Description of what has been done:
-A skeleton of the scatterplot has been added with the dropdown links along with the generation-wise viewing toggle, and slider to select the generation. A sketch of the final product has been drawn to have a concrete understanding of our work for this figure.
-
-#### Tools to be used and inspirations from lectures: 
-d3.js bubble plot will be the main skeleton of the plot. We will then incorporate select group functionality of d3.js to account for the selected variables by the user. Colored bubble will be used to account for the categorical variable the user selects. Add tooltip will be used to allow the user to hover over a single bubble to display its stats. Reference: https://www.d3-graph-gallery.com/graph/bubble_tooltip.html 
-
-Overall we have been inspired by the Mark Channel lecture of week 6. More specifically, we have been inspired by the “Combining marks and channels” topic, where it explains that you can utilize position, hue, and size to show your continuous variables and color to show your categorical variable. It is thus a very useful way to display four variables in a 2-D graph. We will also need the Tabular Data lecture of Week 11 for the bubble plot. 
+So far, a skeleton of the scatterplot has been added with the dropdown links along with the generation-wise viewing toggle, and slider to select the generation. A sketch of the final product has been drawn to have a concrete understanding of our work for this figure.
 
 ### Figure 3:
 
@@ -165,20 +147,18 @@ The __Figure 3.1__ depicts the following feature relationships :
 * Body shape vs Color 
 The user chooses the wich relationship tho display by clicking on the according button. Such relationships are represented by both the number of occurrences of one feature specific value in the other as well as presence frequency. 
 
-For instance if the user hovers over one value for instance brow color, he will see the distribution of such color among the body shape present : 
+For instance if the user hovers over one value, for instance the brown color, he will see the distribution of such color among the body shape present : 
 
 ![](sketches/fig3.1.png)
 
-
-In that way, the figure is made interactive and user can investigate each feature value distribution across the other selected feature. 
+That way, the figure is made interactive and user can investigate each feature value distribution across the other selected feature. 
 
 ![](sketches/fig3.1.2.png)
 
 
+##### Future Implementations : 
 
-### Future Implementations : 
-
-This figure will be maid generation specific through a dropdown menu allowing the user to choose the one he is interested in. More comparisons will also be displayed as well as a default mode showing a subset of comparisons chosen as significant. 
+This figure will be made generation-specific through a dropdown menu allowing the user to choose the one he is interested in. More comparisons will also be displayed as well as a default mode showing a subset of comparisons chosen as significant. 
 
 
 #### Figure 3.2 : 
@@ -186,28 +166,34 @@ Regarding continuous feature investigation across all generations, a bipartite c
 
 ![](sketches/fig3.2.png)
 
-
 This plot allows a specific investigation of the pokemon “pattern” as the user can select one or multiple generations and investigate the pokemons having a given pattern. A pattern here refers to a specific set of selected values for the displayed features. For instance the first generation of pokemon, having betwen 40-80 heart power, a speed ranging between a 100  and 180 and a capture rate between 80 and a hundred : 
 
 ![](sketches/figure3.2.v.png)
 
 
-### Future Implementations  :
+##### Future Implementations  :
 This figure will display the name of the pokemons following the mentioned pattern. A similar figure will be maid for the type specific attack and defense abilities in combat. A toggle will allow the user to move between the two figures. 
 
 
-#### Figire 3.3 : 
+#### Figure 3.3 : 
 
 Finally, it appeared insightful in to display the relationship between a set of features all together. As depicted in __figure 3.3__, a parallel representation of the features selected for the figure 3.1 has been implemented. It shows specific pokemon pattern for a given ability, type, body shape and color through a line liking the respective values together. It is possible to hover over a given line to emphasize on it. Feature values are also displayed at each step of the graph. 
 
 ![](sketches/fig3.3.png)
 
-
-### Future Implementations  :
+##### Future Implementations  :
 
 In the future, this figure will display the name of the pokemon as well as pattern information when hovering on a given line. Moreover, the user will be able to select a specific generation to investigate. Other features could also be integrated in this figure. 
 
+#### Tools to be used and inspirations from lectures: 
 
+If we only keep the popularity votes for figure 1.1, we will need to use the button functionality of d3.js to change input data in barplot, where we will put four buttons representing four of our variables, i.e. type, generation, body style, and color. Reference: https://www.d3-graph-gallery.com/graph/barplot_button_data_csv.html 
+
+We will need to utilize the information from Tabular Data lecture of week 11 that explains stacked bar charts.
+
+d3.js bubble plot will be the main skeleton of figure 1.2. We will then incorporate select group functionality of d3.js to account for the selected variables by the user. Colored bubble will be used to account for the categorical variable the user selects. Add tooltip will be used to allow the user to hover over a single bubble to display its stats. Reference: https://www.d3-graph-gallery.com/graph/bubble_tooltip.html 
+
+Overall we have been inspired by the Mark Channel lecture of week 6. More specifically, we have been inspired by the “Combining marks and channels” topic, where it explains that you can utilize position, hue, and size to show your continuous variables and color to show your categorical variable. It is thus a very useful way to display four variables in a 2-D graph. We will also need the Tabular Data lecture of Week 11 for the bubble plot. 
 
 
 ## Milestone 3 (Thursday 28th May, 5pm)
