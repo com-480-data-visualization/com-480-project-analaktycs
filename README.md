@@ -162,6 +162,10 @@ To make the transitions smooth, the course on interactions, which was already us
 
 The width of the figure will be fixed.
 
+Here is an example of how the fight results are planned to be displayed
+
+![](sketches/fig2_to_do.png)
+
 ### Figure 3:
 
 The purpose of this part is to be able to investigate the feature relationship among pokemons. Initially only a bipartite graph showing  how a specific value for a feature would impact the other was intended. However, other vizualisations were considered inteeresting as well. Hence the following figures were realised and will all be eventually displayed in a slide show manner (possibility).
