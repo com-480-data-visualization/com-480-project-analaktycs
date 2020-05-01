@@ -162,7 +162,7 @@ To make the transitions smooth, the course on interactions, which was already us
 
 The width of the figure will be fixed.
 
-Here is an example of how the fight results are planned to be displayed
+Here is an example of how the fight results are planned to be displayed with a circle for the winners on the right and a circle for the loosers on the left.
 
 ![](sketches/fig2_to_do.png)
 
