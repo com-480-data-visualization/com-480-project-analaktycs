@@ -135,6 +135,31 @@ Extra ideas: Toggle to switch from viewing each generation individually to viewi
 
 So far, a skeleton of the scatterplot has been added with the dropdown links along with the generation-wise viewing toggle, and slider to select the generation. A sketch of the final product has been drawn to have a concrete understanding of our work for this figure.
 
+### Figure 2:
+
+#### Description of what has been done:
+A circular chart with selected pokémons all around it. 
+
+![](sketches/fig2_type.png)
+
+The pokémon selection is based on generation and can be chosen with a drop down selection. Above is an example where the generation 6 has been selected. The user has a possibility to sort pokemons according to different features the default selected feature is the type and to select another feature, the user can use again a drop down selection. 
+
+![](sketches/fig2_legendary.png)
+
+Here is an example where the feature is being legendary or not. Moreover, when the user puts the mouse over a dot around the pokeball, there is an ID sheet displaying a picture and a radar chart of the pokémon’s stats. The pictures were taken from pokemondb.net with d3 images attribute xlink:href only needing the image url. The stats have a big range of values (from low values like 30 to higher values like 250) and it made the radar chart display not very informative initially. This is why we created multiple radar charts with different outer ring values. 
+
+![](sketches/fig2_type_spider.png)
+
+In total, there are 5 possible displays. Here are examples:
+
+![](sketches/fig2_spiders.png)
+
+#### What will be added:
+The first thing to add to this visualization is a legend indicating which color dot corresponds to which feature. 
+In a second time, we will use combat data to know which pokemon, a selected pokemon can or can’t beat. The selected pokemon will be chosen by mouse clicking the corresponding dot. When the click event happens, all the dots from the losers will form another circle on the left side of the display and all the dots from the winner will form a circle to the right side of the display and in the middle will stand a more complete info sheet on the selected pokémon. The content of that info sheet is yet to be decided, can be some silly infos like the pokedex description or the sound of the pokemon(if not too complicated) that can be found in the games or it can be basic infos that we’ve studied until now. 
+
+To make the transitions smooth, the course on interactions, which was already used many times up to this point, will be very useful because it also talks about animations.  
+
 ### Figure 3:
 
 The purpose of this part is to be able to investigate the feature relationship among pokemons. Initially only a bipartite graph showing the how a specific value for a feature would impact the other was intended. However, other vizualisations were considered inteeresting as well. Hence the following figures were realised and will all be eventually displayed in a slide show manner (possibility).
