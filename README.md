@@ -153,6 +153,23 @@ d3.js bubble plot will be the main skeleton of the plot. We will then incorporat
 
 Overall we have been inspired by the Mark Channel lecture of week 6. More specifically, we have been inspired by the “Combining marks and channels” topic, where it explains that you can utilize position, hue, and size to show your continuous variables and color to show your categorical variable. It is thus a very useful way to display four variables in a 2-D graph. We will also need the Tabular Data lecture of Week 11 for the bubble plot. 
 
+### Figure 3:
+The purpose of this part is to be able to investigate the feature relationship among pokemons. Initially only a bipartite graph showing the how a specific value for a feature would impact the other was intended. For that matter, the Figure 3.1 depicts the following feature relationships : 
+* Ability vs Types 
+* Types vs Body shape
+* Body shape vs Color 
+The user chooses the wich relationship tho display by clicking on the according button. Such relationships are represented by both the number of occurrences of one feature specific value in the other as well as presence frequency. 
+
+For instance if the user hovers over one value for instance brow color, he will see the distribution of such color among the body shape present : 
+
+In that way, the figure is made interactive and user can investigate each feature value distribution across the other selected feature. 
+
+
+### Future Implementations : 
+
+This figure will be maid generation specific through a dropdown menu allowing the user to choose the one he is interested in. More comparisons will also be displayed as well as a default mode showing a subset of comparisons chosen as significant. 
+
+
 
 ## Milestone 3 (Thursday 28th May, 5pm)
 
