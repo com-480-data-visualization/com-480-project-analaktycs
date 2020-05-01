@@ -154,6 +154,7 @@ d3.js bubble plot will be the main skeleton of the plot. We will then incorporat
 Overall we have been inspired by the Mark Channel lecture of week 6. More specifically, we have been inspired by the “Combining marks and channels” topic, where it explains that you can utilize position, hue, and size to show your continuous variables and color to show your categorical variable. It is thus a very useful way to display four variables in a 2-D graph. We will also need the Tabular Data lecture of Week 11 for the bubble plot. 
 
 ### Figure 3:
+
 The purpose of this part is to be able to investigate the feature relationship among pokemons. Initially only a bipartite graph showing the how a specific value for a feature would impact the other was intended. For that matter, the __Figure 3.1__ depicts the following feature relationships : 
 * Ability vs Types 
 * Types vs Body shape
@@ -188,6 +189,19 @@ This plot allows a specific investigation of the pokemon “pattern” as the us
 
 ### Future Implementations  :
 This figure will display the name of the pokemons following the mentioned pattern. A similar figure will be maid for the type specific attack and defense abilities in combat. A toggle will allow the user to move between the two figures. 
+
+
+
+Finally, it appeared insightful in to display the relationship between a set of features all together. As depicted in __figure 3.3__, a parallel representation of the features selected for the figure 3.1 has been implemented. It shows specific pokemon pattern for a given ability, type, body shape and color through a line liking the respective values together. It is possible to hover over a given line to emphasize on it. Feature values are also displayed at each step of the graph. 
+
+![](sketches/fig3.3png)
+
+
+### Future Implementations  :
+
+In the future, this figure will display the name of the pokemon as well as pattern information when hovering on a given line. Moreover, the user will be able to select a specific generation to investigate. Other features could also be integrated in this figure. 
+
+
 
 
 ## Milestone 3 (Thursday 28th May, 5pm)
