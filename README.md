@@ -154,7 +154,7 @@ d3.js bubble plot will be the main skeleton of the plot. We will then incorporat
 Overall we have been inspired by the Mark Channel lecture of week 6. More specifically, we have been inspired by the “Combining marks and channels” topic, where it explains that you can utilize position, hue, and size to show your continuous variables and color to show your categorical variable. It is thus a very useful way to display four variables in a 2-D graph. We will also need the Tabular Data lecture of Week 11 for the bubble plot. 
 
 ### Figure 3:
-The purpose of this part is to be able to investigate the feature relationship among pokemons. Initially only a bipartite graph showing the how a specific value for a feature would impact the other was intended. For that matter, the Figure 3.1 depicts the following feature relationships : 
+The purpose of this part is to be able to investigate the feature relationship among pokemons. Initially only a bipartite graph showing the how a specific value for a feature would impact the other was intended. For that matter, the __Figure 3.1__ depicts the following feature relationships : 
 * Ability vs Types 
 * Types vs Body shape
 * Body shape vs Color 
@@ -175,6 +175,19 @@ In that way, the figure is made interactive and user can investigate each featur
 
 This figure will be maid generation specific through a dropdown menu allowing the user to choose the one he is interested in. More comparisons will also be displayed as well as a default mode showing a subset of comparisons chosen as significant. 
 
+
+Regarding continuous feature investigation across all generations, a bipartite coordinate plot was used as shown in __figure 3.2__. Each Scale represents a specific feature and several lines join the various features values : 
+
+![](sketches/fig3.2.png)
+
+
+This plot allows a specific investigation of the pokemon “pattern” as the user can select one or multiple generations and investigate the pokemons having a given pattern. A pattern here refers to a specific set of selected values for the displayed features. For instance the first generation of pokemon, having betwen 40-80 heart power, a speed ranging between a 100  and 180 and a capture rate between 80 and a hundred : 
+
+![](sketches/fig3.2.v.png)
+
+
+### Future Implementations  :
+This figure will display the name of the pokemons following the mentioned pattern. A similar figure will be maid for the type specific attack and defense abilities in combat. A toggle will allow the user to move between the two figures. 
 
 
 ## Milestone 3 (Thursday 28th May, 5pm)
