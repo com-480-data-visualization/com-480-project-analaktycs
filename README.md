@@ -115,7 +115,7 @@ We have not explored this topic and dataset in another context.
 
 **10% of the final grade**
 
-The initial version of our website is accessible on [analaktycs.github.io](analaktycs.github.io). 
+The initial version of our website is accessible on [analaktycs.github.io](https://analaktycs.github.io/). 
 
 ### Figure 1.1 (extra):
 
