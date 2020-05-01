@@ -68,13 +68,9 @@ We present here a summary of our findings from our exploratory data analysis. Pl
 
 For the ease of collaborative work, we have separated our dataset into three logical groups. 
 
-
 First, the numerical set of data was processed, displaying distributions for both all generations toguether and seperate. As preliminary observation one can mention the skewness of both height and weight variables. Most pokemons have small values for those two varibales ___Figure 1___ . Plotting the height over generations ___Figure 2___  showed that it is uniform over generations. We could  see that generation 1 and 2 had larger amount of smaller and lighter pokemons.
 Boxplotting showed that weights and heights for generations 3, 4 and 5 more were spread out. 
 Concerning the string variables, a investigation of the most present abilities, classifications and types was conducted and respectively shown in table ___Table 1___,___Table 4___,___Table 7___. Distributions were then ploted for the abilities ___Figure 10___ and types ___Figure 13___. A generation wise invesigation was also conducted for the distribution of abilities and types shown respectively in ___Figure 12___ and ___Figure 14___. This analysis also aimed at displaying the relationship between types and abilities ___Table 2___, abilities and classifications ___Table 5___ and classification and types ___Table 8___. Finally a further analysis aimed at displaying the rate of occurences of pairs of values for the above mentioned pairs of variables in ___Table 3___, ___Table 6___  and ___Table 9___.
-
-
-
 
 Then the second group of features were processed. Our findings from this group include:
 
@@ -119,6 +115,43 @@ We have not explored this topic and dataset in another context.
 
 **10% of the final grade**
 
+The initial version of our website is accessible on analaktycs.github.io. 
+
+### Figure 1.1 (extra):
+
+#### Sketch:
+
+![](sketches/fig1.2.png)
+
+#### What will be added:
+An overview of the most interesting (stacked) bar plots in the dataset will be shown. The user will be able to hover over the stacks of bars on the plot to view the respective Pokemon names within that category. We may decide to only keep the popularity vote plots since they are easier to understand for the majority of users. 
+
+#### Description of what has been done:
+A sketch of the final product has been drawn to have a concrete understanding of our work for this figure. This figure is optional as we are still trying to figure out if it is interactive enough for a data visualization course and a better way to adapt it.
+Tools to be used and inspirations from lectures: 
+If we only keep the popularity votes, we will need to use the button functionality of d3.js to change input data in barplot, where we will put four buttons representing four of our variables, i.e. type, generation, body style, and color. Reference: https://www.d3-graph-gallery.com/graph/barplot_button_data_csv.html 
+
+We will need to utilize the information from Tabular Data lecture of week 11 that explains stacked bar charts.
+
+
+### Figure 1.2:
+
+#### Sketch: 
+
+![](sketches/fig1.2.png)
+
+#### What will be added:
+We will create an interactive bubble plot where the user will be able to select the variables that they desire to view in the plot by choosing from their respective dropdown lists. These variables will create 6 plots that each represent Pokemon from the first 6 generations. The user will be able to switch between plots using a slider in the bottom. When the user hovers over each data point, they will be able to view the pokedex number, a picture, and the values of the variables they selected from the dropdown lists.
+
+Extra ideas: Toggle to switch from viewing each generation individually to viewing all generations together. A button to randomize all the variables if the user wants to do some fun exploration.
+
+#### Description of what has been done:
+A skeleton of the scatterplot has been added with the dropdown links along with the generation-wise viewing toggle, and slider to select the generation. A sketch of the final product has been drawn to have a concrete understanding of our work for this figure.
+
+#### Tools to be used and inspirations from lectures: 
+d3.js bubble plot will be the main skeleton of the plot. We will then incorporate select group functionality of d3.js to account for the selected variables by the user. Colored bubble will be used to account for the categorical variable the user selects. Add tooltip will be used to allow the user to hover over a single bubble to display its stats. Reference: https://www.d3-graph-gallery.com/graph/bubble_tooltip.html 
+
+Overall we have been inspired by the Mark Channel lecture of week 6. More specifically, we have been inspired by the “Combining marks and channels” topic, where it explains that you can utilize position, hue, and size to show your continuous variables and color to show your categorical variable. It is thus a very useful way to display four variables in a 2-D graph. We will also need the Tabular Data lecture of Week 11 for the bubble plot. 
 
 
 
