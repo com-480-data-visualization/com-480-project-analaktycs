@@ -1,4 +1,4 @@
-pokedex_number,name,type1,type2,hp,defense,attack,sp_defense,sp_attack,speed,base_total,capture_rate,base_happiness,experience_growth,height_m,weight_kg,is_legendary,generation,Color,Body_Style
+pokedex_number,name,type1,type2,hp,defense,attack,sp_defense,sp_attack,speed,base_total,capture_rate,base_happiness,experience_growth,height_m,weight_kg,is_legendary,generation,color,body_style
 1,Bulbasaur,grass,poison,45,49,49,65,65,45,318,45,70,1059860,0.7,6.9,0,1,Green,quadruped
 2,Ivysaur,grass,poison,60,63,62,80,80,60,405,45,70,1059860,1,13,0,1,Green,quadruped
 3,Venusaur,grass,poison,80,123,100,120,122,80,625,45,70,1059860,2,100,0,1,Green,quadruped
