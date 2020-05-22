@@ -201,7 +201,7 @@ d3.csv("https://raw.githubusercontent.com/com-480-data-visualization/com-480-pro
       function update(selectedX, selectedY, selectedR, selectedColor, selectedGen) {
 
         // Create new data with the selection
-        var dataFilter = data.map(function(d){return {valueX: d[selectedX], valueY: d[selectedY], valueR: d[selectedR], valueColor: d[selectedColor], valueGen: d[selectedGen]}}).filter(function(d){return d.valueGen==selectedGen})
+        var dataFilter = data.map(function(d){return {valueX: d[selectedX], valueY: d[selectedY], valueR: d[selectedR], valueColor: d[selectedColor], valueGen: +d[selectedGen]}}).filter(function(d){return d.valueGen==selectedGen})
         //var dataFilterGen = data.filter(function(d){return d.valueGen==selectedGen})
 
         dot
@@ -342,7 +342,7 @@ d3.csv("https://raw.githubusercontent.com/com-480-data-visualization/com-480-pro
   var dot = svg
     .append('g')
     .selectAll("dot")
-    .data(data.filter(function(d){return d.generation == "1";}))
+    .data(data.filter(function(d){return d.generation == 1;}))
     .enter()
     .append("circle")
       .attr("class", function(d) { return "bubbles " + d.type1 })
