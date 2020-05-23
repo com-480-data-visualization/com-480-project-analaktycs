@@ -26,15 +26,10 @@
   </select>
   <select id="r_dropdown">
     <option value="hp">HP</option>
+    <option value="speed">Speed</option>
     <option value="weight_kg">Weight (kg)</option>
     <option value="height_cm">Height (cm)</option>
   </select>
-  <!--<select id="color_dropdown">
-    <option value="type1">Type</option>
-    <option value="body_style">Body Style</option>
-    <option value="color">Color</option>
-    <option value="is_legendary">Legendary</option>
-  </select> -->
   <select id="gen_dropdown">
     <option value="1">Generation 1</option>
     <option value="2">Generation 2</option>
@@ -87,7 +82,6 @@ d3.csv("https://raw.githubusercontent.com/com-480-data-visualization/com-480-pro
   var xGroup = ["hp", "attack", "defense", "sp_attack", "sp_defense", "speed", "capture_rate", "weight_kg", "height_cm"]
   var yGroup = ["hp", "attack", "defense", "sp_attack", "sp_defense", "speed", "capture_rate", "weight_kg", "height_cm"]
   var rGroup = ["hp", "attack", "defense", "sp_attack", "sp_defense", "speed", "capture_rate", "weight_kg", "height_cm"]
-  var colorGroup = ["type1", "type2", "body_style", "color", "is_legendary"]
   var genGroup = [1,2,3,4,5,6]
 
   //Create 1st dropdown
@@ -121,18 +115,8 @@ d3.csv("https://raw.githubusercontent.com/com-480-data-visualization/com-480-pro
   .attr("value", function (d) { return d; }) // corresponding value returned by the button
 
   //Create 4th dropdown
-  /*var colorMenu = d3.select("#color_dropdown")
-  colorMenu.append("select")
-  .selectAll('myOptions')
-  .data(colorGroup)
-  .enter()
-  .append('option')
-  .text(function (d) { return d; }) // text showed in the menu
-  .attr("value", function (d) { return d; }) // corresponding value returned by the button*/
-
-  //Create 5th dropdown
   var genMenu = d3.select("#gen_dropdown")
-  colorMenu.append("select")
+  genMenu.append("select")
   .selectAll('myOptions')
   .data(genGroup)
   .enter()
@@ -153,7 +137,8 @@ d3.csv("https://raw.githubusercontent.com/com-480-data-visualization/com-480-pro
   .call(d3.axisBottom(x).ticks(3));
 
   // Add X axis label:
-  svg.append("text")
+  var x_label = svg.append("text")
+  .attr("id", "x_label")
   .attr("text-anchor", "end")
   .attr("x", width)
   .attr("y", height+50 )
@@ -167,7 +152,8 @@ d3.csv("https://raw.githubusercontent.com/com-480-data-visualization/com-480-pro
   .call(d3.axisLeft(y));
 
   // Add Y axis label:
-  svg.append("text")
+var y_label = svg.append("text")
+.attr("id", "y_label")
   .attr("text-anchor", "end")
   .attr("x", 0)
   .attr("y", -20 )
@@ -177,7 +163,7 @@ d3.csv("https://raw.githubusercontent.com/com-480-data-visualization/com-480-pro
   // Add a scale for bubble size
   var z = d3.scaleSqrt()
   .domain([1, 300])
-  .range([ 3, 25]);
+  .range([ 3, 15]);
 
   //TODO: fix the order of types
   // Add a scale for bubble color
@@ -190,27 +176,40 @@ d3.csv("https://raw.githubusercontent.com/com-480-data-visualization/com-480-pro
   // ---------------------------//
 
   // A function that updates the chart
-  function update(selectedX, selectedY, selectedR, selectedColor, selectedGen) {
-    d3.selectAll("dot").remove()
-
+  function update(selectedX, selectedY, selectedR, selectedGen) {
     // Create new data with the selection
     var dataFilterGen = data.filter(function(d){return d.generation==parseInt(selectedGen)})
     // create an empty map and append
-    var dataFilter = dataFilterGen.map(function(d){return {valueX: d[selectedX], valueY: d[selectedY], valueR: d[selectedR], valueColor: d[selectedColor]}})
+    var dataFilter = dataFilterGen.map(function(d){return {valueX: d[selectedX], valueY: d[selectedY],valueR: d[selectedR], type1 :d.type1, pokedex_number:d.pokedex_number , name:d.name, attack :d.attack , defense :d.defense, hp: d.hp, weight_kg:d.weight_kg, height_cm:d.height_cm}})
 
-    dot
-    .data(dataFilter)
+    //update x-axis label
+    var x_label_select = document.getElementById("x_dropdown");
+    var x_label = svg.selectAll("#x_label")
+    .text(x_label_select.options[x_label_select.selectedIndex].text);
+
+    //update y-axis label
+    var y_label_select = document.getElementById("y_dropdown");
+    var y_label = svg.selectAll("#y_label")
+    .text(y_label_select.options[y_label_select.selectedIndex].text);
+
+    //update circles
+    var u = d3.select("#graphArea").selectAll("#graphCircles")
+    .data(dataFilter);
+
+    u.enter()
+    .append("circle").merge(u)
     .transition()
     .duration(1000)
     .attr("cx", function(d) { return x(+[d.valueX]) })
     .attr("cy", function(d) { return y(+[d.valueY]) })
     .attr("r", function (d) { return z(+[d.valueR]); } )
-    .style("fill", function (d) { return ([d.valueColor]); } )
-    .attr("class", function(d) { return "bubbles " + d.valueColor })
-    // -3- Trigger the functions for hover
-    .on("mouseover", showTooltip)
-    .on("mousemove", moveTooltip )
-    .on("mouseleave", hideTooltip )
+    .style("fill", function (d) { return (myColor(d.type1)); } )
+    .attr("class", function(d) { return "bubbles " +d.type1 })
+    .attr("id", "graphCircles")
+
+    u.exit().remove();
+    x_label.exit().remove();
+    y_label.exit().remove();
   }
 
   // When the button is changed, run the updateChart function
@@ -220,10 +219,8 @@ d3.csv("https://raw.githubusercontent.com/com-480-data-visualization/com-480-pro
     var selectedX = document.getElementById('x_dropdown').value;
     var selectedY = document.getElementById('y_dropdown').value;
     var selectedR = document.getElementById('r_dropdown').value;
-    var selectedColor = document.getElementById('color_dropdown').value;
-    //var selectedY = d3.select("#y_dropdown").property("value")
     // run the updateChart function with this selected option
-    update(selectedX, selectedY, selectedR, selectedColor, selectedGen)
+    update(selectedX, selectedY, selectedR, selectedGen)
   })
 
   // When the button is changed, run the updateChart function
@@ -233,10 +230,8 @@ d3.csv("https://raw.githubusercontent.com/com-480-data-visualization/com-480-pro
     var selectedY = document.getElementById('y_dropdown').value;
     var selectedX = document.getElementById('x_dropdown').value;
     var selectedR = document.getElementById('r_dropdown').value;
-    var selectedColor = document.getElementById('color_dropdown').value;
-    //var selectedX = d3.select("#x_dropdown").property("value")
     // run the updateChart function with this selected option
-    update(selectedX, selectedY, selectedR, selectedColor, selectedGen)
+    update(selectedX, selectedY, selectedR, selectedGen)
   })
 
   // When the button is changed, run the updateChart function
@@ -246,42 +241,30 @@ d3.csv("https://raw.githubusercontent.com/com-480-data-visualization/com-480-pro
     var selectedY = document.getElementById('y_dropdown').value;
     var selectedX = document.getElementById('x_dropdown').value;
     var selectedR = document.getElementById('r_dropdown').value;
-    var selectedColor = document.getElementById('color_dropdown').value;
-    //var selectedX = d3.select("#x_dropdown").property("value")
     // run the updateChart function with this selected option
-    update(selectedX, selectedY, selectedR, selectedColor, selectedGen)
+    update(selectedX, selectedY, selectedR, selectedGen)
   })
-
-  // When the button is changed, run the updateChart function
-  /*d3.select("#color_dropdown").on("change", function(d) {
-  // recover the option that has been chosen
-  var selectedY = document.getElementById('y_dropdown').value;
-  var selectedX = document.getElementById('x_dropdown').value;
-  var selectedR = document.getElementById('r_dropdown').value;
-  var selectedColor = document.getElementById('color_dropdown').value;
-  //var selectedX = d3.select("#x_dropdown").property("value")
-  // run the updateChart function with this selected option
-  update(selectedX, selectedY, selectedR, selectedColor)
-})*/
 
 // Listen to the slider
 d3.select("#mySlider").on("change", function(d){
+  // recover the option that has been chosen
   var selectedGen = document.getElementById('mySlider').value
   var selectedY = document.getElementById('y_dropdown').value;
   var selectedX = document.getElementById('x_dropdown').value;
   var selectedR = document.getElementById('r_dropdown').value;
-  var selectedColor = document.getElementById('color_dropdown').value;
-  update(selectedX, selectedY, selectedR, selectedColor, selectedGen)
+  // run the updateChart function with this selected option
+  update(selectedX, selectedY, selectedR, selectedGen)
 })
 
-// Listen to the slider
+  // When the button is changed, run the updateChart function
 d3.select("#gen_dropdown").on("change", function(d){
+  // recover the option that has been chosen
   var selectedGen = document.getElementById('gen_dropdown').value
   var selectedY = document.getElementById('y_dropdown').value;
   var selectedX = document.getElementById('x_dropdown').value;
   var selectedR = document.getElementById('r_dropdown').value;
-  var selectedColor = document.getElementById('color_dropdown').value;
-  update(selectedX, selectedY, selectedR, selectedColor, selectedGen)
+  // run the updateChart function with this selected option
+  update(selectedX, selectedY, selectedR, selectedGen)
 })
 
 // ---------------------------//
@@ -312,8 +295,8 @@ var showTooltip = function(d) {
 
 var moveTooltip = function(d) {
   tooltip
-  .style("left", (d3.mouse(this)[0]+30) + "px")
-  .style("top", (d3.mouse(this)[1]+30) + "px")
+  .style("left", (d3.mouse(this)[0]) + "px")
+  .style("top", (d3.mouse(this)[1]) + "px")
 }
 var hideTooltip = function(d) {
   tooltip
@@ -330,7 +313,7 @@ var hideTooltip = function(d) {
 var highlight = function(d){
   // reduce opacity of all groups
   d3.selectAll(".bubbles").style("opacity", .05)
-  // expect the one that is hovered
+  // except the one that is hovered
   d3.selectAll("."+d).style("opacity", 1)
 }
 
@@ -346,6 +329,7 @@ var noHighlight = function(d){
 // Add dots
 var dot = svg
 .append('g')
+.attr("id", "graphArea")
 .selectAll("dot")
 .data(data.filter(function(d){return d.generation == 1;}))
 .enter()
@@ -354,6 +338,7 @@ var dot = svg
 .attr("cx", function (d) { return x(d.attack); } )
 .attr("cy", function (d) { return y(d.defense); } )
 .attr("r", function (d) { return z(d.hp); } )
+.attr("id", "graphCircles")
 .style("fill", function (d) { return myColor(d.type1); } )
 // -3- Trigger the functions for hover
 .on("mouseover", showTooltip )
