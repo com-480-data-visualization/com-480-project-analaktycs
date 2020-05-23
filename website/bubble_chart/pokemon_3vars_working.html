@@ -12,33 +12,23 @@
 <form>
   <select id="x_dropdown">
     <option value="attack">Attack</option>
-    <option value="hp">HP</option>
     <option value="defense">Defense</option>
     <option value="sp_attack">Sp. Attack</option>
     <option value="sp_defense">Sp. Defense</option>
     <option value="speed">Speed</option>
-    <option value="weight_kg">Weight (kg)</option>
-    <option value="height_m">Height (m)</option>
   </select>
   <select id="y_dropdown">
     <option value="defense">Defense</option>
-    <option value="hp">HP</option>
     <option value="attack">Attack</option>
     <option value="sp_attack">Sp. Attack</option>
     <option value="sp_defense">Sp. Defense</option>
     <option value="speed">Speed</option>
-    <option value="weight_kg">Weight (kg)</option>
-    <option value="height_m">Height (m)</option>
   </select>
   <select id="r_dropdown">
     <option value="hp">HP</option>
-    <option value="attack">Attack</option>
-    <option value="defense">Defense</option>
-    <option value="sp_attack">Sp. Attack</option>
-    <option value="sp_defense">Sp. Defense</option>
     <option value="speed">Speed</option>
     <option value="weight_kg">Weight (kg)</option>
-    <option value="height_m">Height (m)</option>
+    <option value="height_cm">Height (cm)</option>
   </select>
   <select id="color_dropdown">
     <option value="type1">Type</option>
@@ -95,9 +85,9 @@ d3.csv("https://raw.githubusercontent.com/com-480-data-visualization/com-480-pro
   // ---------------------------//
 
   // List of groups (here I have one group per column)
-  var xGroup = ["hp", "attack", "defense", "sp_attack", "sp_defense", "speed", "capture_rate", "weight_kg", "height_m"]
-  var yGroup = ["hp", "attack", "defense", "sp_attack", "sp_defense", "speed", "capture_rate", "weight_kg", "height_m"]
-  var rGroup = ["hp", "attack", "defense", "sp_attack", "sp_defense", "speed", "capture_rate", "weight_kg", "height_m"]
+  var xGroup = ["hp", "attack", "defense", "sp_attack", "sp_defense", "speed", "capture_rate", "weight_kg", "height_cm"]
+  var yGroup = ["hp", "attack", "defense", "sp_attack", "sp_defense", "speed", "capture_rate", "weight_kg", "height_cm"]
+  var rGroup = ["hp", "attack", "defense", "sp_attack", "sp_defense", "speed", "capture_rate", "weight_kg", "height_cm"]
   var colorGroup = ["type1", "type2", "body_style", "color", "is_legendary"]
   var genGroup = [1,2,3,4,5,6]
 
