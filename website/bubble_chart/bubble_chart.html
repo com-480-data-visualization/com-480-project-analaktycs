@@ -26,7 +26,6 @@
   </select>
   <select id="r_dropdown">
     <option value="hp">HP</option>
-    <option value="speed">Speed</option>
     <option value="weight_kg">Weight (kg)</option>
     <option value="height_cm">Height (cm)</option>
   </select>
@@ -130,11 +129,11 @@ d3.csv("https://raw.githubusercontent.com/com-480-data-visualization/com-480-pro
 
   // Add X axis
   var x = d3.scaleLinear()
-  .domain([0, 250])
+  .domain([0, 240])
   .range([ 0, width ]);
   svg.append("g")
   .attr("transform", "translate(0," + height + ")")
-  .call(d3.axisBottom(x).ticks(3));
+  .call(d3.axisBottom(x));
 
   // Add X axis label:
   var x_label = svg.append("text")
@@ -146,7 +145,7 @@ d3.csv("https://raw.githubusercontent.com/com-480-data-visualization/com-480-pro
 
   // Add Y axis
   var y = d3.scaleLinear()
-  .domain([0, 250])
+  .domain([0, 240])
   .range([ height, 0]);
   svg.append("g")
   .call(d3.axisLeft(y));
@@ -319,7 +318,7 @@ var highlight = function(d){
 
 // And when it is not hovered anymore
 var noHighlight = function(d){
-  d3.selectAll(".bubbles").style("opacity", 1)
+  d3.selectAll(".bubbles").style("opacity", 0.8)
 }
 
 // ---------------------------//
