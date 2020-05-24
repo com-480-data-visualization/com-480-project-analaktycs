@@ -194,7 +194,7 @@ var y_label = svg.append("text")
     // Create new data with the selection
     var dataFilterGen = data.filter(function(d){return d.generation==parseInt(selectedGen)})
     // create an empty map and append
-    var dataFilter = dataFilterGen.map(function(d){return {valueX: d[selectedX], valueY: d[selectedY],valueR: d[selectedR], type1 :d.type1, pokedex_number:d.pokedex_number , name:d.name, attack :d.attack , defense :d.defense, hp: d.hp, weight_kg:d.weight_kg, height_cm:d.height_cm, sp_attack: d.sp_attack, sp_defense: d.sp_defense}})
+    var dataFilter = dataFilterGen.map(function(d){return {valueX: d[selectedX], valueY: d[selectedY],valueR: d[selectedR], type1 :d.type1, pokedex_number:d.pokedex_number , name:d.name, attack :d.attack , defense :d.defense, hp: d.hp, weight_kg:d.weight_kg, height_cm:d.height_cm, sp_attack: d.sp_attack, sp_defense: d.sp_defense, speed: d.speed}})
 
     //update x-axis label
     var x_label_select = document.getElementById("x_dropdown");
@@ -311,11 +311,11 @@ var showTooltip = function(d) {
   .duration(200)
   tooltip
   .style("opacity", 1)
-  .html("#" + d.pokedex_number + " " + d.name + "<br>HP: " + d.hp + "<br>Attack: " + d.attack + "<br>Defense: " + d.defense + "<br>Sp. Atk: " + d.sp_attack + "<br>Sp. Def: " + d.sp_defense + "<br>Weight (kg): " + d.weight_kg + "<br>Height (cm): " + d.height_cm) //TODO: give as parameter
+  .html("<h3> #" + d.pokedex_number + " " + d.name + "</h3> <p> <b>HP:</b> " + d.hp + " <b>Attack:</b> " + d.attack + " <b>Defense: </b>" + d.defense + " <b>Sp. Atk: </b>" + d.sp_attack + " <b>Sp. Def:</b> " + d.sp_defense + " <b>Speed: </b>" + d.speed + " <b>Weight (kg): </b>" + d.weight_kg + " <b>Height (cm):</b> " + d.height_cm + " </p>") //TODO: give as parameter
   .style("left", (d3.mouse(this)[0]+30) + "px")
   .style("top", (d3.mouse(this)[1]+30) + "px")
 
- 
+
 }
 
 var moveTooltip = function(d) {
@@ -326,7 +326,7 @@ var moveTooltip = function(d) {
 var hideTooltip = function(d) {
   tooltip
   .transition()
-  .duration(200)
+  .duration(10)
   .style("opacity", 0)
 
   d3.select("#pokemon_image").remove();
