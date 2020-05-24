@@ -194,7 +194,7 @@ var y_label = svg.append("text")
     // Create new data with the selection
     var dataFilterGen = data.filter(function(d){return d.generation==parseInt(selectedGen)})
     // create an empty map and append
-    var dataFilter = dataFilterGen.map(function(d){return {valueX: d[selectedX], valueY: d[selectedY],valueR: d[selectedR], type1 :d.type1, pokedex_number:d.pokedex_number , name:d.name, attack :d.attack , defense :d.defense, hp: d.hp, weight_kg:d.weight_kg, height_cm:d.height_cm}})
+    var dataFilter = dataFilterGen.map(function(d){return {valueX: d[selectedX], valueY: d[selectedY],valueR: d[selectedR], type1 :d.type1, pokedex_number:d.pokedex_number , name:d.name, attack :d.attack , defense :d.defense, hp: d.hp, weight_kg:d.weight_kg, height_cm:d.height_cm, sp_attack: d.sp_attack, sp_defense: d.sp_defense}})
 
     //update x-axis label
     var x_label_select = document.getElementById("x_dropdown");
