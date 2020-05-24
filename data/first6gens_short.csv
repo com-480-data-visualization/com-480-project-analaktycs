@@ -4,7 +4,7 @@ pokedex_number,name,type1,type2,hp,defense,attack,sp_defense,sp_attack,speed,bas
 3,Venusaur,grass,poison,80,123,100,120,122,80,625,45,70,1059860,2,100,0,1,Green,quadruped,,200
 4,Charmander,fire,,39,43,52,50,60,65,309,45,70,1059860,0.6,8.5,0,1,Red,bipedal_tailed,,60
 5,Charmeleon,fire,,58,58,64,65,80,80,405,45,70,1059860,1.1,19,0,1,Red,bipedal_tailed,,110
-6,Charizard,fire,flying,78,78,104,115,159,100,634,45,70,1059860,1.7,90.5,0,1,Red,bipedal_tailed,,170
+6,Charizard,fire,flying,78,78,104,115,159,100,634,45,70,1059860,1.7,19,0,1,Red,bipedal_tailed,,170
 7,Squirtle,water,,44,65,48,64,50,43,314,45,70,1059860,0.5,9,0,1,Blue,bipedal_tailed,,50
 8,Wartortle,water,,59,80,63,80,65,58,405,45,70,1059860,1,22.5,0,1,Blue,bipedal_tailed,,100
 9,Blastoise,water,,79,120,103,115,135,78,630,45,70,1059860,1.6,85.5,0,1,Blue,bipedal_tailed,,160
@@ -27,10 +27,10 @@ pokedex_number,name,type1,type2,hp,defense,attack,sp_defense,sp_attack,speed,bas
 26,Raichu,electric,electric,60,50,85,85,95,110,485,75,70,1000000,0.8,30,0,1,Yellow,bipedal_tailed,,80
 27,Sandshrew,ground,ice,50,90,75,35,10,40,300,255,70,1000000,0.6,12,0,1,Yellow,bipedal_tailed,,60
 28,Sandslash,ground,ice,75,120,100,65,25,65,450,90,70,1000000,1,29.5,0,1,Yellow,bipedal_tailed,,100
-29,Nidoran♀,poison,,55,52,47,40,40,41,275,235,70,1059860,0.4,7,0,1,Blue,quadruped,,40
+29,Nidoran-f,poison,,55,52,47,40,40,41,275,235,70,1059860,0.4,7,0,1,Blue,quadruped,,40
 30,Nidorina,poison,,70,67,62,55,55,56,365,120,70,1059860,0.8,20,0,1,Blue,quadruped,,80
 31,Nidoqueen,poison,ground,90,87,92,85,75,76,505,45,70,1059860,1.3,60,0,1,Blue,bipedal_tailed,,130
-32,Nidoran♂,poison,,46,40,57,40,40,50,273,235,70,1059860,0.5,9,0,1,Purple,quadruped,,50
+32,Nidoran-m,poison,,46,40,57,40,40,50,273,235,70,1059860,0.5,9,0,1,Purple,quadruped,,50
 33,Nidorino,poison,,61,57,72,55,55,65,365,120,70,1059860,0.9,19.5,0,1,Purple,quadruped,,90
 34,Nidoking,poison,ground,81,77,102,75,85,85,505,45,70,1059860,1.4,62,0,1,Purple,bipedal_tailed,,140
 35,Clefairy,fairy,,70,48,45,65,60,35,323,150,140,800000,0.6,7.5,0,1,Pink,bipedal_tailed,,60
@@ -81,7 +81,7 @@ pokedex_number,name,type1,type2,hp,defense,attack,sp_defense,sp_attack,speed,bas
 80,Slowbro,water,psychic,95,180,75,80,130,30,590,75,70,1000000,1.6,78.5,0,1,Pink,bipedal_tailed,,160
 81,Magnemite,electric,steel,25,70,35,55,95,45,325,190,70,1000000,0.3,6,0,1,Grey,head_arms,,30
 82,Magneton,electric,steel,50,95,60,70,120,70,465,60,70,1000000,1,60,0,1,Grey,multiple_bodies,,100
-83,Farfetch'd,normal,flying,52,55,90,62,58,60,377,45,70,1000000,0.8,15,0,1,Brown,two_wings,,80
+83,Farfetchd,normal,flying,52,55,90,62,58,60,377,45,70,1000000,0.8,15,0,1,Brown,two_wings,,80
 84,Doduo,normal,flying,35,45,85,35,35,75,310,190,70,1000000,1.4,39.2,0,1,Brown,head_legs,,140
 85,Dodrio,normal,flying,60,70,110,60,60,110,470,45,70,1000000,1.8,85.2,0,1,Brown,head_legs,,180
 86,Seel,water,,65,55,45,70,45,45,325,190,70,1000000,1.1,90,0,1,White,with_fins,,110
@@ -120,7 +120,7 @@ pokedex_number,name,type1,type2,hp,defense,attack,sp_defense,sp_attack,speed,bas
 119,Seaking,water,,80,65,92,80,65,68,450,60,70,1000000,1.3,39,0,1,Red,with_fins,,130
 120,Staryu,water,,30,55,45,55,70,85,340,225,70,1250000,0.8,34.5,0,1,Brown,head_base,,80
 121,Starmie,water,psychic,60,85,75,85,100,115,520,60,70,1250000,1.1,80,0,1,Purple,head_base,,110
-122,Mr. Mime,psychic,fairy,40,65,45,120,100,90,460,45,70,1000000,1.3,54.5,0,1,Pink,bipedal_tailless,,130
+122,Mr-mime,psychic,fairy,40,65,45,120,100,90,460,45,70,1000000,1.3,54.5,0,1,Pink,bipedal_tailless,,130
 123,Scyther,bug,flying,70,80,110,80,55,105,500,45,70,1000000,1.5,56,0,1,Green,four_wings,,150
 124,Jynx,ice,psychic,65,35,50,95,115,95,455,45,70,1000000,1.4,40.6,0,1,Red,bipedal_tailless,,140
 125,Electabuzz,electric,,65,57,83,85,95,105,490,45,70,1000000,1.1,30,0,1,Yellow,bipedal_tailed,,110
@@ -437,7 +437,7 @@ pokedex_number,name,type1,type2,hp,defense,attack,sp_defense,sp_attack,speed,bas
 436,Bronzor,steel,psychic,57,86,24,86,24,23,300,255,70,1000000,0.5,60.5,0,4,Green,head_only,,50
 437,Bronzong,steel,psychic,67,116,89,116,79,33,500,90,70,1000000,1.3,187,0,4,Green,head_arms,,130
 438,Bonsly,rock,,50,95,80,45,10,10,290,255,70,1000000,0.5,15,0,4,Brown,head_legs,,50
-439,Mime Jr.,psychic,fairy,20,45,25,90,70,60,310,145,70,1000000,0.6,13,0,4,Pink,bipedal_tailless,,60
+439,mime-jr,psychic,fairy,20,45,25,90,70,60,310,145,70,1000000,0.6,13,0,4,Pink,bipedal_tailless,,60
 440,Happiny,normal,,100,5,5,65,15,30,220,130,140,800000,0.6,24.4,0,4,Pink,bipedal_tailless,,60
 441,Chatot,normal,flying,76,45,65,42,92,91,411,30,35,1059860,0.5,1.9,0,4,Black,two_wings,,50
 442,Spiritomb,ghost,dark,50,108,92,108,92,35,485,100,70,1000000,1,108,0,4,Purple,head_base,,100
@@ -472,7 +472,7 @@ pokedex_number,name,type1,type2,hp,defense,attack,sp_defense,sp_attack,speed,bas
 471,Glaceon,ice,,65,110,60,95,130,65,525,45,35,1000000,0.8,25.9,0,4,Blue,quadruped,,80
 472,Gliscor,ground,flying,75,125,95,75,45,95,510,30,70,1059860,2,42.5,0,4,Purple,two_wings,,200
 473,Mamoswine,ice,ground,110,80,130,60,70,80,530,50,70,1250000,2.5,291,0,4,Brown,quadruped,,250
-474,Porygon-Z,normal,,85,70,80,75,135,90,535,30,70,1000000,0.9,34,0,4,Red,head_arms,,90
+474,Porygon-z,normal,,85,70,80,75,135,90,535,30,70,1000000,0.9,34,0,4,Red,head_arms,,90
 475,Gallade,psychic,fighting,68,95,165,115,65,110,618,45,35,1250000,1.6,52,0,4,White,bipedal_tailless,,160
 476,Probopass,rock,steel,60,145,55,150,75,40,525,60,70,1000000,1.4,340,0,4,Grey,multiple_bodies,,140
 477,Dusknoir,ghost,,45,135,100,135,65,45,525,45,35,800000,2.2,106.6,0,4,Black,head_arms,,220
@@ -485,12 +485,12 @@ pokedex_number,name,type1,type2,hp,defense,attack,sp_defense,sp_attack,speed,bas
 484,Palkia,water,dragon,90,100,120,120,150,100,680,3,0,1250000,4.2,336,1,4,Purple,bipedal_tailed,,420
 485,Heatran,fire,steel,91,106,90,106,130,77,600,3,100,1250000,1.7,430,1,4,Brown,quadruped,,170
 486,Regigigas,normal,,110,110,160,110,80,100,670,3,0,1250000,3.7,420,1,4,White,bipedal_tailless,,370
-487,Giratina,ghost,dragon,150,100,120,100,120,90,680,3,0,1250000,4.5,750,1,4,Black,serpentine_body,,450
+487,Giratina-altered,ghost,dragon,150,100,120,100,120,90,680,3,0,1250000,4.5,750,1,4,Black,serpentine_body,,450
 488,Cresselia,psychic,,120,120,70,130,75,85,600,3,100,1250000,1.5,85.6,1,4,Yellow,serpentine_body,,150
 489,Phione,water,,80,80,80,80,80,80,480,30,70,1250000,0.4,3.1,0,4,Blue,head_arms,,40
 490,Manaphy,water,,100,100,100,100,100,100,600,3,70,1250000,0.3,1.4,1,4,Blue,bipedal_tailless,,30
 491,Darkrai,dark,,70,90,90,90,135,125,600,3,0,1250000,1.5,50.5,1,4,Black,bipedal_tailless,,150
-492,Shaymin,grass,grass,100,75,103,75,120,127,600,45,100,1059860,0.2,2.1,1,4,Green,quadruped,,20
+492,Shaymin-sky,grass,grass,100,75,103,75,120,127,600,45,100,1059860,0.2,2.1,1,4,Green,quadruped,,20
 493,Arceus,normal,,120,120,120,120,120,120,720,3,0,1250000,3.2,320,1,4,Grey,quadruped,,320
 494,Victini,psychic,fire,100,100,100,100,100,100,600,3,100,1250000,0.4,4,1,5,Yellow,bipedal_tailless,,40
 495,Snivy,grass,,45,55,45,55,45,63,308,45,70,1059860,0.6,8.1,0,5,Green,bipedal_tailed,,60
@@ -667,7 +667,7 @@ pokedex_number,name,type1,type2,hp,defense,attack,sp_defense,sp_attack,speed,bas
 666,Vivillon,bug,flying,80,50,52,50,90,89,411,45,70,1000000,1.2,17,0,6,Black,four_wings,,120
 667,Litleo,fire,normal,62,58,50,54,73,72,369,220,70,1059860,0.6,13.5,0,6,Brown,quadruped,,60
 668,Pyroar,fire,normal,86,72,68,66,109,106,507,65,70,1059860,1.5,81.5,0,6,Brown,quadruped,,150
-669,Flabébé,fairy,,44,39,38,79,61,42,303,225,70,1000000,0.1,0.1,0,6,White,head_arms,,10
+669,Flabebe,fairy,,44,39,38,79,61,42,303,225,70,1000000,0.1,0.1,0,6,White,head_arms,,10
 670,Floette,fairy,,74,67,65,128,125,92,551,120,70,1000000,0.2,0.9,0,6,White,head_arms,,20
 671,Florges,fairy,,78,68,65,154,112,75,552,45,70,1000000,1.1,10,0,6,White,head_arms,,110
 672,Skiddo,grass,,66,48,65,57,62,52,350,200,70,1000000,0.9,31,0,6,Brown,quadruped,,90
