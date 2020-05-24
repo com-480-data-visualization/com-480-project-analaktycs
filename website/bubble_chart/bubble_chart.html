@@ -40,8 +40,6 @@
 </form>
 <div id="my_dataviz"></div>
 
-<!-- Add a slider -->
-<input type="range" name="mySlider" id=mySlider min="1" max="6" value="1">
 
 <!-- A bit of CSS: change stroke color of circle on hover (white -> black) -->
 <style>
@@ -168,7 +166,24 @@ var y_label = svg.append("text")
   // Add a scale for bubble color
   var myColor = d3.scaleOrdinal()
   .domain(["normal", "fighting", "flying", "poison", "ground", "rock", "bug", "ghost", "steel", "fire", "water", "grass", "electric", "psychic", "ice", "dragon", "dark", "fairy"])
-  .range(d3.schemeSet2);
+  .range(["#A8A77A", //normal
+          "#C22E28", //fighting
+          "#A98FF3", //flying
+          "#A33EA1", //poison
+          "#E2BF65", //ground
+          "#B6A136", //rock
+          "#A6B91A", //bug
+          "#735797", //ghost
+          "#B7B7CE", //steel
+          "#EE8130", //fire
+          "#6390F0", //water
+          "#7AC74C", //grass
+          "#F7D02C", //electric
+          "#F95587", //psychic
+          "#96D9D6", //ice
+          "#6F35FC", //dragon
+          "#705746", //dark
+          "#D685AD"]); //fairy 
 
   // ---------------------------//
   //       SELECT UPDATE        //
@@ -207,6 +222,10 @@ var y_label = svg.append("text")
     .attr("id", "graphCircles")
 
     u.exit().remove();
+
+    d3.select("#graphArea").selectAll("circle").on("mouseover", showTooltip);
+    d3.select("#graphArea").selectAll("circle").on("mousemove", moveTooltip);
+    d3.select("#graphArea").selectAll("circle").on("mouseleave", hideTooltip);
     x_label.exit().remove();
     y_label.exit().remove();
   }
@@ -214,7 +233,7 @@ var y_label = svg.append("text")
   // When the button is changed, run the updateChart function
   d3.select("#x_dropdown").on("change", function(d) {
     // recover the option that has been chosen
-    var selectedGen = document.getElementById('mySlider').value
+    var selectedGen = document.getElementById('gen_dropdown').value
     var selectedX = document.getElementById('x_dropdown').value;
     var selectedY = document.getElementById('y_dropdown').value;
     var selectedR = document.getElementById('r_dropdown').value;
@@ -225,7 +244,7 @@ var y_label = svg.append("text")
   // When the button is changed, run the updateChart function
   d3.select("#y_dropdown").on("change", function(d) {
     // recover the option that has been chosen
-    var selectedGen = document.getElementById('mySlider').value
+    var selectedGen = document.getElementById('gen_dropdown').value
     var selectedY = document.getElementById('y_dropdown').value;
     var selectedX = document.getElementById('x_dropdown').value;
     var selectedR = document.getElementById('r_dropdown').value;
@@ -236,24 +255,13 @@ var y_label = svg.append("text")
   // When the button is changed, run the updateChart function
   d3.select("#r_dropdown").on("change", function(d) {
     // recover the option that has been chosen
-    var selectedGen = document.getElementById('mySlider').value
+    var selectedGen = document.getElementById('gen_dropdown').value
     var selectedY = document.getElementById('y_dropdown').value;
     var selectedX = document.getElementById('x_dropdown').value;
     var selectedR = document.getElementById('r_dropdown').value;
     // run the updateChart function with this selected option
     update(selectedX, selectedY, selectedR, selectedGen)
   })
-
-// Listen to the slider
-d3.select("#mySlider").on("change", function(d){
-  // recover the option that has been chosen
-  var selectedGen = document.getElementById('mySlider').value
-  var selectedY = document.getElementById('y_dropdown').value;
-  var selectedX = document.getElementById('x_dropdown').value;
-  var selectedR = document.getElementById('r_dropdown').value;
-  // run the updateChart function with this selected option
-  update(selectedX, selectedY, selectedR, selectedGen)
-})
 
   // When the button is changed, run the updateChart function
 d3.select("#gen_dropdown").on("change", function(d){
