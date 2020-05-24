@@ -183,7 +183,7 @@ var y_label = svg.append("text")
           "#96D9D6", //ice
           "#6F35FC", //dragon
           "#705746", //dark
-          "#D685AD"]); //fairy 
+          "#D685AD"]); //fairy
 
   // ---------------------------//
   //       SELECT UPDATE        //
@@ -283,10 +283,12 @@ var tooltip = d3.select("#my_dataviz")
 .append("div")
 .style("opacity", 0)
 .attr("class", "tooltip")
-.style("background-color", "black")
+.style("background-color", "white")
+.attr("width", "300px")
+.attr("margin.right", "500px")
 .style("border-radius", "5px")
 .style("padding", "10px")
-.style("color", "white")
+.style("color", "black")
 
 // -2- Create 3 functions to show / update (when mouse move but stay on same circle) / hide the tooltip
 var showTooltip = function(d) {
@@ -295,7 +297,7 @@ var showTooltip = function(d) {
   .duration(200)
   tooltip
   .style("opacity", 1)
-  .html("Pokemon: #" + d.pokedex_number + " " + d.name + " Attack:" + d.attack + " Defense:" + d.defense + " HP:" + d.hp + " Weight (kg):" + d.weight_kg + " Height (cm):" + d.height_cm) //TODO: give as parameter
+  .html("#" + d.pokedex_number + " " + d.name + "<br>HP: " + d.hp + "<br>Attack: " + d.attack + "<br>Defense: " + d.defense + "<br>Sp. Atk: " + d.sp_attack + "<br>Sp. Def: " + d.sp_defense + "<br>Weight (kg): " + d.weight_kg + "<br>Height (cm): " + d.height_cm) //TODO: give as parameter
   .style("left", (d3.mouse(this)[0]+30) + "px")
   .style("top", (d3.mouse(this)[1]+30) + "px")
 }
