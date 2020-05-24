@@ -225,7 +225,7 @@ var y_label = svg.append("text")
 
     d3.select("#graphArea").selectAll("circle").on("mouseover", showTooltip);
     d3.select("#graphArea").selectAll("circle").on("mousemove", moveTooltip);
-    d3.select("#graphArea").selectAll("circle").on("mouseleave", hideTooltip);
+   d3.select("#graphArea").selectAll("circle").on("mouseleave", hideTooltip);
     x_label.exit().remove();
     y_label.exit().remove();
   }
@@ -277,21 +277,35 @@ d3.select("#gen_dropdown").on("change", function(d){
 // ---------------------------//
 //      TOOLTIP               //
 // ---------------------------//
-
+var tooltip_Picture = d3.select("#my_dataviz").append("div")
+  .attr("id", "tooltip_picture_div")
+  .attr("width", "100")
+  .attr("height", "100");
 // -1- Create a tooltip div that is hidden by default:
-var tooltip = d3.select("#my_dataviz")
+var tooltip = tooltip_Picture
 .append("div")
+.attr("id", "tooltip")
 .style("opacity", 0)
 .attr("class", "tooltip")
 .style("background-color", "white")
-.attr("width", "300px")
-.attr("margin.right", "500px")
+.attr("width", "200px")
 .style("border-radius", "5px")
 .style("padding", "10px")
 .style("color", "black")
 
 // -2- Create 3 functions to show / update (when mouse move but stay on same circle) / hide the tooltip
 var showTooltip = function(d) {
+
+  var name = d.name.toLowerCase();
+  var nameWithoutSpecialChars = name.replace("'", "\"");
+  tooltip_Picture.append("div").attr("id", "pokemon_image_div").append("svg").attr("id", "pokemon_image_svg")
+  .append("image")
+        .attr("id","pokemon_image")
+        .attr("xlink:href", "https://img.pokemondb.net/artwork/"+nameWithoutSpecialChars+".jpg")
+        .attr("width", 100)
+        .attr("height", 100)
+        .style("background-color", "white")
+
   tooltip
   .transition()
   .duration(200)
@@ -300,6 +314,8 @@ var showTooltip = function(d) {
   .html("#" + d.pokedex_number + " " + d.name + "<br>HP: " + d.hp + "<br>Attack: " + d.attack + "<br>Defense: " + d.defense + "<br>Sp. Atk: " + d.sp_attack + "<br>Sp. Def: " + d.sp_defense + "<br>Weight (kg): " + d.weight_kg + "<br>Height (cm): " + d.height_cm) //TODO: give as parameter
   .style("left", (d3.mouse(this)[0]+30) + "px")
   .style("top", (d3.mouse(this)[1]+30) + "px")
+
+ 
 }
 
 var moveTooltip = function(d) {
@@ -312,6 +328,10 @@ var hideTooltip = function(d) {
   .transition()
   .duration(200)
   .style("opacity", 0)
+
+  d3.select("#pokemon_image").remove();
+  d3.select("#pokemon_image_svg").remove();
+  d3.select("#pokemon_image_div").remove();
 }
 
 // ---------------------------//
