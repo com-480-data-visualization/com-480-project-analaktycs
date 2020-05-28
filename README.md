@@ -11,15 +11,15 @@
 ## Exploring the world of Pokémons
 Hello ! 
 
-Welcome to our project of Data Visualization. The aim of this project is to visulize pokemon's dynamics across generations for the user to better make up his own pokemon. This project also means at providing insights on the intricate links between the different pokemon features in order to gauge their importance and impact on the pokemon overall statistics and behaviour in combat. Finally, this project will display a visulization of the choice that were made  regarding the important features throughout the generations to better understand how this game evolved with his users. In order to do that, we invite you to visit our website where we created multiple interesting interactive visualizations. 
+Welcome to our project of Data Visualization. The aim of this project is to visualize pokemon's dynamics across generations for the user to better make up his own pokemon. This project also means at providing insights on the intricate links between the different pokemon features in order to gauge their importance and impact on the pokemon overall statistics and behaviour in combat. Finally, this project will display a visualization of the choice that were made regarding the important features throughout the generations to better understand how this game evolved with its users. In order to do that, we invite you to visit our website where we created multiple interesting interactive visualizations. 
 
 Visit our website with the link: https://analaktycs.github.io/
 
-If you are in a hurry and don't have time to go through the whole website, don't worry! you can always watch our short video where we show everything that has been implemented in this website.
+If you are in a hurry and don't have time to go through the whole website, don't worry! You can always watch our short video where we show everything that has been implemented in this website.
 
-Watch our explainatory video at: 
+Watch our explainatory video at: https://youtu.be/l5dMgg1PxvE
 
-If you are curious about how that project was made, we invite you to read the "Milestone 1" and "Milestone 2" parts of this README where you'll learn everything about our exploratory data analysis and the paths we took. 
+If you are curious about how this project was made, we invite you to read the "Milestone 1" and "Milestone 2" parts of this README where you'll learn everything about our exploratory data analysis and the paths we took. 
 
 If you are interested, you will find the datasets we used here: 
    * main dataset : https://www.kaggle.com/rounakbanik/pokemon
