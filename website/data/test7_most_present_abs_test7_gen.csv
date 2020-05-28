@@ -1,0 +1,392 @@
+source,target,value,values,generation
+Swift Swim,water,13,0.5,1
+Sand Veil,ground,13,0.7222222222222222,1
+Chlorophyll,grass,12,0.5,1
+Rock Head,ground,9,0.45,1
+Chlorophyll,poison,9,0.375,1
+Flash Fire,fire,7,0.5,1
+Damp,water,7,0.3888888888888889,1
+Shell Armor,water,7,0.5,1
+Rock Head,rock,7,0.35,1
+Sturdy,ground,7,0.3888888888888889,1
+Gluttony,poison,7,0.4375,1
+Sturdy,rock,7,0.3888888888888889,1
+Poison Point,poison,6,0.42857142857142855,1
+Keen Eye,flying,6,0.42857142857142855,1
+Keen Eye,normal,6,0.42857142857142855,1
+Lightningrod,ground,5,0.2777777777777778,1
+Inner Focus,psychic,5,0.22727272727272727,1
+Run Away,normal,5,0.22727272727272727,1
+Inner Focus,flying,4,0.18181818181818182,1
+Swift Swim,rock,4,0.15384615384615385,1
+Hustle,dark,4,0.25,1
+Hustle,poison,4,0.25,1
+Hustle,normal,4,0.25,1
+Run Away,bug,3,0.13636363636363635,1
+Gluttony,normal,3,0.1875,1
+Gluttony,grass,3,0.1875,1
+Sand Veil,rock,3,0.16666666666666666,1
+Lightningrod,electric,3,0.16666666666666666,1
+Run Away,poison,3,0.13636363636363635,1
+Inner Focus,normal,2,0.09090909090909091,1
+Chlorophyll,psychic,2,0.08333333333333333,1
+Shell Armor,rock,2,0.14285714285714285,1
+Flash Fire,ice,2,0.14285714285714285,1
+Gluttony,dark,2,0.125,1
+Sand Veil,ice,2,0.1111111111111111,1
+Inner Focus,poison,2,0.09090909090909091,1
+Shell Armor,ice,2,0.14285714285714285,1
+Run Away,flying,2,0.09090909090909091,1
+Lightningrod,water,2,0.1111111111111111,1
+Lightningrod,rock,2,0.1111111111111111,1
+Sturdy,steel,2,0.1111111111111111,1
+Sturdy,electric,2,0.1111111111111111,1
+Lightningrod,fire,2,0.1111111111111111,1
+Rock Head,fire,2,0.1,1
+Run Away,fire,2,0.09090909090909091,1
+Damp,bug,2,0.1111111111111111,1
+Damp,grass,2,0.1111111111111111,1
+Poison Point,ground,2,0.14285714285714285,1
+Run Away,dark,2,0.09090909090909091,1
+Damp,fighting,1,0.05555555555555555,1
+Poison Point,water,1,0.07142857142857142,1
+Keen Eye,fighting,1,0.07142857142857142,1
+Inner Focus,fighting,1,0.045454545454545456,1
+Inner Focus,dragon,1,0.045454545454545456,1
+Run Away,grass,1,0.045454545454545456,1
+Rock Head,flying,1,0.05,1
+Swift Swim,fighting,1,0.038461538461538464,1
+Swarm,bug,6,0.5,2
+Chlorophyll,grass,6,0.5,2
+Water Absorb,water,6,0.5,2
+Leaf Guard,grass,6,0.5,2
+Flash Fire,fire,5,0.5,2
+Static,electric,5,0.5,2
+Insomnia,flying,4,0.3333333333333333,2
+Keen Eye,normal,4,0.3333333333333333,2
+Early Bird,flying,4,0.2222222222222222,2
+Early Bird,psychic,3,0.16666666666666666,2
+Sniper,water,3,0.3,2
+Chlorophyll,flying,3,0.25,2
+Sturdy,bug,3,0.21428571428571427,2
+Leaf Guard,flying,3,0.25,2
+Sturdy,steel,3,0.21428571428571427,2
+Keen Eye,flying,3,0.25,2
+Early Bird,grass,2,0.1111111111111111,2
+Early Bird,bug,2,0.1111111111111111,2
+Early Bird,dark,2,0.1111111111111111,2
+Early Bird,fire,2,0.1111111111111111,2
+Flash Fire,dark,2,0.2,2
+Thick Fat,ice,2,0.2,2
+Thick Fat,water,2,0.2,2
+Thick Fat,fairy,2,0.2,2
+Thick Fat,ground,2,0.2,2
+Hustle,water,2,0.2,2
+Hustle,flying,2,0.2,2
+Hustle,fairy,2,0.2,2
+Water Absorb,electric,2,0.16666666666666666,2
+Insomnia,normal,2,0.16666666666666666,2
+Inner Focus,dark,2,0.14285714285714285,2
+Sturdy,ground,2,0.14285714285714285,2
+Sniper,bug,2,0.2,2
+Insomnia,bug,2,0.16666666666666666,2
+Sniper,poison,2,0.2,2
+Swarm,poison,2,0.16666666666666666,2
+Insomnia,poison,2,0.16666666666666666,2
+Water Absorb,ground,2,0.16666666666666666,2
+Intimidate,fairy,2,0.2,2
+Swarm,flying,2,0.16666666666666666,2
+Sturdy,rock,2,0.14285714285714285,2
+Insomnia,ice,1,0.08333333333333333,2
+Intimidate,normal,1,0.1,2
+Intimidate,fighting,1,0.1,2
+Early Bird,normal,1,0.05555555555555555,2
+Keen Eye,steel,1,0.08333333333333333,2
+Keen Eye,ice,1,0.08333333333333333,2
+Keen Eye,dark,1,0.08333333333333333,2
+Intimidate,poison,1,0.1,2
+Intimidate,water,1,0.1,2
+Insomnia,dark,1,0.08333333333333333,2
+Inner Focus,water,1,0.07142857142857142,2
+Water Absorb,flying,1,0.08333333333333333,2
+Thick Fat,normal,1,0.1,2
+Swarm,steel,1,0.08333333333333333,2
+Inner Focus,electric,1,0.07142857142857142,2
+Hustle,ice,1,0.1,2
+Inner Focus,fire,1,0.07142857142857142,2
+Inner Focus,flying,1,0.07142857142857142,2
+Inner Focus,ice,1,0.07142857142857142,2
+Inner Focus,normal,1,0.07142857142857142,2
+Inner Focus,poison,1,0.07142857142857142,2
+Inner Focus,psychic,1,0.07142857142857142,2
+Hustle,rock,1,0.1,2
+Sturdy,flying,1,0.07142857142857142,2
+Swarm,fighting,1,0.08333333333333333,2
+Sniper,dragon,1,0.1,2
+Swift Swim,water,9,0.4090909090909091,3
+Oblivious,water,8,0.4,3
+Levitate,psychic,7,0.35,3
+Sturdy,rock,6,0.5,3
+Telepathy,psychic,6,0.5,3
+Rain Dish,water,6,0.5,3
+Ice Body,ice,6,0.5,3
+Levitate,ground,4,0.2,3
+Clear Body,steel,4,0.3333333333333333,3
+Rock Head,rock,4,0.3333333333333333,3
+Levitate,dragon,4,0.2,3
+Thick Fat,ice,3,0.1875,3
+Swift Swim,rock,3,0.13636363636363635,3
+Swift Swim,grass,3,0.13636363636363635,3
+Swift Swim,bug,3,0.13636363636363635,3
+Telepathy,fairy,3,0.25,3
+Sturdy,steel,3,0.25,3
+Clear Body,psychic,3,0.25,3
+Thick Fat,water,3,0.1875,3
+Ice Body,water,3,0.25,3
+Rock Head,steel,3,0.25,3
+Rain Dish,grass,3,0.25,3
+Speed Boost,fire,3,0.25,3
+Own Tempo,water,3,0.21428571428571427,3
+Own Tempo,grass,3,0.21428571428571427,3
+Oblivious,ice,3,0.15,3
+Oblivious,ground,3,0.15,3
+Rain Dish,flying,2,0.16666666666666666,3
+Gluttony,psychic,2,0.16666666666666666,3
+Levitate,rock,2,0.1,3
+Sheer Force,fighting,2,0.2,3
+Thick Fat,fighting,2,0.125,3
+Rock Head,dragon,2,0.16666666666666666,3
+Gluttony,poison,2,0.16666666666666666,3
+Gluttony,normal,2,0.16666666666666666,3
+Telepathy,fighting,2,0.16666666666666666,3
+Quick Feet,normal,2,0.2,3
+Thick Fat,psychic,2,0.125,3
+Own Tempo,psychic,2,0.14285714285714285,3
+Quick Feet,dark,2,0.2,3
+Speed Boost,dark,2,0.16666666666666666,3
+Speed Boost,fighting,2,0.16666666666666666,3
+Speed Boost,water,2,0.16666666666666666,3
+Oblivious,bug,1,0.05,3
+Oblivious,fire,1,0.05,3
+Quick Feet,grass,1,0.1,3
+Rain Dish,bug,1,0.08333333333333333,3
+Rock Head,water,1,0.08333333333333333,3
+Levitate,ghost,1,0.05,3
+Sheer Force,steel,1,0.1,3
+Speed Boost,flying,1,0.08333333333333333,3
+Speed Boost,bug,1,0.08333333333333333,3
+Thick Fat,fairy,1,0.0625,3
+Own Tempo,normal,1,0.07142857142857142,3
+Own Tempo,ground,1,0.07142857142857142,3
+Own Tempo,fire,1,0.07142857142857142,3
+Sheer Force,dragon,1,0.1,3
+Sheer Force,fairy,1,0.1,3
+Sheer Force,ground,1,0.1,3
+Thick Fat,normal,1,0.0625,3
+Sturdy,water,1,0.08333333333333333,3
+Clear Body,ice,1,0.08333333333333333,3
+Clear Body,rock,1,0.08333333333333333,3
+Levitate,psychic,7,0.3181818181818182,4
+Swift Swim,water,5,0.5,4
+Water Veil,water,5,0.5,4
+Sturdy,steel,4,0.4,4
+Sturdy,rock,4,0.4,4
+Storm Drain,water,4,0.5,4
+Keen Eye,poison,4,0.2857142857142857,4
+Natural Cure,grass,4,0.5,4
+Sand Veil,ground,4,0.5,4
+Pressure,ghost,3,0.21428571428571427,4
+Pressure,dragon,3,0.21428571428571427,4
+Keen Eye,dark,3,0.21428571428571427,4
+Defiant,water,3,0.375,4
+Reckless,normal,3,0.375,4
+Reckless,flying,3,0.375,4
+Sand Force,ground,3,0.3,4
+Intimidate,electric,3,0.3,4
+Keen Eye,normal,3,0.21428571428571427,4
+Levitate,ghost,3,0.13636363636363635,4
+Sand Veil,dragon,3,0.375,4
+Keen Eye,flying,2,0.14285714285714285,4
+Aftermath,dark,2,0.25,4
+Intimidate,flying,2,0.2,4
+Intimidate,normal,2,0.2,4
+Pressure,dark,2,0.14285714285714285,4
+Soundproof,grass,2,0.2,4
+Soundproof,ice,2,0.2,4
+Soundproof,rock,2,0.2,4
+Soundproof,steel,2,0.2,4
+Levitate,steel,2,0.09090909090909091,4
+Sand Force,water,2,0.2,4
+Aftermath,poison,2,0.25,4
+Aftermath,ghost,2,0.25,4
+Aftermath,flying,2,0.25,4
+Natural Cure,poison,2,0.25,4
+Defiant,normal,1,0.125,4
+Defiant,steel,1,0.125,4
+Sand Force,rock,1,0.1,4
+Pressure,flying,1,0.07142857142857142,4
+Pressure,bug,1,0.07142857142857142,4
+Pressure,ice,1,0.07142857142857142,4
+Levitate,electric,1,0.045454545454545456,4
+Natural Cure,normal,1,0.125,4
+Levitate,grass,1,0.045454545454545456,4
+Levitate,dragon,1,0.045454545454545456,4
+Pressure,steel,1,0.07142857142857142,4
+Keen Eye,bug,1,0.07142857142857142,4
+Reckless,rock,1,0.125,4
+Reckless,ground,1,0.125,4
+Pressure,water,1,0.07142857142857142,4
+Sturdy,electric,1,0.1,4
+Storm Drain,ground,1,0.125,4
+Soundproof,psychic,1,0.1,4
+Sand Veil,flying,1,0.125,4
+Water Veil,flying,1,0.1,4
+Sand Force,steel,1,0.1,4
+Soundproof,fairy,1,0.1,4
+Swift Swim,flying,1,0.1,4
+Swarm,bug,12,0.5,5
+Chlorophyll,grass,10,0.5,5
+Sturdy,rock,7,0.4375,5
+Big Pecks,flying,7,0.5,5
+Overcoat,bug,5,0.25,5
+Intimidate,dark,5,0.3125,5
+Hydration,water,5,0.35714285714285715,5
+Weak Armor,rock,4,0.2,5
+Intimidate,ground,4,0.25,5
+Inner Focus,fighting,4,0.2857142857142857,5
+Mold Breaker,dragon,4,0.2222222222222222,5
+Shell Armor,bug,4,0.2857142857142857,5
+Shell Armor,water,3,0.21428571428571427,5
+Big Pecks,normal,3,0.21428571428571427,5
+Chlorophyll,bug,3,0.15,5
+Gluttony,fire,3,0.21428571428571427,5
+Overcoat,grass,3,0.15,5
+Sheer Force,flying,3,0.1875,5
+Weak Armor,ice,3,0.15,5
+Overcoat,psychic,3,0.15,5
+Sheer Force,fighting,3,0.1875,5
+Swarm,poison,3,0.125,5
+Regenerator,psychic,3,0.15,5
+Intimidate,normal,2,0.125,5
+Gluttony,grass,2,0.14285714285714285,5
+Hydration,flying,2,0.14285714285714285,5
+Gluttony,water,2,0.14285714285714285,5
+Weak Armor,flying,2,0.1,5
+Weak Armor,dark,2,0.1,5
+Weak Armor,bug,2,0.1,5
+Hydration,bug,2,0.14285714285714285,5
+Chlorophyll,normal,2,0.1,5
+Chlorophyll,fairy,2,0.1,5
+Big Pecks,water,2,0.14285714285714285,5
+Big Pecks,dark,2,0.14285714285714285,5
+Mold Breaker,fighting,2,0.1111111111111111,5
+Mold Breaker,ground,2,0.1111111111111111,5
+Shell Armor,rock,2,0.14285714285714285,5
+Sheer Force,fire,2,0.125,5
+Prankster,fairy,2,0.16666666666666666,5
+Prankster,dark,2,0.16666666666666666,5
+Overcoat,flying,2,0.1,5
+Prankster,grass,2,0.16666666666666666,5
+Overcoat,dark,2,0.1,5
+Prankster,flying,2,0.16666666666666666,5
+Inner Focus,dark,2,0.14285714285714285,5
+Sheer Force,normal,2,0.125,5
+Sturdy,bug,2,0.125,5
+Swarm,steel,2,0.08333333333333333,5
+Inner Focus,steel,2,0.14285714285714285,5
+Intimidate,fighting,2,0.125,5
+Swarm,fire,2,0.08333333333333333,5
+Regenerator,fighting,2,0.1,5
+Regenerator,grass,2,0.1,5
+Regenerator,poison,2,0.1,5
+Swarm,grass,2,0.08333333333333333,5
+Sturdy,water,2,0.125,5
+Swarm,electric,2,0.08333333333333333,5
+Sheer Force,dragon,1,0.0625,5
+Sheer Force,ground,1,0.0625,5
+Shell Armor,steel,1,0.07142857142857142,5
+Mold Breaker,water,1,0.05555555555555555,5
+Overcoat,steel,1,0.05,5
+Prankster,electric,1,0.08333333333333333,5
+Regenerator,flying,1,0.05,5
+Regenerator,normal,1,0.05,5
+Regenerator,water,1,0.05,5
+Sturdy,fighting,1,0.0625,5
+Mold Breaker,steel,1,0.05555555555555555,5
+Hydration,ground,1,0.07142857142857142,5
+Inner Focus,fire,1,0.07142857142857142,5
+Intimidate,flying,1,0.0625,5
+Weak Armor,poison,1,0.05,5
+Swarm,bug,12,0.5,6
+Chlorophyll,grass,10,0.5,6
+Sturdy,rock,7,0.4375,6
+Big Pecks,flying,7,0.5,6
+Overcoat,bug,5,0.25,6
+Intimidate,dark,5,0.3125,6
+Hydration,water,5,0.35714285714285715,6
+Weak Armor,rock,4,0.2,6
+Intimidate,ground,4,0.25,6
+Inner Focus,fighting,4,0.2857142857142857,6
+Mold Breaker,dragon,4,0.2222222222222222,6
+Shell Armor,bug,4,0.2857142857142857,6
+Shell Armor,water,3,0.21428571428571427,6
+Big Pecks,normal,3,0.21428571428571427,6
+Chlorophyll,bug,3,0.15,6
+Gluttony,fire,3,0.21428571428571427,6
+Overcoat,grass,3,0.15,6
+Sheer Force,flying,3,0.1875,6
+Weak Armor,ice,3,0.15,6
+Overcoat,psychic,3,0.15,6
+Sheer Force,fighting,3,0.1875,6
+Swarm,poison,3,0.125,6
+Regenerator,psychic,3,0.15,6
+Intimidate,normal,2,0.125,6
+Gluttony,grass,2,0.14285714285714285,6
+Hydration,flying,2,0.14285714285714285,6
+Gluttony,water,2,0.14285714285714285,6
+Weak Armor,flying,2,0.1,6
+Weak Armor,dark,2,0.1,6
+Weak Armor,bug,2,0.1,6
+Hydration,bug,2,0.14285714285714285,6
+Chlorophyll,normal,2,0.1,6
+Chlorophyll,fairy,2,0.1,6
+Big Pecks,water,2,0.14285714285714285,6
+Big Pecks,dark,2,0.14285714285714285,6
+Mold Breaker,fighting,2,0.1111111111111111,6
+Mold Breaker,ground,2,0.1111111111111111,6
+Shell Armor,rock,2,0.14285714285714285,6
+Sheer Force,fire,2,0.125,6
+Prankster,fairy,2,0.16666666666666666,6
+Prankster,dark,2,0.16666666666666666,6
+Overcoat,flying,2,0.1,6
+Prankster,grass,2,0.16666666666666666,6
+Overcoat,dark,2,0.1,6
+Prankster,flying,2,0.16666666666666666,6
+Inner Focus,dark,2,0.14285714285714285,6
+Sheer Force,normal,2,0.125,6
+Sturdy,bug,2,0.125,6
+Swarm,steel,2,0.08333333333333333,6
+Inner Focus,steel,2,0.14285714285714285,6
+Intimidate,fighting,2,0.125,6
+Swarm,fire,2,0.08333333333333333,6
+Regenerator,fighting,2,0.1,6
+Regenerator,grass,2,0.1,6
+Regenerator,poison,2,0.1,6
+Swarm,grass,2,0.08333333333333333,6
+Sturdy,water,2,0.125,6
+Swarm,electric,2,0.08333333333333333,6
+Sheer Force,dragon,1,0.0625,6
+Sheer Force,ground,1,0.0625,6
+Shell Armor,steel,1,0.07142857142857142,6
+Mold Breaker,water,1,0.05555555555555555,6
+Overcoat,steel,1,0.05,6
+Prankster,electric,1,0.08333333333333333,6
+Regenerator,flying,1,0.05,6
+Regenerator,normal,1,0.05,6
+Regenerator,water,1,0.05,6
+Sturdy,fighting,1,0.0625,6
+Mold Breaker,steel,1,0.05555555555555555,6
+Hydration,ground,1,0.07142857142857142,6
+Inner Focus,fire,1,0.07142857142857142,6
+Intimidate,flying,1,0.0625,6
+Weak Armor,poison,1,0.05,6

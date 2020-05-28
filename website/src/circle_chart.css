@@ -1,0 +1,27 @@
+
+text {
+    fill: #f7fbfa
+}
+.dropdown .option {
+    display:none;
+}
+rect.dropdown {
+    float: right;
+    border-radius: 15px;
+    fill: #78c2ad;
+    border-collapse: separate;
+
+}
+.dropdown:hover .option {
+    display:unset;
+}
+.dropdown {
+    cursor:pointer;
+}
+circle.name_dot {
+    fill: rgb(139, 0, 10)
+}
+.svg_circle{
+  position: relative;
+  opacity: 1;
+}

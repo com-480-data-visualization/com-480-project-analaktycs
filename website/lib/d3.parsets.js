@@ -1,9 +1,11 @@
-
-// Parallel Sets by Jason Davies, http://www.jasondavies.com/
+// // Parallel Sets by Jason Davies, http://www.jasondavies.com/
 // Functionality based on http://eagereyes.org/parallel-sets
 (function() {
-  d3.parsets = function() {
-    var dispatch = d3.dispatch("sortDimensions", "sortCategories"),
+  d3v3.parsets = function() {
+
+
+
+    var event = d3v3.dispatch("sortDimensions", "sortCategories"),
         dimensions_ = autoDimensions,
         dimensionFormat = String,
         tooltip_ = defaultTooltip,
@@ -11,15 +13,17 @@
         value_,
         spacing = 20,
         width,
-        height,
         tension = 1,
         tension0,
-        duration = 500;
+        duration = 2000;
+
+
 
     function parsets(selection) {
       selection.each(function(data, i) {
-        var g = d3.select(this),
-            ordinal = d3.scaleOrdinal(),
+
+        var g = d3v3.select(this),
+            ordinal = d3v3.scale.ordinal(),
             dragging = false,
             dimensionNames = dimensions_.call(this, data, i),
             dimensions = [],
@@ -28,7 +32,7 @@
             total,
             ribbon;
 
-        d3.select(window).on("mousemove.parsets." + ++parsetsId, unhighlight);
+        d3v3.select(window).on("mousemove.parsets." + ++parsetsId, unhighlight);
 
         if (tension0 == null) tension0 = tension;
         g.selectAll(".ribbon, .ribbon-mouse")
@@ -37,13 +41,13 @@
             .attr("class", String);
         updateDimensions();
         if (tension != tension0) {
-          var t = d3.transition(g);
+          var t = d3v3.transition(g);
           if (t.tween) t.tween("ribbon", tensionTween);
           else tensionTween()(1);
         }
 
         function tensionTween() {
-          var i = d3.interpolateNumber(tension0, tension);
+          var i = d3v3.interpolateNumber(tension0, tension);
           return function(t) {
             tension0 = i(t);
             ribbon.attr("d", ribbonPath);
@@ -94,7 +98,7 @@
               categories(d.children[k], i + 1);
             }
           })(tree, 0);
-          ordinal.domain([]).range(d3.range(dimensions[0].categories.length));
+          ordinal.domain([]).range(d3v3.range(dimensions[0].categories.length));
           nodes = layout(tree, dimensions, ordinal);
           total = getTotal(dimensions);
           dimensions.forEach(function(d) {
@@ -106,7 +110,6 @@
               .attr("class", "dimension")
               .attr("transform", function(d) { return "translate(0," + d.y + ")"; })
               .on("mousedown.parsets", cancelEvent);
-          dimension = dEnter.merge(dimension);
           dimension.each(function(d) {
                 d.y0 = d.y;
                 d.categories.forEach(function(d) { d.x0 = d.x; });
@@ -117,33 +120,40 @@
               .attr("height", 45);
           var textEnter = dEnter.append("text")
               .attr("class", "dimension")
-              .attr("transform", "translate(0,-25)");
+              .attr("transform", "translate(0,-25)")
           textEnter.append("tspan")
               .attr("class", "name")
-              .text(dimensionFormatName);
+              .text(dimensionFormatName)
+              .style("fill", 'black');
           textEnter.append("tspan")
               .attr("class", "sort alpha")
               .attr("dx", "2em")
               .text("alpha »")
+              .style("font-size","2em")
+              .style("fill", 'black')
               .on("mousedown.parsets", cancelEvent);
           textEnter.append("tspan")
               .attr("class", "sort size")
               .attr("dx", "2em")
               .text("size »")
+              .style("font-size","2em")
+
+              .style("fill", 'black')
               .on("mousedown.parsets", cancelEvent);
           dimension
-              .call(d3.drag()
-                .on("start", function(d) {
+              .call(d3v3.behavior.drag()
+                .origin(identity)
+                .on("dragstart", function(d) {
                   dragging = true;
                   d.y0 = d.y;
                 })
                 .on("drag", function(d) {
-                  d.y0 = d.y = d3.event.y;
+                  d.y0 = d.y = d3v3.event.y;
                   for (var i = 1; i < dimensions.length; i++) {
                     if (height * dimensions[i].y < height * dimensions[i - 1].y) {
                       dimensions.sort(compareY);
                       dimensionNames = dimensions.map(dimensionName);
-                      ordinal.domain([]).range(d3.range(dimensions[0].categories.length));
+                      ordinal.domain([]).range(d3v3.range(dimensions[0].categories.length));
                       nodes = layout(tree = buildTree({children: {}, count: 0}, data, dimensionNames, value_), dimensions, ordinal);
                       total = getTotal(dimensions);
                       g.selectAll(".ribbon, .ribbon-mouse").selectAll("path").remove();
@@ -152,17 +162,17 @@
                       dimension.transition().duration(duration)
                           .attr("transform", translateY)
                           .tween("ribbon", ribbonTweenY);
-                      dispatch.call("sortDimensions");
+                      event.sortDimensions();
                       break;
                     }
                   }
-                  d3.select(this)
+                  d3v3.select(this)
                       .attr("transform", "translate(0," + d.y + ")")
                       .transition();
                   ribbon.filter(function(r) { return r.source.dimension === d || r.target.dimension === d; })
                       .attr("d", ribbonPath);
                 })
-                .on("end", function(d) {
+                .on("dragend", function(d) {
                   dragging = false;
                   unhighlight();
                   var y0 = 45,
@@ -170,7 +180,7 @@
                   dimensions.forEach(function(d, i) {
                     d.y = y0 + i * dy;
                   });
-                  transition(d3.select(this))
+                  transition(d3v3.select(this))
                       .attr("transform", "translate(0," + d.y + ")")
                       .tween("ribbon", ribbonTweenY);
                 }));
@@ -190,43 +200,48 @@
         function sortBy(type, f, dimension) {
           return function(d) {
             var direction = this.__direction = -(this.__direction || 1);
-            d3.select(this).text(direction > 0 ? type + " »" : "« " + type);
+            d3v3.select(this).text(direction > 0 ? type + " »" : "« " + type);
             d.categories.sort(function() { return direction * f.apply(this, arguments); });
             nodes = layout(tree, dimensions, ordinal);
             updateCategories(dimension);
             updateRibbons();
-            dispatch.call("sortCategories");
+            event.sortCategories();
           };
         }
 
         function updateRibbons() {
           ribbon = g.select(".ribbon").selectAll("path")
               .data(nodes, function(d) { return d.path; });
-          var ribbonEnter = ribbon.enter().append("path")
+          ribbon.enter().append("path")
               .each(function(d) {
                 d.source.x0 = d.source.x;
                 d.target.x0 = d.target.x;
               })
-              .attr("class", function(d) { return "category-" + d.major; })
+              .attr("class", function(d) {
+                return "category-" + d.major; })
               .attr("d", ribbonPath);
-          ribbon.exit().remove();
-          ribbon = ribbonEnter.merge(ribbon);
           ribbon.sort(function(a, b) { return b.count - a.count; });
+          ribbon.exit().remove();
+
+
           var mouse = g.select(".ribbon-mouse").selectAll("path")
-              .data(nodes, function(d) { return d.path; });
+              .data(nodes, function(d) {
+                return d.path; });
           mouse.enter().append("path")
               .on("mousemove.parsets", function(d) {
                 ribbon.classed("active", false);
                 if (dragging) return;
                 highlight(d = d.node, true);
                 showTooltip(tooltip_.call(this, d));
-                d3.event.stopPropagation();
-              })
-            .merge(mouse)
+                d3v3.event.stopPropagation();
+              });
+          mouse
               .sort(function(a, b) { return b.count - a.count; })
               .attr("d", ribbonPathStatic);
           mouse.exit().remove();
         }
+
+
 
         // Animates the x-coordinates only of the relevant ribbon paths.
         function ribbonTweenX(d) {
@@ -237,7 +252,7 @@
                 if (r.target.node === d) nodes.push(t = r.target);
                 return s || t;
               }),
-              i = nodes.map(function(d) { return d3.interpolateNumber(d.x0, d.x); }),
+              i = nodes.map(function(d) { return d3v3.interpolateNumber(d.x0, d.x); }),
               n = nodes.length;
           return function(t) {
             for (var j = 0; j < n; j++) nodes[j].x0 = i[j](t);
@@ -248,7 +263,7 @@
         // Animates the y-coordinates only of the relevant ribbon paths.
         function ribbonTweenY(d) {
           var r = ribbon.filter(function(r) { return r.source.dimension.name == d.name || r.target.dimension.name == d.name; }),
-              i = d3.interpolateNumber(d.y0, d.y);
+              i = d3v3.interpolateNumber(d.y0, d.y);
           return function(t) {
             d.y0 = i(t);
             r.attr("d", ribbonPath);
@@ -284,25 +299,26 @@
               .data(function(d) { return d.categories; }, function(d) { return d.name; });
           var categoryEnter = category.enter().append("g")
               .attr("class", "category")
-              .attr("transform", function(d) { return "translate(" + d.x + ")"; });
+              .attr("transform", function(d) { return "translate(" + d.x + ")"; })
           category.exit().remove();
-          category = categoryEnter.merge(category)
+          category
               .on("mousemove.parsets", function(d) {
                 ribbon.classed("active", false);
                 if (dragging) return;
                 d.nodes.forEach(function(d) { highlight(d); });
                 showTooltip(categoryTooltip.call(this, d));
-                d3.event.stopPropagation();
+                d3v3.event.stopPropagation();
               })
               .on("mouseout.parsets", unhighlight)
               .on("mousedown.parsets", cancelEvent)
-              .call(d3.drag()
-                .on("start", function(d) {
+              .call(d3v3.behavior.drag()
+                .origin(identity)
+                .on("dragstart", function(d) {
                   dragging = true;
                   d.x0 = d.x;
                 })
                 .on("drag", function(d) {
-                  d.x = d3.event.x;
+                  d.x = d3v3.event.x;
                   var categories = d.dimension.categories;
                   for (var i = 0, c = categories[0]; ++i < categories.length;) {
                     if (c.x + c.dx / 2 > (c = categories[i]).x + c.dx / 2) {
@@ -311,28 +327,28 @@
                       updateRibbons();
                       updateCategories(g);
                       highlight(d.node);
-                      dispatch.call("sortCategories");
+                      event.sortCategories();
                       break;
                     }
                   }
                   var x = 0,
                       p = spacing / (categories.length - 1);
                   categories.forEach(function(e) {
-                    if (d === e) e.x0 = d3.event.x;
+                    if (d === e) e.x0 = d3v3.event.x;
                     e.x = x;
                     x += e.count / total * (width - spacing) + p;
                   });
-                  d3.select(this)
+                  d3v3.select(this)
                       .attr("transform", function(d) { return "translate(" + d.x0 + ")"; })
                       .transition();
                   ribbon.filter(function(r) { return r.source.node === d || r.target.node === d; })
                       .attr("d", ribbonPath);
                 })
-                .on("end", function(d) {
+                .on("dragend", function(d) {
                   dragging = false;
                   unhighlight();
                   updateRibbons();
-                  transition(d3.select(this))
+                  transition(d3v3.select(this))
                       .attr("transform", "translate(" + d.x + ")")
                       .tween("ribbon", ribbonTweenX);
                 }));
@@ -343,20 +359,33 @@
           categoryEnter.append("rect")
               .attr("width", function(d) { return d.dx; })
               .attr("y", -20)
-              .attr("height", 20);
+              .attr("height", 20)
+              .transition()
+                          .duration(500);
+
           categoryEnter.append("line")
               .style("stroke-width", 2);
           categoryEnter.append("text")
-              .attr("dy", "-.3em");
+              .attr("dy", "-.1em")
+              .style("fill", 'black');
+
+
+
           category.select("rect")
               .attr("width", function(d) { return d.dx; })
               .attr("class", function(d) {
                 return "category-" + (d.dimension === dimensions[0] ? ordinal(d.name) : "background");
-              });
+              })
+              .transition()
+                          .duration(1000);
+
           category.select("line")
               .attr("x2", function(d) { return d.dx; });
           category.select("text")
-              .text(truncateText(function(d) { return d.name; }, function(d) { return d.dx; }));
+              .text(truncateText(function(d) { return d.name; }, function(d) { return d.dx; }))
+              .style("fill", 'black')
+
+
         }
       });
     }
@@ -369,13 +398,13 @@
 
     parsets.dimensions = function(_) {
       if (!arguments.length) return dimensions_;
-      dimensions_ = functor(_);
+      dimensions_ = d3v3.functor(_);
       return parsets;
     };
 
     parsets.value = function(_) {
       if (!arguments.length) return value_;
-      value_ = functor(_);
+      value_ = d3v3.functor(_);
       return parsets;
     };
 
@@ -421,33 +450,34 @@
       return parsets;
     };
 
-    var body = d3.select("body");
-    var tooltip = body.append("div")
-        .style("display", "none")
-        .attr("class", "parsets tooltip");
+    var body = d3v3.select("#vis")
+    var tooltip = body.append("g")
+        .attr("class", "parsets tooltip2")
+        .style("fill","black");
 
-    parsets.on = function() {
-      var value = dispatch.on.apply(dispatch, arguments);
-      return value === dispatch ? parsets : value;
-    };
 
-    return parsets.value(1).width(960).height(600);
+    return d3v3.rebind(parsets, event, "on").value(1).width(window.width).height(window.height);
 
     function dimensionFormatName(d, i) {
       return dimensionFormat.call(this, d.name, i);
     }
 
     function showTooltip(html) {
-      var m = d3.mouse(body.node());
+      var m = d3v3.mouse(body.node());
+
       tooltip
-          .style("display", null)
-          .style("left", m[0] + 30 + "px")
-          .style("top", m[1] - 20 + "px")
-          .html(html);
+          .style('display',null)
+          .style("left", (50000)+" px")
+          .style("top", (50000)+" px")
+          .html(html)
+          .style("fill","black")
+          .style('background-color','#e6e6e6');
     }
 
     function hideTooltip() {
-      tooltip.style("display", "none");
+      tooltip.style("display", "none")
+                .style("fill","black");
+
     }
 
     function transition(g) {
@@ -569,15 +599,15 @@
       return a < b ? -1 : a > b ? 1 : a >= b ? 0 : a <= a ? -1 : b <= b ? 1 : NaN;
     }
   };
-  d3.parsets.tree = buildTree;
+  d3v3.parsets.tree = buildTree;
 
   function autoDimensions(d) {
-    return d.length ? d3.keys(d[0]).sort() : [];
+    return d.length ? d3v3.keys(d[0]).sort() : [];
   }
 
   function cancelEvent() {
-    d3.event.stopPropagation();
-    d3.event.preventDefault();
+    d3v3.event.stopPropagation();
+    d3v3.event.preventDefault();
   }
 
   function dimensionName(d) { return d.name; }
@@ -608,13 +638,13 @@
     };
   }
 
-  var percent = d3.format("%"),
-      comma = d3.format(",f"),
-      parsetsEase = d3.easeElastic,
+  var percent = d3v3.format("%"),
+      comma = d3v3.format(",f"),
+      parsetsEase = "elastic",
       parsetsId = 0;
 
   // Construct tree of all category counts for a given ordered list of
-  // dimensions.  Similar to d3.nest, except we also set the parent.
+  // dimensions.  Similar to d3v3.nest, except we also set the parent.
   function buildTree(root, data, dimensions, value) {
     zeroCounts(root);
     var n = data.length,
@@ -664,12 +694,7 @@
   }
 
   function defaultCategoryTooltip(d) {
-    return d.name + "<br>" + comma(d.count) + " (" + percent(d.count / d.dimension.count) + ")";
-  }
-
-  function functor(v) {
-    return typeof v === "function" ? v : function() {
-      return v;
-    };
+    var x = d.name + "<br>" + comma(d.count) + " (" + percent(d.count / d.dimension.count) + ")";
+  return x;
   }
 })();

@@ -1,0 +1,30 @@
+.bubbles {
+  stroke-width: 1px;
+  stroke: black;
+  opacity: .8;
+}
+.bubbles:hover {
+  stroke: black;
+}
+
+.axisBlack line{
+  stroke: black;
+}
+
+.axisBlack path{
+  stroke: black;
+}
+
+.axisBlack text{
+  fill: black;
+}
+.center {
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+.bubble_legend{
+  font-size: 1.25rem
+}

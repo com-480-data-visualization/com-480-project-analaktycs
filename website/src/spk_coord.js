@@ -395,7 +395,7 @@ d3.csv(file_name, function(error, data) {
   d3.selectAll(".axis.food_group .tick text")
     .style("fill", color);
     
-  output.text(d3.tsvFormat(data.slice(0,24)));
+  //output.text(d3.tsvFormat(data.slice(0,24)));
 
   function project(d) {
     return dimensions.map(function(p,i) {
@@ -506,7 +506,7 @@ d3.csv(file_name, function(error, data) {
     ctx.globalAlpha = d3.min([0.85/Math.pow(selected.length,0.3),1]);
     render(selected);
 
-    output.text(d3.tsvFormat(selected.slice(0,24)));
+    //output.text(d3.tsvFormat(selected.slice(0,24)));
   }
 });
 

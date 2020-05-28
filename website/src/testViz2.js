@@ -1,68 +1,85 @@
 
 
-var svg3 = d3.select("#bipartite2").append("svg").attr("width", 1100).attr("height", 800);
+var svg3 = d3v4.select("#bipartite2").append("svg").attr("width", 800).attr("height", 800);
+var generation = [1,2,3,4,5,6]
+var generations = d3v4.select("#bipartite2")
 
-AbilitiesvsTypes(d3)
+						    generations
+								.append("select")
+								.attr("class","btn-primary")
+								.selectAll("option")
+						        .data(generation)
+						        .enter()
+						        .append("option")
+						        .attr("value", function(d){
+						            return d;
+						        })
+						        .text(function(d){
+						            return "generation " + String(d);
 
-function AbilitiesvsTypes(d3) {
-	console.log('aaaa',d3.version)
+
+						        })
 
 
+
+function AbilitiesvsTypes(d3v4) {
 	svg3.selectAll("*").remove();
 
 svg3.append("text").attr("x",250).attr("y",70)
-	.attr("class","header").text("Abilities vs Types Count #");
-	
-svg3.append("text").attr("x",750).attr("y",70)
-	.attr("class","header").text("Abilities vs Types Fraction %");
-
-var g =[svg3.append("g").attr("transform","translate(150,100)")
-		,svg3.append("g").attr("transform","translate(650,100)")];
+	.attr("class","header").text("Abilities and Types")
+	.style("fill", 'black');
 
 
-			const file_name1 = "data/test7.csv"
 
 
-	construct_graph(file_name1,g,"Abilities","Types",d3)
+var g =svg3.append("g").attr("transform","translate(150,100)");
+
+
+
+
+			const file_name1 = "data/test7_most_present_abs_test7_gen.csv"
+
+
+	construct_graph(file_name1,g,"Abilities","Types",d3v4,generations,2)
 
 }
 
 
 
-function TypesvsBody(d3){
+function TypesvsBody(d3v4){
 
-	svg3.selectAll("*").remove();
+svg3.selectAll("*").remove();
 svg3.append("text").attr("x",250).attr("y",70)
-	.attr("class","header").text("Types vs BodyShape Count #");
-	
-svg3.append("text").attr("x",750).attr("y",70)
-	.attr("class","header").text("Types vs BodyShape Fraction %");
+	.attr("class","header").text("Types and Body styles ")
+	.style("fill", 'black');
 
-var g =[svg3.append("g").attr("transform","translate(150,100)")
-		,svg3.append("g").attr("transform","translate(650,100)")];
 
-			const file_name2 = "data/type_vs_shape.csv"
+var g = svg3.append("g").attr("transform","translate(150,100)")
 
-	construct_graph(file_name2,g,"Types","Body Shape",d3)
+
+const file_name2 = "data/type_vs_shape_merged_gen.csv"
+
+construct_graph(file_name2,g,"Types","Body Shape",d3v4,generations,1)
 
 }
 
 
-function ColorvsBody(d3){
+function ColorvsBody(d3v4){
+
 
 	svg3.selectAll("*").remove();
 svg3.append("text").attr("x",250).attr("y",70)
-	.attr("class","header").text("BodyShape vs Color Count #");
-	
-svg3.append("text").attr("x",750).attr("y",70)
-	.attr("class","header").text("BodyShape vs Color Fraction %");
+	.attr("class","header").text("Types and Colors ").style("font-weight", 'bold')
+	.style("fill", 'black');
 
-var g =[svg3.append("g").attr("transform","translate(150,100)")
-		,svg3.append("g").attr("transform","translate(650,100)")];
 
-			const file_name3 = "data/bodyvscolor.csv"
+var g = svg3.append("g").attr("transform","translate(150,100)")
 
-	construct_graph(file_name3,g,"BodyShape","Color",d3)
+
+
+			const file_name3 = "data/type_vs_colors_merged_gen.csv"
+
+	construct_graph(file_name3,g,"Types","Color",d3v4,generations,1)
 
 }
 
@@ -70,11 +87,16 @@ var g =[svg3.append("g").attr("transform","translate(150,100)")
 
 
 
-function construct_graph(file_name,g,var1,var2,d3){
+function construct_graph(file_name,g,var1,var2,d3v4,generations,flag){
 
 
 
-				d3.csv(file_name, function(error, data) {
+				d3v4.csv(file_name, function(error, data) {
+
+					function onlyUnique(value, index, self) {
+						    return self.indexOf(value) === index;
+						}
+
 
 
 				function hashCode(str) { // java String#hashCode
@@ -83,7 +105,7 @@ function construct_graph(file_name,g,var1,var2,d3){
 				       hash = str.charCodeAt(i) + ((hash << 5) - hash);
 				    }
 				    return hash;
-				} 
+				}
 
 				function intToRGB(i){
 				    var c = (i & 0x00FFFFFF)
@@ -94,6 +116,7 @@ function construct_graph(file_name,g,var1,var2,d3){
 				}
 
 					var data_= []
+					var generation = []
 					var color = {}
 					data.forEach(function (d) {
 
@@ -101,133 +124,205 @@ function construct_graph(file_name,g,var1,var2,d3){
 						let interr = new Array(0)
 
 					for (const [key, value] of Object.entries(d)) {
-						
 
-						if (key == "count" || key == "value"){
+
+						if (key == "value" || key == "values"){
 
 							interr.push(parseFloat(value))
 
 						}else {
 
-							if (key == "target" || key == "source"){
+							if (key == "target" || key == "source" || key == "generation"){
 								interr.push(value)
+
 							}
 
-							
+							if (key == 'generation'){
+								generation.push(value)
+							}
 
-							if(key == "source"){
+
+
+							if(key == "source" && flag == 1){
 								color[value] = intToRGB(hashCode(value))
 							}
+
+
+							if(key == "target" && flag == 2){
+
+
+								color[value] = intToRGB(hashCode(value))
+
+
+							}
 						}
-						
+
 					}
 					data_.push(interr)
 				})
-							
-					console.log(data_)
-						
 
 
-					var bp2=[ viz.bP()
+					generation= generation.filter( onlyUnique );
+
+				function initial_graph (data_,g,var1=0,var2=0,d3v4){
+
+					const v1 = var1
+					const v2 = var2
+
+
+					var bp2=viz.bP()
 						.data(data_)
 						.min(12)
 						.pad(1)
-						.height(600)
-						.width(300)
+						.height(700)
+						.width(400)
 						.barSize(35)
-						.fill(d=>color[d.primary])		
-					,viz.bP()
-						.data(data_)
-						.value(d=>d[3])
-						.min(12)
-						.pad(1)
-						.height(600)
-						.width(300)
-						.barSize(35)
-						.fill(d=>color[d.primary])
-				];
-						
-				[0,1].forEach(function(i){
-					g[i].call(bp2[i])
-					
-					g[i].append("text").attr("x",-50).attr("y",-8).style("text-anchor","left").text(var1);
-					g[i].append("text").attr("x", 250).attr("y",-8).style("text-anchor","left").text(var2);
-					
-					g[i].append("line").attr("x1",-100).attr("x2",0);
-					g[i].append("line").attr("x1",200).attr("x2",300);
-					
-					g[i].append("line").attr("y1",610).attr("y2",610).attr("x1",-100).attr("x2",0);
-					g[i].append("line").attr("y1",610).attr("y2",610).attr("x1",200).attr("x2",300);
-					
-					g[i].selectAll(".mainBars")
+						.fill(d=> (flag == 1? color[d.primary] :   color[d.secondary]));
+
+
+					g.call(bp2)
+						.transition()
+                 			 .duration(1000)
+
+					g.append("text").attr("x",-50).attr("y",-8).transition().duration(1000).style("text-anchor","left").text(v1)
+					.style("fill", 'black');
+					g.append("text").attr("x", 450).attr("y",-8).transition().duration(1000).style("text-anchor","left").text(v2)
+						.style("fill", 'black');
+
+					g.append("line").attr("x1",-100).transition().duration(1000).attr("x2",0);
+					g.append("line").attr("x1",400).transition().duration(1000).attr("x2",550);
+
+					g.append("line").attr("y1",710).transition().duration(1000).attr("y2",710).attr("x1",-100).attr("x2",0);
+					g.append("line").attr("y1",710).transition().duration(1000).attr("y2",710).attr("x1",200).attr("x2",350);
+
+					g.selectAll(".mainBars")
 						.on("mouseover",mouseover)
-						.on("mouseout",mouseout);
+						.on("mouseout",mouseout)
+						.transition().duration(3000);
 
-					g[i].selectAll(".mainBars").append("text").attr("class","label")
-						.attr("x",d=>(d.part=="primary"? -30: 30))
+					g.selectAll(".mainBars").append("text").attr("class","label")
+						.attr("x",d=>(d.part=="primary"? -30: 50))
 						.attr("y",d=>+6)
 						.text(d=>d.key)
+						.transition()
+                 			 .duration(1000)
+						.style("fill", 'black')
+				
 						.attr("text-anchor",d=>(d.part=="primary"? "end": "start"));
-					
-					g[i].selectAll(".mainBars").append("text").attr("class","perc")
-						.attr("x",d=>(d.part=="primary"? -100: 100))
+
+					g.selectAll(".mainBars").append("text").attr("class","perc")
+						.attr("x",d=>(d.part=="primary"? -100: 150))
+						.style("fill", 'black')
 						.attr("y",d=>+6)
-						.text(function(d){ 
 
-							if (i == 0) {
-								return d3.format(".1f")(d.value)
+						.text(function(d){
 
 
-							}else {
-								return d3.format("0.0%")(d.percent)
-							}})
-							
+
+								return "  "+d3v4.format("0.0%")(d.percent)
+							})
+						.transition()
+                  			.duration(1000)
+
 						.attr("text-anchor",d=>(d.part=="primary"? "end": "start"));
-				});
+
+
+
 
 				function mouseover(d){
-					[0,1].forEach(function(i){
-						bp2[i].mouseover(d);
-						console.log(d)
-						
-						let format = [".1f" ,"0.0%"]
-						
-						if (i == 0){
-							g[i].selectAll(".mainBars").select(".perc")
-							.text(function(d){ return d3.format(format[i])(d.value)});
 
-						} else {
-							g[i].selectAll(".mainBars").select(".perc")
-							.text(function(d){ return d3.format(format[i])(d.percent)});
+						bp2.mouseover(d);
+
+
+							g.selectAll(".mainBars").select(".perc")
+							.text(function(d){ return "   " +d3v4.format("0.0%")(d.percent)})
+							.transition()
+                  			.duration(1000);;
 						}
 
-						
-					});
-				}
+
+
+
 				function mouseout(d){
-					[0,1].forEach(function(i){
-						bp2[i].mouseout(d);
-						
-						let format = [".1f" ,"0.0%"]
-						if (i == 0){
-									g[i].selectAll(".mainBars").select(".perc")
+						bp2.mouseout(d);
 
-							.text(function(d){ return d3.format(format[i])(d.value)});
 
-						} else {
-									g[i].selectAll(".mainBars").select(".perc")
 
-							.text(function(d){ return d3.format(format[i])(d.percent)});
-						}
-					});
+
+							g.selectAll(".mainBars").select(".perc")
+
+							.text(function(d){ return d3v4.format("0.0%")(d.percent)})
+							.transition()
+                  			.duration(1000);
+
+
 				}
-				d3.select(self.frameElement).style("height", "800px");
-
-				})
-				} 
+				d3v4.select(self.frameElement).style("height", "800px");}
 
 
-   ;
+				 var updateGraph = function(value,data_,g,d3v4){
 
-   
-   // ** Update data section (Called from the onclick)
+
+
+
+ 		// Filter the data to include only fruit of interest
+					 		var selectGen= data_.filter(function(d){
+					                return d[4] == value;
+					              })
+
+							svg3.selectAll("g").remove()
+								.transition()
+                  			.duration(1000)
+								.style("fill", 'black');
+
+
+							var g =svg3.append("g").attr("transform","translate(150,100)")
+
+
+
+					 		// Select all of the grouped elements and update the data
+						    initial_graph(selectGen,g,var1,var2,d3v4)
+
+
+
+					 	}
+					 	updateGraph(selectGen=1,data_,g,d3v4)
+
+
+
+
+
+
+				     	generations.on('change', function(){
+
+ 		// Find which fruit was selected from the dropdown
+						 		var selectedFruit = d3v4.select(this)
+						            .select("select")
+						            .property("value")
+
+
+
+
+
+
+
+						        // Run update function with the selected frit
+						        updateGraph(selectedFruit,data_,g,d3v4)
+
+
+						    });
+
+				     })
+
+
+				};
+
+
+
+window.addEventListener('load', function() {
+    AbilitiesvsTypes(d3v4)
+})
+
+
+
+   //Update data section (Called from the onclick)

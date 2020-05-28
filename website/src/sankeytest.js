@@ -17,7 +17,7 @@ var svg2 = d3.select("#sankey").append("svg")
     .attr("width", width2 + margin2.left + margin2.right)
     .attr("height", height2 + margin2.top + margin2.bottom)
   .append("g")
-    .attr("transform", 
+    .attr("transform",
           "translate(" + margin2.left + "," + margin2.top + ")")
 
 svg2.append("text").attr("x",20).attr("y",10)
@@ -61,7 +61,6 @@ data.forEach(function (d) {
   graph.nodes.forEach(function (d, i) {
     graph.nodes[i] = { "name": d };
   });
-   console.log()
 
 
   sankey2
@@ -81,7 +80,7 @@ data.forEach(function (d) {
   // add the link titles
   link.append("title")
         .text(function(d) {
-    		return d.source.name + " → " + 
+    		return d.source.name + " → " +
                 d.target.name + "\n" + format(d.value); });
 
 
@@ -90,26 +89,26 @@ data.forEach(function (d) {
       .data(graph.nodes)
     .enter().append("g")
       .attr("class", "node")
-      .attr("transform", function(d) { 
+      .attr("transform", function(d) {
 		  return "translate(" + d.x + "," + d.y + ")"; })
     .call(d3.behavior.drag()
       .origin(function(d) { return d; })
-      .on("dragstart", function() { 
+      .on("dragstart", function() {
 		  this.parentNode.appendChild(this); })
       .on("drag", dragmove));
- 
+
 // add the rectangles for the nodes
   node.append("rect")
       .attr("height", function(d) { return d.dy; })
       .attr("width", sankey2.nodeWidth())
-      .style("fill", function(d) { 
+      .style("fill", function(d) {
 		  return d.color = color(d.name.replace(/ .*/, "")); })
-      .style("stroke", function(d) { 
+      .style("stroke", function(d) {
 		  return d3.rgb(d.color).darker(2); })
     .append("title")
-      .text(function(d) { 
+      .text(function(d) {
 		  return d.name + "\n" + format(d.value); });
- 
+
 // add in the title for the nodes
   node.append("text")
       .attr("x", -6)
@@ -122,10 +121,10 @@ data.forEach(function (d) {
       .attr("x", 6 + sankey2.nodeWidth())
       .attr("text-anchor", "start");
 
- 
+
 // the function for moving the nodes
   function dragmove(d) {
-    d3.select(this).attr("transform", 
+    d3.select(this).attr("transform",
         "translate(" + (
         	   d.x = Math.max(0, Math.min(width - d.dx, d3.event.x))
         	) + "," + (
@@ -173,7 +172,7 @@ data.forEach(function (d) {
 // add in the links
   var link = svg.append("g").selectAll(".link")
       .data(graph.links)
-    
+
       .attr("class", "link")
       .attr("d", path)
       .style("stroke-width", function(d) { return Math.max(1, d.dy); })
@@ -182,7 +181,7 @@ data.forEach(function (d) {
 // add the link titles
   link.append("title")
         .text(function(d) {
-    		return d.source.name + " → " + 
+    		return d.source.name + " → " +
                 d.target.name + "\n" + format(d.value); });
 
 // add in the nodes
@@ -190,11 +189,11 @@ data.forEach(function (d) {
       .data(graph.nodes)
     .enter().append("g")
       .attr("class", "node")
-      .attr("transform", function(d) { 
+      .attr("transform", function(d) {
 		  return "translate(" + d.x + "," + d.y + ")"; })
     .call(d3.behavior.drag()
       .origin(function(d) { return d; })
-      .on("dragstart", function() { 
+      .on("dragstart", function() {
 		  this.parentNode.appendChild(this); })
       .on("drag", dragmove));
 
@@ -202,12 +201,12 @@ data.forEach(function (d) {
   node.append("rect")
       .attr("height", function(d) { return Math.abs(d.dy); })
       .attr("width", sankey.nodeWidth())
-      .style("fill", function(d) { 
+      .style("fill", function(d) {
 		  return d.color = color(d.name.replace(/ .*//*, "")); })
-      .style("stroke", function(d) { 
+      .style("stroke", function(d) {
 		  return d3.rgb(d.color).darker(2); })
     .append("title")
-      .text(function(d) { 
+      .text(function(d) {
 		  return d.name + "\n" + format(d.value); });
 
 // add in the title for the nodes
@@ -224,35 +223,35 @@ data.forEach(function (d) {
 
 // the function for moving the nodes
   function dragmove(d) {
-    d3.select(this).attr("transform", 
+    d3.select(this).attr("transform",
         "translate(" + d.x + "," + (
                 d.y = Math.max(0, Math.min(height - d.dy, d3.event.y))
             ) + ")");
     sankey.relayout();
     link.attr("d", path);
- 
 
 
 
 
- } 
+
+ }
 
 */
 });
 
 
- 
+
 
 /*
 	(d) => {
 
 
 
-	
+
 	let interr = new Array(0)
 
 	for (const [key, value] of Object.entries(d)) {
-		
+
 
 		if (key == "count_" || key == "fraction_%"){
 
@@ -265,7 +264,7 @@ data.forEach(function (d) {
 				color[value] = intToRGB(hashCode(value))
 			}
 
-			
+
 
 		}
   		}
@@ -274,7 +273,7 @@ data.forEach(function (d) {
   		} )
 
   		*/
-  	/*	
+  	/*
 
 
 function create_graph(data){
@@ -308,7 +307,7 @@ g.selectAll(".mainBars").append("text").attr("class","label")
 	.attr("y",d=>+6)
 	.text(d=>d.key)
 	.attr("text-anchor",d=>(d.part=="primary"? "end": "start"));
-	
+
 g.selectAll(".mainBars").append("text").attr("class","perc")
 	.attr("x",d=>(d.part=="primary"? -100: 80))
 	.attr("y",d=>+6)
@@ -355,7 +354,7 @@ function hashCode(str) { // java String#hashCode
        hash = str.charCodeAt(i) + ((hash << 5) - hash);
     }
     return hash;
-} 
+}
 
 function intToRGB(i){
     var c = (i & 0x00FFFFFF)
@@ -377,14 +376,14 @@ console.log(data_)
 
 
 // usage example:
- 
+
 
 
 //getAsText('test.csv')
 
 
 /*
-right = right.filter( onlyUnique ); 
+right = right.filter( onlyUnique );
 	function sort(keys){
 		  var sortOrder = keys
 		  return function(a,b){ return d3.ascending(sortOrder.indexOf(a),sortOrder.indexOf(b)) }
@@ -416,7 +415,7 @@ right = right.filter( onlyUnique );
 				.width(500)
 				.barSize(35)
 				.fill(d=>color[d.primary]);
-					
+
 		g.call(bp);
 
 		g.selectAll(".mainBars")
@@ -428,7 +427,7 @@ right = right.filter( onlyUnique );
 			.attr("y",d=>+6)
 			.text(d=>d.key)
 			.attr("text-anchor",d=>(d.part=="primary"? "end": "start"));
-			
+
 		g.selectAll(".mainBars").append("text").attr("class","perc")
 			.attr("x",d=>(d.part=="primary"? -100: 80))
 			.attr("y",d=>+6)

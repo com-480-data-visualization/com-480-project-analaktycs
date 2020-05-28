@@ -1,4 +1,4 @@
-/*!
+Pokemon/*!
  * Bootswatch v4.4.1
  * Homepage: https://bootswatch.com
  * Copyright 2012-2020 Thomas Park
@@ -152,7 +152,7 @@ small {
 
 sub,
 sup {
-  position: relative;
+  position: absolute;
   font-size: 75%;
   line-height: 0;
   vertical-align: baseline;
@@ -234,6 +234,11 @@ th {
 label {
   display: inline-block;
   margin-bottom: 0.5rem;
+
+}
+
+.label{
+  font-size: 40px;
 }
 
 button {
@@ -560,10 +565,10 @@ pre code {
 
 .container {
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
+  padding-right: 5px;
+  padding-left: 5px;
+  margin-right: 5px;
+  margin-left: 5px;
 }
 
 @media (min-width: 576px) {
@@ -592,6 +597,7 @@ pre code {
 
 .container-fluid, .container-sm, .container-md, .container-lg, .container-xl {
   width: 100%;
+  opacity: 1
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
@@ -649,7 +655,7 @@ pre code {
 .col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg,
 .col-lg-auto, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl,
 .col-xl-auto {
-  position: relative;
+  position: absolute;
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
@@ -2389,7 +2395,7 @@ textarea.form-control {
 }
 
 .form-check {
-  position: relative;
+  position: absolute;
   display: block;
   padding-left: 1.25rem;
 }
@@ -2550,7 +2556,7 @@ textarea.form-control {
   font-size: 0.875rem;
   line-height: 1.5;
   color: #fff;
-  background-color: rgba(255, 120, 81, 0.9);
+  background-color: rgba(255, 120, 81, 1);
   border-radius: 0.4rem;
 }
 
@@ -2707,7 +2713,7 @@ textarea.form-control {
     padding-left: 0;
   }
   .form-inline .form-check-input {
-    position: relative;
+    position: absolute;
     -ms-flex-negative: 0;
         flex-shrink: 0;
     margin-top: 0;
@@ -3433,7 +3439,7 @@ input[type="button"].btn-block {
 }
 
 .collapsing {
-  position: relative;
+  position: absolute;
   height: 0;
   overflow: hidden;
   -webkit-transition: height 0.35s ease;
@@ -3451,7 +3457,7 @@ input[type="button"].btn-block {
 .dropright,
 .dropdown,
 .dropleft {
-  position: relative;
+  position: absolute;
 }
 
 .dropdown-toggle {
@@ -3697,7 +3703,7 @@ input[type="button"].btn-block {
 
 .btn-group,
 .btn-group-vertical {
-  position: relative;
+  position: absolute;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -3706,7 +3712,7 @@ input[type="button"].btn-block {
 
 .btn-group > .btn,
 .btn-group-vertical > .btn {
-  position: relative;
+  position: absolute;
   -webkit-box-flex: 1;
       -ms-flex: 1 1 auto;
           flex: 1 1 auto;
@@ -3831,7 +3837,7 @@ input[type="button"].btn-block {
 }
 
 .input-group {
-  position: relative;
+  position: absolute;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3847,7 +3853,7 @@ input[type="button"].btn-block {
 .input-group > .form-control-plaintext,
 .input-group > .custom-select,
 .input-group > .custom-file {
-  position: relative;
+  position: absolute;
   -webkit-box-flex: 1;
       -ms-flex: 1 1 0%;
           flex: 1 1 0%;
@@ -3921,7 +3927,7 @@ input[type="button"].btn-block {
 
 .input-group-prepend .btn,
 .input-group-append .btn {
-  position: relative;
+  position: absolute;
   z-index: 2;
 }
 
@@ -4034,7 +4040,7 @@ input[type="button"].btn-block {
 }
 
 .custom-control {
-  position: relative;
+  position: absolute;
   display: block;
   min-height: 1.5rem;
   padding-left: 1.5rem;
@@ -4086,7 +4092,7 @@ input[type="button"].btn-block {
 }
 
 .custom-control-label {
-  position: relative;
+  position: absolute;
   margin-bottom: 0;
   vertical-align: top;
 }
@@ -4260,7 +4266,7 @@ input[type="button"].btn-block {
 }
 
 .custom-file {
-  position: relative;
+  position: absolute;
   display: inline-block;
   width: 100%;
   height: calc(1.5em + 0.75rem + 2px);
@@ -4268,7 +4274,7 @@ input[type="button"].btn-block {
 }
 
 .custom-file-input {
-  position: relative;
+  position: absolute;
   z-index: 2;
   width: 100%;
   height: calc(1.5em + 0.75rem + 2px);
@@ -4614,7 +4620,7 @@ input[type="button"].btn-block {
 }
 
 .navbar {
-  position: relative;
+  position: absolute;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -5060,7 +5066,7 @@ input[type="button"].btn-block {
 }
 
 .card {
-  position: relative;
+  position: absolute;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -5347,7 +5353,7 @@ input[type="button"].btn-block {
 }
 
 .page-link {
-  position: relative;
+  position: absolute;
   display: block;
   padding: 0.5rem 0.75rem;
   margin-left: -1px;
@@ -5462,7 +5468,7 @@ a.badge:hover, a.badge:focus {
 }
 
 .btn .badge {
-  position: relative;
+  position: absolute;
   top: -1px;
 }
 
@@ -5620,7 +5626,7 @@ a.badge-dark:focus, a.badge-dark.focus {
 }
 
 .alert {
-  position: relative;
+  position: absolute;
   padding: 0.75rem 1.25rem;
   margin-bottom: 1rem;
   border: 1px solid transparent;
@@ -5878,7 +5884,7 @@ a.badge-dark:focus, a.badge-dark.focus {
 }
 
 .list-group-item {
-  position: relative;
+  position: absolute;
   display: block;
   padding: 0.75rem 1.25rem;
   background-color: #fff;
@@ -6238,7 +6244,7 @@ a.close.disabled {
   max-width: 350px;
   overflow: hidden;
   font-size: 0.875rem;
-  background-color: rgba(255, 255, 255, 0.85);
+  background-color: rgba(255, 255, 255, 1);
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.1);
   -webkit-box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.1);
@@ -6275,7 +6281,7 @@ a.close.disabled {
           align-items: center;
   padding: 0.25rem 0.75rem;
   color: #888;
-  background-color: rgba(255, 255, 255, 0.85);
+  background-color: rgba(255, 255, 255,1);
   background-clip: padding-box;
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);
 }
@@ -6306,7 +6312,7 @@ a.close.disabled {
 }
 
 .modal-dialog {
-  position: relative;
+  position: absolute;
   width: auto;
   margin: 0.5rem;
   pointer-events: none;
@@ -6396,7 +6402,7 @@ a.close.disabled {
 }
 
 .modal-content {
-  position: relative;
+  position: absolute;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -6458,7 +6464,7 @@ a.close.disabled {
 }
 
 .modal-body {
-  position: relative;
+  position: absolute;
   -webkit-box-flex: 1;
       -ms-flex: 1 1 auto;
           flex: 1 1 auto;
@@ -6804,7 +6810,7 @@ a.close.disabled {
 }
 
 .carousel {
-  position: relative;
+  position: absolute;
 }
 
 .carousel.pointer-event {
@@ -6813,7 +6819,7 @@ a.close.disabled {
 }
 
 .carousel-inner {
-  position: relative;
+  position: absolute;
   width: 100%;
   overflow: hidden;
 }
@@ -6825,7 +6831,7 @@ a.close.disabled {
 }
 
 .carousel-item {
-  position: relative;
+  position: absolute;
   display: none;
   float: left;
   width: 100%;
@@ -7538,7 +7544,7 @@ button.bg-dark:focus {
 }
 
 .embed-responsive {
-  position: relative;
+  position: absolute;
   display: block;
   width: 100%;
   padding: 0;
@@ -8478,8 +8484,8 @@ button.bg-dark:focus {
   position: static !important;
 }
 
-.position-relative {
-  position: relative !important;
+.position-absolute {
+  position: absolute !important;
 }
 
 .position-absolute {
@@ -10724,9 +10730,11 @@ a.text-dark:hover, a.text-dark:focus {
   }
   body {
     min-width: 992px !important;
+    opacity: 1;
   }
   .container {
     min-width: 992px !important;
+
   }
   .navbar {
     display: none;
@@ -11028,7 +11036,7 @@ legend {
 
 .parcoords svg,
 .parcoords canvas {
-  font: 10px sans-serif;
+  font: 15px sans-serif;
   position: absolute;
 }
 
@@ -11106,8 +11114,14 @@ pre {
 }
 
 text{
-  font-size:10px;
+  font-size:°15px;
 }
+
+
+.mainBars text{
+  font-size:°20px;
+}
+
 .mainBars rect{
   shape-rendering: auto;
   fill-opacity: 0;

@@ -1,0 +1,54 @@
+,name,pokedex_number,abilities,types,classification,generation,Body_Style,Color
+59,Poliwag,60,Water Absorb,water,Tadpole Pokémon,1,head_legs,Blue
+94,Onix,95,Weak Armor,rock,Rock Snake Pokémon,1,serpentine_body,Grey
+94,Onix,95,Weak Armor,ground,Rock Snake Pokémon,1,serpentine_body,Grey
+117,Goldeen,118,Water Veil,water,Goldfish Pokémon,1,with_fins,Red
+118,Seaking,119,Water Veil,water,Goldfish Pokémon,1,with_fins,Red
+130,Lapras,131,Water Absorb,water,Transport Pokémon,1,with_fins,Blue
+130,Lapras,131,Water Absorb,ice,Transport Pokémon,1,with_fins,Blue
+133,Vaporeon,134,Water Absorb,water,Bubble Jet Pokémon,1,quadruped,Blue
+137,Omanyte,138,Weak Armor,rock,Spiral Pokémon,1,several_limbs,Blue
+137,Omanyte,138,Weak Armor,water,Spiral Pokémon,1,several_limbs,Blue
+138,Omastar,139,Weak Armor,rock,Spiral Pokémon,1,several_limbs,Blue
+138,Omastar,139,Weak Armor,water,Spiral Pokémon,1,several_limbs,Blue
+139,Kabuto,140,Weak Armor,rock,Shellfish Pokémon,1,insectoid,Brown
+139,Kabuto,140,Weak Armor,water,Shellfish Pokémon,1,insectoid,Brown
+169,Chinchou,170,Volt Absorb,water,Angler Pokémon,2,with_fins,Blue
+169,Chinchou,170,Water Absorb,water,Angler Pokémon,2,with_fins,Blue
+170,Lanturn,171,Volt Absorb,water,Light Pokémon,2,with_fins,Blue
+170,Lanturn,171,Water Absorb,water,Light Pokémon,2,with_fins,Blue
+193,Wooper,194,Water Absorb,water,Water Fish Pokémon,2,head_legs,Blue
+193,Wooper,194,Water Absorb,ground,Water Fish Pokémon,2,head_legs,Blue
+218,Magcargo,219,Weak Armor,rock,Lava Pokémon,2,serpentine_body,Red
+224,Delibird,225,Vital Spirit,ice,Delivery Pokémon,2,two_wings,Red
+225,Mantine,226,Water Absorb,water,Kite Pokémon,2,two_wings,Purple
+225,Mantine,226,Water Veil,water,Kite Pokémon,2,two_wings,Purple
+226,Skarmory,227,Weak Armor,steel,Armor Bird Pokémon,2,two_wings,Grey
+291,Shedinja,292,Wonder Guard,ghost,Shed Pokémon,3,head_base,Brown
+299,Skitty,300,Wonder Skin ,normal,Kitten Pokémon,3,quadruped,Pink
+300,Delcatty,301,Wonder Skin ,normal,Prim Pokémon,3,quadruped,Purple
+319,Wailmer,320,Water Veil,water,Ball Whale Pokémon,3,with_fins,Blue
+320,Wailord,321,Water Veil,water,Float Whale Pokémon,3,with_fins,Blue
+366,Huntail,367,Water Veil,water,Deep Sea Pokémon,3,serpentine_body,Blue
+417,Buizel,418,Water Veil,water,Sea Weasel Pokémon,4,quadruped,Brown
+418,Floatzel,419,Water Veil,water,Sea Weasel Pokémon,4,quadruped,Brown
+455,Finneon,456,Water Veil,water,Wing Fish Pokémon,4,with_fins,Blue
+456,Lumineon,457,Water Veil,water,Neon Pokémon,4,with_fins,Blue
+457,Mantyke,458,Water Absorb,water,Kite Pokémon,4,two_wings,Blue
+457,Mantyke,458,Water Veil,water,Kite Pokémon,4,two_wings,Blue
+505,Lillipup,506,Vital Spirit,normal,Puppy Pokémon,5,quadruped,Brown
+523,Roggenrola,524,Weak Armor,rock,Mantle Pokémon,5,head_legs,Blue
+524,Boldore,525,Weak Armor,rock,Ore Pokémon,5,several_limbs,Blue
+534,Tympole,535,Water Absorb,water,Tadpole Pokémon,5,with_fins,Blue
+555,Maractus,556,Water Absorb,grass,Cactus Pokémon,5,head_base,Green
+556,Dwebble,557,Weak Armor,rock,Rock Inn Pokémon,5,insectoid,Red
+557,Crustle,558,Weak Armor,rock,Stone Home Pokémon,5,insectoid,Red
+560,Sigilyph,561,Wonder Skin ,psychic,Avianoid Pokémon,5,two_wings,Black
+581,Vanillite,582,Weak Armor,ice,Fresh Snow Pokémon,5,head_base,White
+582,Vanillish,583,Weak Armor,ice,Icy Snow Pokémon,5,head_base,White
+583,Vanilluxe,584,Weak Armor,ice,Snowstorm Pokémon,5,multiple_bodies,White
+591,Frillish,592,Water Absorb,water,Floating Pokémon,5,several_limbs,White
+591,Frillish,592,Water Absorb,ghost,Floating Pokémon,5,several_limbs,White
+592,Jellicent,593,Water Absorb,water,Floating Pokémon,5,several_limbs,White
+592,Jellicent,593,Water Absorb,ghost,Floating Pokémon,5,several_limbs,White
+720,Volcanion,721,Water Absorb,water,Steam Pokémon,6,quadruped,Brown

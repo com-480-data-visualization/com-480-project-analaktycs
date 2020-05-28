@@ -1,285 +1,367 @@
 <!doctype html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-
-   <script src="https://unpkg.com/react@16.9.0/umd/react.production.min.js"></script>
-    <script src="https://unpkg.com/react-dom@16.9.0/umd/react-dom.production.min.js"></script>
-    <script src="https://d3js.org/d3.v4.min.js"></script>
-
-
-
-
-    <!-- Bootstrap CSS -->
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
-    <link href="src/style.css" rel="stylesheet" />
-    <link href="lib/d3.parsets.css" rel="stylesheet" />
-
-
-
-<<<<<<< HEAD
-
-=======
->>>>>>> 1b1745cd6fac97fd159d5b4ccb2a1e617ecf5ca2
-  </head>
-
-
-  <body>
-
-<script src="https://bl.ocks.org/syntagmatic/raw/3341641/render-queue.js"></script>
-
-
-    <!-- Navigation Bar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-      <a class="navbar-brand" href="#">Interactive Guide to Pokémon</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarColor01">
-        <ul class="navbar-nav mr-auto">
-            <a class="nav-link" href="#">Process Book</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Video</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-
-    <div class="container">
-      <img src="img/all_gens.png" alt="Simply Easy Learning" width="934.4" height="584">
-
-       <div class="jumbotron">
-         <h1 class="display-4">Welcome to the Interactive Guide to Pokémon! </h1>
-         <p class="lead">This project lets you explore the world of Pokémon through interactive data visualization that gives you in-depth information of their stats as well as presenting combat scenarios.</p>
-       </div>
-
-       <h1>Pokemon Stats by Generations</h1>
-
-       <div class="container" style="margin-bottom: 15px;">
-       <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
-         <button type="button" class="btn btn-primary">Select a stat (x-axis)</button>
-         <div class="btn-group" role="group">
-           <button id="btnGroupDrop1" type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
-           <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-             <a class="dropdown-item" href="#">HP</a>
-             <a class="dropdown-item" href="#">Speed</a>
-             <a class="dropdown-item" href="#">Attack</a>
-             <a class="dropdown-item" href="#">Sp. Attack</a>
-             <a class="dropdown-item" href="#">Defense</a>
-             <a class="dropdown-item" href="#">Sp. Defense</a>
-           </div>
-         </div>
-       </div>
-
-       <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
-         <button type="button" class="btn btn-success">Select another stat (y-axis)</button>
-         <div class="btn-group" role="group">
-           <button id="btnGroupDrop2" type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
-           <div class="dropdown-menu" aria-labelledby="btnGroupDrop2">
-             <a class="dropdown-item" href="#">HP</a>
-             <a class="dropdown-item" href="#">Speed</a>
-             <a class="dropdown-item" href="#">Attack</a>
-             <a class="dropdown-item" href="#">Sp. Attack</a>
-             <a class="dropdown-item" href="#">Defense</a>
-             <a class="dropdown-item" href="#">Sp. Defense</a>
-           </div>
-         </div>
-       </div>
-     </div>
-     <div class="container">
-       <div class="btn-group" role="group" aria-label="Button group with nested dropdown" style="margin-bottom: 15px">
-         <button type="button" class="btn btn-info">Select an optional stat (size)</button>
-         <div class="btn-group" role="group">
-           <button id="btnGroupDrop3" type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
-           <div class="dropdown-menu" aria-labelledby="btnGroupDrop3">
-             <a class="dropdown-item" href="#">HP</a>
-             <a class="dropdown-item" href="#">Speed</a>
-             <a class="dropdown-item" href="#">Attack</a>
-             <a class="dropdown-item" href="#">Sp. Attack</a>
-             <a class="dropdown-item" href="#">Defense</a>
-             <a class="dropdown-item" href="#">Sp. Defense</a>
-           </div>
-         </div>
-       </div>
-
-       <div class="btn-group" role="group" aria-label="Button group with nested dropdown" style="margin-bottom: 15px">
-         <button type="button" class="btn btn-danger">Select an optional category (color)</button>
-         <div class="btn-group" role="group">
-           <button id="btnGroupDrop4" type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
-           <div class="dropdown-menu" aria-labelledby="btnGroupDrop4" style="">
-             <a class="dropdown-item" href="#">1st type</a>
-             <a class="dropdown-item" href="#">2nd type</a>
-             <a class="dropdown-item" href="#">Body style</a>
-             <a class="dropdown-item" href="#">Color</a>
-           </div>
-         </div>
-       </div>
-     </div>
-     <div class="form-group">
-       <div class="container">
-   <div class="custom-control custom-switch">
-     <input type="checkbox" class="custom-control-input" id="customSwitch1" checked="">
-     <label class="custom-control-label" for="customSwitch1">View Stats by Generation</label>
-   </div>
- </div>
- </div>
- <fieldset class="form-group">
-       <label for="customRange1">Choose a generation (1-6)</label>
-       <input type="range" class="custom-range" id="customRange1">
-     </fieldset>
-
-      <div id = "Figure3">
-                <h1>Figure 3 : Feature Relationship </h1>
-          <h3>
-              <small class="text-muted">Aims at showing how chosing a specfic value for a feature will impact on another statistic.
-            Dynamical bipartite graphic.
-            By default, displayed features would be the ones juged having significant relationship across generations.
-            User could chose the two features he is interested in.
-            Dynamical vue over the generations.</small>
-         </h3>
-
-          <h3>Figure 3.1 : Bipartite display of feature relationships, in proportion and frequency</h3>
-
-
-
-
-
-            <script src="https://d3js.org/d3.v3.js"></script>
-    <script>
-        let kam = d3
-         console.log(kam,'kam')
-    </script>
-          <div class="btn-group btn-group-toggle" data-toggle="buttons">
-                    <label class="btn btn-primary">
-
-                      <input type="checkbox" checked="" autocomplete="off"  value ="AbilitiesvsTypes" onclick="AbilitiesvsTypes(kam)"/> Abilities vs Types
-                    </label>
-                    <label class="btn btn-primary active">
-                      <input type="checkbox" autocomplete="off" onclick="TypesvsBody(kam)"/> Types vs Body
-                    </label>
-                    <label class="btn btn-primary active">
-                      <input type="checkbox" autocomplete="off" onclick="ColorvsBody(kam)"/> Body vs Color
-                    </label>
-
-                     </div>
-
-
-                     <div id = "bipartite2">
-
-                                    <script src="https://d3js.org/d3.v3.js"></script>
-                                    <script > console.log(d3.version)</script>
-
-                        <script src="http://vizjs.org/viz.v1.1.0.min.js"></script>
-
-                          <script src="src/testViz2.js" ></script> </div>
-
-
-
-        <h3>Figure 3.3 : Coordinate display of categorical features relationships</h3>
-
-      <div>
-
-
-
-   <div  id="chartArea">
-
-
-                            <script src="https://d3js.org/d3.v4.js"></script>
-
-
-              <script class = 'box' src = "src/spk_coord.js" > </script></div>
-
-
-
-
-
-
-
-               <h3>Figure 3.3 : Bipartite display of feature relation ships, in flow manner </h3>
-
-          <div id = "vis">
-
-                                    <script src="https://d3js.org/d3.v4.js"></script>
-
-
-               <script  src = "lib/d3.parsets.js" > </script>
-
-
-              <script src = "src/para.js">
-              </script>
-
-    </div>
-
-
-
-
-
-
-
-
-          </div>
-
-
-    <script>
-        let d3_kamil = d3
-        console.log(d3_kamil.version,'wesh')
-        console.log(window.version,'window')
-
-    </script>
-    <script src="https://d3js.org/d3.v5.js"></script>
-    <script>
-        let d3_ludo = d3
-    </script>
-    <div id = "circle_chart_div">
-        <script src="circle_chart/circle_chart.js"></script>
-        <link rel="stylesheet" href="circle_chart/circle_chart.css">
-        <script src="https://d3js.org/d3.v5.js"></script>
-        <script>
-
-            let csv_file="circle_chart/data_for_circle_chart.csv"
-            let screen_part = 100
-
-            create_svg(screen_part, 1.5*screen_part, "beige")
-            add_chart("main_svg", screen_part/2, "beige", csv_file, 0, "Type", d3_ludo)
-
-
-
-        </script>
-    </div>
-
-    <script>
-
-        console.log(d3,'window')
-    </script>
-
-          </div>
-
-          </div>
-
-
-
-
-
-
-
-
-
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-
-
-  </body>
-
-
-</html>
+<html lang="en" style="opacity : 1">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=2000">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/react@16.9.0/umd/react.production.min.js"></script>
+  <link href="src/bubble_chart.css" type="text/css" rel="stylesheet">
+  <link rel="shortcut icon" href="img/apple-icon.png">
+
+  <!-- Bootstrap CSS -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+  <link href="src/style.css" rel="stylesheet" />
+  <link href="lib/d3.parsets.css" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="res/parallel.css" />
+</head>
+
+<body>
+  <script src="https://d3js.org/d3.v4.js"></script>
+  <script src="https://bl.ocks.org/syntagmatic/raw/3341641/render-queue.js"></script>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <a class="navbar-brand" href="#">Interactive Guide to Pokémon</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarColor01">
+      <ul class="navbar-nav mr-auto">
+        <a class="nav-link" href="#">Process Book</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Video</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container-fluid" style="width:2000px" >
+  <div class="jumbotron" style="background-color: #FFFFFF">
+    <h1 class="display-3">Welcome to the Interactive Guide to</h1>
+    <img src="img/all_gens.png" width="2000" height="1250">
+    <h2>
+      <small class="text-muted">The Pokemon franchise began with a pair of video games, Red and Green, in 1996 and has since become the highest-grossing media franchise of all time.
+        Despite the 24-year mark since its emergence, it is still just as popular with a total of 8 generations in its games that are published every 3-4 years.
+        It has evolved several generations of kids and adults alike with its engaging storylines and challenging battles.</small></h2>
+        <h2><small class="text-muted">With the everlasting fans of the franchise, Pokemon World Championships are still being held every year.
+          However, after two decades, the debate of the which Pokemon is the best has still not been resolved.</small></h2>
+          <iframe src="https://giphy.com/embed/7T200DTPdx31e" width="480" height="416" frameBorder="0" class="center"></iframe><p></p>
+          <h2><small class="text-muted">
+            As a generation that has grown with Pokemon games ourselves, we have noticed the lack of data visualizations on battle performance and body style online.
+            Moreover, the existing visualizations looked outdated and non-engaging.
+            Therefore, in this project, we aimed to fuse all the Pokemon data for fans like us and create a fun, holistic, and interactive guide. Enjoy! </small></h2></div>
+
+            <!-- BUBBLE PLOT FIGURE-->
+            <h1>Pokemon stats by generations</h1>
+            <h2><small class="text-muted">
+              Which Pokemon stat do you care about the most? Do you favor Pokemon with higher special attack than attack?
+              How does each stat correlate with each other? Does physical appearance have an effect on Pokemon stats?
+              How are types distributed in each generation?</small></h2>
+              <h2><small class="text-muted">
+                These are only a few of the questions that you may find the answer to with this graph!
+                Just select an x-axis stat, a y-axis stat, a radius stat, then indicate which generation you would like to view.
+                Hover over the Pokémon types on the right-hand side to see how they are distributed in the graph.
+                Hover over any of the bubbles on the graph to see the stats details of the Pokemon as well as their picture.
+                This visualization is particularly useful for the fans that would like to choose the best Pokemon in battles! <br> <br> </small></h2>
+
+                <div>
+                  <div id="my_dataviz">
+                    <select id="x_dropdown">
+                      <option value="attack">Attack</option>
+                      <option value="defense">Defense</option>
+                      <option value="sp_attack">Sp. Attack</option>
+                      <option value="sp_defense">Sp. Defense</option>
+                      <option value="speed">Speed</option>
+                    </select>
+                    <select id="y_dropdown">
+                      <option value="defense">Defense</option>
+                      <option value="attack">Attack</option>
+                      <option value="sp_attack">Sp. Attack</option>
+                      <option value="sp_defense">Sp. Defense</option>
+                      <option value="speed">Speed</option>
+                    </select>
+                    <select id="r_dropdown">
+                      <option value="hp">HP</option>
+                      <option value="weight_kg">Weight (kg)</option>
+                      <option value="height_cm">Height (cm)</option>
+                    </select>
+                    <select id="gen_dropdown">
+                      <option value="1">Generation 1</option>
+                      <option value="2">Generation 2</option>
+                      <option value="3">Generation 3</option>
+                      <option value="4">Generation 4</option>
+                      <option value="5">Generation 5</option>
+                      <option value="6">Generation 6</option>
+                    </select>
+                    <script src="https://d3js.org/d3.v4.js"></script>
+                    <script>
+                    d3v4 = d3;
+                    </script>
+                    <script src="src/bubble_chart.js" ></script>
+                  </div>
+
+                  <h2><small class="text-muted">
+                    Let’s take the initial version of the graph as an example.
+                    You can see all the Pokemon from generation 1 plotted according to their attack and defense stats with their radius indicating their HP.
+                    Gyarados and Pinsir have their attack superiority whereas Slowbro and Cloyster have their defense superiority.
+                    Water and normal type Pokemon are the most common in terms of quantity in this generation. <br> <br> </small></h2>
+
+
+                    <!-- FEATURE RELATIONSHIPS FIGURES-->
+                    <div id = "Figure3">
+                      <h1>The influence of types</h1>
+                      <h2><small class="text-muted">How does the choice of a specific ability influence the type of my Pokemon? Whats is the outcome of choosing a water Pokemon on its body style? How will my Pokemon look like if I want him to be white? How is my choice going to be affected by the generation I am looking into?
+                        <br> <br> <strong>All these questions can be answered by this bipartite visualization </strong>. <br> <br> Just select which type of comparison you want to make whether you are interested in knowing the relationship between abilities and types, types and body styles, or types and colors. By hovering over a specific feature element (in either displayed features), this figure will give you insights on the outcome of such choice over the type Pokemon feature distribution. Investigation can also be conducted generation-wise to apprehend changes in feature distribution over time. Select your generation using the according toggle and see what happens for your feature of interest.</small></h2>
+
+                        <script>
+                        let kam = d3
+                        </script>
+
+                        <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                          <label class="btn btn-primary">
+                            <input type="checkbox" checked="checked" autocomplete="on"  value ="yes" onclick="AbilitiesvsTypes(kam)"  /> Abilities
+                          </label>
+                          <label class="btn btn-primary active">
+                            <input type="checkbox" autocomplete="off" onclick="TypesvsBody(kam)"/> Body style
+                          </label>
+                          <label class="btn btn-primary active">
+                            <input type="checkbox" autocomplete="off" onclick="ColorvsBody(kam)"/> Color
+                          </label>
+                        </div>
+
+                        <div id = "bipartite2">
+                          <script src="https://d3js.org/d3.v4.js"></script>
+                          <script>
+                          d3v4 = d3;
+                          </script>
+
+                          <script src="lib/viz.js"></script>
+                          <script src="src/testViz2.js" ></script>
+
+                          <h2><small class="text-muted">As Pokemon type is a determinant feature in Pokemon capabilities and aesthetics, the below figure will provide the reader quantitative insights on such relationships. Depending on the reader’s interest in abilities or aesthetic outcome upon type decision, he might favor one generation over the other.
+                            <br> <br>
+                            Let’s say the reader is interested in poisonous Pokemon and wants to get insights on the related diversity of Pokemon across generations as well as the capabilities and aesthetic possibilities for such Pokemon. First off, the reader might want to focus on generation 1 as 14% of the most present abilities are poison-related while it does not exceed 6% for the other generations. It is confirmed in the aesthetic comparisons as 19% of the most present body shapes and colors are related to poisonous Pokemon. With that being said, the reader might end up with a purple Pokemon as it is present in 51% percent of the poisonous Pokemons cases. Body shapes are petty much uniformly distributed for that category.
+                            <br> <br>
+                            For figure clarity sake, only most represented types, colors, body styles and abilities per generation are shown. The diversity in those features explains the sometimes low displayed percentages.<br> <br></small></h2>
+                          </div>
+
+                          <h1>The influence of visual appearance</h1>
+                          <div>
+                            <h2><small class="text-muted">Let’s go deeper. As the reader may have gained insights on flying Pokemon color across generations or the various Pokemon types having the ability to levitate, the above visualization will bridge the gap between types abilities and esthetics all together.
+                              <br> <br>
+                              If you are wondering what will be the type and abilities of your Pokemon if you want him to be black and have wings, or how many esthetic - types combinaisons you have left upon choosing a telepathic Pokemon in the first generation, this figure will provide the answer.
+                              Moreover, the figure also displays quantitative insights on Pokemon distribution for each pattern or for a specific feature value as the path widths are proportional to Pokemon distribution.
+                              <br> <br>
+                              Hover over a given feature value to see the possible left choices for the other feature values. The Pokemon distribution as well as the selected pattern will be displayed at the bottom. The reader can also chose a specific generation as well as a curve shaped display to better apprehend how many Pokemons are left for each pattern. The figure is also made so that the reader can change the order of feature display by shifting them up and down upon dragging, as well as changing feature value upon left and right draggin as well. Moreover, feature value can also be displayed by size or alphabetical order upon clicking on the respective toggle “size” and “alpha” after hovering on the feature.
+                              <br> <br></small></h2>
+
+                              <div id = "vis">
+                                <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+                                <script src="https://www.jasondavies.com/parallel-sets/highlight.min.js"></script>
+
+                                <script>
+                                d3v3 = d3;
+                                window.d3=null
+                                </script>
+                                <script src="https://d3js.org/d3.v4.js"></script>
+
+                                <div id = "tool"></div>
+                                <script  src = "lib/d3.parsets.js" > </script>
+                                <span class="curves"><label for="curved"><input type="checkbox" id="curved"  onchange="curves.call(this)"> Curves?</label></span>
+                                <script src = "src/para.js"></script>
+                                <script src="https://d3js.org/d3.v4.js"></script>
+                              </div>
+
+                              <h2><small class="text-muted">
+                                Let’s get back to our poisonous Pokemons of generation 1. Hovering over the poison type  highlights the various combinations of abilities and esthetics among the 33 available Pokemons (representing 18 % of the selected Pokemons of generation 1). Then hovering over the purple color as before reveals the possible body style and abilities combinations for the 14 left Pokemons (representing 8 % of the selected Pokemons of generation 1). Hence the reader will that his left with the  abilities - bodyshapes possibilities : <br><br>
+
+                                <li>Run-Away -- Bipedal : 1 Pokemon </li>
+                                <li>Poison touch -- Head-arms : 2 Pokemon</li>
+                                <li>Unnerve -- Serpentine : 2 Pokemosn</li>
+                                <li>Poison point -- quadrupled : 2 Pokemon</li>
+                                <li>Poison point -- bipedal-tailed : 1 Pokemon </li>
+                                <li>Hustle -- quandrupled :  2 Pokemon</li>
+                                <li>Inner focus -- two wings :  2 Pokemon</li>
+                              </small></h2><br>
+
+                              <h1>Pokemon explorer</h1>
+                              <h2><small class="text-muted">
+                                Finally, it is time to put it all together. As abilities and esthetics are important for Pokemon choice, they are not the only features that matters. In fact other categorical ones such as health points (hp), attack points (attack), special defence (sp_defence) and so on exist and provide quantitative informations on Pokemon’s behaviour in combat as well as other general characteristics. Hence, it is important to investigate the different patterns across those features among the Pokemons for the 6 available generations. In fact, some readers might only want to focus on such categories for there Pokemon choice. Highest hp and special attack, with a low likelihood of encounter (low capture rate) have proven to be important features in public choice. For that, the following coordinate visualization will provide answers to the reader in many ways.
+                                <br><br>
+                                First off, its possible to select for more than one feature a given range of values upon clicking and dragging on the corresponding axis range of interest. Such selection will make the figure display the Pokemons name and patterns fitting such range of values. The number of displayed Pokemons is shown on top of the figure. Hence, it is also possible to compare Pokemon distribution for a given subset of values across generations.
+                                The order of features can be changed as well upon left and right click and drag on the feature of interest.
+                                <br><br></small></h2>
+                                <div class="controls">
+                                  <strong id="rendered-count"></strong>/<strong id="selected-count"></strong><!--<strong id="data-count"></strong>-->
+                                  <div class="fillbar"><div id="selected-bar"><div id="rendered-bar">&nbsp;</div></div></div>
+                                  Lines at <strong id="opacity"></strong> opacity.
+                                  <span class="settings">
+                                    <button id="hide-ticks">Hide Ticks</button>
+                                    <button id="show-ticks" disabled="disabled">Show Ticks</button>
+                                    <button id="dark-theme">Dark</button>
+                                    <button id="light-theme" disabled="disabled">Light</button>
+                                  </span>
+                                </div>
+                                <div style="clear:both;"></div><br><br>
+                                <div id="chart">
+                                  <canvas id="background"></canvas>
+                                  <canvas id="foreground"></canvas>
+                                  <canvas id="highlight"></canvas>
+                                  <svg></svg>
+                                </div>
+                                <div id="wrap">
+                                  <div class="third" id="controls">
+                                    <div class="bright">
+                                    </div>
+                                    <div class="little-box">
+                                      <h2>Controls</h2>
+                                      <p>
+                                        <strong>Click</strong>: Click on the figure to display ticks and axis.<br/>
+                                        <strong>Hide Ticks</strong>: Click on Hide ticks to hide ticks.<br/>
+                                        <strong>Show Ticks</strong>: Click on Show ticks to display back ticks.<br/>
+                                        <strong>Click</strong>: Click on the figure to display ticks.<br/>
+                                        <strong>Brush</strong>: Drag vertically along an axis.<br/>
+                                        <strong>Brush</strong>: Drag vertically along an axis.<br/>
+                                        <strong>Remove Brush</strong>: Tap the axis background.<br/>
+                                        <strong>Reorder Axes</strong>: Drag a label horizontally.<br/>
+                                        <strong>Invert Axis</strong>: Tap an axis label.<br/>
+                                        <strong>Remove Axis</strong>: Drag axis label to the left edge.<br/>
+                                      </p>
+                                    </div>
+                                  </div>
+
+                                  <div  class="third">
+                                    <small>
+                                      <!--Last rendered <strong id="render-speed"></strong> lines-->
+                                    </small>
+                                    <h2>Count, Body Styles</h2>
+                                    <p id="legend">
+                                    </p>
+                                  </div>
+                                  <div class="third">
+                                    <h2>Sample of 25 entries <input type="text" id="search" placeholder="Search Pokemons..."></input></h2>
+                                    <p id="food-list">
+                                    </p>
+                                  </div>
+                                </div>
+
+                                <script src="lib/v2.js"></script>
+
+                                <script>
+                                d3v2= d3;
+                                </script>
+                                <script src="res/underscore.js"></script>
+                                <script src="src/coord2.js"></script>
+                                <script>
+                                let d3_kamil = d3
+                                </script>
+
+                                <script>
+                                let d3_ludo = d3
+                                </script>
+
+                                <div>
+                                  <p><br><br><br></p>
+                                  <p><br><br><br></p>
+                                  <p><br><br><br></p>
+                                  <p><br><br><br></p>
+                                  <p><br><br></p>
+
+                                  <p><br><br><br></p>
+                                  <p>
+                                    <br><br><br>
+                                    <br><br><br>
+                                    <h2><small class="text-muted">
+                                      On the other hand, the reader can  search for a specific Pokemon’s pattern upon name entry. Hovering over it will only display its pattern in the foreground.</small></h2>
+
+                                      <h2>Pokemon body styles (from left to right) : </h2>
+
+                                      <figure>
+                                        <img class="image" src="img/body_shapes.png" width="850" height="550" align="right"/>
+                                      </figure>
+
+                                      <h2><small class="text-muted">
+                                        <li>head_only</li>
+                                        <li>head_legs</li>
+                                        <li>with_fins</li>
+
+                                        <li>insectoid</li>
+
+                                        <li>quadruped</li>
+
+                                        <li>four_wings</li>
+
+                                        <li>multiple_bodies</li>
+                                        <li>several_limbs</li>
+
+                                        <li>head_base</li>
+                                        <li>bipedal_tailed</li>
+                                        <li>bipedal_tailless</li>
+
+                                        <li>two wings</li>
+                                        <li>serpentine_body</li>
+                                        <li>head_arms</li>
+                                        <br><br></small></h2>
+
+                                        <h2><small class="text-muted">
+                                          Lastly, this visualization bridges the gap between body styles and categorical features. Such relationship investigation can be of use to better apprehend body style influence on the Pokemon’s behaviour.
+                                          <br><br>
+                                          With that being said, it is time to find our poisonous Pokemon. To chose between the remaining options, we select the possible body types in the first generation and look for the best pattern in terms of attack (above 90) and rareness (low values, capture_rate less than 50). Quadrupled and bipedal_tailed seem to match such conditions giving respectively Venusaur and both Nidoking and Nidoqueen for the bipedal_tailed.
+                                          <br><br></small></h2>
+                                          <img class="image" src="img/venusaur.png" width="200" height="200"/>
+                                          <span class="caption">Venusaur</span>
+                                          <img class="image" src="img/2034-Shiny-Nidoking.png" width="200" height="200"/>
+                                          <span class="caption">Nidoking</span>
+                                          <img class="image" src="img/nidoqueen.png" width="200" height="200"/>
+                                          <span class="caption">Nidoqueen</span
+
+                                            <br><br><br><br><br>
+                                            <h1>Welcome to the battle arena!</h1>
+                                            <h2>
+                                              <small class="text-muted">
+                                                With this visualization, explore the whole Pokémon population generation-wise. Choose the
+                                                generation you're interested in with the left drop down menu and then sort out the Pokémons of that
+                                                generation according to a certain feature chosen with the right drop down menu. Then you can put
+                                                your mouse over the dots around the Pokéball to display an ID card of the corresponding Pokémon which
+                                                contains a picture and a spider chart with its stats. When you find a Pokémon to your liking and want
+                                                more informations on it or if you are curious about how strong a certain Pokémon is, you can click
+                                                on the dot: a more complete information sheet will appear and the outcome of every battles will be
+                                                displayed. Upon clicking, the in-game cry of the Pokémon will be played. To turn that sound on and
+                                                off, click on the sound icon.</small>
+                                              </h2><br>
+
+                                              <div id = "circle_chart_div" class="fixed" style="opacity:1">
+                                                <script src="src/circle_chart_f.js"></script>
+                                                <link rel="stylesheet" href="src/circle_chart.css">
+                                                <script src="https://d3js.org/d3.v5.js"></script>
+                                                <script>
+                                                d3v5 = d3;
+                                                window.d3 = d3v3
+                                                </script>
+                                                <script>
+
+                                                let color_txt_titel = "#686868"
+                                                let color_txt_bod = "#9c9c9c"
+                                                let csv_file="data/data_for_circle_chart.csv"
+                                                let w = window.innerWidth
+                                                let h = window.innerHeight*1.6
+                                                create_svg(w, h, "#f8f8f8")
+                                                add_chart("main_svg", csv_file, 0, "Type", d3_ludo)
+                                                </script>
+                                              </div>
+                                              <script>
+                                              </script>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+                                        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+                                      </body>
+
+                                      </html>
