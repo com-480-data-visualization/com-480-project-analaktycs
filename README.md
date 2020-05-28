@@ -15,6 +15,7 @@ Welcome to our project of Data Visualization. The aim of this project is to visu
 Visit our website with the link: https://analaktycs.github.io/
 
 If you are in a hurry and don't have time to go through the whole website, don't worry! you can always watch our short video where we show everything that has been implemented in this website.
+
 Watch our explainatory video at: 
 
 If you are curious about how that project was made, we invite you to read the "Milestone 1" and "Milestone 2" parts of this README where you'll learn everything about the datasets we used and the paths we took. 
