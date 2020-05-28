@@ -19,7 +19,11 @@ If you are in a hurry and don't have time to go through the whole website, don't
 
 Watch our explainatory video at: 
 
-If you are curious about how that project was made, we invite you to read the "Milestone 1" and "Milestone 2" parts of this README where you'll learn everything about the datasets we used and the paths we took. 
+If you are curious about how that project was made, we invite you to read the "Milestone 1" and "Milestone 2" parts of this README where you'll learn everything about our exploratory data analysis and the paths we took. 
+
+If you are interested, you will find the datasets we used here: 
+   * main dataset : https://www.kaggle.com/rounakbanik/pokemon
+   * complementary dataset : https://www.kaggle.com/alopez247/pokemon/data
 
 Finaly, if you want to know more about the decisions we took for technical and visual parts of this project, our process book is the place you are looking for.
 
