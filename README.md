@@ -8,6 +8,22 @@
 
 [Milestone 1](#milestone-1-friday-3rd-april-5pm) • [Milestone 2](#milestone-2-friday-1st-may-5pm) • [Milestone 3](#milestone-3-thursday-28th-may-5pm)
 
+## Exploring the world of Pokémons
+Hello ! 
+Welcome to our project of Data Visualization. The aim of this project is to visulize pokemon's dynamics across generations for the user to better make up his own pokemon. This project also means at providing insights on the intricate links between the different pokemon features in order to gauge their importance and impact on the pokemon overall statistics and behaviour in combat. Finally, this project will display a visulization of the choice that were made  regarding the important features throughout the generations to better understand how this game evolved with his users. In order to do that, we invite you to visit our website where we created multiple interesting interactive visualizations. 
+Visit our website with the link: https://analaktycs.github.io/
+
+If you are in a hurry and don't have time to go through the whole website, don't worry! you can always watch our short video where we show everything that has been implemented in this website.
+Watch our explainatory video at: 
+
+If you are curious about how that project was made, we invite you to read the "Milestone 1" and "Milestone 2" parts of this README where you'll learn everything about the datasets we used and the paths we took. 
+
+Finaly, if you want to know more about the decisions we took for technical and visual parts of this project, our process book is the place you are looking for.
+You will find our process book here: https://github.com/com-480-data-visualization/com-480-project-analaktycs/blob/master/Process_book_final.pdf
+
+We hope that you'll enjoy going through this project as much as we enjoyed making it!
+
+
 ## Milestone 1 (Friday 3rd April, 5pm)
 
 **10% of the final grade**
@@ -229,5 +245,5 @@ Overall we have been inspired by the Mark Channel lecture of week 6. More specif
 
 ## Milestone 3 (Thursday 28th May, 5pm)
 
-**80% of the final grade**
+
 
