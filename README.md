@@ -17,7 +17,7 @@ Visit our website with the link: https://analaktycs.github.io/
 
 If you are in a hurry and don't have time to go through the whole website, don't worry! You can always watch our short video where we show everything that has been implemented in this website.
 
-Watch our explainatory video at: https://youtu.be/l5dMgg1PxvE
+Watch our explanatory video at: https://youtu.be/l5dMgg1PxvE
 
 If you are curious about how this project was made, we invite you to read the "Milestone 1" and "Milestone 2" parts of this README where you'll learn everything about our exploratory data analysis and the paths we took. 
 
