@@ -25,7 +25,7 @@ If you are interested, you will find the datasets we used here:
    * main dataset : https://www.kaggle.com/rounakbanik/pokemon
    * complementary dataset : https://www.kaggle.com/alopez247/pokemon/data
 
-Finaly, if you want to know more about the decisions we took for technical and visual parts of this project, our process book is the place you are looking for.
+Finally, if you want to know more about the decisions we took for technical and visual parts of this project, our process book is the place you are looking for.
 
 You will find our process book here: https://github.com/com-480-data-visualization/com-480-project-analaktycs/blob/master/Process_book_final.pdf
 
