@@ -8,7 +8,7 @@
 
 [Milestone 1](#milestone-1-friday-3rd-april-5pm) • [Milestone 2](#milestone-2-friday-1st-may-5pm) • [Milestone 3](#milestone-3-thursday-28th-may-5pm)
 
-## Exploring the world of Pokémons
+## Exploring the world of Pokémon
 Hello ! 
 
 Welcome to our project of Data Visualization. The aim of this project is to visualize pokemon's dynamics across generations for the user to better make up his own pokemon. This project also means at providing insights on the intricate links between the different pokemon features in order to gauge their importance and impact on the pokemon overall statistics and behaviour in combat. Finally, this project will display a visualization of the choice that were made regarding the important features throughout the generations to better understand how this game evolved with its users. In order to do that, we invite you to visit our website where we created multiple interesting interactive visualizations. 
