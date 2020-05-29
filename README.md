@@ -253,6 +253,6 @@ Overall we have been inspired by the Mark Channel lecture of week 6. More specif
 
 ## Milestone 3 (Thursday 28th May, 5pm)
 
-https://docs.google.com/viewer?url=${https://github.com/com-480-data-visualization/com-480-project-analaktycs/blob/master/Process_book_final.pdf}
+![] (https://github.com/com-480-data-visualization/com-480-project-analaktycs/blob/master/Process_book_final.pdf)
 
 
