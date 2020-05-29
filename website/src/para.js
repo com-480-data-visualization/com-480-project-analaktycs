@@ -22,7 +22,7 @@ var generations_ = d3v3.select("#tool")
                     })
 
 
-var file_name = "data/l9wada.csv"
+var file_name = "data/parallel_data.csv"
 
 
 
@@ -46,7 +46,7 @@ d3v3.csv(file_name, function(csv) {
 
 
       d3v3.select('#tool').select('svg').selectAll('g').remove()
-    
+
 
 
 
