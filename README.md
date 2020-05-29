@@ -253,5 +253,6 @@ Overall we have been inspired by the Mark Channel lecture of week 6. More specif
 
 ## Milestone 3 (Thursday 28th May, 5pm)
 
+![](Process_book_final.pdf)
 
 
